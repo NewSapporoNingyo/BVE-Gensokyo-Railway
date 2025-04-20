@@ -340,6 +340,6 @@ M：電車（EMU）
 ##### 番号先頭の場合：
 YSE：Yokaizan Super Express（新幹線電車またはドイツ鉄道の高速電車使用）
 D：高速電車（新幹線電車または中国鉄道の高速電車使用）
-
+S：近郊列車（通勤型電車使用）
 ### Experimental Features
 #### Platform lights at Minami-ningennosato station
