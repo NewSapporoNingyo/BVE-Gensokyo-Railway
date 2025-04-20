@@ -341,5 +341,17 @@ M：電車（EMU）
 YSE：Yokaizan Super Express（新幹線電車またはドイツ鉄道の高速電車使用）
 D：高速電車（新幹線電車または中国鉄道の高速電車使用）
 S：近郊列車（通勤型電車使用）
-### Experimental Features
+
+### Train annoucemet languges/車内放送の言語/车内广播语言
+|列車種別|日本語/Japanese|English|中文/Chinese|한국어/Korean|Deutsch/German|
+|---    |---            |---    |---         |---         |---           |
+|環状線普通・快速|○　         | 	○    | ○         | 	  　        |             |
+|湖東・妖怪山線普通・快速|○　         | 	○    |          | 	  　        |             |
+|幽明結界線・冥界線普通|○　         | 	    |          | 	  　        |             |
+|旧都本線普通|○　         | 	○    | ○         | 	  　        |             |
+|定期急行・特急|○　         | 	○    | ○         | 	○  　        |             |
+|YSE|○　         | 	○    | ○         | 	 ○ 　        |      ○       |
+|D列車|○　         | 	○    | ○         | 	  　        |             |
+|S列車|○　         | 	○    | ○         | 	  　        |    ○         |
+
 #### Platform lights at Minami-ningennosato station
