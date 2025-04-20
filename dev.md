@@ -311,7 +311,7 @@ Stops:Ningennosato---Moriya Shrine---Gensokazana---Mizubashi---Kyuto---Chireiden
 
 ### Rules of train number/列車番号の付番方法/车次编号方法
 #### 直通運転なしの場合：
-100~199：環状線<br>
+100 ~ 199：環状線<br>
 200~299：湖東線<br>
 300~399：妖怪山線・幽明結界線・冥界線<br>
 400~499：旧都本線<br>
