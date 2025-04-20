@@ -308,5 +308,38 @@ Stops:Ningennosato Hbf---Koumakan---ShinKouma---Kawashiro---Aya---Momiji Hill---
 Rolling stock:681 Series(9 car)<br>
 Max operating speed:120km/h<br>
 Stops:Ningennosato---Moriya Shrine---Gensokazana---Mizubashi---Kyuto---Chireiden<br>
+
+### Rules of train number/列車番号の付番方法/车次编号方法
+#### 直通運転なしの場合：
+100~199：環状線
+200~299：湖東線
+300~399：妖怪山線・幽明結界線・冥界線
+400~499：旧都本線
+500~599：博麗守矢ライン
+600~699：霧の湖線・妖怪山線（標準軌）
+700~799：博麗東線全ての経由列車、直通運転に関係なし
+#### 直通運転の場合：
+1000~1999：湖東線―――妖怪山線・冥界方面直通の場合（急行、特急列車以外）
+2000~2999：環状線―――旧都本線直通の場合（急行、特急列車以外）
+3000~3999：環状線―――博麗守矢ライン経由
+##### 十の位は、以下の規則に従う（優等列車以外）
+01~20：快速列車
+21~99：普通列車
+#### 優等列車
+1、2：寝台特急 因幡
+3、4：特急 あやかし
+5~10：特急 うつほ
+11~29：環状線特急、急行
+31~99：湖東線・妖怪山線・幽明結界線・冥界線経由の優等列車（因幡、あやかしを除く）
+#### その他：
+9000~9999：臨時列車
+#### 記号
+##### 番号末尾の場合：
+M：電車（EMU）
+レ/無表記：客車
+##### 番号先頭の場合：
+YSE：Yokaizan Super Express（新幹線電車またはドイツ鉄道の高速電車使用）
+D：高速電車（新幹線電車または中国鉄道の高速電車使用）
+
 ### Experimental Features
 #### Platform lights at Minami-ningennosato station
