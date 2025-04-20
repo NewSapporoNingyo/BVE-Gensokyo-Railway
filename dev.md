@@ -343,7 +343,7 @@ D：高速電車（新幹線電車または中国鉄道の高速電車使用）<
 S：近郊列車（通勤型電車使用）<br>
 
 ### Train announcement languages/車内放送の言語/车内广播语言
-|列車種別|日本語/Japanese|English|中文/Chinese|한국어/Korean|Deutsch/German|
+|列車種別|日本語/Japanese|English|中文/Chinese|조선어/한국어/Korean|Deutsch/German|
 |---    |---            |---    |---         |---         |---           |
 |環状線普通・快速|○　         | 	○    | ○         | 	  　        |             |
 |湖東・妖怪山線普通・快速|○　         | 	○    |          | 	  　        |             |
