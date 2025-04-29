@@ -1,6 +1,6 @@
 # Developer Guide
 Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
-update 2025-1-2<br>
+update 2025-4-28<br>
 ## Setup develop environment
 1. Download Bve Trainsim 5 from the offical website.
 2. Get a text editor. Vscode is recommended. You can also use the Windows notepad since most files here are txt.
