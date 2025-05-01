@@ -119,16 +119,9 @@ Operating with the "81_vehicle4" hensei is recommended<br>
 ## Operating method
 Please visit the train creator's website
 ## Contact us
-Personal:<br>
-[Twitter](https://twitter.com/Sapporo_Ningyo)  
-[Bilibili](https://space.bilibili.com/1881172321)<br>
-[Github](https://github.com/noname390)  
-[Pixiv](https://www.pixiv.net/users/71235356)<br>
-Mail: 2147483647e308@gmail.com
-
-Group Chat:<br>
-[discord](https://discord.gg/XsHNX8n8)<br>
-[Line](https://line.me/ti/g2/xnSYtOFgf7f2rqLc8mlA0O79Z-FOZ5mlq3GHrA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default)
+Mail: 2147483647e308@gmail.com <br>
+[discord server](https://discord.gg/XsHNX8n8)<br>
+[Line groupchat](https://line.me/ti/g2/xnSYtOFgf7f2rqLc8mlA0O79Z-FOZ5mlq3GHrA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default)
 ## License
 MIT License<br>
 The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
