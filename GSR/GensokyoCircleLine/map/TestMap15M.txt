@@ -5,6 +5,7 @@ $runlong=0;
 $run25m=2;
 $runbri=3;
 $runtun=4;
+
 #For tilting trains:(Curve speed limit +x km/h)
 $tilt_speed=20;
 $tilt_index=0.05;
