@@ -49,7 +49,7 @@ Notice:
 ## Route Information
 The current route includes one-way operation between the Hakurei Shrine and the Moriya Shrine on Gensokyo Loop Line, with a maximum speed of 110 km/h(rapid train)or 95 km/h(local train). The route includes 12 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato,Ningennosato,West Ningennosato,Myorenji,North Myorenji,Youkai no Jyukai,Kusada,and Moriya Shrine.Currently, the route contains local,rapid and extra express service. 
 
-If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the official work. The geographic information of Gensokyo in the route comes from the following website:<br>
+If you use this simulated train route as a derivative work in the Touhou Project, **please note that many of the details are the author's own interpretation and may differ from others' imaginations or the official work.** The geographic information of Gensokyo in the route comes from the following website:<br>
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
 [Backup of this page at web archive](https://web.archive.org/web/20230901101451/https://yotogiluminary.wixsite.com/website/post/000014)<br>
 ### Route Map
