@@ -5,7 +5,7 @@ Curve.SetGauge(1.067);
 #RollingNoise Setting(EF81)-> 0=25mrail 2=bridge 3=tunnel 4=longrail
 0+$dist1;
 	Background.Change('Bg_mt');
-	Irregularity.Change(0.001,0.0005,0.0004,80,80,80);
+	Irregularity.Change(0.0005,0.001,0.0001,80,80,80);
 	Adhesion.Change(0.35, 0, 0.01);
 	Curve.SetGauge(1.067);
 	Track['ground'].Position(0,-14,0,0);
@@ -316,7 +316,7 @@ Curve.SetGauge(1.067);
 	Track['mountain'].Position(-280,40,0,0);
 #高架区間end
 1555+$dist1;
-	Irregularity.Change(0.0012,0.0007,0.0005,60,60,60);
+	Irregularity.Change(0.0007,0.0012,0.0002,60,60,60);
 	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();
 	Structure['rail'].Put('1',0,-2.55,-4.33,-30,0,0,0,);
@@ -520,7 +520,7 @@ Curve.SetGauge(1.067);
 	Repeater['bridgehandleL2'].Begin('2', 0, 0, 0, , , , 3,,5, 'bridgehandleL');
 	Repeater['bridgehandleR2'].Begin('2', 0, 0, 0, , , , 3,,5, 'bridgehandleR');
 	rollingNoise.Change($runbri);
-	Irregularity.Change(0.005,0.001,0.001,50,50,50);
+	Irregularity.Change(0.001,0.005,0.002,50,50,50);
 2844+$dist1;
 	rollingNoise.Change($run25m);
 	Irregularity.Change(0.0012,0.0007,0.0005,60,60,60);
