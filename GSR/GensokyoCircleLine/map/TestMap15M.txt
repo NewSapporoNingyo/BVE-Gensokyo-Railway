@@ -18,15 +18,18 @@ Signal.SpeedLimit(0,25,55,75,125);
 include 'SignalMap\MapSignals15M.txt';
 //include 'Mapsound103M.txt';
 //include 'Map104M.txt';
-0;
-	include 'Main\MapHRDepot.txt';
+
+include 'Main\MapHRDepot.txt';
+include 'Main\mapA.txt';
+include 'Main\MapNingen_Track4.txt';
+include 'Main\mapA2.txt';
+include 'Main\MapMoriyaSta_Track2.txt';
+
 10;
 	//Station['0'].Put(0,-5,5);
 1320;
 	Repeater['led2'].Begin('1',-3.30,0.5,17, ,0,,3,,40, 'hakurei2-103m');
 	Repeater['led2b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,40, 'hakurei2-103m');
-0+$dist1;
-include 'Main\mapA.txt';
 10+$dist1;
 	Station['1'].Put(-1,-5,5);
 5110+$dist1;

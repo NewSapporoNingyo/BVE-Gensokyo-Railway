@@ -19,6 +19,8 @@ include 'SoundMap\Mapsound121M.txt';
 
 include 'Main\MapHRDepot.txt';
 include 'Main\mapA.txt';
+include 'Main\MapNingen_Track4.txt';
+include 'Main\mapA2.txt';
 include 'Main\MapMoriyaSta_Track2.txt';
 0;
 10;

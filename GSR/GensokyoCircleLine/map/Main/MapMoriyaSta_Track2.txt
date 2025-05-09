@@ -1,5 +1,5 @@
 BveTs Map 2.02
-
+# ----------(mapA2)↑Map separate↓(MapMoriyaSta_Track2)----------
 38936+$dist1;
 	CabIlluminance.Set(0);	
 38946+$dist1;
