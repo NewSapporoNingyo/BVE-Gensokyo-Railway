@@ -17,11 +17,11 @@ Signal.SpeedLimit(0,25,55,75,95,25);
 include 'SignalMap\MapSignals121M.txt';
 include 'SoundMap\Mapsound121M.txt';
 
-include 'Main\MapHRDepot.txt';
-include 'Main\mapA.txt';
-include 'Main\MapNingen_Track4.txt';
-include 'Main\mapA2.txt';
-include 'Main\MapMoriyaSta_Track2.txt';
+include 'Main\LoopLine\MapHRDepot.txt';
+include 'Main\LoopLine\mapA.txt';
+include 'Main\LoopLine\MapNingen_Track4.txt';
+include 'Main\LoopLine\mapA2.txt';
+include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 0;
 10;
 	Station['0'].Put(0,-5,5);
