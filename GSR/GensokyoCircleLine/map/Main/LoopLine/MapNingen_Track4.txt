@@ -1,3 +1,4 @@
+BveTs Map 2.02
 # ----------(mapA)↑Map separate↓(MapNingenosato_Track4)----------
 22055+$dist1;
 	#Roof at teimae
