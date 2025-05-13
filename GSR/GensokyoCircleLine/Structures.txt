@@ -13,6 +13,7 @@ slabrailtwo,Structures\Rail\Slab01\Slab2S5m.x
 slabrailtwodark,Structures\Rail\Slab01\Slab2S5m_dark.x
 bridgerail,Structures\Rail\_BridgeRail_5.x
 rail1435,Structures\StructureSet\rail\D\rail.x
+rail1435H,Structures\StructureSet\rail\D\railH.x
 rail1435dark,Structures\StructureSet\rail\D\raildark.x
 #Tunnel
 Tunnelentry,Structures\Tunnel\huku_c1_ent.x
