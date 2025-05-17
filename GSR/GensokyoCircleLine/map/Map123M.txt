@@ -1,5 +1,6 @@
 BveTs Map 2.02
 $dist1=1490;
+$dist4=40000;
 #RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 $runlong=0;
 $run25m=2;
@@ -24,6 +25,7 @@ include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
+include 'Main\LoopLine\mapB.txt';
 0;
 
 10;
@@ -60,3 +62,23 @@ include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 	Station['11'].Put(-1,-5,5);
 39425+$dist1;
 	Station['12'].Put(1,-5,5);	
+1295+$dist1+$dist4;
+	Station['13'].Put(1,-5,5);
+2790+$dist1+$dist4;
+	Station['14'].Put(1,-5,5);
+8220+$dist1+$dist4;
+	Station['15'].Put(1,-5,5);
+12980+$dist1+$dist4;
+	Station['16'].Put(1,-5,5);
+15180+$dist1+$dist4;
+	Station['17'].Put(1,-5,5);
+17580+$dist1+$dist4;
+	Station['18'].Put(1,-5,5);
+18835+$dist1+$dist4;
+	Station['19'].Put(1,-5,5);
+20720+$dist1+$dist4;
+	Station['20'].Put(1,-5,5);
+21950+$dist1+$dist4;
+	Station['21'].Put(1,-5,5);
+23310+$dist1+$dist4;
+	Station['22'].Put(1,-5,5);
