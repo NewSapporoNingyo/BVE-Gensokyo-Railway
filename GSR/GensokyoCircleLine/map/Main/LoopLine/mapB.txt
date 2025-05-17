@@ -157,6 +157,7 @@ BveTs Map 2.02
 	Curve.BeginTransition();
 17535+$dist1+$dist4;
 	Curve.End();
+	Curve.BeginTransition();
 17535+25+$dist1+$dist4;
 	Curve.Begin(-400,-0.08-$tilt_index*1);
 17845-25+$dist1+$dist4;
