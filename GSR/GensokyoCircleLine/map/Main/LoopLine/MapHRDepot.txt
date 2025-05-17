@@ -69,6 +69,9 @@ BveTs Map 2.02
 	Repeater['bushR35'].Begin('1',10,-3.6,22, , , ,3,5,25, 'bushb5');
     Track['northline'].Position(-28,10,0,0);
     Repeater['pier2'].Begin('northline',,,0,,,,3,,20, 'pier');
+    Repeater['concbridgeN'].Begin('northline',0,-0.25,0, , , ,3,5,5, 'concbridge');
+    Repeater['bridgewallL2'].Begin('northline',-0.2,-0.5,0, , , ,3,,5, 'bridgewallL');
+    Repeater['bridgewallR2'].Begin('northline',0.2,-0.5,0, , , ,3,,5, 'bridgewallR');
     rollingNoise.Change($run25m);
 20;
     Legacy.Curve(-600,0);
@@ -91,11 +94,13 @@ BveTs Map 2.02
     Structure['fukusenpole8'].Put('4',3.7,0,0,,-5,,,);
 90;
     Track['4'].Position(-6,0,-400,0);
+100;
+    Repeater['Rail2'].End();
 110;
     JointNoise.Play(0);
 120;
      Track['2'].Position(0,-0.01,0,0);
-     Repeater['Rail2'].End();
+     
      Repeater['kasen2'].End();
      Repeater['kasenhang2'].End();
      Structure['fukusenpole5'].Put('1',-1,0,0,,0,,,);
@@ -247,11 +252,10 @@ BveTs Map 2.02
     Track['3'].Position(-6,0,1400,0);
     Repeater['slabRail3'].Begin0('3',3,4.99,5,'slabrail');
     Repeater['pier1'].End();
+    Repeater['concbridgeN'].End();
     Repeater['bridgewallL2'].Begin('3',-0.2,-0.5,0, , , ,3,,5, 'bridgewallL');
     Repeater['bridgewallR2'].Begin('3',0.2,-0.5,0, , , ,3,,5, 'bridgewallR');
     Repeater['concbridge2'].Begin('3',0,-0.25,0, , , ,3,5,5, 'concbridge');
-    Structure['bridgewallL'].Put('2',-3.1,-0.5,2.7,,-90,,,);
-    Structure['bridgewallL'].Put('2',-3.85,-0.5,2.701,,-90,,,);
     Structure['kasen'].Put('3',-3,0,,,5,,,);
     Structure['pole'].Put('3',0,0,0.2,,0,,,);
 900;
