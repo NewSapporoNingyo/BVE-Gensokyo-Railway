@@ -10,6 +10,7 @@ $runtun=4;
 $tilt_speed=0;
 $tilt_index=0;
 
+Curve.SetGauge(1.067);
 Structure.Load('..\Structures.txt');
 Sound.Load('..\sound.txt');
 Sound3D.Load('..\sound3d.txt');
@@ -21,6 +22,7 @@ include 'SoundMap\Mapsound123M.txt';
 include 'MoveableObj\rumia123M.txt';
 
 include 'Main\LoopLine\MapHRDepot.txt';
+//include 'Main\LoopLine\MapHakureiSta_Track2.txt';
 include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';

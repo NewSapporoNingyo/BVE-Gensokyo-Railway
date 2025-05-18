@@ -1,5 +1,25 @@
 BveTs Map 2.02
 
+1295+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+2790+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+8220+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+12980+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+15180+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+17580+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+18835+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+20720+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+21950+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
+23310+$dist1+$dist4;
+	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
 
 565-25+$dist1+$dist4;
 	Curve.BeginTransition();

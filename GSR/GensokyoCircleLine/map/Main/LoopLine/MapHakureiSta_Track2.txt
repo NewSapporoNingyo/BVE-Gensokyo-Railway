@@ -1,0 +1,3 @@
+BveTs Map 2.02
+#RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
+#RollingNoise Setting(EF81)-> 0=25mrail 2=bridge 3=tunnel 4=longrail
