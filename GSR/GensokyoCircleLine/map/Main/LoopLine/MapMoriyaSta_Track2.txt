@@ -184,6 +184,7 @@ BveTs Map 2.02
 	Track['3'].Position(-8,0);
 	Track['4'].Position(0,-0.001);
 	Legacy.Curve(0,0);
+	SpeedLimit.End();
 	Repeater['Rail4'].End();
 39255+$dist1;
 	Repeater['MountHL1'].End();

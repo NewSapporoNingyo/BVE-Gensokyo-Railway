@@ -15,9 +15,9 @@ Structure.Load('..\Structures.txt');
 Sound.Load('..\sound.txt');
 Sound3D.Load('..\sound3d.txt');
 Station.Load('StaList\Stations123M.txt');
-Signal.Load('..\Signals.csv');
+//Signal.Load('..\Signals.csv');
 Signal.SpeedLimit(0,25,55,75,95);
-include 'SignalMap\MapSignals123M.txt';
+//include 'SignalMap\MapSignals123M.txt';
 include 'SoundMap\Mapsound123M.txt';
 include 'MoveableObj\rumia123M.txt';
 
