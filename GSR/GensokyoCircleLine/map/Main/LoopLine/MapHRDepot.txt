@@ -301,3 +301,4 @@ BveTs Map 2.02
     Repeater['slabRail4'].End();
     JointNoise.Play(0);
 1120;
+# ----------↑Map separate↓----------

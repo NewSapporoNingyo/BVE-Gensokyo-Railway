@@ -1,16 +1,17 @@
 BveTs Map 2.02
+$distMap_NNS_T4=$dist1+$distHKR_T2+$dist2;
 # ----------(mapA)↑Map separate↓(MapNingenosato_Track4)----------
-0+$dist1+$distHKR_T2+$dist2;
+0+$distMap_NNS_T4;
 	#Roof at teimae
 	Repeater['roofdark'].Begin('1',2,6.5,0,-90,,,3,5,5, 'roofdark');
 #Ningenosato Station:
 #T1=4番線,T2=5番線,T3=8番線,T4=1番線,T5=2番線,T6=3番線,T7=6番線T8=7番線
-200-185.04+$dist1+$distHKR_T2+$dist2;
+200-185.04+$distMap_NNS_T4;
 	Track['3'].Position(4,-0.01,0,0);
 	Track['4'].Position(0,-0.01,0,0);
 	Repeater['slabRail3'].Begin0('3',1,4.99,5,'slabrailtwodark');
 	Repeater['slabRail4'].Begin0('4',1,4.99,5,'slabrailtwodark');
-200-175.04+$dist1+$distHKR_T2+$dist2;
+200-175.04+$distMap_NNS_T4;
 	Structure['4'].Put('1',-1.9,-0,0,,,,,);
 	Structure['5'].Put('1',-1.7,-0,0,,,,,);
 	Structure['L'].Put('1',-1.8,-0,0,,,,,);
@@ -19,7 +20,7 @@ BveTs Map 2.02
 	Track['7'].Position(4,-0.01,270,0);
 	Track['6'].Position(0,-0.01,-270,0);
 	JointNoise.Play(0);
-63+$dist1+$distHKR_T2+$dist2;
+63+$distMap_NNS_T4;
 	#Repeater['tunnelwall'].Begin('1',1.9,-0.25,1.6, , , ,1,,4.99, 'Tunnellp');
 	Structure['Tunwall'].Put('1',2,6.5,-4,,,-90,,);
 	Structure['Tunwall'].Put('1',2,6.5,-5.9,,,-90,,);
@@ -37,49 +38,49 @@ BveTs Map 2.02
 	Repeater['tunwallL7'].Begin('1',0.3,6.5,0, , , -90,3,5,5, 'tunwall');
 	Repeater['tunwallR7'].Begin('2',-0.3,6.5,0,, ,90,3,5,5, 'tunwallR');
 	#wall-3ban sen
-	0+$dist1+$distHKR_T2+$dist2;
+	0+$distMap_NNS_T4;
 	#tunroof-3ban sen
 	Repeater['tunwallL40'].Begin('6',-2.1,4.4,0, , , ,3,5,5, 'tunwall-long');
 	Repeater['tunwallL50'].Begin('6',-2.2,5.5,0, , , -45,3,5,5, 'tunwall');
 	Repeater['tunwallL60'].Begin('6',-1.5,6.5,0, , , -90,3,5,5, 'tunwall');
-	63+$dist1+$distHKR_T2+$dist2;
+	63+$distMap_NNS_T4;
 	#tunroof-3ban sen
 	Repeater['tunwallR40'].Begin('6',2.1,4.4,0, , , ,3,5,5, 'tunwallR-long');
 	Repeater['tunwallR50'].Begin('6',2.2,5.5,0,, ,45 ,3,5,5, 'tunwallR');
 	Repeater['tunwallR60'].Begin('6',1.5,6.5,0,, ,90,3,5,5, 'tunwallR');
 	#wall-4,5ban sen
 	#wall-5ban sen
-	0+$dist1+$distHKR_T2+$dist2;
+	0+$distMap_NNS_T4;
 	#tunroof-5ban sen
 	Repeater['tunwallR48'].Begin('7',2.1,4.4,0, , , ,3,5,5, 'tunwallR-long');
 	Repeater['tunwallR58'].Begin('7',2.2,5.5,0,, ,45 ,3,5,5, 'tunwallR');
 	Repeater['tunwallR68'].Begin('7',1.5,6.5,0,, ,90,3,5,5, 'tunwallR');
-	63+$dist1+$distHKR_T2+$dist2;
+	63+$distMap_NNS_T4;
 	#tunroof-5ban sen
 	Repeater['tunwallL48'].Begin('7',-2.1,4.4,0, , , ,3,5,5, 'tunwall-long');
 	Repeater['tunwallL58'].Begin('7',-2.2,5.5,0, , , -45,3,5,5, 'tunwall');
 	Repeater['tunwallL68'].Begin('7',-1.5,6.5,0, , , -90,3,5,5, 'tunwall');
-200-175.04+35.95+$dist1+$distHKR_T2+$dist2;
+200-175.04+35.95+$distMap_NNS_T4;
 	Track['3'].Position(8.1,-0.01,0,0);
 	Track['4'].Position(-4.1,-0.01,0,0);
 	Track['7'].Position(8.1,-0.01,0,0);
 	Track['6'].Position(-4.1,-0.01,0,0);
-200-175.04+35.95+10.21+$dist1+$distHKR_T2+$dist2;
+200-175.04+35.95+10.21+$distMap_NNS_T4;
 	Track['6'].Position(-5.9,-0.02,270,0);
 	Track['7'].Position(9.9,-0.02,-270,0);
 	Repeater['slabRail3'].End();
 	Repeater['slabRail4'].End();
 	Repeater['slabRail52'].Begin0('6',3,4.99,5,'slabrailtwodark');
 	Repeater['slabRail61'].Begin0('7',3,4.99,5,'slabrailtwodark');
-200-175.04+35.95+10.21+35.95+$dist1+$distHKR_T2+$dist2;
+200-175.04+35.95+10.21+35.95+$distMap_NNS_T4;
 	Track['6'].Position(-10,0,0,0);
 	Track['7'].Position(14,0,0,0);
-200-52.09+$dist1+$distHKR_T2+$dist2;
+200-52.09+$distMap_NNS_T4;
 	Track['3'].Position(23.44,-0.01,-300,0);
 	Track['4'].Position(-19.44,-0.01,300,0);
-175+$dist1+$distHKR_T2+$dist2;
+175+$distMap_NNS_T4;
 	CabIlluminance.Set(0);
-180+$dist1+$distHKR_T2+$dist2;
+180+$distMap_NNS_T4;
 	Repeater['tunnelwall'].End();
 	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();
@@ -124,7 +125,7 @@ BveTs Map 2.02
 	Repeater['tunwallR62'].Begin('6',1.5,6.5,0,, ,90,3,,5, 'tunwallR');
 	Repeater['tunwallL72'].Begin('5',0.3,6.5,0, , , -90,3,,5, 'tunwall');
 	Repeater['tunwallR72'].Begin('6',-0.3,6.5,0,, ,90,3,,5, 'tunwallR');
-200+$dist1+$distHKR_T2+$dist2;
+200+$distMap_NNS_T4;
 	//SpeedLimit.Begin(25);
 	CabIlluminance.Set(0.7);
 	//Structure['2'].Put('1',-2,0.25,-0.1,,,,,);
@@ -259,7 +260,7 @@ BveTs Map 2.02
 	Repeater['modernformgroundR1'].Begin('2',0.1,0,0, , , ,3,,5, 'modernformgroundR');
 	Repeater['modernformgroundL2'].Begin('3',-0.1,0,0, , , ,3,,5, 'modernformgroundL');
 	Repeater['modernformgroundR2'].Begin('4',0.1,0,0, , , ,3,,5, 'modernformgroundR');
-230+$dist1+$distHKR_T2+$dist2;
+230+$distMap_NNS_T4;
 	Structure['stairsup'].Put('1',-5,1.1,10,,180,,,);
 	Structure['stairsside'].Put('1',-3.75,1.1,0,,-90,,,);
 	Structure['stairsside'].Put('1',-6.25,1.1,10,,90,,,);
@@ -276,7 +277,7 @@ BveTs Map 2.02
 	Structure['stairsside'].Put('7',-3.75,1.1,0,,-90,,,);
 	Structure['stairsside'].Put('7',-6.25,1.1,10,,90,,,);
 	Structure['ele-side'].Put('7',-5,1.1,0,,0,,,);
-255.5+$dist1+$distHKR_T2+$dist2;
+255.5+$distMap_NNS_T4;
 	Structure['ele-front'].Put('1',-5,1.1,0,,,,,);
 	Structure['ele-side'].Put('1',-3.75,1.1,1.25,,-90,,,);
 	Structure['ele-side'].Put('1',-6.25,1.1,1.25,,90,,,);
@@ -293,7 +294,7 @@ BveTs Map 2.02
 	Structure['ele-side'].Put('5',-3.75,1.1,1.25,,-90,,,);
 	Structure['ele-side'].Put('5',-6.25,1.1,1.25,,90,,,);
 	Structure['ele-side'].Put('5',-5,1.1,2.5,,180,,,);
-315.5+$dist1+$distHKR_T2+$dist2;
+315.5+$distMap_NNS_T4;
 	Structure['ele-front'].Put('1',-5,1.1,0,,,,,);
 	Structure['ele-side'].Put('1',-3.75,1.1,1.25,,-90,,,);
 	Structure['ele-side'].Put('1',-6.25,1.1,1.25,,90,,,);
@@ -310,7 +311,7 @@ BveTs Map 2.02
 	Structure['ele-side'].Put('5',-3.75,1.1,1.25,,-90,,,);
 	Structure['ele-side'].Put('5',-6.25,1.1,1.25,,90,,,);
 	Structure['ele-side'].Put('5',-5,1.1,2.5,,180,,,);
-369+$dist1+$distHKR_T2+$dist2;
+369+$distMap_NNS_T4;
 	Structure['stairsup'].Put('1',-5,1.1,0,,0,,,);
 	Structure['stairsside'].Put('1',-3.75,1.1,0,,-90,,,);
 	Structure['stairsside'].Put('1',-6.25,1.1,10,,90,,,);
@@ -323,22 +324,22 @@ BveTs Map 2.02
 	Structure['stairsup'].Put('7',-5,1.1,0,,0,,,);
 	Structure['stairsside'].Put('7',-3.75,1.1,0,,-90,,,);
 	Structure['stairsside'].Put('7',-6.25,1.1,10,,90,,,);
-350-600+$dist1+$distHKR_T2+$dist2;
+350-600+$distMap_NNS_T4;
 	Structure['Tningen'].Put('1',-2,0.25,0,,,,,);
-350-500+$dist1+$distHKR_T2+$dist2;
+350-500+$distMap_NNS_T4;
 	Structure['teishaT'].Put('1',-2,0.25,0,,,,,);
-350-300+$dist1+$distHKR_T2+$dist2;
+350-300+$distMap_NNS_T4;
 	Structure['300t'].Put('4',-2,0.25,0,,,,,);
-350-200+$dist1+$distHKR_T2+$dist2;
+350-200+$distMap_NNS_T4;
 	Structure['200t'].Put('1',-2,0.25,0,,,,,);
-350-100+$dist1+$distHKR_T2+$dist2;
+350-100+$distMap_NNS_T4;
 	Structure['100t'].Put('1',-2,2.3,0,,,,,);
 350+$dist1+$distHKR_T2+$dist2;//GO06 Ningennosato 4/6car StopPosition(Track4)
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
 	Structure['stop6'].Put('1',2,0.15,0.001,,,,,);
-360-80+$dist1+$distHKR_T2+$dist2;	
+360-80+$distMap_NNS_T4;	
 	SpeedLimit.Begin(90);
-370+$dist1+$distHKR_T2+$dist2;
+370+$distMap_NNS_T4;
 	CabIlluminance.Set(0.7);
 	#formend
 	Repeater['pier02'].End();
@@ -480,7 +481,7 @@ BveTs Map 2.02
 	#凸→口-2,3ban sen
 	Repeater['tunwallL312'].Begin('5',-2.6,3.1,0, , , -45,3,5,5, 'tunwall');
 	Repeater['tunwallR312'].Begin('6',2.6,3.1,0,, ,45 ,3,5,5, 'tunwallR');
-380+$dist1+$distHKR_T2+$dist2;
+380+$distMap_NNS_T4;
 	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();
 	Repeater['slabRail'].Begin0('1',1,4.99,5,'slabrailtwodark');
@@ -490,10 +491,10 @@ BveTs Map 2.02
 	Repeater['slabRail61'].End();
 	Repeater['slabRail62'].End();
 	Fog.Interpolate(0,0,0,0);
-385+$dist1+$distHKR_T2+$dist2;
+385+$distMap_NNS_T4;
 	Fog.Interpolate(0.002,0,0,0);
 	CabIlluminance.Set(0);
-390+$dist1+$distHKR_T2+$dist2;
+390+$distMap_NNS_T4;
 	#Roofwide-4,5bansen
 	Repeater['tunwallL4'].Begin('1',-2.1,4.4,0, , , ,3,5,5, 'tunwall');
 	Repeater['tunwallR4'].Begin('2',2.1,4.4,0, , , ,3,5,5, 'tunwallR');
@@ -527,18 +528,18 @@ BveTs Map 2.02
 	Repeater['tunwallR72'].Begin('6',-0.3,6.5,0,, ,90,3,5,5, 'tunwallR');
 	Repeater['tunwallL312'].End();
 	Repeater['tunwallR312'].End();
-370+77.64+$dist1+$distHKR_T2+$dist2;
+370+77.64+$distMap_NNS_T4;
 	Track['3'].Position(17.778,-0.01,0,0);
 	Track['4'].Position(-13.778,-0.01,0,0);
-370+168.55-77.64+$dist1+$distHKR_T2+$dist2;
+370+168.55-77.64+$distMap_NNS_T4;
 	Track['3'].Position(14.222,-0.01,300,0);
 	Track['4'].Position(-10.222,-0.01,-300,0);
-370+168.55+$dist1+$distHKR_T2+$dist2;
+370+168.55+$distMap_NNS_T4;
 	Track['3'].Position(4,-0.01,0,0);
 	Track['4'].Position(0,-0.01,0,0);
 	Repeater['slabRail3'].End();
 	Repeater['slabRail4'].End();
-495+$dist1+$distHKR_T2+$dist2;
+495+$distMap_NNS_T4;
 #End of station tunnel
 	#1bansen
 	Repeater['tunwallR10'].End();
@@ -590,7 +591,7 @@ BveTs Map 2.02
 	Repeater['tunwallL58'].End();
 	Repeater['tunwallL68'].End();
 	Repeater['tunwallL601'].End();	
-485+$dist1+$distHKR_T2+$dist2;
+485+$distMap_NNS_T4;
 	#4,5bansen
 	Repeater['tunwallL1'].End();
 	Repeater['tunwallL2'].End();
@@ -610,15 +611,15 @@ BveTs Map 2.02
 	Repeater['tunwallR7'].End();
 	#Roof at teimae
 	Repeater['roofdark'].Begin('1',2,6.5,0,-90,,,3,5,5, 'roofdark');
-510+$dist1+$distHKR_T2+$dist2;
+510+$distMap_NNS_T4;
 	JointNoise.Play(0);
-555+$dist1+$distHKR_T2+$dist2;
+555+$distMap_NNS_T4;
 	Repeater['kasen3'].End();
 	Repeater['kasen4'].End();
 	Repeater['tunwallR401'].End();
 	Repeater['tunwallL47'].End();
 	Structure['Tunnelpotaldark'].Put('1',2,-0.25,1.6,,,,,);
-555+5+$dist1+$distHKR_T2+$dist2;
+555+5+$distMap_NNS_T4;
 	Repeater['roofdark'].End();
 	Repeater['tunwallL10'].End();
 	Repeater['tunwallL20'].End();

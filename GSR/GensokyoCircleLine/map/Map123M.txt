@@ -8,6 +8,7 @@ $dist3=16335;//Ningennosato Sta. --> Moriya Shrine Sta.(mapA2.txt)
 $distMRY_T2=1055;//Moriya Shrine Sta.(MapMoriyaSta_Track2.txt)
 $dist4=40000;
 #RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
+#RollingNoise Setting(EF81)-> 0=25mrail 2=bridge 3=tunnel 4=longrail
 $runlong=0;
 $run25m=2;
 $runbri=3;
@@ -34,30 +35,35 @@ include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 //include 'Main\LoopLine\mapB.txt';
+#--------------
 0;
 
 10;
 	//Station['0'].Put(0,-5,5);
-1320;
+#--------------
+200+$dist1;
 	Repeater['led2'].Begin('1',-3.30,0.5,17, ,0,,3,,40, 'hakurei2-103m');
 	Repeater['led2b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,40, 'hakurei2-103m');
 380+$dist1;//GO01 HakureiShrine 4/6car StopPosition(Track2)
 	Station['1'].Put(-1,-5,5);
+#--------------
 3555+$dist1+$distHKR_T2;//GO02 Minami-Hakurei 4car StopPosition
 	Station['2'].Put(-1,-5,5);
 9278+$dist1+$distHKR_T2;//GO03 Eientei 4car StopPosition
 	Station['3'].Put(1,-5,5);
 12755+$dist1+$distHKR_T2;//GO04 Chikurin 4car StopPosition
 	Station['4'].Put(-1,-5,5);
-21270+$dist1;
+19345+$dist1+$distHKR_T2;
 #led
     Repeater['led1'].Begin('1',-3.30,0.5,17, ,0,,3,,30, 'mningen1-103m');
 	Repeater['led1b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,30, 'mningen1-103m');
 19895+$dist1+$distHKR_T2;//GO05 Minami-Ningennosato 4car StopPosition
 	Station['5'].Put(-1,-5,5);
+#--------------
 350+$dist1+$distHKR_T2+$dist2;//GO06 Ningennosato 4/6car StopPosition(Track4)
 	Station['6'].Put(-1,-5,5);
 	Sound3D['pin_pon'].Put(-3,2);
+#--------------
 1823+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO07 Nishi-Ningennosato StopPosition
 	Station['7'].Put(1,-5,5);
 6379+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO08 Myorenji 4/6car StopPosition
@@ -68,8 +74,10 @@ include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 	Station['10'].Put(-1,-5,5);
 14943+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO11 Kusada 4car StopPosition
 	Station['11'].Put(-1,-5,5);
+#--------------
 480+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;//GO12 MoriyaShrine StopPosition
 	Station['12'].Put(1,-5,5);	
+#--------------
 370+1295+$dist1+$dist4;
 	Station['13'].Put(1,-5,5);
 370+2790+$dist1+$dist4;
