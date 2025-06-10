@@ -1,7 +1,11 @@
 BveTs Map 2.02
-$dist1=1120;
-$distHKR_T2=1925;
-$dist2=20500;
+#distance data of separated maps
+$dist1=1120;//Hakurei Depot(MapHRDepot.txt)
+$distHKR_T2=1925;//Hakurei Shrine Sta. Track2 (MapHakureiSta_Track2.txt)
+$dist2=20500;//Hakurei Shrine Sta --> Ningennosato Sta.(mapA.txt)
+$distNNS_T4=555;//Ningennosato Sta. Track4(MapNingten_Track4.txt)
+$dist3=16335;//Ningennosato Sta. --> Moriya Shrine Sta.(mapA2.txt)
+$distMRY_T2=1055;//Moriya Shrine Sta.(MapMoriyaSta_Track2.txt)
 $dist4=40000;
 #RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 $runlong=0;
@@ -27,8 +31,8 @@ include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';
 include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
-//include 'Main\LoopLine\mapA2.txt';
-//include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
+include 'Main\LoopLine\mapA2.txt';
+include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 //include 'Main\LoopLine\mapB.txt';
 0;
 
@@ -54,17 +58,17 @@ include 'Main\LoopLine\MapNingen_Track4.txt';
 350+$dist1+$distHKR_T2+$dist2;//GO06 Ningennosato 4/6car StopPosition(Track4)
 	Station['6'].Put(-1,-5,5);
 	Sound3D['pin_pon'].Put(-3,2);
-370+24433+$dist1;
+1823+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO07 Nishi-Ningennosato StopPosition
 	Station['7'].Put(1,-5,5);
-370+28989+$dist1;
+6379+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO08 Myorenji 4/6car StopPosition
 	Station['8'].Put(1,-5,5);
-370+30291+$dist1;
+7681+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO09 Kita-Myorenji 4car StopPosition
 	Station['9'].Put(-1,-5,5);
-370+34972+$dist1;
+12362+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO10 Youkainojyukai 4car StopPosition
 	Station['10'].Put(-1,-5,5);
-370+37553+$dist1;
+14943+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO11 Kusada 4car StopPosition
 	Station['11'].Put(-1,-5,5);
-370+39425+$dist1;
+480+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;//GO12 MoriyaShrine StopPosition
 	Station['12'].Put(1,-5,5);	
 370+1295+$dist1+$dist4;
 	Station['13'].Put(1,-5,5);
