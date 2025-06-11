@@ -8,35 +8,15 @@ If you are not familiar with the Touhou Project, you can also enjoy it as a gene
 Currently, the simulated line operates in one direction from the Hakurei Shrine to the Moriya Shrine on the Loop Line, but it will be extended in the future and eventually become a loop line.Other routes will also be added.
 ## Updates
 - 2023-6-9:set up repository
-- 2023-6-20:Release v0.2 preview and start promoting on video websites
-- 2023-6-30:Release v0.3 preview
-- 2023-7-20:Release v0.4 preview
-- 2023-7-23:Release v0.5 preview, Basic strutures (HKR-NNS) completed.
-- 2023-7-28:Release v0.6 preview
-- 2023-7-30:Release v0.7 preview
-- 2023-8-4:Release v0.8 preview
-- 2023-8-5:Release v0.9 preview
 - [x] **2023-8-10:Release v1.0(Loop line from HKR-NNS)**
-- 2023-9-13:Release v1.1 preview
-- 2023-10-10:Release v1.2 preview
-- 2023-10-26:Release v1.3 preview
-- 2023-11-1:Release v1.4 preview
-- 2023-11-3:Release v1.5 preview
-- 2023-11-8:Release v1.6 preview
-- 2023-11-10:Release v1.7 preview
-- 2023-11-22:Release v1.8 preview
-- 2023-11-27:Release v1.9 preview
 - [x] **2023-12-1:Release v2.0(Loop line from NNS-MRY)**
 - [X] **2024-3-16:Release v2.0.1(Loop line from NNS-MRY)**
 - 2024-3-31:Develop paused
 - [x] **2024-11-17:Release v2.0.2(Loop line from NNS-MRY)**
 - 2025-6-9:Resume development
-- [ ] ?-?-?:Release v3.0(Loop line complete)
-- [ ] ?-?-?:Release v4.0(Koto line)
-- [ ] ?-?-?:Release v5.0(YoukainoYama line)
-- [ ] ?-?-?:Release v6.0(Yuumeikekkai line)
-- [ ] ?-?-?:Release v7.0(Meikai line)
-- [ ] ?-?-?:Release v8.0(Hakurei Moriya line)
+- [ ] 2025-?-?:Release v3.0(Loop line complete)
+
+View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md) for more detailed information.
 
 ## Installation Guide
 1. Make sure you are in the Windows operating system.
