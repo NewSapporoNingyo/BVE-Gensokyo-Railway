@@ -3,14 +3,14 @@ BveTs Map 2.02
 0;
 Train['rumia'].Load('..\Structures\people\rumia.txt','ru',1);
 Train['rumia'].Enable('08:21:45');
-2000+$dist1;
+3500;
     Track['ru'].Position(6,9,0,0);
     Train['rumia'].Stop(2,10,10,100);
-3500+$dist1;
+5000;
     Track['ru'].Position(-2,9,0,0);
-4500+$dist1;
+6000;
     Track['ru'].Position(-9,10,0,0);
-6000+$dist1;
+7500;
     Track['ru'].Position(-20,8,0,0);
     Train['rumia'].Stop(10,10,2,45);
 
