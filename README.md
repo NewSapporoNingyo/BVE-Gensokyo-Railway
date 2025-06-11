@@ -28,7 +28,9 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-11-27:Release v1.9 preview
 - [x] **2023-12-1:Release v2.0(Loop line from NNS-MRY)**
 - [X] **2024-3-16:Release v2.0.1(Loop line from NNS-MRY)**
+- 2024-3-31:Develop paused
 - [x] **2024-11-17:Release v2.0.2(Loop line from NNS-MRY)**
+- 2025-6-9:Resume development
 - [ ] ?-?-?:Release v3.0(Loop line complete)
 - [ ] ?-?-?:Release v4.0(Koto line)
 - [ ] ?-?-?:Release v5.0(YoukainoYama line)
@@ -39,7 +41,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 ## Installation Guide
 1. Make sure you are in the Windows operating system.
 2. Install Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
-3. Clone this repository or download the releases and remember the local path of it, you will use it later.
+3. Download the releases and remember the local path of it, you will use it later.(The repo is currently only for development.It may cannot be run normally in BVE)
 4. Get the vehicle data from the train creator's website. Remember the local path of it, you will use it later.
 5. Make sure the file paths in the text files in "GSR" folder(101M.txt etc.)are correct. Then you can open the route in Bve trainsim and enjoy it.<br>
 
