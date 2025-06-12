@@ -12,5 +12,4 @@ include '..\Signals\kankosign_common1.txt';
 
 //制限
 include '..\Signals\ATS-P\speedlimit_common1_snp&ask&CT.txt';
-include '..\Signals\ATS-P\speedlimit_common2_snp&ask&CT.txt';
 include '..\Signals\ATS-P\speedlimit_Moriya_Shrine_Track2_snp&ask&CT.txt';
