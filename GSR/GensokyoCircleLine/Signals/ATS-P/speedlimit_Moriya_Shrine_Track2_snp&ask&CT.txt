@@ -7,7 +7,7 @@ BveTs Map 2.02
 39152+$dist1;
 	$sig=distance;
 	$sig-350;
-	Beacon.Put(6,0,350055);
+	Beacon.Put(6,0,350045);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-5,,,,3,);
 39445+$dist1;

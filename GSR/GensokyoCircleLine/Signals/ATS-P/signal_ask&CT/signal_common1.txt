@@ -1,13 +1,13 @@
 BveTs Map 2.00
 
-2100+$dist1;
+545+$dist1+$distHKR_T2;
 	Signal['Relay_LED'].Put(1,'1',6,4.5,-0.1,,15,,,);
 	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',6,-0.6,0,,15,,,5);
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
-2300+$dist1;
+745+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',6,4.4,-0.05,,10,,,);
 	Structure['LabelBS3_L'].Put('1',6,3,-0.1,,,,,);
@@ -29,7 +29,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-3000-2+$dist1;
+1443+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.4,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -52,7 +52,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-3700+$dist1;
+2145+$dist1+$distHKR_T2;
 	Signal['Relay_LED'].Put(1,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
 	Structure['Chukei_N'].Put('1',-2.4,3,-0.1,,,,,);
@@ -60,7 +60,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.4,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.5,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
-3900+$dist1;
+2345+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.4,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -83,7 +83,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-4500+$dist1;
+2945+$dist1+$distHKR_T2;
 	Signal['Relay_LED'].Put(1,'1',6,4.5,-0.1,,15,,,);
 	Structure['SigBox'].Put('1',6,0,3,,,,,5);
 	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
@@ -91,7 +91,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
-4650+$dist1;
+3095+$dist1+$distHKR_T2;
 	Signal['Relay_LED'].Put(1,'1',6,4.5,-0.1,,15,,,);
 	Structure['SigBox'].Put('1',6,0,3,,,,,5);
 	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
@@ -99,7 +99,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
-4800-2+$dist1;
+3243+$dist1+$distHKR_T2;
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -133,7 +133,8 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-5160-2+$dist1;//南博丽出发
+3603+$dist1+$distHKR_T2;
+//南博丽出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -162,7 +163,7 @@ BveTs Map 2.00
 	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-5550+$dist1;
+3995+$dist1+$distHKR_T2;
 	Signal['Relay_LED'].Put(1,'1',6,4.5,-0.1,,15,,,);
 	Structure['SigBox'].Put('1',6,0,3,,,,,5);
 	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
@@ -170,7 +171,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
-5800+$dist1;
+4245+$dist1+$distHKR_T2;
 	Signal['Relay_LED'].Put(1,'1',6,4.5,-0.1,,15,,,);
 	Structure['SigBox'].Put('1',6,0,3,,,,,5);
 	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
@@ -178,7 +179,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
-6150+$dist1;
+4595+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -201,7 +202,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-7280-2+$dist1;
+5723+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -224,7 +225,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-8480-2+$dist1;
+6923+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -247,7 +248,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-9380+$dist1;
+7825+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -270,9 +271,10 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-10599+$dist1;
+9044+$dist1+$distHKR_T2;
 
-10600+5+$dist1; //永远亭场内
+9050+$dist1+$distHKR_T2; 
+//永远亭场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -306,7 +308,8 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-10880+50+$dist1; //永远亭出发
+9375+$dist1+$distHKR_T2; 
+//永远亭出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -332,7 +335,7 @@ BveTs Map 2.00
 	$sig-180;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-11600-2+$dist1;
+10043+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -355,7 +358,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-12500+$dist1;
+10945+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -378,7 +381,8 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-13650+$dist1;//竹林场内
+12095+$dist1+$distHKR_T2;
+//竹林场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -412,7 +416,8 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-13950+$dist1; //竹林出发
+12395+$dist1+$distHKR_T2; 
+//竹林出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -442,7 +447,7 @@ BveTs Map 2.00
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 
-15000-2+$dist1;
+13443+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -465,7 +470,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-16150+$dist1;
+14595+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -488,7 +493,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-17000-2+$dist1;
+15443+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -511,7 +516,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-18300+$dist1;
+16745+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -534,13 +539,13 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-18900+$dist1;
+17345+$dist1+$distHKR_T2;
 	Signal['Relay_LED'].Put(1,'1',-2.5,3,0,-0.1,0,,,);
 	Structure['Sig_Pole'].Put('1',-2.5,-2.1,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.5,2.9,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.5,2.0,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.5,-2.1,0,,,,,5);
-19250+$dist1;
+17695+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.1,2.5,-0.05,,,,,);
 	Structure['LabelBS2_L'].Put('1',-2.4,3,-0.1,,,,,);
@@ -560,7 +565,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-20000+$dist1;
+18445+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.1,2.5,-0.05,,,,,);
 	Structure['LabelBS1_L'].Put('1',-2.4,3,-0.1,,,,,);
@@ -580,7 +585,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-20800+$dist1;
+19245+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.1,2.5,-0.05,,,,,);
 	Structure['LabelBS2_L'].Put('1',-2.4,3,-0.1,,,,,);
@@ -609,7 +614,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-21075+$dist1;
+19520+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
 	Structure['LabelBS2_L'].Put('1',-2.4,3,-0.1,,,,,);
@@ -633,5 +638,26 @@ BveTs Map 2.00
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-280;
+	Beacon.Put(3,-1,0);
+	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
+20145+$dist1+$distHKR_T2;
+	Section.Begin(0,2,3,4);
+	Signal['Type4yg_LED'].Put(0,'1',-2,2.5,-0.05,,,,,);
+	Structure['LabelBS2_L'].Put('1',-2.4,3,-0.1,,,,,);
+	//Signal['SigYnC_LED'].Put(1,'1',-2,3.1,-0.05,,,,,);
+	Structure['Sig_Arm_SU'].Put('1',-2.39,2.6,-0.38,,-90,,,5);
+	Structure['Sig_Arm_SD'].Put('1',-2.39,1.38,-0.38,,-90,,,5);
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(5,-1,0);
+	
+	Structure['ATS-P_2way1Y'].Put('1',0,0.05,0,,,,3,);
+	$sig-85;
+	Beacon.Put(3,-1,0);
+	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
+	$sig-180;
+	Beacon.Put(3,-1,0);
+	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
