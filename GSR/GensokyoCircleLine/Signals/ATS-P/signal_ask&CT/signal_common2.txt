@@ -170,7 +170,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-3940+$dist1;
+3940+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //西人里-命莲寺 第2闭塞
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -194,7 +194,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-5090+$dist1;
+5090+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //西人里-命莲寺 第1闭塞
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -218,7 +218,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-6195+$dist1;
+6195+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //命莲寺场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -250,7 +250,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-6419+$dist1;
+6419+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //命莲寺出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',2.4,4.5,-0.05,,,,,);
@@ -279,7 +279,7 @@ BveTs Map 2.00
 	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-7561+$dist1;
+7561+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //北命莲寺场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -312,7 +312,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-7721+$dist1;
+7721+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //北命莲寺出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -342,7 +342,7 @@ BveTs Map 2.00
 	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-8540+$dist1;
+8540+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //闭塞中继
 	Signal['Relay_LED'].Put(1,'1',-2.5,4.5,-0.1,,0,,,);
 	Structure['SigBox'].Put('1',-2.5,0,3,,,,,5);
@@ -351,7 +351,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('1',-2.5,3.5,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.5,-0.6,0,,,,,5);
 	Structure['Chukei_N'].Put('1',-2.5,3,-0.2,,,,,);
-8840+$dist1;
+8840+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //北命莲寺-树海 第3闭塞
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -375,7 +375,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-9440+$dist1;
+9440+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //闭塞中继
 	Signal['Relay_LED'].Put(1,'1',-2.5,4.5,-0.1,,0,,,);
 	Structure['SigBox'].Put('1',-2.5,0,3,,,,,5);
@@ -384,7 +384,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('1',-2.5,3.5,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.5,-0.6,0,,,,,5);
 	Structure['Chukei_N'].Put('1',-2.5,3,-0.2,,,,,);
-9940+$dist1;
+9940+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //北命莲寺-树海 第2闭塞
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -408,7 +408,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-11090+$dist1;
+11090+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //北命莲寺-树海 第1闭塞
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
@@ -429,7 +429,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-12252+$dist1;
+12252+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //树海场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -464,7 +464,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-12402+$dist1;
+12402+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
  //树海出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -494,7 +494,7 @@ BveTs Map 2.00
 	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-13200+$dist1;
+13200+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //树海-草田 第2闭塞
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -518,7 +518,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-14000+$dist1;
+14000+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //树海-草田 第1闭塞
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -542,7 +542,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-14848+$dist1;
+14848+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //草田场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
@@ -575,7 +575,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-14973+$dist1;
+14973+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //草田出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);

@@ -1,6 +1,6 @@
 BveTs Map 2.00
 
-0-465+$dist1;
+0-465+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 //草田-守失 第1闭塞
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.5,4,-0.05,,,,,);
@@ -25,7 +25,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-200+$dist1;
+200+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 //守失场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.1,3.80,0.05,,,,,);
@@ -96,7 +96,7 @@ BveTs Map 2.00
 	//Beacon.Put(14,2,95);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 
-300+$dist1;
+300+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 //守失上行出发
 	Structure['Sig30_LED'].Put('1',2.1,4.5,0,,180,,,5);
 	Structure['Sig30_LED'].Put('1',2.7,4.5,0,,180,,,5);
@@ -110,7 +110,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('2',2.4,4.5,0,,180,,,5);
 	Structure['Sig_Arm_SD'].Put('2',2.4,3.38,0,,180,,,5);
 	Structure['Sig_Base_Step'].Put('2',2.4,-0.6,0,,180,,,5);
-520+$dist1;
+520+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 //守失出发
 	Structure['Sig30_LED'].Put('3',-2.4,4.5,-0.05,,,,,5);
 	Structure['SigBox'].Put('3',-2.4,0,3,,,,,5);
@@ -177,7 +177,7 @@ BveTs Map 2.00
 	//Beacon.Put(11,2,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 
-600+$dist1;
+600+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 //守失上行场内
 	Structure['Sig4yy0_LED'].Put('1',2.1,4.5,0,,180,,,5);
 	Structure['Sig4yy0_LED'].Put('1',2.7,4.5,0,,180,,,5);
