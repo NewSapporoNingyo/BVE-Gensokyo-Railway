@@ -5,18 +5,11 @@ include '..\Signals\ATS-SN\signal_Hakurei_Shrine_Track2.txt';
 include '..\Signals\ATS-SN\signal_common1.txt';
 include '..\Signals\ATS-SN\signal_Ningennosato_Track4.txt';
 include '..\Signals\ATS-SN\signal_common2.txt';
-include '..\Signals\ATS-SN\signal_Nishi-Ningennosato_Track2.txt';
-include '..\Signals\ATS-SN\signal_NingennosatoDepot_mainline.txt';
-include '..\Signals\ATS-SN\signal_common3.txt';
 include '..\Signals\ATS-SN\signal_Moriya_Shrine_Track2.txt';
 
 //唤呼标
 include '..\Signals\kankosign_common1.txt';
-include '..\Signals\kankosign_common2.txt';
-include '..\Signals\kankosign_common3.txt';
 
 //制限
 include '..\Signals\ATS-SN\speedlimit_common1_Notsuki&ask&CT.txt';
-include '..\Signals\ATS-SN\speedlimit_common2_Notsuki&ask&CT.txt';
-include '..\Signals\ATS-SN\speedlimit_common3_Notsuki&ask&CT.txt';
 include '..\Signals\ATS-SN\speedlimit_Moriya_Shrine_Track2_Notsuki&ask&CT.txt';
