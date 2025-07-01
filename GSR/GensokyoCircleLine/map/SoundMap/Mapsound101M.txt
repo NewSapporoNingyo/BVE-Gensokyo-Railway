@@ -1,24 +1,24 @@
 BveTs Map 2.02
 
-100+$dist1;
+1520;
 Sound['go01go03-107M'].Play();
-10833-800+$dist1;
+11513;
 Sound['go02go03-2'].Play();
-10833+50+$dist1;
+12413;
 Sound['go03go06-1-107M'].Play();
-22405-1800+$dist1;
+22050;
 Sound['go03go06-2-107M'].Play();
-22405-1100+$dist1;
+22995;
 Sound['exchange-101M'].Play();
-22405+50+$dist1;
+23925;
 Sound['go06go07-1-107M'].Play();
-24433-500+$dist1;
+25423;
 Sound['go06go07-2-107M'].Play();
-24433+50+$dist1;
+25953;
 Sound['go07go08-1-107M'].Play();
-28989-900+$dist1;
+29979;
 Sound['go07go08-2-107M'].Play();
-28989+50+$dist1;
+30509;
 Sound['go08go14-1-107M'].Play();
-39425-900+$dist1;
+40115;
 Sound['go08go14-2-107M'].Play();
