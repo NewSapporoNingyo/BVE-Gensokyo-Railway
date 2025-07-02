@@ -9,6 +9,7 @@ B4-95km/h:560m
 SKS200:
 B4-120km/h:1775m
 
+Curve cant settings:
 300 0.10
 400 0.08
 500 0.06
