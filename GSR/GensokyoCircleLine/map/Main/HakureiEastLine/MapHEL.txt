@@ -9,10 +9,10 @@ BveTs Map 2.02
     CabIlluminance.Set(1);
 10+$distA;
     CabIlluminance.Set(0);
-485-10+$distA;
+485-50+$distA;
     Curve.BeginTransition();
-485+10+$distA;
-    Curve.Begin(-2000,-0.02);
+485+50+$distA;
+    Curve.Begin(-2000,-0.08);
 1375+$distA;
     CabIlluminance.Set(0);
 1385+$distA;//End of Kita-Hakurei Tunnel
@@ -20,9 +20,9 @@ BveTs Map 2.02
     Repeater['rail2'].Begin0('2',3,5,5,'rail1435');
     rollingNoise.Change($runlong);
     CabIlluminance.Set(1);
-1524-10+$distA;
+1524-50+$distA;
     Curve.BeginTransition();
-1524+10+$distA;
+1524+50+$distA;
     Curve.End();
 2230+$distA;
     Repeater['rail3'].End();
