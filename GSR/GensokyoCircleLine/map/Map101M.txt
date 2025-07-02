@@ -70,14 +70,14 @@ include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 	Station['8'].Put(1,-5,5);
 7681+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO09 Kita-Myorenji 4car StopPosition
 	Station['9'].Put(-1,-5,5);
-8245+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+7695+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Sound3D['crossing1'].Put(-2,1);
 	Sound3D['crossing1'].Put(6,1);
 12362+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO10 Youkainojyukai 4car StopPosition
 	Station['10'].Put(-1,-5,5);
 14943+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO11 Kusada 4car StopPosition
 	Station['11'].Put(-1,-5,5);
-15505+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+14955+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Sound3D['crossing1'].Put(-2,1);
 	Sound3D['crossing1'].Put(6,1);
 #--------------

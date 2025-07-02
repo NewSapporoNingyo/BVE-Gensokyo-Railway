@@ -1,0 +1,11 @@
+BveTs Scenario 2.00:UTF-8
+
+Title = Local 121M(Depot - Hakurei Shrine - Ningennosato)
+Author = SapporoNingyo&Contributors on Github
+Route = GensokyoCircleLine\map\Map121M.txt
+RouteTitle = Gensokyo Loop Line
+Vehicle = ..\..\E129\Nii-B11.txt
+;↑ Paste the path of your train data to replace the default train ↑
+VehicleTitle = E129(4 car)
+Image = rollsign\Local-ningen.jpg
+Comment = [ATS-P] Max speed：95km/h Platform: Hakurei② Ningen④
