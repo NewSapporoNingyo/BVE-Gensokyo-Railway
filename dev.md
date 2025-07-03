@@ -121,7 +121,7 @@ Gauge 1067mm:(maxspeed 120km/h)<br>
 | 1600    |0.075  |90 	  	    |120              |
 | 2000    |0.060  |70 	  	    |120              |
 
-Gauge 1435mm:(maxspeed 120km/h)<br>
+Gauge 1435mm:(maxspeed 240km/h)<br>
 
 |radius(m)|cant(m)|transition(m)|Speed limit(km/h)|
 |---      |---    |---          |---              |
