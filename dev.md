@@ -103,6 +103,23 @@ update 2025-4-28<br>
 </p>
 <br>
 
+#### Curves
+Gauge 1067mm:<br>
+
+|radius(m)|cant(m)|transition(m)|Speed limit(km/h)|
+|---      |---    |---          |---              |
+| 200     |       | 	  	    |                 |
+| 250     |       | 	  	    |                 |
+| 300     |       | 	  	    |                 |
+| 400     |       | 	  	    |                 |
+| 500     |       | 	  	    |                 |
+| 600     |       | 	  	    |                 |
+| 800     |       | 	  	    |                 |
+| 1000    |       | 	  	    |                 |
+| 1200    |       | 	  	    |                 |
+| 1600    |       | 	  	    |                 |
+| 2000    |       | 	  	    |                 |
+
 ### Stations(In Japanese)
 Loop Line:<br>
 #### HakureiShrine->Ningennosato
