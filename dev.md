@@ -104,7 +104,7 @@ update 2025-4-28<br>
 <br>
 
 #### Curves
-When the design speed of the route is lower than the speed limits in this table, please design the curves based on the route’s design speed.<br>
+When the design speed of the route is lower than the speed limits in this table, please design the curves based on the route’s design speed.(You can calculate by yourself or use the following websites:[曲線カント＆緩和曲線長計算](https://keisan.site/exec/user/1709523167))<br>
 Gauge 1067mm:(maxspeed 120km/h)<br>
 
 |radius(m)|cant(m)|transition(m)|Speed limit(km/h)|
