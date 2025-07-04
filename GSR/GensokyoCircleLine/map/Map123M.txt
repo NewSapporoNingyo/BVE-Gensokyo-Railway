@@ -7,6 +7,7 @@ $distNNS_T4=555;//Ningennosato Sta. Track4(MapNingten_Track4.txt)
 $dist3=16335;//Ningennosato Sta. --> Moriya Shrine Sta.(mapA2.txt)
 $distMRY_T2=1055;//Moriya Shrine Sta.(MapMoriyaSta_Track2.txt)
 $dist4=40000;
+$loop=64420;
 #RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 #RollingNoise Setting(EF81)-> 0=25mrail 2=bridge 3=tunnel 4=longrail
 $runlong=0;
@@ -35,6 +36,7 @@ include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 include 'Main\LoopLine\mapB.txt';
+include 'Main\LoopLine\2-MapHakureiSta_Track2.txt';
 #--------------
 0;
 
@@ -78,23 +80,23 @@ include 'Main\LoopLine\mapB.txt';
 480+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;//GO12 MoriyaShrine StopPosition
 	Station['12'].Put(1,-5,5);	
 #--------------
-370+1295+$dist1+$dist4;
+1295+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['13'].Put(1,-5,5);
-370+2790+$dist1+$dist4;
+2790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['14'].Put(1,-5,5);
-370+8220+$dist1+$dist4;
+8220+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['15'].Put(1,-5,5);
-370+12980+$dist1+$dist4;
+12980+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['16'].Put(1,-5,5);
-370+15180+$dist1+$dist4;
+15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['17'].Put(1,-5,5);
-370+17580+$dist1+$dist4;
+17580+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['18'].Put(1,-5,5);
-370+18835+$dist1+$dist4;
+18835+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['19'].Put(1,-5,5);
-370+20720+$dist1+$dist4;
+20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['20'].Put(1,-5,5);
-370+21950+$dist1+$dist4;
+21950+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['21'].Put(1,-5,5);
-370+23310+$dist1+$dist4;
+23310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Station['22'].Put(1,-5,5);

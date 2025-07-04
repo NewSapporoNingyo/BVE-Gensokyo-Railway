@@ -1062,7 +1062,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Structure['0b'].Put('1',-2.2,-0.7,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
 10451+40+$distMapA;	
-	Curve.Begin(955,0.085+$tilt_index*0.3);
+	Curve.Begin(1300,0.085+$tilt_index*0.3);
 10735-40+$distMapA;
 	Curve.BeginTransition();
 10735+$distMapA;
