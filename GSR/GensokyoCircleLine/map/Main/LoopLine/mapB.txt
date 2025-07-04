@@ -116,7 +116,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 5015+25+$distMapB;
 	Curve.End();
 5090+$distMapB;
-//Entrance of No2 Fuujin Tunnel
+//Entrance of Genbu Tunnel
 	Track['ground'].Position(0,-3.5,0,0);
 	Repeater['Rail'].End();
 	Repeater['slabRail'].Begin0('1',3,4.99,5,'slabraildark');
@@ -129,7 +129,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 5740+25+$distMapB;
 	Curve.End();
 6570+$distMapB;
-//Exit of No2 Fuujin Tunnel
+//Exit of Genbu Tunnel
 	Track['ground'].Position(0,-0.3,0,0);
 	Repeater['slabRail'].End();
 	Repeater['Rail'].Begin0('1',3,4.99,5,'rail');
@@ -146,6 +146,17 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Curve.BeginTransition();
 7290+25+$distMapB;
 	Curve.Begin(-1000,-0.02);
+7550+$distMapB;
+//Entrance of No1 Sawahama Tunnel
+	Track['ground'].Position(0,-3.5,0,0);
+	Repeater['Rail'].End();
+	Repeater['slabRail'].Begin0('1',3,4.99,5,'slabraildark');
+7890+$distMapB;
+//Exit of No1 Sawahama Tunnel
+	Track['ground'].Position(0,-0.3,0,0);
+	Repeater['slabRail'].End();
+	Repeater['Rail'].Begin0('1',3,4.99,5,'rail');
+	Structure['rail'].Put('1',0,-2.55,-4.33,-30,0,0,0,);
 7915-25+$distMapB;
 	Curve.BeginTransition();
 7915+25+$distMapB;
