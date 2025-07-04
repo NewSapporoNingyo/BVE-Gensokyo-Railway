@@ -555,6 +555,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Track['2'].Position(2.86,0,-300,0);
 18300+23.56+20.92+26.13+$distMapB;
 	Track['2'].Position(4,0,0,0);
+	Track['21'].Position(4,-0.01,0,0);
 	Repeater['Rail21'].End();
 18380+$distMapB;
 	Track['2'].Position(4,0,270,0);
