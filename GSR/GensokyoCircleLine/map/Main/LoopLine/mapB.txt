@@ -116,6 +116,10 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Curve.BeginTransition();
 2960+25+$distMapB;
 	Curve.Begin(-600,-0.05-$tilt_index*0.7);
+3100+$distMapB;
+	Gradient.BeginTransition();
+3150+$distMapB;
+	Gradient.Begin(6);
 3250+$distMapB;
 //Entrance of No2 Fuujin Tunnel
 	Track['ground'].Position(0,-3.5,0,0);
@@ -125,6 +129,10 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Curve.BeginTransition();
 3485+25+$distMapB;
 	Curve.End();
+3520+$distMapB;
+	Gradient.BeginTransition();
+3570+$distMapB;
+	Gradient.End();
 3770+$distMapB;
 //Exit of No2 Fuujin Tunnel
 	Track['ground'].Position(0,-0.3,0,0);
