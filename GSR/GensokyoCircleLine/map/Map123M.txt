@@ -80,23 +80,23 @@ include 'Main\LoopLine\2-MapHakureiSta_Track2.txt';
 480+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;//GO12 MoriyaShrine StopPosition
 	Station['12'].Put(1,-5,5);	
 #--------------
-1295+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+1295+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N13 Fuujinnoko StopPosition
 	Station['13'].Put(1,-5,5);
-2790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+2790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//14 East Moriya StopPosition
 	Station['14'].Put(1,-5,5);
-8220+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+8220+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N15 Genbunosawa StopPosition
 	Station['15'].Put(1,-5,5);
-12980+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+12980+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N16 Korindomae StopPosition
 	Station['16'].Put(1,-5,5);
-15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N17 Mohonomori StopPosition
 	Station['17'].Put(1,-5,5);
-17580+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+17580+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N18 Kirinoko StopPosition
 	Station['18'].Put(1,-5,5);
-18835+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+18835+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N19 Koumakan StopPosition
 	Station['19'].Put(1,-5,5);
-20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N20 Kami-Kirinoko StopPosition
 	Station['20'].Put(1,-5,5);
-21950+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+21950+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N21 Kita-Hakurei StopPosition
 	Station['21'].Put(1,-5,5);
-23310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+23310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//(loop)GO01 HakureiShrine 4/6car StopPosition(Track2)
 	Station['22'].Put(1,-5,5);
