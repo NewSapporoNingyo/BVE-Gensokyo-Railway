@@ -13,3 +13,14 @@ include '..\Signals\kankosign_common1.txt';
 //制限
 include '..\Signals\ATS-P\speedlimit_common1_snp&ask&CT.txt';
 include '..\Signals\ATS-P\speedlimit_Moriya_Shrine_Track2_snp&ask&CT.txt';
+//temp
+400+$loop;
+	Section.Begin(0,2,3,4);
+	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
+	Structure['Label_2-Shu'].Put('1',-2.4,1.7,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
+	Structure['stop_EOA'].Put('1',-2.4,1.3,-0.1,,,,,5);
+	Structure['SN'].Put('1',-2.4,2.6,-0.1,,,,,);
