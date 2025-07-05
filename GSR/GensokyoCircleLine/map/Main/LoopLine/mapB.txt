@@ -625,6 +625,16 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Track['00'].Position(-9,0,0,0);	
 	Repeater['formgroundL2'].End();
 	Repeater['formR01'].Begin('00',0, 0, 0, , , ,3,5,5, 'formR');
+18570+$distMapB;//N19 Koumakan 4car StopPosition
+	Structure['stop'].Put('1',2,-0.2,0,,,0,,);
+18620+$distMapB;//N19 Koumakan 6car StopPosition
+	Structure['stop6'].Put('1',2,-0.2,0,,,0,,);
+18680+$distMapB;//N19 Koumakan 8~10car StopPosition
+	Structure['stop'].Put('1',2,-0.2,0,,,0,,);
+18720+$distMapB;//N19 Koumakan 12car StopPosition
+	Structure['stop'].Put('1',2,-0.2,0,,,0,,);
+18760+$distMapB;//N19 Koumakan locomotive StopPosition
+	Structure['stop'].Put('1',2,-0.2,0,,,0,,);
 18575+$distMapB;
 	Repeater['Rail00'].Begin0('00',3,4.99,5,'railthree');
 18690+$distMapB;
@@ -648,8 +658,6 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Repeater['Rail21'].End();
 18830+$distMapB;
 	Track['2'].Position(4,0,0,0);
-18750+$distMapB;//N19 Koumakan StopPosition
-	Structure['stop'].Put('1',2,-0.2,0,,,0,,);
 18770+$distMapB;
 	Repeater['formL1'].End();
 	Repeater['formR01'].End();
