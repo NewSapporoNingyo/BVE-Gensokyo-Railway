@@ -287,6 +287,9 @@ metalfence,Structures\structure_NF\NF.x
 metalfenceL,Structures\structure_RF\RF.x
 stop,Structures\Default\Stop.x
 stop6,Structures\Default\Stop6.x
+stop10,Structures\ACCC\Station\Stop10.x
+stop12,Structures\ACCC\Station\Stop12.x
+stopL,Structures\Default\StopL.x
 halt,Structures\GSR\Halt.x
 stopsks12,Structures\GSR\stop_sks12.x
 ropeway,Structures\GSR\signs\ropeway.x

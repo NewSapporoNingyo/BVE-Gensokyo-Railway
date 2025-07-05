@@ -86,13 +86,13 @@ include 'Main\LoopLine\2-MapHakureiSta_Track2.txt';
 	Station['14'].Put(1,-5,5);
 8220+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N15 Genbunosawa StopPosition
 	Station['15'].Put(1,-5,5);
-12980+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N16 Korindomae StopPosition
+13010+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N16 Korindomae 1~4car StopPosition
 	Station['16'].Put(1,-5,5);
 15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N17 Mohonomori StopPosition
 	Station['17'].Put(1,-5,5);
 17310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N18 Kirinoko StopPosition
 	Station['18'].Put(1,-5,5);
-18750+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N19 Koumakan StopPosition
+18570+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N19 Koumakan 1~4car StopPosition
 	Station['19'].Put(1,-5,5);
 20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N20 Kami-Kirinoko StopPosition
 	Station['20'].Put(1,-5,5);
