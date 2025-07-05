@@ -841,6 +841,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Track['3'].Position(0,-0.01,0,0);
 	Track['11'].Position(-4,0,0,0);
 	Legacy.Curve(0,0);
+	SpeedLimit.End();
 	Repeater['Rail3'].End();
 18850+$distMapB;
 	Track['2'].Position(0,-0.01,-270,0);
