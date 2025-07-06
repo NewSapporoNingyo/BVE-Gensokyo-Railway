@@ -1085,6 +1085,11 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 21860+$distMapB;
 	Repeater['formL1'].Begin('1',0, 0, 0, , , ,3,,5, 'formL');
 	Repeater['formgroundL1'].Begin('1',0, 0, 0, , , ,3,5,5, 'formgroundL');
+21845+$distMapB;
+	Track['mountain'].Position(-116,40,0,0);
+	Track['mountainR'].Position(74,30,0,0);
+    Repeater['mountain'].Begin0('mountain',3,49.99,50, 'mount');
+	Repeater['mountainR'].Begin0('mountainR',3,49.99,50, 'mountR');
 21865+$distMapB;
 	Track['3'].Position(26,-14,-1000,0);
 21950+$distMapB;//N21 Kita-Hakurei StopPosition
