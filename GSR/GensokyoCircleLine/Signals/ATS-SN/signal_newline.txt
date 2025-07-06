@@ -216,7 +216,13 @@ BveTs Map 2.00
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 18700+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 //红魔馆出发(Track 3)
-	Section.Begin(0,2,4);
+	Structure['Sig30_LED'].Put('3',2,4.5,-0.05,,,,,);
+	Structure['Sig_Pole'].Put('3',2,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('3',2,4.5,0,,,,,5);
+	Structure['Sig_Arm_SD'].Put('3',2,3.48,0,,,,,5);
+	Structure['Sig_Base_Step'].Put('3',2,-0.6,0,,,,,5);
+	Structure['SN'].Put('3',2,2.6,-0.1,,,,,);
+
 	Structure['Sig30_LED'].Put('2',2.4,4.5,-0.05,,,,,);
 	Structure['Sig_Pole'].Put('2',2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('2',2.4,4.5,0,,,,,5);
