@@ -7,6 +7,8 @@ include '..\Signals\ATS-P\signal_ask&CT\signal_Ningennosato_Track4.txt';
 include '..\Signals\ATS-P\signal_ask&CT\signal_common2.txt';
 include '..\Signals\ATS-P\signal_ask&CT\signal_Moriya_Shrine_Track2.txt';
 include '..\Signals\ATS-SN\signal_newline.txt';
+include '..\Signals\ATS-SN\signal_Hakurei_Shrine_Track2-loop.txt';
+
 //唤呼标
 include '..\Signals\kankosign_common1.txt';
 
