@@ -1078,5 +1078,18 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 21960+$distMapB;
 	Repeater['formL1'].End();
 	Repeater['formgroundL1'].End();
+22825+$distMapB;
+	Track['11'].Position(0,0,620,0);
+	Track['21'].Position(4,0,-620,0);
+	Repeater['slabRail11'].Begin0('11',1,4.99,5,'slabrail');
+	Repeater['slabRail21'].Begin0('11',1,4.99,5,'slabrail');
+22875+$distMapB;
+	Track['11'].Position(2,0,-620,0);
+	Track['21'].Position(2,0,620,0);
+22925+$distMapB;
+	Track['11'].Position(4,0,0,0);
+	Track['21'].Position(0,0,0,0);
+	Repeater['slabRail11'].End();
+	Repeater['slabRail21'].End();
 22930+$distMapB;
 #---------------
