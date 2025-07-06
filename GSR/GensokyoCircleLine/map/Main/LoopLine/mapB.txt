@@ -188,11 +188,11 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Structure['300t'].Put('3',-2.3,-0.7,0,,,,,);
 	Structure['limitpole'].Put('3',-2.3,-0.3,0,,,,,);
 2790-200+$distMapB;
-	Structure['200t'].Put('1',-2.3,-0.7,0,,,,,);
-	Structure['limitpole'].Put('1',-2.3,-0.3,0,,,,,);
+	Structure['200t'].Put('1',2,-0.7,0,,,,,);
+	Structure['limitpole'].Put('1',2,-0.3,0,,,,,);
 2790-100+$distMapB;
-	Structure['100t'].Put('1',-2.3,-0.7,0,,,,,);
-	Structure['limitpole'].Put('1',-2.3,-0.3,0,,,,,);
+	Structure['100t'].Put('1',2,-0.7,0,,,,,);
+	Structure['limitpole'].Put('1',2,-0.3,0,,,,,);
 2790+$distMapB;//14 East Moriya StopPosition
 	Structure['stop'].Put('1',2,-0.2,0,,,0,,);
 2850+$distMapB;
@@ -391,6 +391,15 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Repeater['formgroundR1'].Begin('2',0, 0, 0, , , ,3,,5, 'formgroundR');
 8220-600+$distMapB;
 	Structure['teisha'].Put('1',-2.1,1.1,0,,,,,);
+8220-300+$distMapB;
+	Structure['300t'].Put('3',-2.3,-0.7,0,,,,,);
+	Structure['limitpole'].Put('3',-2.3,-0.3,0,,,,,);
+8220-200+$distMapB;
+	Structure['200t'].Put('1',-2.3,-0.7,0,,,,,);
+	Structure['limitpole'].Put('1',-2.3,-0.3,0,,,,,);
+8220-100+$distMapB;
+	Structure['100t'].Put('1',-2.3,-0.7,0,,,,,);
+	Structure['limitpole'].Put('1',-2.3,-0.3,0,,,,,);
 8220+$distMapB;//N15 Genbunosawa StopPosition
 	Structure['stop'].Put('1',-2,-0.2,0,,,0,,);
 8230+$distMapB;
@@ -567,6 +576,15 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Repeater['formgroundL1'].Begin('1',0, 0, 0, , , ,3,5,5, 'formgroundL');
 	Repeater['formR1'].Begin('2',0, 0, 0, , , ,3,5,5, 'formR');
 	Repeater['formgroundR1'].Begin('2',0, 0, 0, , , ,3,5,5, 'formgroundR');
+13010-300+$distMapB;
+	Structure['300t'].Put('3',-2.3,-0.7,0,,,,,);
+	Structure['limitpole'].Put('3',-2.3,-0.3,0,,,,,);
+13010-200+$distMapB;
+	Structure['200t'].Put('1',-2.3,-0.7,0,,,,,);
+	Structure['limitpole'].Put('1',-2.3,-0.3,0,,,,,);
+13010-100+$distMapB;
+	Structure['100t'].Put('1',2,-0.7,0,,,,,);
+	Structure['limitpole'].Put('1',2,-0.3,0,,,,,);
 13010+$distMapB;//N16 Korindomae 1~4car StopPosition
 	Structure['stop'].Put('1',2,-0.2,0,,,0,,);
 13030+$distMapB;//N16 Korindomae 6car StopPosition
