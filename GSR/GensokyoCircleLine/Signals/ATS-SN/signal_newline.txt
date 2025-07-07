@@ -79,6 +79,7 @@ BveTs Map 2.00
 	Beacon.Put(0,2,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 11840+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//中继
 	Signal['Relay'].Put(1,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
 	Structure['Chukei_N'].Put('1',-2.4,3,-0.1,,,,,);
@@ -107,6 +108,15 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+12540+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//中继
+	Signal['Relay'].Put(1,'1',2.4,4.5,-0.1,,5,,,);
+	Structure['SigBox'].Put('1',2.4,0,3,,,,,5);
+	Structure['Chukei_N'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.4,0,,5,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.5,0,,5,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
 12740+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 //香霖堂前第2场内
 	Section.Begin(0,2,3,4);
@@ -142,7 +152,7 @@ BveTs Map 2.00
 	$sig-5;
 	Beacon.Put(1,1,0);
 	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
-	$sig-350;
+	$sig-450;
 	Beacon.Put(0,2,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 17510+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
@@ -174,6 +184,15 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+18100+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//中继
+	Signal['Relay'].Put(1,'1',2.4,4.5,-0.1,,5,,,);
+	Structure['SigBox'].Put('1',2.4,0,3,,,,,5);
+	Structure['Chukei_N'].Put('1',2.4,3,-0.1,,,,,);
+	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.4,4.4,0,,5,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.4,3.5,0,,5,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,,,,5);
 18300+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 //红魔馆第2场内 (Track 3)
 	Structure['Sig4yy0'].Put('1',2.4,5.45,0,,,,,5);
@@ -242,6 +261,6 @@ BveTs Map 2.00
 	$sig-5;
 	Beacon.Put(1,1,0);
 	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
-	$sig-480;
+	$sig-680;
 	Beacon.Put(0,2,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
