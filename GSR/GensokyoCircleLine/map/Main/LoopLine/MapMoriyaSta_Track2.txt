@@ -334,7 +334,7 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 	Repeater['Rail'].End();
 1055+$distMap_MRY_T2;
 	Structure['Tunnelpotal-tansen'].Put('1',0,1.2,0,,,,,);
-	Structure['mounttun'].Put('1',0,0,0,,,,,);
+	Structure['mounttunL01'].Put('1',0,0,0,,,,,);
 	Structure['mount'].Put('1',0,67,69,0,53,0,3,);
 	Structure['mount'].Put('1',-24,73,15,10,0,-30,0,);
 	Structure['rail'].Put('1',0,-0.01,-4.5,,,,,);

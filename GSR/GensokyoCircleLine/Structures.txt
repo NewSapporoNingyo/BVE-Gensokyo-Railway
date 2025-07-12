@@ -64,7 +64,12 @@ mount,Structures\Nature\mount\GrsWallL4.x
 mountH,Structures\Nature\mount\GrsWallHL.x
 mountR,Structures\Nature\mount\GrsWallR4.x
 mountHR,Structures\Nature\mount\GrsWallHR.x
-mounttun,Structures\Nature\mount\GrsWall_TunL02.x
+mounttunL01,Structures\Nature\mount\GrsWall_TunL01.x
+mounttunL02,Structures\Nature\mount\GrsWall_TunL02.x
+mounttunL03,Structures\Nature\mount\GrsWall_TunL03.x
+mounttunR01,Structures\Nature\mount\GrsWall_TunR01.x
+mounttunR02,Structures\Nature\mount\GrsWall_TunR02.x
+mounttunR03,Structures\Nature\mount\GrsWall_TunR03.x
 Grass,Structures\Nature\mount\Grass.x
 tree1,Structures\Nature\trees\tree01_S.x
 tree2,Structures\Nature\trees\tree02_S.x
