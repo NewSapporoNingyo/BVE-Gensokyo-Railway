@@ -54,6 +54,9 @@ bridgeban,Structures\Bridge\red5_b_ban.x
 bridgerope10m,Structures\Accessory\bridgerope10m.x
 bridgerope20m,Structures\Accessory\bridgerope20m.x
 bridgeframework,Structures\Accessory\bridgeframework.x
+dikeface,Structures\ACCC\Ground\Dikeface.x
+dikeface2,Structures\ACCC\Ground\Dikeface2.x
+dikeface3,Structures\ACCC\Ground\Dikeface3.x
 #background
 Bg_mt,Structures\Bg\Bg_fine_summer_mt3.x
 #nature
