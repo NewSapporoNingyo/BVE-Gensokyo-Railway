@@ -120,6 +120,8 @@ pole,Structures\Accessory\E_Poles\Pole\Pole1_stlB.x
 pole4,Structures\Accessory\E_Poles\Poletruss\PoleTrs04B.x
 fukusenpole5,Structures\Accessory\E_Poles\Poletruss\PoleTrs05B.x
 fukusenpole8,Structures\Accessory\E_Poles\Poletruss\PoleTrs08B.x
+pole10,Structures\Accessory\E_Poles\Poletruss\PoleTrs10B.x
+pole12,Structures\Accessory\E_Poles\Poletruss\PoleTrs12B.x
 acpole,Structures\Accessory\E_Poles\Pole\Pole1AC_BS.x
 tunnelpole,Structures\Accessory\E_Poles\acc\MinibeamF02_dark.x
 kasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02.x
