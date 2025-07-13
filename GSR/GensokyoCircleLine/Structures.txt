@@ -117,6 +117,7 @@ wallR,Structures\StructureSet\other\wall\wallR.x
 kasen,Structures\Accessory\E_Poles\kasen\kasen40S.x
 bridgepole,Structures\Accessory\E_Poles\Pole\Pole1_stlA.x
 pole,Structures\Accessory\E_Poles\Pole\Pole1_stlB.x
+pole4,Structures\Accessory\E_Poles\Poletruss\PoleTrs04B.x
 fukusenpole5,Structures\Accessory\E_Poles\Poletruss\PoleTrs05B.x
 fukusenpole8,Structures\Accessory\E_Poles\Poletruss\PoleTrs08B.x
 acpole,Structures\Accessory\E_Poles\Pole\Pole1AC_BS.x
