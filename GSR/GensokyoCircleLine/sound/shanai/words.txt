@@ -1,5 +1,17 @@
+hakurei-stopping-oneman:
+本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、人間の里、守矢神社方面ゆき、ワンマンカーです。まもなく発車だします。
+This is the Gensokyo Loop line train to Ningennosato and Moriya Shrine.This train is staffed with only one driver.We will be departing soon.
+HKR-NNS-stopping-oneman:
+人間の里、守矢神社方面ゆき、ワンマンカーです。整理券を取りください。
+NNS-MRY-stopping-oneman:
+守矢神社、紅魔館方面ゆき、ワンマンカーです。整理券を取りください。
+MRY-KMK-stopping-oneman:
+紅魔館、博麗神社方面ゆき、ワンマンカーです。整理券を取りください。
+KMK-HKR-stopping-oneman:
+博麗神社、人間の里方面ゆき、ワンマンカーです。整理券を取りください。
+
 hakurei-mhakurei1:
-本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、人間の里ゆきです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革や手すりにおつかまりください。次は、南博麗、南博麗です。
+本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、人間の里ゆきです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革、手すりにおつかまりください。次は、南博麗、南博麗です。
 Thank you for using Gensokyo Railway.This is the local train bound for Ningennosato.The next station is Minami-Hakurei.It may be neccesary for the train to stop suddenly,to emergency accident.So please be careful.
 感谢您乘坐幻想乡铁道。本次列车是普通列车，开往人间之里。下一站是南博丽。为了防止事故，列车在行驶中可能会突然刹车，请您多加小心。
 
