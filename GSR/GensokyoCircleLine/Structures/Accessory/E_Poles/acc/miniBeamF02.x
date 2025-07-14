@@ -222,7 +222,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BeamF11.png";
+    "BeamF11DC.png";
    }
   }
 
@@ -233,7 +233,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BeamF12.png";
+    "BeamF12DC.png";
    }
   }
 

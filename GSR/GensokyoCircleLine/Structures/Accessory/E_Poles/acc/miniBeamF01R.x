@@ -204,7 +204,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "BeamF11.png";
+    "BeamF11DC.png";
    }
   }
 

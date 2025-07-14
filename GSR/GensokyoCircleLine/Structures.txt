@@ -125,7 +125,7 @@ pole12,Structures\Accessory\E_Poles\Poletruss\PoleTrs12B.x
 acpole,Structures\Accessory\E_Poles\Pole\Pole1AC_BS.x
 poleA,Structures\StructureSet\pole\A\poleA.x
 tunnelpole,Structures\Accessory\E_Poles\acc\MinibeamF02_dark.x
-ackasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02.x
+ackasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02_AC.x
 kasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02.x
 wirehanger,Structures\Accessory\E_Poles\acc\chokasen_gaisi.x
 kasenhangL,Structures\Accessory\E_Poles\acc\MinibeamF01R.x
