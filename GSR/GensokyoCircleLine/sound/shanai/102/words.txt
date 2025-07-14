@@ -1,58 +1,46 @@
+業務放送、パターン102、博麗神社発、環状線外回り、ワンマンカーです。
+####Stopping####
 hakurei-stopping-oneman:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、人間の里、守矢神社方面ゆき、ワンマンカーです。まもなく発車だします。
-This is the Gensokyo Loop line train to Ningennosato and Moriya Shrine.This train is staffed with only one driver.We will be departing soon.
+This is the Gensokyo Loop line Local train to Ningennosato and Moriya Shrine.This train is staffed with only one driver.We will be departing soon.
 
 HKR-NNS-stopping-oneman:
 人間の里、守矢神社方面ゆき、ワンマンカーです。整理券を取りください。
 
 ningen-stopping-oneman:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、守矢神社、紅魔館方面ゆき、ワンマンカーです。まもなく発車だします。
-This is the Gensokyo Loop line train to Moriya Shrine and Koumakan.This train is staffed with only one driver.We will be departing soon.
+This is the Gensokyo Loop line Local train to Moriya Shrine and Koumakan.This train is staffed with only one driver.We will be departing soon.
 
 NNS-MRY-stopping-oneman:
 守矢神社、紅魔館方面ゆき、ワンマンカーです。整理券を取りください。
 
 ningen-stopping-oneman:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、紅魔館、博麗神社方面ゆき、ワンマンカーです。まもなく発車だします。
-This is the Gensokyo Loop line train to Koumakan and Hakurei Shrine.This train is staffed with only one driver.We will be departing soon.
+This is the Gensokyo Loop line Local train to Koumakan and Hakurei Shrine.This train is staffed with only one driver.We will be departing soon.
 
 MRY-KMK-stopping-oneman:
 紅魔館、博麗神社方面ゆき、ワンマンカーです。整理券を取りください。
 
 ningen-stopping-oneman:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、博麗神社、人間の里方面ゆき、ワンマンカーです。まもなく発車だします。
-This is the Gensokyo Loop line train to Hakurei Shrine and Ningennosato.This train is staffed with only one driver.We will be departing soon.
+This is the Gensokyo Loop line Local train to Hakurei Shrine and Ningennosato.This train is staffed with only one driver.We will be departing soon.
 
 KMK-HKR-stopping-oneman:
 博麗神社、人間の里方面ゆき、ワンマンカーです。整理券を取りください。
 
-hakurei-mhakurei1:
-本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、人間の里ゆきです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革、手すりにおつかまりください。次は、南博麗、南博麗です。
-Thank you for using Gensokyo Railway.This is the local train bound for Ningennosato.The next station is Minami-Hakurei.It may be neccesary for the train to stop suddenly,to emergency accident.So please be careful.
+####Arrive/Depart####
+hakurei-dep:
+本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、紅魔館、博麗神社方面ゆき、ワンマンカーです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革、手すりにおつかまりください。運賃は、運賃表示器の確認のうえ、ご用意ください。また、運転士へのご用件は、安全のため停車中にお願いいたします。次は、南博麗、南博麗です。
+This is the Gensokyo Loop line Local train to Ningennosato and Moriya Shrine.This train is staffed with only one driver.The next station is Minami-Hakurei.It may be neccesary for the train to stop suddenly,to prevent accident.So please be careful.For the price of the fare,please check the fare indicator.Please do not speak to the driver while the train is moving.
 
-hakurei-mhakurei1-105m:
-本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、守矢神社ゆきです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革や手すりにおつかまりください。次は、南博麗、南博麗です。
-Thank you for using Gensokyo Railway.This is the local train bound for Moriya Shrine.The next station is Minami-Hakurei.It may be neccesary for the train to stop suddenly,to emergency accident.So please be careful.
-感谢您乘坐幻想乡铁道。本次列车是普通列车，开往守失神社。下一站是南博丽。为了防止事故，列车在行驶中可能会突然刹车，请您多加小心。
-
-ご乗車くださいましてありがとうございます。この電車は普通電車守矢神社行きです。終点の守矢神社まで各駅に停車して参ります。この先、主な駅の到着時刻をご案内します。永遠亭九時十九分、人間の里九時三十一分、命蓮寺九時四十分。終点の守矢神社には九時五十四分に到着です。次は、南博麗、南博麗に止まります。
-
-hakurei-eientei1-107m:
-本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、環状線、快速もりや、守矢神社ゆきです。永遠亭、人間の里、西人間の里、命蓮寺、終点、守矢神社の順に止まります。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革や手すりにおつかまりください。次は、永遠亭、永遠亭です。
-Thank you for using Gensokyo Railway.This is the Loop line rapid service train "Moriya" bound for Moriya Shrine.We will stop at,Eientei,Ningennosato,Nishiningennosato,Myorenji,and Moriya Shrine teminal.The next station is Eientei.It may be neccesary for the train to stop suddenly,to emergency accident.So please be careful.
-感谢您乘坐幻想乡铁道。本次列车是快速“守失”号，开往守失神社。停车站是，永远亭、人间之里、西人间之里、命莲寺、终点是守失神社站。列车前方停车站是，永远亭。为了防止事故，列车在行驶中可能会突然刹车，请您多加小心。
-
-ご乗車くださいましてありがとうございます。この電車は快速もりや、守矢神社行きです。永遠亭、人間の里、西人間の里、命蓮寺、終点の守矢神社の順に停車して参ります。この先、各駅の到着時刻をご案内します。次の永遠亭には九時四十八分、人間の里九時五十八分、西人間の里十時二分、命蓮寺十時七分。終点の守矢神社には十時十六分の到着です。列車は二両編成です。ご乗車くださいましてありがとうございます。次は、永遠亭、永遠亭に止まります。
-
-hakurei-mhakurei2:
+mhakurei-arr:
 まもなく、南博麗、南博麗です。お出口は、左側です。
 We will soon arrive at Minami-Hakurei.The doors on the left side will open.
 列车即将到达南博丽站，左侧的车门将会打开。
 
-mhakurei-eientei1:
-次は、永遠亭、永遠亭です。
-The next station is Eientei.
-列车前方停车站是，永远亭。
+mhakurei-dep:
+次は、永遠亭、永遠亭です。お降りのお客様は、列車の一番前のドアまでお進みください。
+The next station is Eientei.Only the door next to the driver will open.
 
 mhakurei-eientei2:
 まもなく、永遠亭、永遠亭です。お出口は、右側です。
