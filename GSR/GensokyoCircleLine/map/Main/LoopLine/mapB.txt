@@ -1267,7 +1267,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Structure['5b'].Put('1',-2.3,-0.7,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
 17345+25+$distMapB;
-	Curve.Begin(500,0.05+$tilt_index*0.7);
+	Curve.Begin(500,0.05+$tilt_index*0.9);
 17535-25+$distMapB;
 	Curve.BeginTransition();
 17535+$distMapB;
@@ -1701,7 +1701,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Structure['5b'].Put('1',-2.7,-0.2,0,,,,,);
 	Structure['limitpole'].Put('1',-2.9,0.3,0,,,,,);
 21465+25+$distMapB;
-	Curve.Begin(600,0.05+$tilt_index*0.7);
+	Curve.Begin(600,0.05+$tilt_index*0.8);
 21535+$distMapB;
 	//KitaHakurei Bridge
 	Repeater['grassland1'].End();

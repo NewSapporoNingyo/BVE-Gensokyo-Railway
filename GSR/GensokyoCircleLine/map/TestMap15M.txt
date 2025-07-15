@@ -18,6 +18,7 @@ $runtun=4;
 $tilt_speed=20;
 $tilt_index=0.1;
 
+Curve.SetGauge(1.067);
 Structure.Load('..\Structures.txt');
 Sound.Load('..\sound.txt');
 Sound3D.Load('..\sound3d.txt');
