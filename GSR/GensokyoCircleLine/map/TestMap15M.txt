@@ -7,6 +7,7 @@ $distNNS_T4=555;//Ningennosato Sta. Track4(MapNingten_Track4.txt)
 $dist3=16335;//Ningennosato Sta. --> Moriya Shrine Sta.(mapA2.txt)
 $distMRY_T2=1055;//Moriya Shrine Sta.(MapMoriyaSta_Track2.txt)
 $dist4=40000;
+$loop=64420;
 #RollingNoise Setting(485series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 $runlong=0;
 $run25m=2;
@@ -15,7 +16,7 @@ $runtun=4;
 
 #For tilting trains:(Curve speed limit +x km/h)
 $tilt_speed=20;
-$tilt_index=0.05;
+$tilt_index=0.1;
 
 Structure.Load('..\Structures.txt');
 Sound.Load('..\sound.txt');
@@ -27,11 +28,14 @@ include 'SignalMap\MapSignals15M.txt';
 //include 'Mapsound103M.txt';
 //include 'Map104M.txt';
 
+include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';
 include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
+include 'Main\LoopLine\mapB.txt';
+include 'Main\LoopLine\2-MapHakureiSta_Track2.txt';
 #--------------
 0;
 
@@ -84,3 +88,23 @@ include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 480+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;//GO12 MoriyaShrine StopPosition
 	Station['12'].Put(1,-5,5);	
 #--------------
+1295+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N13 Fuujinnoko StopPosition
+	Station['13'].Put(1,-5,5);
+2790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//14 East Moriya StopPosition
+	Station['14'].Put(1,-5,5);
+8220+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N15 Genbunosawa StopPosition
+	Station['15'].Put(1,-5,5);
+13010+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N16 Korindomae 1~4car StopPosition
+	Station['16'].Put(1,-5,5);
+15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N17 Mohonomori StopPosition
+	Station['17'].Put(1,-5,5);
+17310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N18 Kirinoko StopPosition
+	Station['18'].Put(1,-5,5);
+18570+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N19 Koumakan 1~4car StopPosition
+	Station['19'].Put(1,-5,5);
+20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N20 Kami-Kirinoko StopPosition
+	Station['20'].Put(1,-5,5);
+21950+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N21 Kita-Hakurei StopPosition
+	Station['21'].Put(1,-5,5);
+23310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//(loop)GO01 HakureiShrine 4/6car StopPosition(Track2)
+	Station['22'].Put(1,-5,5);
