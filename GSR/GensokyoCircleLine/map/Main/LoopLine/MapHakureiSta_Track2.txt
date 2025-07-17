@@ -209,8 +209,6 @@ $distMap_HKR_T2=$dist1;
 370+$distMap_HKR_T2;
 	Background.Change('Bg_mt');
 	Irregularity.Change(0.0005,0.001,0.0001,80,80,80);
-	Adhesion.Change(0.35, 0, 0.01);
-    Light.Ambient(1,1,1);
 	CabIlluminance.Set(1);
 	Track['ground'].Position(0,-14,0,0);
 	Repeater['grassland1'].Begin('ground',0,0,0, , , ,1,,49, 'grassland');

@@ -7,31 +7,35 @@ $distNNS_T4=555;//Ningennosato Sta. Track4(MapNingten_Track4.txt)
 $dist3=16335;//Ningennosato Sta. --> Moriya Shrine Sta.(mapA2.txt)
 $distMRY_T2=1055;//Moriya Shrine Sta.(MapMoriyaSta_Track2.txt)
 $dist4=40000;
-#RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
+$loop=64420;
+#RollingNoise Setting(283series)-> 0=longrail 2=25mrail 3=tunnel 4=bridge
 $runlong=0;
 $run25m=2;
-$runbri=3;
-$runtun=4;
+$runbri=4;
+$runtun=3;
+
 #For tilting trains:(Curve speed limit +x km/h)
-$tilt_speed=0;
-$tilt_index=0;
-#---Curve mode:normal(R600 +0km/h)---
-include 'Main\CurveSettings_Normal.txt';
+$tilt_speed=30;
+$tilt_index=0.09;
+#---Curve mode:high-performance tilting train(R600 +35km/h)---
+include 'Main\CurveSettings_HpTilt.txt';
 #------
 include 'Main\GeneralSettings.txt';
-Station.Load('StaList\Stations101M.txt');
+Station.Load('StaList\Stations15M.txt');
 Signal.Load('..\Signals.csv');
-Signal.SpeedLimit(0,25,55,75,110);
-include 'SignalMap\MapSignals101M.txt';
-include 'SoundMap\Mapsound101M.txt';
-include 'MoveableObj\rumia101M.txt';
+Signal.SpeedLimit(0,25,55,75,130);
+include 'SignalMap\MapSignals15M.txt';
+//include 'Mapsound103M.txt';
+//include 'Map104M.txt';
 
-//include 'Main\LoopLine\MapHRDepot.txt';
+include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';
 include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
+include 'Main\LoopLine\mapB.txt';
+include 'Main\LoopLine\2-MapHakureiSta_Track2.txt';
 #--------------
 0;
 
@@ -46,7 +50,7 @@ include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 #--------------
 3555+$dist1+$distHKR_T2;//GO02 Minami-Hakurei 4car StopPosition
 	Station['2'].Put(-1,-5,5);
-9278+$dist1+$distHKR_T2;//GO03 Eientei 4car StopPosition
+9278+50+$dist1+$distHKR_T2;//GO03 Eientei 6car StopPosition
 	Station['3'].Put(1,-5,5);
 12245+$dist1+$distHKR_T2;
 	Sound3D['crossing1'].Put(-2,1);
@@ -70,17 +74,37 @@ include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 	Station['8'].Put(1,-5,5);
 7681+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO09 Kita-Myorenji 4car StopPosition
 	Station['9'].Put(-1,-5,5);
-7695+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+7700+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Sound3D['crossing1'].Put(-2,1);
 	Sound3D['crossing1'].Put(6,1);
 12362+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO10 Youkainojyukai 4car StopPosition
 	Station['10'].Put(-1,-5,5);
 14943+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO11 Kusada 4car StopPosition
 	Station['11'].Put(-1,-5,5);
-14955+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+14960+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Sound3D['crossing1'].Put(-2,1);
 	Sound3D['crossing1'].Put(6,1);
 #--------------
 480+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;//GO12 MoriyaShrine StopPosition
 	Station['12'].Put(1,-5,5);	
 #--------------
+1295+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N13 Fuujinnoko StopPosition
+	Station['13'].Put(1,-5,5);
+2790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//14 East Moriya StopPosition
+	Station['14'].Put(1,-5,5);
+8220+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N15 Genbunosawa StopPosition
+	Station['15'].Put(1,-5,5);
+13030+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N16 Korindomae 6car StopPosition
+	Station['16'].Put(1,-5,5);
+15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N17 Mohonomori StopPosition
+	Station['17'].Put(1,-5,5);
+17310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N18 Kirinoko StopPosition
+	Station['18'].Put(1,-5,5);
+18620+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N19 Koumakan 6car StopPosition
+	Station['19'].Put(1,-5,5);
+20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N20 Kami-Kirinoko StopPosition
+	Station['20'].Put(1,-5,5);
+21950+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N21 Kita-Hakurei StopPosition
+	Station['21'].Put(1,-5,5);
+23310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//(loop)GO01 HakureiShrine 4/6car StopPosition(Track2)
+	Station['22'].Put(1,-5,5);

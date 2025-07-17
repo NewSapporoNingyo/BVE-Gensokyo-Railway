@@ -1,0 +1,26 @@
+BveTs Map 2.02
+
+#Curve speedlimits/cants
+#R300
+$r300_speed=65;
+$r300_cant=0.1;
+#R400
+$r400_speed=70;
+$r400_cant=0.09;
+#R500
+$r500_speed=75;
+$r500_cant=0.08;
+#R600
+$r600_speed=85;
+$r600_cant=0.09;
+#R800
+$r800_speed=95;
+$r800_cant=0.085;
+#R1000
+$r1000_speed=105;
+$r1000_cant=0.085;
+#R1200
+$r1200_speed=110;
+$r1200_cant=0.085;
+
+	

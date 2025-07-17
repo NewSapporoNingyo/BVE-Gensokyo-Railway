@@ -8,10 +8,10 @@ $runtun=4;
 #For tilting trains:(Curve speed limit +x km/h)
 $tilt_speed=0;
 $tilt_index=0;
-
-Structure.Load('..\Structures.txt');
-Sound.Load('..\sound.txt');
-Sound3D.Load('..\sound3d.txt');
+#---Curve mode:normal(R600 +0km/h)---
+include 'Main\CurveSettings_Normal.txt';
+#------
+include 'Main\GeneralSettings.txt';
 Station.Load('StaList\Stations101M.txt');
 Signal.Load('..\Signals.csv');
 Signal.SpeedLimit(0,25,55,75,110);

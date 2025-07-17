@@ -8,7 +8,7 @@ $dist3=16335;//Ningennosato Sta. --> Moriya Shrine Sta.(mapA2.txt)
 $distMRY_T2=1055;//Moriya Shrine Sta.(MapMoriyaSta_Track2.txt)
 $dist4=40000;
 $loop=64420;
-#RollingNoise Setting(485series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
+#RollingNoise Setting(381series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 $runlong=0;
 $run25m=2;
 $runbri=3;
@@ -17,11 +17,10 @@ $runtun=4;
 #For tilting trains:(Curve speed limit +x km/h)
 $tilt_speed=20;
 $tilt_index=0.09;
-
-Curve.SetGauge(1.067);
-Structure.Load('..\Structures.txt');
-Sound.Load('..\sound.txt');
-Sound3D.Load('..\sound3d.txt');
+#---Curve mode:tilting train(R600 +20km/h)---
+include 'Main\CurveSettings_Tilt.txt';
+#------
+include 'Main\GeneralSettings.txt';
 Station.Load('StaList\Stations15M.txt');
 Signal.Load('..\Signals.csv');
 Signal.SpeedLimit(0,25,55,75,125);

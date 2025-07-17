@@ -1,0 +1,10 @@
+BveTs Map 2.02
+
+Curve.SetGauge(1.067);
+Adhesion.Change(0.35, 0, 0.01);
+Light.Ambient(1,1,1);
+Structure.Load('..\Structures.txt');
+Sound.Load('..\sound.txt');
+Sound3D.Load('..\sound3d.txt');
+
+	
