@@ -21,7 +21,7 @@ $tilt_index=0.09;
 include 'Main\CurveSettings_Tilt.txt';
 #------
 include 'Main\GeneralSettings.txt';
-Station.Load('StaList\Stations15M.txt');
+Station.Load('StaList\Stations13M.txt');
 Signal.Load('..\Signals.csv');
 Signal.SpeedLimit(0,25,55,75,125);
 include 'SignalMap\MapSignals15M.txt';

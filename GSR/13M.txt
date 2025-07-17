@@ -1,8 +1,8 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = [Test]GSR L Express "Sanae" 15M(Hakurei-Ningen-Moriya-Komakan-Hakurei)
+Title = [Test]GSR L Express "Sanae" 13M(Hakurei-Ningen-Moriya-Komakan-Hakurei)
 Author = SapporoNingyo&Contributors on Github
-Route = GensokyoCircleLine\map\TestMap15M.txt
+Route = GensokyoCircleLine\map\Map13M-T.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\..\Rock_On\Train\JR\Formation\hine\D601.txt
 VehicleTitle = ↑ Use a tilting express train ↑
