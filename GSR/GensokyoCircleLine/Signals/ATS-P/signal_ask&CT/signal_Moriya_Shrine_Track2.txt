@@ -157,8 +157,8 @@ BveTs Map 2.00
 	#ATS-P→ATS-Ps/SN
 	$sig-20;
 	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
-	$sig-140;
-	Beacon.Put(10,0,120);
+	$sig-21;
+	Beacon.Put(10,0,1);
 
 	#Ps/SN
 	$sig-30;
