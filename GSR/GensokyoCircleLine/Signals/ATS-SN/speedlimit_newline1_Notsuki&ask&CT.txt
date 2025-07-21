@@ -1,0 +1,189 @@
+BveTs Map 2.00
+$distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+$distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
+640+$distMap_MRY_T2;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,75);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+1020+$distMap_MRY_T2;
+
+565+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+1235+$distMapB;
+
+1320+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,90);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+1840+$distMapB;
+
+2085+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+2390+$distMapB;
+    
+2960+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,95);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+3485+$distMapB;
+    
+3925+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+4460+$distMapB;
+
+4665+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,105);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+5015+$distMapB;
+    
+6675+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,105);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+7290+$distMapB;
+    
+8765+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,105);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+9165+$distMapB;
+    
+9565+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+10065+$distMapB;
+    
+10425+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+10960+$distMapB;
+    
+12485+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,95);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+12670+$distMapB;
+
+12760+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,70);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+12760+34.91+11+34.91+$distMapB;
+    
+13100+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,70);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+13100+34.91+11+34.91+$distMapB;
+    
+14780+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,105);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+15175+$distMapB;
+    
+16225+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,80);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+16405+$distMapB;
+    
+16560+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+16785+$distMapB;
+    
+16965+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,105);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+17250+$distMapB;
+    
+17345+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+17535+25+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,80);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+17845+$distMapB;
+    
+18065+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,75);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+18200+$distMapB;
+    
+18380+$distMapB;//道岔
+    # $sig=distance;
+	# $sig-10;
+	# Beacon.Put(9,0,55);
+	# Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+18380+23.56+20.92+26.13+$distMapB;
+
+18780+$distMapB;//道岔
+    # $sig=distance;
+	# $sig-10;
+	# Beacon.Put(9,0,55);
+	# Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+18780+23.56+20.92+23.56+$distMapB;
+    //SpeedLimit.End(); #
+18950+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,80);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+19215+$distMapB;
+    
+19390+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,75);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+19850+$distMapB;
+
+20855+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,105);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+20965+$distMapB;
+
+21465+$distMapB;
+    $sig=distance;
+	$sig-10;
+	Beacon.Put(9,0,95);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+21635+$distMapB;
