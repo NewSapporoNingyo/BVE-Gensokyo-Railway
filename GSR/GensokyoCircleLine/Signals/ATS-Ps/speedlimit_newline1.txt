@@ -196,7 +196,7 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 12760+$distMapB;
     $sig=distance;
     $sig-555;
-	Beacon.Put(16,0,70);
+	Beacon.Put(15,0,70);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
     $sig-555-15;
     Beacon.Put(14,0,90);
