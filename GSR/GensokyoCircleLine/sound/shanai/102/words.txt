@@ -34,140 +34,37 @@ hakurei-dep:
 This is the Gensokyo Loop line Local train to Ningennosato and Moriya Shrine.This train is staffed with only one driver.The next station is Minami-Hakurei.It may be neccesary for the train to stop suddenly,to prevent accident.So please be careful.For the price of the fare,please check the fare indicator.Please do not speak to the driver while the train is moving.
 
 mhakurei-arr:
-まもなく、南博麗、南博麗です。お出口は、左側です。
-We will soon arrive at Minami-Hakurei.The doors on the left side will open.
-列车即将到达南博丽站，左侧的车门将会打开。
+まもなく、南博麗、南博麗です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
+We will soon arrive at Minami-Hakurei.Only the door next to the driver will open.
 
 mhakurei-dep:
 次は、永遠亭、永遠亭です。お降りのお客様は、列車の一番前のドアまでお進みください。
 The next station is Eientei.Only the door next to the driver will open.
 
-mhakurei-eientei2:
-まもなく、永遠亭、永遠亭です。お出口は、右側です。
-We will soon arrive at Eientei.The doors on the right side will open.
-列车即将到达永远亭站，右侧的车门将会打开。
+eientei-arr:
+まもなく、永遠亭、永遠亭です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
+We will soon arrive at Eientei.Only the door next to the driver will open.
 
-eientei-chikurin1:
-次は、竹林、竹林です。
-The next station is Chikurin.
-列车前方停车站是，竹林。
+eientei-dep:
+次は、竹林、竹林です。お降りのお客様は、列車の一番前のドアまでお進みください。
+The next station is Chikurin.Only the door next to the driver will open.
 
-eientei-chikurin2:
-まもなく、竹林、竹林です。お出口は、左側です。
-We will soon arrive at Chikurin.The doors on the left side will open.
-列车即将到达竹林站，左侧的车门将会打开。
+chikurin-arr:
+まもなく、竹林、竹林です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
+We will soon arrive at Chikurin.Only the door next to the driver will open.
 
-chikurin-minaminingennosato1:
+chikurin-dep:
 次は、南人間の里、南人間の里です。
 The next station is Minami-ningennosato.
-列车前方停车站是，南人间之里。
 
-chikurin-minaminingennosato2:
-まもなく、南人間の里、南人間の里です。お出口は、左側です。
-We will soon arrive at Minami-ningennosato.The doors on the left side will open.
-列车即将到达南人间之里站，左侧的车门将会打开。
+mningen-arr:
+まもなく、南人間の里、南人間の里です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。
+We will soon arrive at Minami-ningennosato.All the doors on the platform side will open.
 
-minaminingennosato-ningennosato1:
-次は、終点人間の里、人間の里です。
-The next station is Ningennosato terminal.
-下一站是终点，人间之里站。
-
-minaminingennosato-ningennosato2:
-まもなく、終点人間の里、人間の里です。お出口は左側です。お忘れ物、落とし物の無いようご注意ください。本日も、幻想郷鉄道をご利用くださいまして、ありがとうございました。
-We will soon arrive at Ningennosato terminal.The doors on the left side will open.Please make sure you have  all belogings when leaving the train.Thank you for traveling with us and we look forward to seving you again.
-列车即将到达终点人间之里站，左侧的车门将会打开。请带齐您的行李物品在此站下车，感谢您今天乘坐幻想乡铁道。
-
-ご乗車くださいましてありがとうございました。まもなく、終点の人間の里です。四番線に到着します。お出口は左側です。この電車は終点の人間の里に着きますと折り返し博麗神社ゆきの普通電車です。ご乗車には博麗神社方面の乗車券が必要ですにご注意ください。本日も幻想郷鉄道をご利用くださいましてありがとうございました。まもなく、終点の人間の里です。
-
-minaminingennosato-ningennosato1-105107m:
+mningen-dep:
 次は、人間の里、人間の里です。
 The next station is Ningennosato.
-列车前方停车站是，人间之里。
 
-minaminingennosato-ningennosato2-105107m:
-まもなく、人間の里、人間の里です。お出口は、左側です。
-We will soon arrive at Ningennosato.The doors on the left side will open.
-列车即将到达人间之里站，左侧的车门将会打开。
-
-exchange-ningen-101M:
-お客様に接続列車を案内いたします。十時四十分発、普通電車守矢神社ゆき、降りたホームの向かい側、3番線発です。
-北命蓮寺、妖怪の樹海、草田駅へ降りの客様は、人間の里でこの列車にお乗り換えでください。
-We will guide you to a connecting train. The local train bound for Moriya Shrine will departs at 10:40 from Track 3, on the opposite side of the platform you arrived on. Passengers heading to Kita-myorenji, Youkaionjyukai and Kusada Station,please transfer to this train at Ningennosato.
-现在为您播报换乘列车信息，开往守失神社的普通列车，将会在 10点40分 发车，请在下车的站台对侧的3站台乘坐。去往北命莲寺、妖怪之树海、草田站的旅客，请在人间之里站换乘此列车。
-
-ningennosato-nishiningennosato1-105m:
-本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、守矢神社ゆきです。次は、西人間の里、西人間の里です。
-Thank you for using Gensokyo Railway.This is the local train bound for Moriya Shrine.The next station is Nishiningennosato.
-感谢您乘坐幻想乡铁道。本次列车是普通列车，开往守失神社。列车前方停车站是，西人间之里。
-
-ningennosato-nishiningennosato1-107m:
-本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、環状線、快速もりや、守矢神社ゆきです。西人間の里、命蓮寺、終点、守矢神社の順に止まります。次は、西人間の里、西人間の里です。
-Thank you for using Gensokyo Railway.This is the Loop line rapid service train "Moriya" bound for Moriya Shrine.We will stop at,Nishiningennosato,Myorenji,and Moriya Shrine teminal.The next station is Nishiningennosato.
-感谢您乘坐幻想乡铁道。本次列车是快速“守失”号，开往守失神社。停车站是，西人间之里、命莲寺、终点是守失神社站。列车前方停车站是，西人间之里。
-
-ningennosato-nishiningennosato2-105107m
-まもなく、西人間の里、西人間の里です。お出口は、右側です。
-We will soon arrive at Nishi-ningennosato.The doors on the right side will open.
-列车即将到达西人间之里站，右侧的车门将会打开。
-
-nishiningennosato-myorenji1-105107m:
-次は、命蓮寺、命蓮寺です。
-The next station is Myorenji.
-列车前方停车站是，命莲寺。
-
-nishiningennosato-myorenji2-105107m:
-まもなく、命蓮寺、命蓮寺です。お出口は、右側です。
-We will soon arrive at Myorenji.The doors on the right side will open.
-列车即将到达命莲寺站，右侧的车门将会打开。
-
-myoren-Kmyoren1:
-次は、北命蓮寺、北命蓮寺です。
-The next station is Kita-Miorenji.
-列车前方停车站是，北命莲寺。
-
-myoren-Kmyoren2:
-まもなく、北命蓮寺、北命蓮寺です。お出口は、左側です。
-We will soon arrive at Kita-Miorenji.The doors on the left side will open.
-列车即将到达，北命莲寺站，左侧的车门将会打开。
-
-Kmyoren-jyukai1:
-次は、妖怪の樹海、妖怪の樹海です。
-The next station is Youkai-no-Jyukai.
-列车前方停车站是，妖怪之树海。
-
-Kmyoren-jyukai2:
-まもなく、妖怪の樹海、妖怪の樹海です。お出口は、左側です。
-We will soon arrive at Youkai-no-Jyukai.The doors on the left side will open.
-列车即将到达，妖怪之树海站，左侧的车门将会打开。
-
-jyukai-kusada1:
-次は、草田、草田です。
-The next station is Youkai-no-Jyukai.
-列车前方停车站是，草田。
-
-jyukai-kusada2:
-まもなく、草田、草田です。お出口は、左側です。
-We will soon arrive at Kusada.The doors on the left side will open.
-列车即将到达，草田站，拆左边门。
-
-Nextmoriya-Terminal:
-次は、終点守矢神社、守矢神社です。
-The next station is Moriya Shrine terminal.
-下一站是终点，守矢神社。
-
-Soonmoriya-Terminal:
-まもなく、終点守矢神社、守矢神社です。両側のドアが開きます。お忘れ物、落とし物の無いようご注意ください。本日も、幻想郷鉄道をご利用くださいまして、ありがとうございました。
-We will soon arrive at Moriya Shrine terminal.The doors on the both side will open.Please change here for the Gensokyo Monorail.Please make sure you have all belogings when leaving the train.Thank you for traveling with us and we look forward to serving you again.
-列车即将到达终点守矢神社站，两侧的车门都会打开。请带齐您的行李物品在此站下车，感谢您今天乘坐幻想乡铁道。
-
-ご乗車くださいましてありがとうございました。まもなく、終点の守矢神社です。二番線に到着します。本日も幻想郷鉄道をご利用くださいましてありがとうございました。まもなく、終点の守矢神社です。
-Experimental:
-Gleis 3,Einfahrt RE 2 nach Ningennosato Hauptbahnof;über Schin-Kouma.Abfahrt 15:32 Uhr;Vorsicht bei der Einfahrt.
-
-
-
-
-
-
-
-
+ningen-arr:
+まもなく、人間の里、人間の里です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。博麗守矢ライン、霧の湖・妖怪山高速線はお乗り換えです。
+We will soon arrive at Minami-ningennosato.All the doors on the platform side will open.Please change here for the Hakurei-Moriya Line and SFS Kirinoko-Youkaizan.
