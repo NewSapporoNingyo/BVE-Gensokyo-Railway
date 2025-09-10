@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" modified="2025-09-10T06:35:51.055Z" version="21.6.1" etag="7s-HLCKqv1vVLgXWxpFH" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
   <diagram name="Page-1" id="u8aUBlL13KQeWDRxbzS9">
-    <mxGraphModel dx="1383" dy="1702" grid="1" gridSize="5" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1300" math="0" shadow="0">
+    <mxGraphModel dx="1435" dy="1864" grid="1" gridSize="5" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -926,7 +926,7 @@
         <mxCell id="Ivb3BQ265d0Xipn8B_8D-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;幽明&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-474" y="-965" width="40" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="Ivb3BQ265d0Xipn8B_8D-39" value="&lt;font size=&quot;1&quot; color=&quot;#ffffff&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;雾之湖-妖怪山高速线&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=#0000cc;opacity=90;" parent="1" vertex="1">
+        <mxCell id="Ivb3BQ265d0Xipn8B_8D-39" value="&lt;font size=&quot;1&quot; color=&quot;#ffffff&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;妖怪山标准轨实验线&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=#0000cc;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="-154" y="-705" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ivb3BQ265d0Xipn8B_8D-40" value="&lt;font size=&quot;1&quot; color=&quot;#ffffff&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;博丽东线&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=#0000cc;opacity=90;" parent="1" vertex="1">
@@ -935,7 +935,7 @@
         <mxCell id="Ivb3BQ265d0Xipn8B_8D-41" value="&lt;font size=&quot;1&quot; color=&quot;#ffffff&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;雾之湖线&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=#0000cc;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="-254" y="-320" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ivb3BQ265d0Xipn8B_8D-42" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;雾之湖-妖怪山高速线&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=#0000cc;opacity=90;" parent="1" vertex="1">
+        <mxCell id="Ivb3BQ265d0Xipn8B_8D-42" value="&lt;font size=&quot;1&quot; color=&quot;#ffffff&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;妖怪山标准轨实验线&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=#0000cc;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="-276" y="-600" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ixQYzUR_9ilT7Fjt8lEI-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#FFFFFF;arcSize=24;strokeWidth=2;" parent="1" vertex="1">
