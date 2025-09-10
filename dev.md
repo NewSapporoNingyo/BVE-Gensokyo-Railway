@@ -304,15 +304,15 @@ Note: Due to the lack of geography information, some station names were original
 |S 75|白玉楼       | 	   ○	    |    |           |             |		 |       |相対式2面2線   | 地面 |
 |S 76|西行妖       | 	   ○	    |    |           |             |		 |       |1面1線   | 地面 |
 
-Hakurei East・Mist Lake・Standard Gauge Experimental Line of Mt.Youkai<br>
+Hakurei East Line・SFS MistLake-Mt.Youkai<br>
 #### Hakurei Shrine East->Shin-Koma
 ##### 博麗東線
-|#   |駅名          |優等列車停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
-|--- |---          |---          |--- |---         |---         |---    |---    |---         |---   |
+|#   |駅名       |優等列車停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
+|--- |---       |---          |--- |---         |---         |---    |---    |---         |---   |
 | 　 |博麗神社東 | 	○    　　 |    |           |             |120		 |複線       |特別式 |地面 |
 | 　 |新紅魔 | 	○	      |    |         |           |165	 |複線     |島式2面4線   | 高架 |
-#### Ningennosato Main Station->Shin-Koma
-##### 博麗東線
+#### Ningennosato Main Station->Yakumotei
+##### 霧の湖・妖怪山高速線(SFS MistLake-Mt.Youkai)
 |#   |駅名          |優等列車停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
 |--- |---          |---          |--- |---         |---         |---    |---    |---         |---   |
 | 　 |人里中央 | 	○    　　 |    |           |             |90		 |複線       |特別式 |地下 |
@@ -320,11 +320,6 @@ Hakurei East・Mist Lake・Standard Gauge Experimental Line of Mt.Youkai<br>
 | 　 |魔法の森 | 	○    　　 |    |           |             |		 |       |島式2面2線 |地面 |
 | 　 |紅魔館 | 	○    　　 |    |           |             |		 |       |相対式2面2線 |高架 |
 | 　 |新紅魔 | 	○	      |    |         |           |165	 |複線     |島式2面4線   | 高架 |
-#### Shin-Koma->Saigyoayakashi
-##### 妖怪山標準軌実験線
-|#   |駅名          |優等列車停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
-|--- |---          |---          |--- |---         |---         |---    |---    |---         |---   |
-| 　 |新紅魔  　　　| 	○    　　 |    |           |             |165		 |       |島式2面4線 |高架|
 | 　 |新无缘冢（分岐点） | 	↓	      |    |         |           |240	 |複線     |0面2線   | 地面/橋上 |
 | Y 26|河城          | 	○	     |    |           |             |    	|        |島式2面2線   | 地面 |
 | Y 31|文            | 	○	    |    |           |             |   		 |        |島式2面2線+通過線 | 地面 |
@@ -439,4 +434,3 @@ S：近郊列車（通勤型電車使用）<br>
 |D列車|○（3）　         | 	○（2）    | ○（1）         | 	  　        |             |
 |S列車|○（1）　         | 	○（3）    | ○（4）         | 	  　        |    ○（2）         |
 |臨時列車|○　         | 	    |          | 	  　        |             |
-#### Platform lights at Minami-ningennosato station
