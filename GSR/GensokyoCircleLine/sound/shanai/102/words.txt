@@ -66,8 +66,8 @@ mningen-dep:
 The next station is Ningennosato.
 
 ningen-arr:
-まもなく、人間の里、人間の里です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。博麗守矢ライン、霧の湖・妖怪山高速線はお乗り換えです。
-We will soon arrive at Minami-ningennosato.All the doors on the platform side will open.Please change here for the Hakurei-Moriya Line and SFS MistLake-Mt.Youkai.
+まもなく、人間の里、人間の里です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。博麗守矢ライン、霧の湖線と霧の湖・妖怪山高速線の列車はお乗り換えです。
+We will soon arrive at ningennosato.All the doors on the platform side will open.Please change here for the Hakurei-Moriya Line,Mist Lake Line and SFS MistLake-Mt.Youkai to Shin-Kouma and Yakumotei.
 
 ningen-dep:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、守矢神社、紅魔館方面ゆき、ワンマンカーです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革、手すりにおつかまりください。運賃は、運賃表示器の確認のうえ、ご用意ください。また、運転士へのご用件は、安全のため停車中にお願いいたします。次は、西人間の里、西人間の里です。
@@ -109,9 +109,86 @@ kusada-arr:
 まもなく、草田、草田です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
 We will soon arrive at Youkainojyukai.Only the door next to the driver will open.
 
+kusada-dep:
+次は、守矢神社、守矢神社です。
+The next station is Moriya Shrine.
+
 moriya-arr:
 まもなく、守矢神社、守矢神社です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。旧都本線、守矢ロープウェイはお乗り換えです。
 We will soon arrive at Minami-ningennosato.All the doors on the platform side will open.Please change here for the Kyuto main Line,and Moriya ropeway.
+
+moriya-dep:
+本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、紅魔館、博麗神社方面ゆき、ワンマンカーです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革、手すりにおつかまりください。運賃は、運賃表示器の確認のうえ、ご用意ください。また、運転士へのご用件は、安全のため停車中にお願いいたします。次は、風神の湖、風神の湖です。
+This is the Gensokyo Loop line Local train to Komakan and Hakurei Shrine.This train is staffed with only one driver.The next station is Fuujinnoko.It may be neccesary for the train to stop suddenly to prevent accident.So please be careful.For the price of the fare,please check the fare indicator.Please do not speak to the driver while the train is moving.
+
+fujin-arr:
+まもなく、風神の湖、風神の湖です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
+We will soon arrive at Fuujinnoko.Only the door next to the driver will open.
+
+fujin-dep:
+次は、玄武の沢、玄武の沢です。お降りのお客様は、列車の一番前のドアまでお進みください。
+The next station is Genbunosawa.Only the door next to the driver will open.
+
+genbu-arr:
+まもなく、玄武の沢、玄武の沢です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
+We will soon arrive at Genbunosawa.Only the door next to the driver will open.
+
+genbu-dep:
+次は、香霖堂前、香霖堂前です。
+The next station is Korindomae.
+
+korin-arr:
+まもなく、香霖堂前、香霖堂前です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。
+
+korin-dep:
+次は、魔法の森、魔法の森です。お降りのお客様は、列車の一番前のドアまでお進みください。
+The next station is Mahonomori.Only the door next to the driver will open.
+
+mori-arr:
+まもなく、魔法の森、魔法の森です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。霧の湖線、霧の湖・妖怪山高速線、新紅魔、八雲邸方面の列車はお乗り換えです。
+We will soon arrive at Mahonomori.Only the door next to the driver will open.Please change here for the Mist Lake Line and SFS MistLake-Mt.Youkai to Shin-Kouma and Yakumotei.
+
+mori-dep:
+次は、霧の湖、霧の湖です。お降りのお客様は、列車の一番前のドアまでお進みください。
+The next station is Kirinoko.Only the door next to the driver will open.
+
+kirinoko-arr:
+まもなく、霧の湖、霧の湖です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
+We will soon arrive at Kirinoko.Only the door next to the driver will open.
+
+kirinoko-dep:
+次は、紅魔館、紅魔館です。
+The next station is Koumakan.
+
+koma-arr:
+まもなく、紅魔館、紅魔館です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。湖東線と妖怪山線、文、八雲邸、白玉楼方面の列車、霧の湖線と霧の湖・妖怪山高速線、新紅魔、八雲邸方面の列車はお乗り換えです。
+We will soon arrive at Minami-ningennosato.All the doors on the platform side will open.Please change here for the Koto Line and Youkaizan Line to Aya,Yakumotei,Hakugyokuro.Mist Lake Line and SFS MistLake-Mt.Youkai to Shin-Kouma and Yakumotei.
+
+koma-dep:
+本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、博麗神社、人間の里方面ゆき、ワンマンカーです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革、手すりにおつかまりください。運賃は、運賃表示器の確認のうえ、ご用意ください。また、運転士へのご用件は、安全のため停車中にお願いいたします。次は、上霧の湖、上霧の湖です。
+This is the Gensokyo Loop line Local train to Hakurei Shrine and Ningennosato.This train is staffed with only one driver.The next station is Kami-kirinoko.It may be neccesary for the train to stop suddenly to prevent accident.So please be careful.For the price of the fare,please check the fare indicator.Please do not speak to the driver while the train is moving.
+
+kamikiri-arr:
+まもなく、上霧の湖、上霧の湖です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
+We will soon arrive at kami-Kirinoko.Only the door next to the driver will open.
+
+kamikiri-dep:
+次は、北博麗、北博麗です。お降りのお客様は、列車の一番前のドアまでお進みください。
+The next station is Kita-Hakurei.Only the door next to the driver will open.
+
+kitahakurei-arr:
+まもなく、北博麗、北博麗です。列車の一番前のドアだけが開きます。乗車券または運賃は、列車が止まってから運賃箱へお入れてください。
+We will soon arrive at Kita-Hakurei.Only the door next to the driver will open.
+
+kitahakurei-dep:
+次は、博麗神社、博麗神社です。
+The next station is Hakurei Shrine.
+
+hakurei-arr:
+まもなく、博麗神社、博麗神社です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。博麗守矢ラインお乗り換えです。
+We will soon arrive at Minami-ningennosato.All the doors on the platform side will open.Please change here for the Hakurei-Moriya Line.
+
+
 
 
 
