@@ -23,7 +23,7 @@ jyukai,sound\station\jyukai.wav
 kusada,sound\station\kusada.wav
 moriya1,sound\station\moriya1.wav
 
-#121M,genneral
+#121M,general
 go01go02-1,sound\shanai\hakurei-mhakurei1.wav
 go01go02-101M,sound\shanai\hakurei-mhakurei101M.wav
 go01go02-2,sound\shanai\hakurei-mhakurei2.wav
@@ -62,3 +62,7 @@ go07go08-1-105M,sound\shanai\nishiningennosato-myorenji1-105m.wav
 go07go08-2-105M,sound\shanai\nishiningennosato-myorenji2-105m.wav
 go11go12-1-105M,sound\shanai\Nextmoriya-Terminal-e129.wav
 go11go12-2-105M,sound\shanai\Soonmoriya-Terminal-e129.wav
+
+#Part102-stopping
+102-hkr,sound\shanai\102\hakurei-stopping-oneman.wav
+102-s1,sound\shanai\102\HKR-NNS-stopping-oneman.wav
