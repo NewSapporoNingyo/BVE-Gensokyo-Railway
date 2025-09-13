@@ -78,7 +78,9 @@ go11go12-2-105M,sound\shanai\Soonmoriya-Terminal-e129.wav
 102-s2,sound\shanai\102\NNS-MRY-stopping-oneman.wav
 102-s3,sound\shanai\102\MRY-KMK-stopping-oneman.wav
 102-s4,sound\shanai\102\KMK-HKR-stopping-oneman.wav
-
+#Part102
+102-1-dep,sound\shanai\102\1-hakurei-dep.wav
+102-2-arr,sound\shanai\102\2-mhakurei-arr.wav
 #mix
 ningen1+102nin,sound\station\ningennosato1+102nin.wav
 moriya1+102mry,sound\station\moriya1+102mry.wav

@@ -1,9 +1,9 @@
 BveTs Map 2.02
 
 1520;
-Sound['go01go02-1-105M'].Play();
+Sound['102-1-dep'].Play();
 5990;
-Sound['go01go02-2'].Play();
+Sound['102-2-arr'].Play();
 6690;
 Sound['go02go03-1'].Play();
 11513;
