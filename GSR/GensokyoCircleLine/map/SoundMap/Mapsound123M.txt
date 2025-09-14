@@ -21,7 +21,7 @@ Sound['102-5-dep'].Play();
 23395;
 Sound['102-6-arr-noic'].Play();
 23925;
-Sound['go06go07-1-105M'].Play();
+Sound['102-6-dep'].Play();
 25423;
 Sound['go06go07-2-105M'].Play();
 25953;

@@ -90,6 +90,8 @@ go11go12-2-105M,sound\shanai\Soonmoriya-Terminal-e129.wav
 102-5-dep,sound\shanai\102\5-mningen-dep.wav
 102-6-arr,sound\shanai\102\6-ningen-arr.wav
 102-6-arr-noic,sound\shanai\102\6-ningen-arr-nointerch.wav
+102-6-dep,sound\shanai\102\6-ningen-dep.wav
+
 #mix
 ningen1+102nin,sound\station\ningennosato1+102nin.wav
 moriya1+102mry,sound\station\moriya1+102mry.wav

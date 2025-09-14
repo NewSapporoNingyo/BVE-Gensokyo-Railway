@@ -162,7 +162,7 @@ The next station is Koumakan.
 
 koma-arr:
 まもなく、紅魔館、紅魔館です。ホーム側全てのドアが開きます。乗車券、運賃は、駅改札口の係員にお渡しください。湖東線と妖怪山線、文、八雲邸、白玉楼方面の列車、霧の湖線と霧の湖・妖怪山高速線、新紅魔、八雲邸方面の列車はお乗り換えです。
-We will soon arrive at Minami-ningennosato.All the doors on the platform side will open.Please change here for the Koto Line and Youkaizan Line to Aya,Yakumotei,Hakugyokuro.Mist Lake Line and SFS MistLake-Mt.Youkai to Shin-Kouma and Yakumotei.
+We will soon arrive at Koumakan.All the doors on the platform side will open.Please change here for the Koto Line and Youkaizan Line to Aya,Yakumotei,Hakugyokuro.Mist Lake Line and SFS MistLake-Mt.Youkai to Shin-Kouma and Yakumotei.
 
 koma-dep:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、環状線外回り、博麗神社、人間の里方面ゆき、ワンマンカーです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革、手すりにおつかまりください。運賃は、運賃表示器の確認のうえ、ご用意ください。また、運転士へのご用件は、安全のため停車中にお願いいたします。次は、上霧の湖、上霧の湖です。
