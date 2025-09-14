@@ -95,9 +95,9 @@ Structure['4_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 //人里车辆中心
 Structure['3_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 Structure['3_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
-3673+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+3670+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //西人里-命莲寺 第2闭塞
-Structure['2_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['2_N'].Put('1',-2.6,3,-0.2,0,0,0,,);
 4880+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 //西人里-命莲寺 第1闭塞
 Structure['1_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
