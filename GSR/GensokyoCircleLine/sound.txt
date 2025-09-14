@@ -26,9 +26,13 @@ jyukai,sound\station\jyukai.wav
 kusada,sound\station\kusada.wav
 moriya1,sound\station\moriya1.wav
 moriya-t2-localdep,sound\station\moriya-t2-localdep.wav
+korindo,sound\station\korindo.wav
+mahonomori,sound\station\mahonomori.wav
+kirinoko,sound\station\kirinoko.wav
 kouma1,sound\station\kouma1.wav
 kouma-t1-loop-local-dep,sound\station\kouma-t1-loop-local-dep.wav
-
+kitahakurei,sound\station\kitahakurei.wav
+cl-nomusic,sound\station\doorclose-nomusic.wav
 #121M,general
 go01go02-1,sound\shanai\hakurei-mhakurei1.wav
 go01go02-101M,sound\shanai\hakurei-mhakurei101M.wav
