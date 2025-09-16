@@ -128,6 +128,7 @@ tunnelpole,Structures\Accessory\E_Poles\acc\MinibeamF02_dark.x
 ackasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02_AC.x
 kasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02.x
 wirehanger,Structures\Accessory\E_Poles\acc\chokasen_gaisi.x
+acwirehanger,Structures\Accessory\E_Poles\acc\chokasen_gaisi.x
 kasenhangL,Structures\Accessory\E_Poles\acc\MinibeamF01R.x
 kasenhangR,Structures\Accessory\E_Poles\acc\MinibeamF02L.x
 wire40m_L,Structures\GSR\frameworks\wire40m_L.x
@@ -375,6 +376,9 @@ TunU,Structures\Accessory\Posts\Tunnel\t_pitchU.x
 300t,Structures\GSR\300mteimae.x
 teisha,Structures\GSR\teisha.x
 teishaT,Structures\GSR\teishaT.x
+Tkoma,Structures\GSR\tsta\Koma.x
+Tkamikiri,Structures\GSR\tsta\Kamikiri.x
+Tnhakurei,Structures\GSR\tsta\Nhakurei.x
 Tmoriya,Structures\GSR\tsta\Moriya.x
 Tkusada,Structures\GSR\tsta\Kusada.x
 Tjyukai,Structures\GSR\tsta\Ynojyukai.x
@@ -386,6 +390,7 @@ Tmningen,Structures\GSR\tsta\Mningen.x
 Tchikurin,Structures\GSR\tsta\Chikurin.x
 Teientei,Structures\GSR\tsta\Eientei.x
 Tmhakurei,Structures\GSR\tsta\Mhakurei.x
+Thakurei,Structures\GSR\tsta\Hakurei.x
 #beacon
 PBeacon1,Structures\Default\Beacon4.x
 PBeacon2,Structures\Default\Beacon3.x

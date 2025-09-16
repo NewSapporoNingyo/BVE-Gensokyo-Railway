@@ -173,8 +173,6 @@ We will soon arrive at Moriya Shrine terminal.The doors on the both side will op
 列车即将到达终点守矢神社站，两侧的车门都会打开。请带齐您的行李物品在此站下车，感谢您今天乘坐幻想乡铁道。
 
 ご乗車くださいましてありがとうございました。まもなく、終点の守矢神社です。二番線に到着します。本日も幻想郷鉄道をご利用くださいましてありがとうございました。まもなく、終点の守矢神社です。
-Experimental:
-Gleis 3,Einfahrt RE 2 nach Ningennosato Hauptbahnof;über Schin-Kouma.Abfahrt 15:32 Uhr;Vorsicht bei der Einfahrt.
 
 
 
