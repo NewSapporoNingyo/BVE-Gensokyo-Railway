@@ -379,6 +379,8 @@ teishaT,Structures\GSR\teishaT.x
 Tnhakurei,Structures\GSR\tsta\Nhakurei.x
 Tkamikiri,Structures\GSR\tsta\Kamikiri.x
 Tkoma,Structures\GSR\tsta\Koma.x
+Tkiri,Structures\GSR\tsta\Kiri.x
+Tmori,Structures\GSR\tsta\Mori.x
 Tkorin,Structures\GSR\tsta\Korin.x
 Tgenbu,Structures\GSR\tsta\Genbu.x
 Temoriya,Structures\GSR\tsta\Emoriya.x
