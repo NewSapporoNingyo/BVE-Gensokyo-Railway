@@ -376,9 +376,13 @@ TunU,Structures\Accessory\Posts\Tunnel\t_pitchU.x
 300t,Structures\GSR\300mteimae.x
 teisha,Structures\GSR\teisha.x
 teishaT,Structures\GSR\teishaT.x
-Tkoma,Structures\GSR\tsta\Koma.x
-Tkamikiri,Structures\GSR\tsta\Kamikiri.x
 Tnhakurei,Structures\GSR\tsta\Nhakurei.x
+Tkamikiri,Structures\GSR\tsta\Kamikiri.x
+Tkoma,Structures\GSR\tsta\Koma.x
+Tkorin,Structures\GSR\tsta\Korin.x
+Tgenbu,Structures\GSR\tsta\Genbu.x
+Temoriya,Structures\GSR\tsta\Emoriya.x
+Tfujin,Structures\GSR\tsta\fujin.x
 Tmoriya,Structures\GSR\tsta\Moriya.x
 Tkusada,Structures\GSR\tsta\Kusada.x
 Tjyukai,Structures\GSR\tsta\Ynojyukai.x

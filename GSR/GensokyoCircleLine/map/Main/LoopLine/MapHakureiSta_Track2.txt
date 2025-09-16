@@ -262,7 +262,7 @@ $distMap_HKR_T2=$dist1;
 	Repeater['LightR2'].Begin('3',2.5,4.27,0,,,0,3,,3, 'light');
 	Fog.Interpolate(0.004,0.8,0.8,0.8);
 380-710+$distMap_HKR_T2;
-	Structure['Thakurei'].Put('1',-2.6,1.1,-0.01,,,,,);
+	Structure['Thakurei'].Put('northline',-2.6,1.1,-0.01,,,,,);
 380-300+$distMap_HKR_T2;
 	Structure['300t'].Put('3',-2.3,-0.7,0,,,,,);
 	Structure['limitpole'].Put('3',-2.3,-0.3,0,,,,,);
