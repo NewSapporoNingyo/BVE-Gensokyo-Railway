@@ -247,6 +247,7 @@ shadow_s2,structures\200_png\initg_ecset\shadow_s2.x
 shadow_s1n,structures\200_png\initg_ecset\shadow_s1_n.x
 shadow_s2n,structures\200_png\initg_ecset\shadow_s2_n.x
 #ekimei
+Nhakurei,Structures\ekimeihyo\Nhakurei.x
 Moriya,Structures\ekimeihyo\Moriya.x
 Kusada,Structures\ekimeihyo\Kusada.x
 Jyukai,Structures\ekimeihyo\Jyukai.x
