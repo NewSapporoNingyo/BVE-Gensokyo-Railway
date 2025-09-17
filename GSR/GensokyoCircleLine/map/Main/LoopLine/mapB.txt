@@ -1678,7 +1678,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Track['mountain'].Position(-57,50,0,0);
 	Repeater['metalfenceR'].Begin('1',4.4,1.5,0, , , ,3,5,5, 'metalfenceL');
 	Repeater['formR1'].Begin('1',0, 0, 0, , , ,3,,5, 'formR');
-	Repeater['ekimei'].Begin('1',4.4,6.1,15,180,90, ,3,,30, 'Kmyoren');
+	Repeater['ekimei'].Begin('1',4.37,5.45,13.7,180,90, ,3,,30, 'Kamikiri');
 	Repeater['formgroundR1'].Begin('1',0, 0, 0, , , ,3,5,5, 'formgroundR');
 	Repeater['formgroundR11'].Begin('1',0,-1.59, 0, , , ,3,5,5, 'formgroundR');
 	//Structure['formgroundR'].Put('1',2,0,0,,,,,);
