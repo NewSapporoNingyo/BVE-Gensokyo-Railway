@@ -1673,6 +1673,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Structure['formgroundR'].Put('1',6.6,-5.8,0,,,,,);
 	Structure['formgroundR'].Put('1',6.9,-6.0,0.01,,,,,);
 	Structure['formgroundR'].Put('1',7.2,-6.2,0.01,,,,,);
+	Structure['metalfenceL'].Put('1',2.4,0,0,,,,,);
 20630+$distMapB;
 	Track['mountain'].Position(-57,50,0,0);
 	Repeater['metalfenceR'].Begin('1',4.4,1.5,0, , , ,3,5,5, 'metalfenceL');
