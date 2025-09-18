@@ -249,6 +249,8 @@ shadow_s2n,structures\200_png\initg_ecset\shadow_s2_n.x
 #ekimei
 Nhakurei,Structures\ekimeihyo\Nhakurei.x
 Kamikiri,Structures\ekimeihyo\Kamikiri.x
+Genbu,Structures\ekimeihyo\Genbu.x
+Fujin,Structures\ekimeihyo\Fujin.x
 Moriya,Structures\ekimeihyo\Moriya.x
 Kusada,Structures\ekimeihyo\Kusada.x
 Jyukai,Structures\ekimeihyo\Jyukai.x
@@ -302,6 +304,8 @@ carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
 crost,Structures\structure_Cro_st\Cro_st.x
 metalfence,Structures\structure_NF\NF.x
 metalfenceL,Structures\structure_RF\RF.x
+metalfenceS,Structures\structure_RF\RF-short.x
+metalfenceSlo,Structures\structure_RF\RF-slope.x
 stop,Structures\Default\Stop.x
 stop6,Structures\Default\Stop6.x
 stop10,Structures\ACCC\Station\Stop10.x
