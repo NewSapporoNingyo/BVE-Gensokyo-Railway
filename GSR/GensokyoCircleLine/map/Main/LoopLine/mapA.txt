@@ -894,6 +894,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Structure['formR'].Put('1',0,-1.29,-4.82,-15,,,,);
 	Structure['formgroundL'].Put('2',0,-1.29,-4.82,-15,,,,);
 9178+$distMapA;
+	Repeater['lightR'].Begin('1',3.3,-1.5,20, , , ,3,40,40, 'polelight');
 	Repeater['formL1'].Begin('2',0, 0, 0, , , ,3,,5, 'formL');
 	Repeater['formR1'].Begin('1',0, 0, 0, , , ,3,,5, 'formR');
 	Repeater['formgroundL1'].Begin('2',0, 0, 0, , , ,3,,5, 'formgroundL');
@@ -921,6 +922,7 @@ $distMapA=$dist1+$distHKR_T2;
 9288+$distMapA;
 	Repeater['formL1'].End();
 	Repeater['formR1'].End();
+	Repeater['lightR'].End();
 	Repeater['modernformL1'].Begin('2',0, 0, 0, , , ,3,5,5, 'modernformL');
 	Repeater['modernformR1'].Begin('1',0, 0, 0, , , ,3,5,5, 'modernformR');
 9348+$distMapA;//↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓distance unedited(-1555m)↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
