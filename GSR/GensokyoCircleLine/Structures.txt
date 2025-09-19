@@ -45,6 +45,7 @@ glasswallL,Structures\ACCC\Station\glass6L.x
 glasswallR,Structures\ACCC\Station\glass6R.x
 #bridge
 concbridge,Structures\Bridge\concL_5m.x
+concbridgeN,Structures\Bridge\concN_5m.x
 pier,Structures\Wall\Pier.x
 bridgewallL,Structures\Wall\Wall_QN_L5m.x
 bridgewallR,Structures\Wall\Wall_QN_R5m.x
@@ -250,6 +251,7 @@ shadow_s2n,structures\200_png\initg_ecset\shadow_s2_n.x
 Nhakurei,Structures\ekimeihyo\Nhakurei.x
 Kamikiri,Structures\ekimeihyo\Kamikiri.x
 koma,Structures\ekimeihyo\Koma.x
+komasta,Structures\ekimeihyo\Koma-sta.x
 Kirinoko,Structures\ekimeihyo\Kirinoko.x
 Mori,Structures\ekimeihyo\Mori.x
 Genbu,Structures\ekimeihyo\Genbu.x
