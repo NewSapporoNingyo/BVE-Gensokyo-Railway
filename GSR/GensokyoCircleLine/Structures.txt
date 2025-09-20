@@ -254,6 +254,7 @@ koma,Structures\ekimeihyo\Koma.x
 komasta,Structures\ekimeihyo\Koma-sta.x
 Kirinoko,Structures\ekimeihyo\Kirinoko.x
 Mori,Structures\ekimeihyo\Mori.x
+Korindo,Structures\ekimeihyo\Korindo.x
 Genbu,Structures\ekimeihyo\Genbu.x
 Fujin,Structures\ekimeihyo\Fujin.x
 Moriya,Structures\ekimeihyo\Moriya.x
