@@ -276,6 +276,7 @@ hakurei3,Structures\led\hakurei3.x
 hakurei4,Structures\led\hakurei4.x
 hakurei2-101m,Structures\led\hakurei2-101m.x
 hakurei2-103m,Structures\led\hakurei2-103m.x
+hakurei2-123m,Structures\led\hakurei2-dep0820-Clockwise.x
 mningen1-101m,Structures\led\mningen1-101m.x
 mningen1-103m,Structures\led\mningen1-103m.x
 ningen1,Structures\led\ningen1.x
