@@ -32,6 +32,7 @@ include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
+include 'Other\kiloposts-loopline.txt';
 #--------------
 0;
 

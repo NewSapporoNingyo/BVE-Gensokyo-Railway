@@ -29,6 +29,7 @@ include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';
 include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
+include 'Other\kiloposts-loopline.txt';
 #--------------
 0;
 
