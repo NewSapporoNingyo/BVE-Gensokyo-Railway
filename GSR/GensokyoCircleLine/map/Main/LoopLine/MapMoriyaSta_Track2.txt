@@ -85,7 +85,7 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 	Repeater['pole2'].Begin('2',0,0,0,0,180,0,3,39.99,40,'pole');
 105+$distMap_MRY_T2;
 	Gradient.End();
-	Structure['GPLD'].Put('1',-2.3,-0.6,0,,0,,,);
+	Structure['GPLD'].Put('1',-2.3,0,0,,0,,,);
 167+$distMap_MRY_T2;
 	Curve.BeginTransition();
 195+$distMap_MRY_T2;
