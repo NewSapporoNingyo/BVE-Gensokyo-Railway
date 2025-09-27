@@ -25,6 +25,7 @@ Tunnelpotal-tansen,Structures\Tunnel\kouK1_c1_Potal.x
 Tunnelpotaldark-tansen,Structures\Tunnel\kouK1_c1_Potal.x
 Tunnellp-tansen,Structures\Tunnel\kouK1_cr1_lp.x
 #TunnelSign
+ningenTun,Structures\GSR\tunnel\ningen.x
 jyukaiTun,Structures\GSR\tunnel\jyukai.x
 no1moriya,Structures\GSR\tunnel\no1moriya.x
 no2moriya,Structures\GSR\tunnel\no2moriya.x
