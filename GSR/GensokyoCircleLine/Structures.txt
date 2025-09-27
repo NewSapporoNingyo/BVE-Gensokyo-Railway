@@ -29,6 +29,8 @@ ningenTun,Structures\GSR\tunnel\ningen.x
 jyukaiTun,Structures\GSR\tunnel\jyukai.x
 no1moriya,Structures\GSR\tunnel\no1moriya.x
 no2moriya,Structures\GSR\tunnel\no2moriya.x
+no3moriya,Structures\GSR\tunnel\no3moriya.x
+no4moriya,Structures\GSR\tunnel\no4moriya.x
 #Platform
 modernformL,Structures\ACCC\Station\Form51L.x
 modernformR,Structures\ACCC\Station\Form51R.x
