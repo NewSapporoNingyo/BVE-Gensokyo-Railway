@@ -519,6 +519,8 @@ $distMap_HKR_T2=$dist1;
 	Track['mountain'].Position(-130,50,0,0);
 1620+$distMap_HKR_T2;
 	Track['mountain'].Position(-280,40,0,0);
+1700+$distMap_HKR_T2;
+	Structure['r800'].Put('1',-2.6,3,0.19,,,,,);
 1925+$distMap_HKR_T2;
 	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();

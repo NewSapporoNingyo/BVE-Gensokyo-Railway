@@ -371,6 +371,18 @@ end,Structures\Default\SpeedLimEnd.x
 L,Structures\Default\SpeedLimL.x
 R,Structures\Default\SpeedLimR.x
 limitpole,Structures\Default\SpeedLimpole.x
+#Curveradius
+r300,Structures\Accessory\Posts\JRK\curve\R300.x
+r350,Structures\Accessory\Posts\JRK\curve\R350.x
+r400,Structures\Accessory\Posts\JRK\curve\R400.x
+r450,Structures\Accessory\Posts\JRK\curve\R450.x
+r500,Structures\Accessory\Posts\JRK\curve\R500.x
+r600,Structures\Accessory\Posts\JRK\curve\R600.x
+r650,Structures\Accessory\Posts\JRK\curve\R650.x
+r700,Structures\Accessory\Posts\JRK\curve\R700.x
+r750,Structures\Accessory\Posts\JRK\curve\R750.x
+r800,Structures\Accessory\Posts\JRK\curve\R800.x
+r850,Structures\Accessory\Posts\JRK\curve\R850.x
 #GradientPost
 GPDD,Structures\Accessory\Posts\GradientPost\Gp_DD.x
 GPDL,Structures\Accessory\Posts\GradientPost\Gp_DL.x
@@ -544,6 +556,7 @@ Tchikurin,Structures\GSR\tsta\Chikurin.x
 Teientei,Structures\GSR\tsta\Eientei.x
 Tmhakurei,Structures\GSR\tsta\Mhakurei.x
 Thakurei,Structures\GSR\tsta\Hakurei.x
+
 #beacon
 PBeacon1,Structures\Default\Beacon4.x
 PBeacon2,Structures\Default\Beacon3.x
