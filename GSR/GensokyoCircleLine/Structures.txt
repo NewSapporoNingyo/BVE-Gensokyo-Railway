@@ -31,6 +31,13 @@ no1moriya,Structures\GSR\tunnel\no1moriya.x
 no2moriya,Structures\GSR\tunnel\no2moriya.x
 no3moriya,Structures\GSR\tunnel\no3moriya.x
 no4moriya,Structures\GSR\tunnel\no4moriya.x
+no1fujin,Structures\GSR\tunnel\no1fujin.x
+no2fujin,Structures\GSR\tunnel\no2fujin.x
+no3fujin,Structures\GSR\tunnel\no3fujin.x
+genbuTun,Structures\GSR\tunnel\genbu.x
+no1sawahama,Structures\GSR\tunnel\no1sawahama.x
+no2sawahama,Structures\GSR\tunnel\no2sawahama.x
+no3sawahama,Structures\GSR\tunnel\no3sawahama.x
 #Platform
 modernformL,Structures\ACCC\Station\Form51L.x
 modernformR,Structures\ACCC\Station\Form51R.x
