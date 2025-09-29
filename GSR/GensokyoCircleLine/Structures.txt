@@ -72,7 +72,20 @@ dikeface3,Structures\ACCC\Ground\Dikeface3.x
 Bg_mt,Structures\Bg\Bg_fine_summer_mt3.x
 #nature
 grassland,Structures\Nature\Ground\Grass100m.x
+Aze1,Structures\saha_Common\ground\Aze1.x
+Aze2,Structures\saha_Common\ground\Aze2.x
 fieldL,Structures\Nature\Ground\fieldL_25.x
+Field1L,Structures\saha_Common\ground\Field1L.x
+Field2L,Structures\saha_Common\ground\Field2L.x
+Field3L,Structures\saha_Common\ground\Field3L.x
+Field4L,Structures\saha_Common\ground\Field4L.x
+Field5L,Structures\saha_Common\ground\Field5L.x
+Field1aL,Structures\saha_Common\ground\Field1aL.x
+Field2aL,Structures\saha_Common\ground\Field2aL.x
+Field3aL,Structures\saha_Common\ground\Field3aL.x
+Field4aL,Structures\saha_Common\ground\Field4aL.x
+Field5aL,Structures\saha_Common\ground\Field5aL.x
+Field_mizuL,Structures\saha_Common\ground\Field_mizuL.x
 river,Structures\Nature\River\river50m_green.x
 mount,Structures\Nature\mount\GrsWallL4.x
 mountH,Structures\Nature\mount\GrsWallHL.x
@@ -143,6 +156,18 @@ acwirehanger,Structures\Accessory\E_Poles\acc\chokasen_gaisi.x
 kasenhangL,Structures\Accessory\E_Poles\acc\MinibeamF01R.x
 kasenhangR,Structures\Accessory\E_Poles\acc\MinibeamF02L.x
 wire40m_L,Structures\GSR\frameworks\wire40m_L.x
+#エアセクション標識
+section_alert,  Structures\JRE_common\airsection\section alert.x,#,    セクションゾーン予告
+section_clear3, Structures\JRE_common\airsection\section clear3.x,#,   セクションクリア標(3,6,7,8,9,11,13両)
+section_clear6, Structures\JRE_common\airsection\section clear6.x,#,
+section_clear7, Structures\JRE_common\airsection\section clear7.x,#,
+section_clear8, Structures\JRE_common\airsection\section clear8.x,#,
+section_clear9, Structures\JRE_common\airsection\section clear9.x,#,
+section_clear11,Structures\JRE_common\airsection\section clear11.x,#,
+section_clear13,Structures\JRE_common\airsection\section clear13.x,#,
+section,        Structures\JRE_common\airsection\section.x,#,          セクションゾーン標識
+section_in,     Structures\JRE_common\airsection\section_in.x,#,
+section_stop,   Structures\JRE_common\airsection\section_stop.x,#,     セクション外停止位置表示標
 #light
 light,Structures\structure_FL\FL.x
 tunlight,Structures\Tunnel\huku_light.x
@@ -331,6 +356,7 @@ stopL,Structures\Default\StopL.x
 halt,Structures\GSR\Halt.x
 stopsks12,Structures\GSR\stop_sks12.x
 ropeway,Structures\GSR\signs\ropeway.x
+exit,Structures\saha_Common\subway_test\str\sta\accessory\exit.x
 #bulidings
 koudanapr,Structures\lopoli_houses\x\kodan_apart\kodan.x
 apr,Structures\lopoli_houses\x\apart\AP01_51.x
@@ -349,6 +375,10 @@ stairsup,Structures\stairs\stairsup.x
 stairsside,Structures\stairs\stairsside.x
 stairoL,Structures\StructureSet\station\opposed\stairL.x
 stairoR,Structures\StructureSet\station\opposed\stairR.x
+stair1L,Structures\saha_Common\subway_test\str\sta\stair\stair1L.x,,,//階段
+stair1R,Structures\saha_Common\subway_test\str\sta\stair\stair1R.x
+stair2L,Structures\saha_Common\subway_test\str\sta\stair\stair2L.x
+stair2R,Structures\saha_Common\subway_test\str\sta\stair\stair2R.x
 #experimental
 adboard,Structures\adboard\out.x
 kirisame,Structures\adboard\kirisame.x
@@ -904,19 +934,6 @@ j_for_cargo1,   Structures\JRE_common\signal\j for cargo1.x,#,
 j_start,        Structures\JRE_common\signal\j start.x,#,       徐行信号機
 j_start1,       Structures\JRE_common\signal\j start1.x,#,
 j_end15,        Structures\JRE_common\signal\jend15.x,#,        徐行解除目標15両
-
-#エアセクション標識
-section_alert,  Structures\JRE_common\air section\section alert.x,#,    セクションゾーン予告
-section_clear3, Structures\JRE_common\air section\section clear3.x,#,   セクションクリア標(3,6,7,8,9,11,13両)
-section_clear6, Structures\JRE_common\air section\section clear6.x,#,
-section_clear7, Structures\JRE_common\air section\section clear7.x,#,
-section_clear8, Structures\JRE_common\air section\section clear8.x,#,
-section_clear9, Structures\JRE_common\air section\section clear9.x,#,
-section_clear11,Structures\JRE_common\air section\section clear11.x,#,
-section_clear13,Structures\JRE_common\air section\section clear13.x,#,
-section,        Structures\JRE_common\air section\section.x,#,          セクションゾーン標識
-section_in,     Structures\JRE_common\air section\section in.x,#,
-section_stop,   Structures\JRE_common\air section\section stop.x,#,     セクション外停止位置表示標
 
 #駅関連標識
 arrow,          Structures\JRE_common\station\arrow.x,#,                誤認防止用矢印

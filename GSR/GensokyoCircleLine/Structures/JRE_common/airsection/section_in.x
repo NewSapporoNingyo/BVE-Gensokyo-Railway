@@ -1,17 +1,17 @@
 xof 0303txt 0032
-Material _section_stop_section_stop1_jpg {
+Material _section_in2_section_in2_jpg {
      1.0000;  1.0000;  1.0000;  1.0000;;
      3.2000;
    1.000000;1.000000;1.000000;;
    1.000000;1.000000;1.000000;;
-   TextureFilename { "section stop.jpg"; }
+   TextureFilename { "section_in.png"; }
 }
 Mesh mesh_0{
   4;
-    0.1463;  0.3486;  0.0000;,
-   -0.1537; -0.3514;  0.0000;,
-    0.1463; -0.3514;  0.0000;,
-   -0.1537;  0.3486;  0.0000;;
+    0.1544;  0.2439;  0.0000;,
+   -0.1456; -0.2561;  0.0000;,
+    0.1544; -0.2561;  0.0000;,
+   -0.1456;  0.2439;  0.0000;;
   2;
   3;2,1,0,
   3;3,0,1;;
@@ -20,7 +20,7 @@ Mesh mesh_0{
   2;
   0,
   0;
-   { _section_stop_section_stop1_jpg }
+   { _section_in2_section_in2_jpg }
   }
   MeshTextureCoords {
   4;
