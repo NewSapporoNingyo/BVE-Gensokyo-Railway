@@ -1996,6 +1996,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Structure['stopL'].Put('1',2,-0.2,0,,,0,,);
 18575+$distMapB;
 	Repeater['Rail00'].Begin0('00',3,4.99,5,'railthree');
+	Structure['komakanF'].Put('1',-800,64,0,0,10,,,);
 18680+$distMapB;
 	Repeater['roofR2'].End();
 	Repeater['LightR1'].End();
