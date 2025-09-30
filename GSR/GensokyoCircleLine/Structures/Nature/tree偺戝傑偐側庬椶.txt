@@ -1,19 +1,19 @@
-�Ebush
-�@�΂݌n
+・bush
+　茂み系
 
-�EbushM
-�@���H�e�G��
-�@�����ߓ����΍���{���Ă��܂����A����p�Ƃ��đ���Ԃ̕\�����ђʂ��܂�
+・bushM
+　線路脇雑草
+　※透過透け対策を施していますが、副作用として他列車の表示が貫通します
 
-�EbushMn
-�@���H�e�G��
-�@�����ߓ����΍�����Ă��܂���B����Ԃ�����ŋC�ɂȂ�Ƃ���ɁB
+・bushMn
+　線路脇雑草
+　※透過透け対策をしていません。他列車が絡んで気になるところに。
 
-�Etrees
-�@�P�Ƃ̖�
+・trees
+　単独の木
 
-�Etrees_street
-�@�X�H���i�傫������j
+・trees_street
+　街路樹（大きさ安定）
 
-�EtreesB
-�@�X
+・treesB
+　森
