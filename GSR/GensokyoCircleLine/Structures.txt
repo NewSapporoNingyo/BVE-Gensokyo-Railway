@@ -70,6 +70,7 @@ dikeface2,Structures\ACCC\Ground\Dikeface2.x
 dikeface3,Structures\ACCC\Ground\Dikeface3.x
 #background
 Bg_mt,Structures\Bg\Bg_fine_summer_mt3.x
+Bg_mt-koma,Structures\Bg\Bg_fine_summer_mt3-koma.x
 #nature
 grassland,Structures\Nature\Ground\Grass100m.x
 Aze1,Structures\saha_Common\ground\Aze1.x
