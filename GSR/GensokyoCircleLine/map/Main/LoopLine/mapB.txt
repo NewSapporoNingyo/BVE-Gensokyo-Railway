@@ -2160,6 +2160,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 16000+$distMapB;
 	Gradient.BeginTransition();
 	Structure['GPUL'].Put('1',-2.5,0,0,,0,,,);
+	Fog.Interpolate(0.004,1,1,1);
 16050+$distMapB;
 	Gradient.Begin(10);
 16150+$distMapB;
@@ -2190,6 +2191,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Repeater['treeL11'].End();
 	Repeater['treeL12'].End();
 	Repeater['treeL13'].End();
+	Fog.Interpolate(0.001,1,1,1);
 16295+$distMapB;
 	//Kirisame bridge
 	rollingNoise.Change($runbri);
