@@ -213,6 +213,19 @@ E129B1,Structures\e131\e131\e130Tc_end2.x
 E127F,Structures\JR121\Mc121.x
 E127B,Structures\JR121\Tc120.x
 
+211_1,Structures\211\na\211_1.x
+211_1b,Structures\211\na\211_1b.x
+211_2,Structures\211\na\211_2.x
+211_3,Structures\211\na\211_3.x
+211_3b,Structures\211\na\211_3b.x
+
+485_1,Structures\bve_485str\485_3000\485_1.x
+485_1b,Structures\bve_485str\485_3000\485_1b.x
+485_2,Structures\bve_485str\485_3000\485_2.x
+485_2b,Structures\bve_485str\485_3000\485_2b.x
+485_3,Structures\bve_485str\485_3000\485_3.x
+485_3b,Structures\bve_485str\485_3000\485_3b.x
+
 485_00,structures\485_png\initg_ecset\485_00.x
 485_01,structures\485_png\initg_ecset\485_01.x
 485_02,structures\485_png\initg_ecset\485_02.x
@@ -282,6 +295,8 @@ shadow_s2,structures\200_png\initg_ecset\shadow_s2.x
 200_an,structures\200_png\initg_ecset\200_a_n.x
 shadow_s1n,structures\200_png\initg_ecset\shadow_s1_n.x
 shadow_s2n,structures\200_png\initg_ecset\shadow_s2_n.x
+
+
 #ekimei
 Nhakurei,Structures\ekimeihyo\Nhakurei.x
 Kamikiri,Structures\ekimeihyo\Kamikiri.x

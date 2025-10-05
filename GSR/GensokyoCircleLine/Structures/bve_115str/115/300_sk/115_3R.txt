@@ -1,0 +1,19 @@
+bvets train 0.01
+
+[structure]
+key=Mc115b
+distance=-20
+z=8
+span=16
+
+[structure]
+key=M114b
+distance=-40
+z=8
+span=16
+
+[structure]
+key=Tc115
+distance=-60
+z=8
+span=16

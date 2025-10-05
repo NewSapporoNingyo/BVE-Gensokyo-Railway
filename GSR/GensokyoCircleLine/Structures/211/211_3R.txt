@@ -1,0 +1,19 @@
+bvets train 0.01
+
+[structure]
+key=211_1b
+distance=-20
+z=8
+span=16
+
+[structure]
+key=211_2
+distance=-40
+z=8
+span=16
+
+[structure]
+key=211_3
+distance=-60
+z=8
+span=16
