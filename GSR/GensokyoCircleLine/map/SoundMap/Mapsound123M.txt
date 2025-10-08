@@ -46,7 +46,7 @@ Sound['102-11-dep'].Play();
 Sound['102-12-arr-nokt'].Play();
 40965;
 Sound['102-12-dep'].Play();
-42185;
+42285;
 Sound['102-13-arr'].Play();
 42835;
 Sound['102-13-dep'].Play();
