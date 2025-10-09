@@ -15,8 +15,8 @@ $runbri=3;
 $runtun=4;
 
 #For tilting trains:(Curve speed limit +x km/h)
-$tilt_speed=20;
-$tilt_index=0.09;
+#$tilt_speed=20;
+#$tilt_index=0.09;
 #---Curve mode:tilting train(R600 +20km/h)---
 include 'Main\CurveSettings_Tilt.txt';
 #------
@@ -51,7 +51,7 @@ include 'Other\kiloposts-loopline.txt';
 #--------------
 3555+$dist1+$distHKR_T2;//GO02 Minami-Hakurei 4car StopPosition
 	Station['2'].Put(-1,-5,5);
-9278+$dist1+$distHKR_T2;//GO03 Eientei 4car StopPosition
+9278+50+$dist1+$distHKR_T2;//GO03 Eientei 6car StopPosition
 	Station['3'].Put(1,-5,5);
 12245+$dist1+$distHKR_T2;
 	Sound3D['crossing1'].Put(-2,1);
