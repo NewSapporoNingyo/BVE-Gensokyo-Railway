@@ -3340,7 +3340,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Repeater['formgroundR1'].Begin('2',0, 0, 0, , , ,3,5,5, 'formgroundR');
 	Repeater['roofR2'].Begin('2',0,0, 1, , , ,3,10,10, 'roofeleR');
 	Repeater['roofpR2'].Begin('2',0,0, 1, , , ,3,10,10, 'roofpoleR');
-	Repeater['bansen2'].Begin('2',2.50,1,20, ,0,,3,,30, '2ban');
+	Repeater['bansen2'].Begin('2',2.50,1,20, ,0,,3,,30, '2ban_2way');
 	Structure['rooffaceR'].Put('2',0,0,1,,,,,);
 	Repeater['LightR1'].Begin('2',3.7,3.99,3,,,0,3,10,10, 'light');
 	Repeater['LightR2'].Begin('2',3.7,3.99,7,,,0,3,10,10, 'light');
