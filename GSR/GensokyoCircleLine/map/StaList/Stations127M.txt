@@ -1,0 +1,14 @@
+﻿BveTs Station List 1.00
+#stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
+1,博麗神社 ②,11:25:10,11:26:00,47,11:25:10,1,0,0,,105m-hakurei2,0,0
+2,南   博   麗,11:30:50,11:31:20,30,11:30:50,0,0,0,,minamihakurei,0,0
+3,永   遠   亭,11:36:30,11:37:00,30,11:36:30,0,0,0,,eientei,0,0
+4,竹         林,11:40:20,11:40:50,30,11:40:20,0,0,0,,chikurin,0,0
+5,南人間の里,11:46:50,11:47:30,40,,0,0,0,minaminingen1,minaminingen2,0,0
+6,人間の里 ③,11:49:40,11:51:50,41,11:49:40,1,0,0,ningen1-short,105m-ningen,0,0
+7,西人間の里,11:54:40,11:55:15,35,11:54:40,0,0,0,nishiningen1,nishiningen2,0,0
+8,命   蓮   寺,11:59:20,12:00:00,40,11:59:20,0,0,0,,myorenji,0,0
+9,北 命 蓮 寺,12:01:55,12:02:25,30,12:02:25,0,0,0,,kitamyorenji,0,0
+10,妖怪の樹海,12:07:00,12:07:30,30,12:07:00,0,0,0,,jyukai,0,0
+11,草         田,12:09:55,12:10:25,30,12:09:55,0,0,0,,kusada,0,0
+12,守矢神社 ①,12:12:55,t,60,12:12:55,1,0,0,moriya1,,0,0

@@ -1,0 +1,5 @@
+Attention to developers: The operating section of train 121M has been changed to the entire loop line. Please note that various file configurations have also undergone significant modifications.
+
+请开发者注意：列车121M的运行区间变为了环状线全线，各种文件配置也有较大改动，敬请留意。
+
+開発者の皆様へ：列車121Mの運行区間は環状線全線に変更されました。各種ファイル設定にも大きな変更がありますので、ご注意ください。

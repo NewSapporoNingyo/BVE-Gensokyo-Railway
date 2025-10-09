@@ -198,7 +198,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "hakurei2-dep0820-Clockwise.png";
+    "hakurei2-127m.png";
    }
   }
 

@@ -198,7 +198,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "mningen1-103m.png";
+    "ningen4-101m.png";
    }
   }
 

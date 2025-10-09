@@ -198,7 +198,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "hakurei2-103m.png";
+    "hakurei2-15m.png";
    }
   }
 

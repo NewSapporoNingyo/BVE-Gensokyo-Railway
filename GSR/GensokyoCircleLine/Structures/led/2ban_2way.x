@@ -198,7 +198,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "mningen1-101m.png";
+    "2ban_2way.png";
    }
   }
 

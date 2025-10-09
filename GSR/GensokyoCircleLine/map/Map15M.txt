@@ -8,25 +8,29 @@ $dist3=16335;//Ningennosato Sta. --> Moriya Shrine Sta.(mapA2.txt)
 $distMRY_T2=1055;//Moriya Shrine Sta.(MapMoriyaSta_Track2.txt)
 $dist4=40000;
 $loop=64420;
-#RollingNoise Setting(283series)-> 0=longrail 2=25mrail 3=tunnel 4=bridge
+#RollingNoise Setting(381series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 $runlong=0;
 $run25m=2;
-$runbri=4;
-$runtun=3;
+$runbri=3;
+$runtun=4;
 
 #For tilting trains:(Curve speed limit +x km/h)
-$tilt_speed=30;
-$tilt_index=0.09;
-#---Curve mode:high-performance tilting train(R600 +35km/h)---
-include 'Main\CurveSettings_HpTilt.txt';
+#$tilt_speed=20;
+#$tilt_index=0.09;
+#---Curve mode:tilting train(R600 +20km/h)---
+include 'Main\CurveSettings_Tilt.txt';
 #------
 include 'Main\GeneralSettings.txt';
 Station.Load('StaList\Stations15M.txt');
 Signal.Load('..\Signals.csv');
-Signal.SpeedLimit(0,25,55,75,130);
+Signal.SpeedLimit(0,25,55,75,125);
 include 'SignalMap\MapSignals15M.txt';
-//include 'Mapsound103M.txt';
-//include 'Map104M.txt';
+//include 'Mapsound15M.txt';
+//include 'Mapot16M.txt';
+//include 'Mapot124M.txt';
+//include 'Mapot104M.txt';
+//include 'Mapot16M.txt';
+//include 'Mapot126M.txt';
 
 include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';
@@ -44,8 +48,8 @@ include 'Other\kiloposts-loopline.txt';
 	//Station['0'].Put(0,-5,5);
 #--------------
 200+$dist1;
-	Repeater['led2'].Begin('1',-3.30,0.5,17, ,0,,3,,40, 'hakurei2-103m');
-	Repeater['led2b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,40, 'hakurei2-103m');
+	Repeater['led2'].Begin('1',-3.30,0.5,17, ,0,,3,,40, 'hakurei2-15m');
+	Repeater['led2b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,40, 'hakurei2-15m');
 380+$dist1;//GO01 HakureiShrine 4/6car StopPosition(Track2)
 	Station['1'].Put(-1,-5,5);
 #--------------
@@ -60,14 +64,19 @@ include 'Other\kiloposts-loopline.txt';
 	Station['4'].Put(-1,-5,5);
 19345+$dist1+$distHKR_T2;
 #led
-    Repeater['led1'].Begin('1',-3.30,0.5,17, ,0,,3,,30, 'mningen1-103m');
-	Repeater['led1b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,30, 'mningen1-103m');
+    Repeater['led1'].Begin('1',-3.30,0.5,17, ,0,,3,,30, 'hakurei1');
+	Repeater['led1b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,30, 'hakurei1');
 19495+$dist1+$distHKR_T2;//GO05 Minami-Ningennosato 4car StopPosition
 	Station['5'].Put(-1,-5,5);
 #--------------
+200+$dist1+$distHKR_T2+$dist2;
+	Repeater['led1'].Begin('1',-3.50,0.5,20, ,0,,3,,30, 'ningen4-15m');
+	Repeater['led1b'].Begin('1',-3.50,0.5,20.05, ,180,,3,,30, 'ningen4-15m');
 350+$dist1+$distHKR_T2+$dist2;//GO06 Ningennosato 4/6car StopPosition(Track4)
 	Station['6'].Put(-1,-5,5);
 	Sound3D['pin_pon'].Put(-3,2);
+	Repeater['led1'].End();
+	Repeater['led1b'].End();
 #--------------
 1823+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO07 Nishi-Ningennosato StopPosition
 	Station['7'].Put(1,-5,5);
@@ -75,14 +84,14 @@ include 'Other\kiloposts-loopline.txt';
 	Station['8'].Put(1,-5,5);
 7681+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO09 Kita-Myorenji 4car StopPosition
 	Station['9'].Put(-1,-5,5);
-7700+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+8245+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Sound3D['crossing1'].Put(-2,1);
 	Sound3D['crossing1'].Put(6,1);
 12362+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO10 Youkainojyukai 4car StopPosition
 	Station['10'].Put(-1,-5,5);
 14943+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO11 Kusada 4car StopPosition
 	Station['11'].Put(-1,-5,5);
-14960+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+15505+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Sound3D['crossing1'].Put(-2,1);
 	Sound3D['crossing1'].Put(6,1);
 #--------------

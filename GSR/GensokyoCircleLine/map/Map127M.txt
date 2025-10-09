@@ -21,21 +21,21 @@ $tilt_index=0;
 include 'Main\CurveSettings_Normal.txt';
 #------
 include 'Main\GeneralSettings.txt';
-Station.Load('StaList\Stations123M.txt');
+Station.Load('StaList\Stations127M.txt');
 Signal.Load('..\Signals.csv');
 Signal.SpeedLimit(0,25,55,75,95);
-include 'SignalMap\MapSignals123M.txt';
-include 'SoundMap\Mapsound123M.txt';
-include 'MoveableObj\rumia123M.txt';
+include 'SignalMap\MapSignals127M.txt';
+include 'SoundMap\Mapsound127M.txt';
+include 'MoveableObj\rumia127M.txt';
+//include 'Mapot126M.txt';
+//include 'Mapot18M.txt';
 
-include 'Main\LoopLine\MapHRDepot.txt';
+//include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';
 include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
-include 'Main\LoopLine\mapB.txt';
-include 'Main\LoopLine\2-MapHakureiSta_Track2.txt';
 include 'Other\kiloposts-loopline.txt';
 #--------------
 0;
@@ -44,8 +44,8 @@ include 'Other\kiloposts-loopline.txt';
 	//Station['0'].Put(0,-5,5);
 #--------------
 200+$dist1;
-	Repeater['led2'].Begin('1',-3.30,0.5,17, ,0,,3,,40, 'hakurei2-123m');
-	Repeater['led2b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,40, 'hakurei2-123m');
+	Repeater['led2'].Begin('1',-3.30,0.5,17, ,0,,3,,40, 'hakurei2-127m');
+	Repeater['led2b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,40, 'hakurei2-127m');
 380+$dist1;//GO01 HakureiShrine 4/6car StopPosition(Track2)
 	Station['1'].Put(-1,-5,5);
 #--------------
@@ -57,14 +57,19 @@ include 'Other\kiloposts-loopline.txt';
 	Station['4'].Put(-1,-5,5);
 19345+$dist1+$distHKR_T2;
 #led
-    Repeater['led1'].Begin('1',-3.30,0.5,17, ,0,,3,,30, 'mningen1-103m');
-	Repeater['led1b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,30, 'mningen1-103m');
+    Repeater['led1'].Begin('1',-3.30,0.5,17, ,0,,3,,30, 'mningen1-127m');
+	Repeater['led1b'].Begin('1',-3.30,0.5,17.05, ,180,,3,,30, 'mningen1-127m');
 19495+$dist1+$distHKR_T2;//GO05 Minami-Ningennosato 4car StopPosition
 	Station['5'].Put(-1,-5,5);
 #--------------
+200+$dist1+$distHKR_T2+$dist2;
+	Repeater['led1'].Begin('1',-3.50,0.5,20, ,0,,3,,30, 'ningen4-127m');
+	Repeater['led1b'].Begin('1',-3.50,0.5,20.05, ,180,,3,,30, 'ningen4-127m');
 350+$dist1+$distHKR_T2+$dist2;//GO06 Ningennosato 4/6car StopPosition(Track4)
 	Station['6'].Put(-1,-5,5);
 	Sound3D['pin_pon'].Put(-3,2);
+	Repeater['led1'].End();
+	Repeater['led1b'].End();
 #--------------
 1823+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO07 Nishi-Ningennosato StopPosition
 	Station['7'].Put(1,-5,5);
@@ -78,25 +83,4 @@ include 'Other\kiloposts-loopline.txt';
 	Station['11'].Put(-1,-5,5);
 #--------------
 480+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;//GO12 MoriyaShrine StopPosition
-	Station['12'].Put(1,-5,5);	
-#--------------
-1295+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N13 Fuujinnoko StopPosition
-	Station['13'].Put(1,-5,5);
-2790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//14 East Moriya StopPosition
-	Station['14'].Put(1,-5,5);
-8220+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N15 Genbunosawa StopPosition
-	Station['15'].Put(1,-5,5);
-13010+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N16 Korindomae 1~4car StopPosition
-	Station['16'].Put(1,-5,5);
-15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N17 Mohonomori StopPosition
-	Station['17'].Put(1,-5,5);
-17310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N18 Kirinoko StopPosition
-	Station['18'].Put(1,-5,5);
-18570+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N19 Koumakan 1~4car StopPosition
-	Station['19'].Put(1,-5,5);
-20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N20 Kami-Kirinoko StopPosition
-	Station['20'].Put(1,-5,5);
-21950+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N21 Kita-Hakurei StopPosition
-	Station['21'].Put(1,-5,5);
-23310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//(loop)GO01 HakureiShrine 4/6car StopPosition(Track2)
-	Station['22'].Put(1,-5,5);
+	Station['12'].Put(1,-5,5);

@@ -1,8 +1,0 @@
-BveTs Map 2.02
-
-//曲线制限
-22630+$dist1;
-	$sig=distance;
-	$sig-10;
-	Beacon.Put(55,0,85);
-	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);

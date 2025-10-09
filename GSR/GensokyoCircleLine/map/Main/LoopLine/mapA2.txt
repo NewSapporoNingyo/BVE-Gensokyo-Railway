@@ -218,8 +218,8 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Repeater['Ekimei21'].Begin('1',5.05,0.5,6,,-90,0,3,20,20, 'Wningen');
 	Repeater['Ekimei3'].Begin('4',5.8,0,6,,90,0,3,20,20, 'Wningen');
 	#bansenboard
-	Repeater['bansen1'].Begin('3',-4.50,1,20, ,0,,3,,30, '1ban');
-	Repeater['bansen2'].Begin('1',2.50,1,20, ,0,,3,,30, '2ban');
+	Repeater['bansen1'].Begin('3',-4.50,1,20, ,0,,3,,30, '1ban_MRYKMK');
+	Repeater['bansen2'].Begin('1',2.50,1,20, ,0,,3,,30, '2ban_MRYKMK');
 	Repeater['bansen3'].Begin('2',-2.50,1,20, ,0,,3,,30, '3ban');
 	Repeater['bansen4'].Begin('4',4.50,1,20, ,0,,3,,30, '4ban');
 24320-22610+$distMapA2;
@@ -1181,7 +1181,7 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Repeater['roofframework3R'].Begin('1',4.7,5.3,2.5,-90,90,,3,5,5, 'staframework');
 	Repeater['roofframework4R'].Begin('1',6.3,5.3,2.5,-90,90,,3,5,5, 'staframework');
 	Repeater['LightR1'].Begin('1',2.9,4.27,0,,,0,3,,3, 'light');
-	Repeater['bansen1'].Begin('1',3.50,0.5,5, ,0,,3,,40, '1ban');
+	Repeater['bansen1'].Begin('1',3.50,0.5,5, ,0,,3,,40, '1ban_MRYKMK');
 	Repeater['kasenhangR'].Begin('1',1.9,0,5,,,0,3,50,50, 'kasenhangR');
 	Repeater['wh1'].Begin('1',0,0,5,,,,3,49.99,50,'wirehanger');
 	#wallpoles

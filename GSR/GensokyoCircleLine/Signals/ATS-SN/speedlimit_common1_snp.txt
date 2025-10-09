@@ -1,57 +1,135 @@
 BveTs Map 2.02
 
 //曲线制限
-1566+$dist1;
+11+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,100);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	
-3759+$dist1;
+2204+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,85);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	
-4417+$dist1;
+2862+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,110);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	
-7895+$dist1;
+6340+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,100);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	
-10144+$dist1;
+8589+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,105);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	
-13965+$dist1;
+12410+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,85);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	
-16487+$dist1;
+14932+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,95);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	
-17067+$dist1;
+15512+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,85);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	
-19170+$dist1;
+17615+$dist1+$distHKR_T2;
 	$sig=distance;
 	$sig-10;
 	Beacon.Put(55,0,100);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
+
+#----------
+20+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);	
+
+5721+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,80);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
 	
+6511+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,75);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+7776+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,95);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+8583+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,75);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+8952+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+9276+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,105);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+9550+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+10449+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,80);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+11299+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,105);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+15216+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,75);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+15399+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,85);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);
+	
+16107+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	$sig=distance;
+	$sig-10;
+	Beacon.Put(55,0,95);
+	Structure['ATS-S_Speed'].Put('1',0,0.05,0,,,,3,);

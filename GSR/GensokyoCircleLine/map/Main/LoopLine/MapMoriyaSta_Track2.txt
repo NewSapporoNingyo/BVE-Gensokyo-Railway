@@ -222,8 +222,8 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 	Repeater['Ekimei21'].Begin('1',4.05,0,6,,-90,0,3,20,20, 'Moriya');
 	#bansenboard
 	Repeater['bansen1'].Begin('3',2.50,1,20, ,0,,3,,30, '1ban');
-	Repeater['bansen2'].Begin('1',-2.50,1,20, ,0,,3,,30, '2ban');
-	Repeater['bansen3'].Begin('1',2.50,1,20, ,0,,3,,30, '2ban');
+	Repeater['bansen2'].Begin('1',-2.50,1,20, ,0,,3,,30, '2ban_2way');
+	Repeater['bansen3'].Begin('1',2.50,1,20, ,0,,3,,30, '2ban_2way');
 	Repeater['bansen4'].Begin('2',-2.50,1,20, ,0,,3,,30, '3ban');
 #Signs of Moriya Shrine sta
 480-700+$distMap_MRY_T2;
