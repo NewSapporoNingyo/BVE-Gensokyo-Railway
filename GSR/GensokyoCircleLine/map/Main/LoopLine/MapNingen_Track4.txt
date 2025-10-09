@@ -189,9 +189,10 @@ $distMap_NNS_T4=$dist1+$distHKR_T2+$dist2;
 	Repeater['ekimei8'].Begin('4',4.98,0.5,15, ,90,,3,,30, 'Ningennosato');
 	#bansenboard
 	Repeater['bansen1'].Begin('4',5.00,0.5,20, ,0,,3,,30, 'ningen1');
-	Repeater['bansen2'].Begin('6',5.00,0.5,20, ,0,,3,,30, 'ningen2');
-	Repeater['bansen3'].Begin('2',5.00,0.5,20, ,0,,3,,30, 'ningen3');
+	Repeater['bansen2'].Begin('6',3.50,0.5,20, ,0,,3,,30, 'ningen3n');
+	Repeater['bansen3'].Begin('2',3.50,0.5,20, ,0,,3,,30, 'ningen5n');
 	Repeater['bansen4'].Begin('8',5.00,0.5,20, ,0,,3,,30, 'ningen4');
+	Repeater['bansen5'].Begin('7',-3.50,0.5,20, ,0,,3,,30, 'ningen6n');
 	Repeater['bansen1b'].Begin('4',5.00,0.5,20.05, ,180,,3,,30, 'ningen1');
 	#wallend-1ban sen 
 	Repeater['tunwallR10'].End();
@@ -435,6 +436,7 @@ $distMap_NNS_T4=$dist1+$distHKR_T2+$dist2;
 	Repeater['bansen2'].End();
 	Repeater['bansen3'].End();
 	Repeater['bansen4'].End();
+	Repeater['bansen5'].End();
 	#temp carstop at 4,5 ban sen
 	//Structure['carstop'].Put('1',0,-0,0,,,,,);
 	//Structure['carstop'].Put('2',0,-0,0,,,,,);

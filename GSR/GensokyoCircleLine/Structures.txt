@@ -334,11 +334,14 @@ mningen1-127m,Structures\led\mningen1-127m.x
 ningen1,Structures\led\ningen1.x
 ningen2,Structures\led\ningen2.x
 ningen3,Structures\led\ningen3.x
+ningen3n,Structures\led\ningen3n.x
 ningen4,Structures\led\ningen4.x
 ningen4-15m,Structures\led\ningen4-15m.x
 ningen4-101m,Structures\led\ningen4-101m.x
 ningen4-121m,Structures\led\ningen4-121m.x
 ningen4-127m,Structures\led\ningen4-127m.x
+ningen5n,Structures\led\ningen5n.x
+ningen6n,Structures\led\ningen6n.x
 1ban,Structures\led\1ban.x
 1ban_MRYKMK,Structures\led\1ban_MRYKMK.x
 1ban_HKRNNS,Structures\led\1ban_HKRNNS.x
