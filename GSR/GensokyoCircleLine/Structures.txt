@@ -326,8 +326,10 @@ hakurei1,Structures\led\hakurei1.x
 hakurei3,Structures\led\hakurei3.x
 hakurei4,Structures\led\hakurei4.x
 hakurei2-15m,Structures\led\hakurei2-15m.x
+hakurei2-17m,Structures\led\hakurei2-17m.x
 hakurei2-101m,Structures\led\hakurei2-101m.x
 hakurei2-121m,Structures\led\hakurei2-121m.x
+hakurei2-123m,Structures\led\hakurei2-123m.x
 hakurei2-127m,Structures\led\hakurei2-127m.x
 mningen1-121m,Structures\led\mningen1-121m.x
 mningen1-127m,Structures\led\mningen1-127m.x
