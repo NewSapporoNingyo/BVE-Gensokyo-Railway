@@ -214,6 +214,15 @@ E129B1,Structures\e131\e131\e130Tc_end2.x
 E127F,Structures\JR121\Mc121.x
 E127B,Structures\JR121\Tc120.x
 
+Mc115,Structures\bve_115str\115\300_sk\Mc115.x
+Mc115b,Structures\bve_115str\115\300_sk\Mc115b.x
+Tc115,Structures\bve_115str\115\300_sk\Tc115.x
+Tc115b,Structures\bve_115str\115\300_sk\Tc115b.x
+M114,Structures\bve_115str\115\300_sk\M114.x
+M114b,Structures\bve_115str\115\300_sk\M114b.x
+M114s,Structures\bve_115str\115\300_sk\M114s.x
+M114sb,Structures\bve_115str\115\300_sk\M114sb.x
+
 211_1,Structures\211\na\211_1.x
 211_1b,Structures\211\na\211_1b.x
 211_2,Structures\211\na\211_2.x
@@ -226,6 +235,13 @@ E127B,Structures\JR121\Tc120.x
 485_2b,Structures\bve_485str\485_3000\485_2b.x
 485_3,Structures\bve_485str\485_3000\485_3.x
 485_3b,Structures\bve_485str\485_3000\485_3b.x
+
+381_1,Structures\bve_485str\381\yakumo\381_1.x
+381_1b,Structures\bve_485str\381\yakumo\381_1b.x
+381_2,Structures\bve_485str\381\yakumo\381_2.x
+381_2b,Structures\bve_485str\381\yakumo\381_2b.x
+381_3,Structures\bve_485str\381\yakumo\381_3.x
+381_3b,Structures\bve_485str\381\yakumo\381_3b.x
 
 485_00,structures\485_png\initg_ecset\485_00.x
 485_01,structures\485_png\initg_ecset\485_01.x
