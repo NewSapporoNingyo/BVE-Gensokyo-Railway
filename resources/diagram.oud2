@@ -913,7 +913,7 @@ Syubetsu=2
 Ressyabangou=12M
 Ressyamei=さなえ
 Gousuu=2
-EkiJikoku=1;811/815$2,2$1,2$1,1;820/821$2,2$1,2$1,1;826/827$1,2$1,2$1,2$1,1;838/839$2,2$1,2$1,2$1,1;847/847$1,2$2,1;854/856$5,2$1,2$1,1;904/904$1,2$1,1;913/$2
+EkiJikoku=1;811/814$2,2$1,2$1,1;819/820$2,2$1,2$1,1;825/826$1,2$1,2$1,2$1,1;837/838$2,2$1,2$1,2$1,1;846/846$1,2$2,1;853/855$5,2$1,2$1,1;903/903$1,2$1,1;912/$2
 Operation0B=5/$
 Operation21A=5/$0
 .
@@ -1153,15 +1153,7 @@ DiaIndex=0
 XPos=747
 YPos=0
 XSize=979
-YSize=946
-.
-ChildWindow.
-WindowType=0
-DiaIndex=0
-XPos=3
-YPos=0
-XSize=742
-YSize=945
+YSize=950
 .
 ChildWindow.
 WindowType=1
@@ -1170,6 +1162,14 @@ XPos=33
 YPos=2
 XSize=703
 YSize=946
+.
+ChildWindow.
+WindowType=0
+DiaIndex=0
+XPos=3
+YPos=15
+XSize=742
+YSize=945
 .
 .
 FileTypeAppComment=OuDiaSecondV2 Ver. 2.06.17
