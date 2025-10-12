@@ -29,8 +29,8 @@ include 'SignalMap\MapSignals15M.txt';
 include 'MoveableObj\Mapot14M-forMap15M.txt';
 include 'MoveableObj\Mapot124M-forMap15M.txt';
 //include 'Mapot104M.txt';
-//include 'Mapot16M.txt';
-//include 'Mapot126M.txt';
+include 'MoveableObj\Mapot16M.txt';
+include 'MoveableObj\Mapot126M.txt';
 
 include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';
