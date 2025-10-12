@@ -1,7 +1,32 @@
-1-Hakurei-Stopping:
+Hakurei-Stopping:
 この電車は、L特急、あゆのかぜ、5号、環状線外回り、人間の里、守矢神社方面ゆきです。まもなく発車いたします。
 Ladies and gentlemen,welcome to aboard the AYUNOKAZE Limited Express for Ningennosato and Moriya Shrine.We will be departing soon.
-本次列车是开往人间之里和守矢神社方向的L特急东风号。列车很快就会发车。
+本次列车是开往人间之里和守矢神社方向的L特急Ayunokaze号。列车很快就会发车。
+이 열차는 특급 ‘아유노카제’ 5호, 환상향 순환선 바깥 방향, 인간 마을·모리야 신사 방면 행 열차입니다.
+잠시 후 출발하겠습니다.
+
+1-hakurei-dep:
+本日も幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、L特急、あゆのかぜ、5号、環状線外回り、人間の里、守矢神社方面ゆきです。途中、永遠亭、人間の里、命蓮寺、守矢神社、香霖堂前、紅魔館に停車いたします。この電車は、全車自由席です、空いているお席をご利用ください。グリーン車は1号車です、グリーン車をご利用の際は、乗車券、特急券のほかにグリーン券が必要です。次は、永遠亭に停車いたします。
+Ladies and gentlemen,welcome aboard the AYUNOKAZE Limited Express for Ningennosato and Moriya Shrine.We will stopping at Eientei, Ningennosato, Myorenji, Moriya Shrine, Korindomae, and Koumakan.All seats are non-reserved.Green car is car 1.You may use the green car with a Green car ticket.The next stop is Eientei.We wish you a pleasant journey.
+感谢您乘坐幻想乡铁道。本次列车是开往人间之里和守矢神社方向的L特急Ayunokaze号。途中停车站是，永远亭，人间之里，命莲寺，守矢神社，香霖堂前，红魔馆。本次列车为全列自由席，请在空位入座。1号车是绿色车厢，利用绿色车厢时，在乘车券和特急券之外需要购买绿车券。列车运行前方是永远亭站。
+오늘도 환상향철도를 이용해 주셔서 감사합니다.이 열차는 L특급 ‘아유노카제’ 5호, 순환선 바깥쪽 방향, 인간의 마을·모리야신사 방면 열차입니다.이 열차는 도중에 영원정, 인간의 마을, 묘련사, 모리야신사, 코린도앞, 홍마관에 정차합니다.이 열차는 전 좌석 자유석입니다. 비어 있는 좌석을 자유롭게 이용해 주시기 바랍니다.
+그린차 는 1호차에 있습니다. 그린차를 이용하실 경우에는 승차권, 특급권 외에 그린권이 필요합니다.다음 정차역은 영원정입니다.
+
+2-eientei-arr:
+まもなく、永遠亭に到着いたします。お降りのお客様はお忘れ物のないようお仕度ください。永遠亭の次は、人間の里に停車いたします。
+We will soon make a brief stop at Eientei.The stop after Eientei, will be Ningennosato.Thank you.
+列车即将到达，永远亭站。永远亭的下一站，是人间之里站。
+잠시 후 영원정 역에 도착하겠습니다.영원정 다음은 인간의 마을 역에 정차하겠습니다.
+
+2-eientei-dep:
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、人間の里、守矢神社方面ゆきです。次は、人間の里に停車いたします。
+This is the AYUNOKAZE Limited Express for Ningennosato and Moriya Shrine.The next station is Ningennosato.
+本次列车是开往人间之里和守矢神社方向的L特急Ayunokaze号。列车运行前方是人间之里站。
+이 열차는 L특급 ‘아유노카제’ 5호, 순환선 바깥쪽 방향, 인간의 마을·모리야신사 방면 열차입니다.다음 정차역은 인간의 마을입니다.
+
+
+
+
 
 
 
