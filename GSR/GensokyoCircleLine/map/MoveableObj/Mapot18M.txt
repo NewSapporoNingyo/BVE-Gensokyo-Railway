@@ -1,0 +1,14 @@
+BveTs Map 2.02
+0;
+Train['18M'].Load('..\Structures\bve_485str\381\yakumo\381_6R.txt','2',-1);
+Train['18M'].Enable('11:43:40');
+1500;
+Train['18M'].Stop(2,120,2,80);
+12373;
+Train['18M'].Stop(2,30,2,75);
+23895;
+Train['18M'].Stop(2,120,2,95);
+30479;
+Train['18M'].Stop(1.5,30,1.5,61);
+
+

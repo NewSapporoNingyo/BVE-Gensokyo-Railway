@@ -27,8 +27,8 @@ Signal.SpeedLimit(0,25,55,75,95);
 include 'SignalMap\MapSignals127M.txt';
 include 'SoundMap\Mapsound127M.txt';
 include 'MoveableObj\rumia127M.txt';
-//include 'Mapot126M.txt';
-//include 'Mapot18M.txt';
+include 'MoveableObj\Mapot126M-forMap127M.txt';
+include 'MoveableObj\Mapot18M.txt';
 
 //include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';
