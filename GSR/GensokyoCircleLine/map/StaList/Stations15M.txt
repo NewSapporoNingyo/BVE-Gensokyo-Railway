@@ -1,6 +1,6 @@
 ﻿BveTs Station List 1.00
 #stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
-1,博麗神社 ②,10:05:40,10:06:40,60,10:05:40,1,0,0,,15m-hakurei2,0,0
+1,博麗神社 ②,10:04:40,10:06:40,60,10:04:40,1,0,0,105-hkr,15m-hakurei2,0,0
 2,南 博 麗,p,,0,,0,0,0,,,0,0
 3,永 遠 亭,10:14:40,10:15:10,25,,0,0,0,,eientei,0,0
 4,竹 林,p,10:17:35,0,10:17:35,0,0,0,,,0,0

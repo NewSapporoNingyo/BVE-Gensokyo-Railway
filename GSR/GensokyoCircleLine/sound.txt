@@ -132,6 +132,9 @@ go08go14-1-107M,sound\shanai\104\Nextmoriya-Terminal-e127.wav
 go08go14-2-107M,sound\shanai\104\Soonmoriya-Terminal-e127.wav
 exchange-101M,sound\shanai\104\exchange-101M.wav
 
+#part105-L Express Ayunokaze HKR-HKR
+105-hkr,sound\shanai\105\Hakurei-Stopping.wav
+105-1-dep,sound\shanai\105\1-hakurei-dep.wav
 #mix
 ningen1+102nin,sound\station\ningennosato1+102nin.wav
 moriya1+102mry,sound\station\moriya1+102mry.wav
