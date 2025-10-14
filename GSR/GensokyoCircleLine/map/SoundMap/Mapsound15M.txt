@@ -2,11 +2,11 @@ BveTs Map 2.02
 
 1600;
 Sound['105-1-dep'].Play();
-11013;
+10513;
 Sound['105-2-arr'].Play();
 12463;
 Sound['105-2-dep'].Play();
-22350;
+22300;
 Sound['105-3-arr'].Play();
 23925;
 Sound['102-6-dep'].Play();

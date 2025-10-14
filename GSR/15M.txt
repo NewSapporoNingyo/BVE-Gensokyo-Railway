@@ -1,6 +1,6 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = GSR L Express "Sanae" 15M(Hakurei-Ningen-Moriya-Komakan-Hakurei)
+Title = GSR L Express "Ayunokaze" 15M(Hakurei-Ningen-Moriya-Komakan-Hakurei)
 Author = SapporoNingyo&Contributors on Github
 Route = GensokyoCircleLine\map\Map15M.txt
 RouteTitle = Gensokyo Loop Line
