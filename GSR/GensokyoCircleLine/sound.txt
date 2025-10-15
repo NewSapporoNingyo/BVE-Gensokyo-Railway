@@ -2,9 +2,9 @@ BveTs Sound List 2.00:
 #Staions
 hakurei1,sound\station\hakurei1.wav
 hakurei2,sound\station\hakureijinjya2.wav
+15m-hakurei2,sound\station\15m-hakurei2.wav
 105m-hakurei2,sound\station\105m-hakurei2.wav
 107m-hakurei2,sound\station\107m-hakurei2.wav
-15m-hakurei2,sound\station\15m-hakurei2.wav
 9001-hakurei2,sound\station\9001-hakurei2.wav
 hakurei-t2-local-dep,sound\station\hakurei-t2-local-dep.wav
 minamihakurei,sound\station\minami-hakurei.wav
@@ -15,6 +15,7 @@ minaminingen2,sound\station\minami-ningennosato2.wav
 ningen1,sound\station\ningennosato1.wav
 ningen1-short,sound\station\ningennosato1-short.wav
 ningen-t4-localdep,sound\station\ningen-t4-localdep.wav
+15m-ningen2,sound\station\15m-ningen2.wav
 105m-ningen,sound\station\105m-ningen.wav
 107m-ningen,sound\station\107m-ningen.wav
 9001-ningen,sound\station\9001-ningen.wav
@@ -26,11 +27,13 @@ jyukai,sound\station\jyukai.wav
 kusada,sound\station\kusada.wav
 moriya1,sound\station\moriya1.wav
 moriya-t2-localdep,sound\station\moriya-t2-localdep.wav
+15m-moriya2,sound\station\15m-moriya2.wav
 korindo,sound\station\korindo.wav
 mahonomori,sound\station\mahonomori.wav
 kirinoko,sound\station\kirinoko.wav
 kouma1,sound\station\kouma1.wav
 kouma-t1-loop-local-dep,sound\station\kouma-t1-loop-local-dep.wav
+15m-koma2,sound\station\15m-koma2.wav
 kitahakurei,sound\station\kitahakurei.wav
 cl-nomusic,sound\station\doorclose-nomusic.wav
 

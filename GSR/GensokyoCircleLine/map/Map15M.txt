@@ -14,11 +14,12 @@ $run25m=2;
 $runbri=3;
 $runtun=4;
 
-#For tilting trains:(Curve speed limit +x km/h)
-#$tilt_speed=20;
-#$tilt_index=0.09;
 #---Curve mode:tilting train(R600 +20km/h)---
-include 'Main\CurveSettings_Tilt.txt';
+#include 'Main\CurveSettings_Tilt.txt';//緩和曲線の問題で、使用しません
+
+#---Curve mode:Normal(+10km/h)---
+include 'Main\CurveSettings_Normal+10.txt';
+
 #------
 include 'Main\GeneralSettings.txt';
 Station.Load('StaList\Stations15M.txt');

@@ -32,11 +32,15 @@ We will soon make a brief stop at Ningennosato. The stop after Ningennosato will
 
 3-ningen-dep:
 本日も、幻想きょう鉄道をご利用くださいましてありがとうございます。この電車は、L特急、あゆのかぜ、5号、環状線外回り、守矢神社、紅魔館方面ゆきです。途中、命蓮寺、守矢じんじゃ、香霖堂前、紅魔館、博麗神社、永遠亭に停車いたします。この電車は、全車自由席です、空いているお席をご利用ください。グリーン車は1号車です、グリーン車をご利用の際は、乗車券、特急券のほかに、グリーン券が必要です。次は、命蓮寺に停車いたします。
-Ladies and gentlemen,welcome aboard the Ayu no ka ze Limited Express for Moriya Shrine and Komakan.We will stopping at Myorenji, Moriya Shrine, Korindomae, Koumakan, Hakurei Shrine and Eientei.All seats are non-reserved. Green car is car 1.You may use the green car with a Green car ticket.The next stop is Myorenji.We wish you a pleasant journey.
-感谢您乘坐幻想乡铁道。本次列车是开往守矢神社和红魔馆方向的L特急Ayunokaze号。途中停车站是，命莲寺，守矢神社，香霖堂前，红魔馆，博丽神社，永远亭，人间之里。本次列车为全列自由席，请在空位入座。1号车是绿色车厢，利用绿色车厢时，在乘车券和特急券之外需要购买绿车券。列车运行前方是永远亭站。
-오늘도 환상향철도를 이용해 주셔서 감사합니다.이 열차는 L특급 ‘아유노카제’ 5호, 순환선 바깥쪽 방향, 모리야신사·홍마관 방면 열차입니다.이 열차는 도중에 묘련사, 모리야신사, 코린도앞, 홍마관, 하쿠레이신사, 영원정에 정차합니다.이 열차는 전 좌석 자유석입니다. 비어 있는 좌석을 자유롭게 이용해 주시기 바랍니다.
-그린차는 1호차에 있습니다. 그린차를 이용하실 경우에는 승차권, 특급권 외에 그린권이 필요합니다.
-다음 정차역은 묘련사입니다.
+Ladies and gentlemen,welcome aboard the Ayu no ka ze Limited Express for Moriya Shrine and Komakan.We will stopping at Myorenji, Moriya Shrine, Korindomae, Koumakan, Hakurei Shrine and Eientei.All seats are non-reserved. Green car is car 1.You may use the green car with a Green car ticket.The next stop is Miorenji.We wish you a pleasant journey.
+感谢您乘坐幻想乡铁道。本次列车是开往守矢神社和红魔馆方向的L特急Ayunokaze号。途中停车站是，命莲寺，守矢神社，香霖堂前，红魔馆，博丽神社，永远亭，人间之里。本次列车为全列自由席，请在空位入座。1号车是绿色车厢，利用绿色车厢时，在乘车券和特急券之外需要购买绿车券。列车运行前方是命莲寺站。
+오늘도 환상향철도를 이용해 주셔서 감사합니다.이 열차는 L특급 ‘아유노카제’ 5호, 순환선 바깥쪽 방향, 모리야신사·홍마관 방면 열차입니다.이 열차는 도중에 묘련사, 모리야신사, 코린도앞, 홍마관, 하쿠레이신사, 영원정에 정차합니다.이 열차는 전 좌석 자유석입니다. 비어 있는 좌석을 자유롭게 이용해 주시기 바랍니다.그린차는 1호차에 있습니다. 그린차를 이용하실 경우에는 승차권, 특급권 외에 그린권이 필요합니다.다음 정차역은 묘련사입니다.
+
+4-myoren-arr:
+まもなく、命蓮寺に到着いたします。をおりのお客様はお忘れ物のないようお仕度ください。命蓮寺の次は、守矢神社に停車いたします。
+We will soon make a brief stop at Miorenji. The stop after Miorenji will be Moriya Shrine. Thank you.
+列车即将到达，命莲寺站。命莲寺的下一站，是守矢神社站。
+우리 열차는 잠시 후 묘련사 역에 도착하겠습니다. 미리 준비하시기 바랍니다. 묘련사 다음은 모리야신사 역에 정차하겠습니다.
 
 
 
