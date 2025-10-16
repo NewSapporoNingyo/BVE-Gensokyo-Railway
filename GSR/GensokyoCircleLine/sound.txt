@@ -141,6 +141,16 @@ exchange-101M,sound\shanai\104\exchange-101M.wav
 105-2-arr,sound\shanai\105\2-eientei-arr.wav
 105-2-dep,sound\shanai\105\2-eientei-dep.wav
 105-3-arr,sound\shanai\105\3-ningen-arr.wav
+105-3-dep,sound\shanai\105\3-ningen-dep.wav
+105-4-arr,sound\shanai\105\4-myoren-arr.wav
+105-4-dep,sound\shanai\105\4-myoren-dep.wav
+105-5-arr,sound\shanai\105\5-moriya-arr.wav
+105-5-dep,sound\shanai\105\5-moriya-dep.wav
+105-6-arr,sound\shanai\105\6-korin-arr.wav
+105-6-dep,sound\shanai\105\6-korin-dep.wav
+105-7-arr,sound\shanai\105\7-koma-arr.wav
+105-7-dep,sound\shanai\105\7-koma-dep.wav
+105-8-arr,sound\shanai\105\8-hakurei-arr.wav
 #mix
 ningen1+102nin,sound\station\ningennosato1+102nin.wav
 moriya1+102mry,sound\station\moriya1+102mry.wav

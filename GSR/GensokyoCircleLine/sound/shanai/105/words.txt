@@ -5,6 +5,18 @@ Ladies and gentlemen,welcome to aboard the AYUNOKAZE Limited Express for Ningenn
 이 열차는 특급 ‘아유노카제’ 5호, 환상향 순환선 바깥 방향, 인간 마을·모리야 신사 방면 행 열차입니다.
 잠시 후 출발하겠습니다.
 
+ningen-stopping:
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、守矢神社、紅魔館方面ゆきです。まもなく発車いたします。
+Ladies and gentlemen,welcome to aboard the AYUNOKAZE Limited Express for Moriya Shrine and Koumakan.We will be departing soon.
+
+moriya-stopping:
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、紅魔館、博麗神社方面ゆきです。まもなく発車いたします。
+Ladies and gentlemen,welcome to aboard the AYUNOKAZE Limited Express for Koumakan and Hakurei Shrine.We will be departing soon.
+
+koma-stopping:
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、博麗神社、人間の里方面ゆきです。まもなく発車いたします。
+Ladies and gentlemen,welcome to aboard the AYUNOKAZE Limited Express for Hakurei Shrine and Ningennosato.We will be departing soon.
+
 1-hakurei-dep:
 本日も、幻想きょう鉄道をご利用くださいましてありがとうございます。この電車は、L特急、あゆのかぜ、5号、環状線外回り、人間の里、守矢神社方面ゆきです。途中、永遠亭、人間の里、命蓮寺、守矢じんじゃ、香霖堂前、紅魔館に停車いたします。この電車は、全車自由席です、空いているお席をご利用ください。グリーン車は1号車です、グリーン車をご利用の際は、乗車券、特急券のほかに、グリーン券が必要です。次は、永遠亭に停車いたします。
 Ladies and gentlemen,welcome aboard the AYUNOKAZE Limited Express for Ningennosato and Moriya Shrine.We will stopping at Eientei, Ningennosato, Myorenji, Moriya Shrine, Korindomae, and Koumakan.All seats are non-reserved.Green car is car 1.You may use the green car with a Green car ticket.The next stop is Eientei.We wish you a pleasant journey.
@@ -41,6 +53,57 @@ Ladies and gentlemen,welcome aboard the Ayu no ka ze Limited Express for Moriya 
 We will soon make a brief stop at Miorenji. The stop after Miorenji will be Moriya Shrine. Thank you.
 列车即将到达，命莲寺站。命莲寺的下一站，是守矢神社站。
 우리 열차는 잠시 후 묘련사 역에 도착하겠습니다. 미리 준비하시기 바랍니다. 묘련사 다음은 모리야신사 역에 정차하겠습니다.
+
+4-myoren-dep:
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、守矢神社、紅魔館方面ゆきです。次は、守矢神社に停車いたします。
+This is the AYUNOKAZE Limited Express for Moriya Shrine and Koumakan.The next station is Moriya Shrine.
+本次列车是开往守矢神社和红魔馆方向的L特急Ayunokaze号。列车运行前方是守矢神社站。
+이 열차는 L특급‘아유노카제’5호, 순환선 바깥쪽 방향, 모리야신사·홍마관 방면 열차입니다.다음 정차역은 모리야신사 입니다.
+
+5-moriya-arr:
+まもなく、守矢神社に到着いたします。守矢ロープウェイはお乗り換えです。をおりのお客様はお忘れ物のないようお仕度ください。守矢神社の次は、香霖堂前に停車いたします。
+We will soon make a brief stop at Moriya Shrine. Passengers changing to the Moriya Ropeway, please transfer at this station.The stop after Moriya Shrine will be Korindomae. Thank you.
+列车即将到达，守矢神社站。换乘守矢缆车的乘客请在此站下车。守矢神社的下一站，是香霖堂前站。
+우리 열차는 잠시 후 모리야신사 역에 도착하겠습니다. 모리야 로프웨이로 갈아타시기 바랍니다.미리 준비하시기 바랍니다. 모리야신사 다음은 코린도앞 역에 정차하겠습니다.
+
+5-moriya-dep:
+本日も、幻想きょう鉄道をご利用くださいましてありがとうございます。この電車は、L特急、あゆのかぜ、5号、環状線外回り、紅魔館、博麗神社方面ゆきです。途中、香霖堂前、紅魔館、博麗神社、永遠亭、人間の里、命蓮寺に停車いたします。この電車は、全車自由席です、空いているお席をご利用ください。グリーン車は1号車です、グリーン車をご利用の際は、乗車券、特急券のほかに、グリーン券が必要です。次は、香霖堂前に停車いたします。
+Ladies and gentlemen,welcome aboard the Ayu no ka ze Limited Express for Komakan and Hakurei Shrine.We will stopping at Korindomae, Koumakan, Hakurei Shrine, Eientei, Ningennosato, Myorenji.All seats are non-reserved. Green car is car 1.You may use the green car with a Green car ticket.The next stop is Korindomae.We wish you a pleasant journey.
+感谢您乘坐幻想乡铁道。本次列车是开往红魔馆和博丽神社方向的L特急Ayunokaze号。途中停车站是，香霖堂前，红魔馆，博丽神社，永远亭，人间之里，命莲寺。本次列车为全列自由席，请在空位入座。1号车是绿色车厢，利用绿色车厢时，在乘车券和特急券之外需要购买绿车券。列车运行前方，是香霖堂前站。
+오늘도 환상향철도를 이용해 주셔서 감사합니다.이 열차는 L특급 ‘아유노카제’ 5호, 순환선 바깥쪽 방향, 홍마관·하쿠레이신사 방면 열차입니다.이 열차는 도중에 코린도앞, 홍마관, 하쿠레이신사, 영원정, 인간의 마을,묘련사 에 정차합니다.이 열차는 전 좌석 자유석입니다. 비어 있는 좌석을 자유롭게 이용해 주시기 바랍니다.그린차는 1호차에 있습니다. 그린차를 이용하실 경우에는 승차권, 특급권 외에 그린권이 필요합니다.다음 정차역은 코린도앞입니다.
+
+6-korin-arr:
+まもなく、香霖堂前に到着いたします。をおりのお客様はお忘れ物のないようお仕度ください。香霖堂前の次は、紅魔館に停車いたします。
+We will soon make a brief stop at Kolindomye. The stop after Kolindomye will be Komakan. Thank you.
+列车即将到达，香霖堂前站。香霖堂前的下一站，是红魔馆站。
+우리 열차는 잠시 후 코린도앞 역에 도착하겠습니다. 미리 준비하시기 바랍니다. 코린도앞 다음은 홍마관 역에 정차하겠습니다.
+
+6-korin-dep:
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、紅魔館、博麗神社方面ゆきです。次は、紅魔館に停車いたします。
+This is the AYUNOKAZE Limited Express for Koumakan and Hakurei Shrine.The next station is Komakan.
+本次列车是开往红魔馆和博丽神社方向的L特急Ayunokaze号。列车运行前方是红魔馆站。
+이 열차는 L특급‘아유노카제’5호, 순환선 바깥쪽 방향, 홍마관·하쿠레이신사 방면 열차입니다.다음 정차역은 홍마관 입니다.
+
+7-koma-arr:
+まもなく、紅魔館に到着いたします。をおりのお客様はお忘れ物のないようお仕度ください。紅魔館の次は、博麗神社に停車いたします。
+We will soon make a brief stop at Komakan. The stop after Komakan will be Hakurei Shrine. Thank you.
+列车即将到达，红魔馆站。红魔馆的下一站，是博丽神社站。
+우리 열차는 잠시 후 홍마관 역에 도착하겠습니다. 미리 준비하시기 바랍니다. 홍마관 다음은 하쿠레이신사 역에 정차하겠습니다.
+
+7-koma-dep:
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、博麗神社、人間の里方面ゆきです。次は、博麗神社に停車いたします。
+This is the AYUNOKAZE Limited Express for Hakurei Shrine and Ningennosato.The next station is Hakurei Shrine.
+本次列车是开往博丽神社和人间之里方向的L特急Ayunokaze号。列车运行前方是博丽神社站。
+이 열차는 L특급‘아유노카제’5호, 순환선 바깥쪽 방향, 하쿠레이신사·인간의 마을 방면 열차입니다.다음 정차역은 하쿠레이신사 입니다.
+
+8-hakurei-arr:
+まもなく、博麗神社に到着いたします。をおりのお客様はお忘れ物のないようお仕度ください。博麗神社の次は、永遠亭に停車いたします。博麗神社から先、この列車の列車名は「あゆのかぜ5号」から「あゆのかぜ7号」に変更いたします。引き続きご乗車のお客様はご注意ください。
+We will soon make a brief stop at Hakurei Shrine. The stop after Hakurei Shrine, will be Eientei. After Hakurei Shrine station, the name of this train will change from Ayunokaze No. 5 to Ayunokaze No. 7. Thank you.
+列车即将到达，博丽神社站。博丽神社的下一站，是永远亭站。在博丽神社站之后，本列车的列车名由 Ayunokaze5号 变更为 Ayunokaze7号，请继续乘车的乘客多加留意。
+우리 열차는 잠시 후 하쿠레이신사 역에 도착하겠습니다. 미리 준비하시기 바랍니다. 하쿠레이신사 다음은 영원정 역에 정차하겠습니다.하쿠레이신사 이후부터 이 열차의 열차명은 ‘아유노카제 5호’에서 ‘아유노카제 7호’로 변경됩니다.계속 승차하시는 승객 여러분께서는 유의해 주시기 바랍니다.
+
+
+
 
 
 
