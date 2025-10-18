@@ -126,5 +126,6 @@ Yukkuri_Bve<br>
 雑庫Site<br>
 うたたね<br>
 P車解結可6連<br>
+车站及车内广播音源：谷歌翻译、Windows系统的自动朗读功能<br>
 一些车站音乐来自以下网页: <br>
 https://commons.nicovideo.jp/users/upload/157209?page=2
