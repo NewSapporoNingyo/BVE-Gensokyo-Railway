@@ -6,11 +6,11 @@ Ladies and gentlemen,welcome to aboard the AYUNOKAZE Limited Express for Ningenn
 잠시 후 출발하겠습니다.
 
 ningen-stopping:
-この電車は、L特急、あゆのかぜ、5号、環状線外回り、守矢神社、紅魔館方面ゆきです。まもなく発車いたします。
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、守矢神社、こうまかん方面ゆきです。まもなく発車いたします。
 Ladies and gentlemen,welcome to aboard the AYUNOKAZE Limited Express for Moriya Shrine and Koumakan.We will be departing soon.
 
 moriya-stopping:
-この電車は、L特急、あゆのかぜ、5号、環状線外回り、紅魔館、博麗神社方面ゆきです。まもなく発車いたします。
+この電車は、L特急、あゆのかぜ、5号、環状線外回り、こうまかん、博麗神社方面ゆきです。まもなく発車いたします。
 Ladies and gentlemen,welcome to aboard the AYUNOKAZE Limited Express for Koumakan and Hakurei Shrine.We will be departing soon.
 
 koma-stopping:

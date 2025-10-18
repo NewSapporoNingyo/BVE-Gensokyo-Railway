@@ -155,3 +155,7 @@ exchange-101M,sound\shanai\104\exchange-101M.wav
 ningen1+102nin,sound\station\ningennosato1+102nin.wav
 moriya1+102mry,sound\station\moriya1+102mry.wav
 kouma1+102kmk,sound\station\kouma1+102kmk.wav
+
+ningen1+105nin,sound\station\ningennosato1+105nin.wav
+moriya1+105mry,sound\station\moriya1+105mry.wav
+kouma1+105kmk,sound\station\kouma1+105kmk.wav
