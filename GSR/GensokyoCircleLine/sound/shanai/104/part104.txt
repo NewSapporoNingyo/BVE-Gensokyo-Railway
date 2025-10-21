@@ -1,5 +1,6 @@
 part 104
 Loop line
+Japanese+English+Chinese
 Rapid"Moriya" 
 Hakureijinjya - Moriyajinjya
 twoman

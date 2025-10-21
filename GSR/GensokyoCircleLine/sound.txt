@@ -14,6 +14,7 @@ minaminingen1,sound\station\minami-ningennosato1.wav
 minaminingen2,sound\station\minami-ningennosato2.wav
 ningen1,sound\station\ningennosato1.wav
 ningen1-short,sound\station\ningennosato1-short.wav
+ningen1+18m,sound\station\ningen1+18Marr.wav
 ningen-t4-localdep,sound\station\ningen-t4-localdep.wav
 15m-ningen2,sound\station\15m-ningen2.wav
 105m-ningen,sound\station\105m-ningen.wav

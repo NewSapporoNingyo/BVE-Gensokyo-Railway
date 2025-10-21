@@ -1,5 +1,6 @@
 part 103
-Loop line 
+Loop line
+Japanese+English+Chinese
 Hakureijinjya - Ningennosato
 twoman
  

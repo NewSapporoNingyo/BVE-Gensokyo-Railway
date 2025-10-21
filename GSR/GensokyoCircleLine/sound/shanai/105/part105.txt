@@ -1,6 +1,7 @@
 part 105
 Loop line
-L Limited Express "SANAE"
+Japanese+English+Chinese+Korean
+L Limited Express "AYUNOKAZE"
 Hakureijinjya - Hakureijinjya
 twoman
  

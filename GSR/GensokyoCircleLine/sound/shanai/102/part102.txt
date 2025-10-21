@@ -1,4 +1,5 @@
 part 102
+Japanese+English
 Loop line clockwise
 Hakureijinjya - Hakureijinjya
 oneman
