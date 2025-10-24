@@ -96,10 +96,25 @@ include 'Other\kiloposts-loopline.txt';
 	Station['15'].Put(1,-5,5);
 13010+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N16 Korindomae 1~4car StopPosition
 	Station['16'].Put(-1,-5,5);
+13260+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
+14350+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
+14850+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
 15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N17 Mohonomori StopPosition
 	Station['17'].Put(-1,-5,5);
 17310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N18 Kirinoko StopPosition
 	Station['18'].Put(1,-5,5);
+17380+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
+18010+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
 18570+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N19 Koumakan 1~4car StopPosition
 	Station['19'].Put(-1,-5,5);
 20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N20 Kami-Kirinoko StopPosition

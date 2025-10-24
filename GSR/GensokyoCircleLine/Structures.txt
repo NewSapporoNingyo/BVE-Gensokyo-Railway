@@ -379,6 +379,8 @@ concpole50cm,Structures\GSR\frameworks\pole1.x
 cross1,Structures\Accessory\Cross\Cr_ban2_045.x
 crossbar1,Structures\Accessory\Cross\Cr_barL_045.x
 crossbar1R,Structures\Accessory\Cross\Cr_barR_045.x
+crosssig1,Structures\Accessory\Cross\Cr_sig1_L.x
+crosssig1R,Structures\Accessory\Cross\Cr_sig1_R.x
 #firstday
 hakureikaigyo,Structures\firstday\hakureikaigyo.x
 redground,Structures\firstday\redground.x
