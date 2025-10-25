@@ -3519,6 +3519,8 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Repeater['treeR2'].Begin('3',18,-0.1,10, , , ,3,,40, 'tree2');
 	Repeater['treeR3'].Begin('3',18,-0.1,20, , , ,3,,40, 'tree3');
 	Repeater['treeR4'].Begin('3',18,-0.1,30, , , ,3,,40, 'tree4');
+18423+$distMapB;
+	JointNoise.Play(0);
 18440+$distMapB;
 	Repeater['kasenhangL'].Begin('3',-2,0,0,0,0,0,3,39.99,40,'kasenhang');
 	Repeater['treeL1'].End();
