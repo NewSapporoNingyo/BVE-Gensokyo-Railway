@@ -328,7 +328,7 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 	Repeater['treeL2'].End();
 	Repeater['treeL3'].End();
 615+$distMap_MRY_T2;
-	Repeater['pole1'].Begin('1',0,0,0, ,0, ,3,40,40, 'pole');
+	Repeater['pole1'].Begin('1',0,0,0, ,0, ,3,40,40, 'bridgepole');
 	Structure['r300'].Put('1',-2.6,3,0.1,,,,,);
 640-25+$distMap_MRY_T2;
 	Curve.BeginTransition();
