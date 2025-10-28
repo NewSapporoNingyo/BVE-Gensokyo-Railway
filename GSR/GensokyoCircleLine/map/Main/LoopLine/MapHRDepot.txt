@@ -76,6 +76,7 @@ BveTs Map 2.02
     Repeater['concbridgeN'].Begin('northline',0,-0.25,0, , , ,3,5,5, 'concbridge');
     Repeater['bridgewallL2'].Begin('northline',-0.2,-0.5,0, , , ,3,,5, 'bridgewallL');
     Repeater['bridgewallR2'].Begin('northline',0.2,-0.5,0, , , ,3,,5, 'bridgewallR');
+    Repeater['polenl'].Begin0('northline',3,39.99,40,'pole');
     rollingNoise.Change($run25m);
 20;
     Legacy.Curve(-600,0);
@@ -262,11 +263,12 @@ BveTs Map 2.02
     Repeater['slabRail3'].Begin0('3',3,4.99,5,'slabrail');
     Repeater['pier1'].End();
     Repeater['concbridgeN'].End();
+    Repeater['polenl'].End();
     Repeater['bridgewallL2'].Begin('3',-0.2,-0.5,0, , , ,3,,5, 'bridgewallL');
     Repeater['bridgewallR2'].Begin('3',0.2,-0.5,0, , , ,3,,5, 'bridgewallR');
     Repeater['concbridge2'].Begin('3',0,-0.25,0, , , ,3,5,5, 'concbridge');
-    Structure['kasen'].Put('3',-3,0,,,5,,,);
-    Structure['pole'].Put('3',0,0,0.2,,0,,,);
+    Structure['kasen'].Put('3',0,0,,,0,,,3);
+    //Structure['pole'].Put('3',0,0,0.2,,0,,,);
 900;
     Repeater['pier2'].End();
 930;
