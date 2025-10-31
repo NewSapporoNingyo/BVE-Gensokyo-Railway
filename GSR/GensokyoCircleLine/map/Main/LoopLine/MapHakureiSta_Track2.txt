@@ -469,6 +469,13 @@ $distMap_HKR_T2=$dist1;
 770+$distMap_HKR_T2;
 	Track['mountainR'].Position(40,10,0,0);
 	Track['mountain'].Position(-60,40,0,0);
+980+$distMap_HKR_T2;
+	//Kasen change 
+	Structure['kasen'].Put('1',-2.45,0,0,,3.22,,,);
+	1020+$distMap_HKR_T2;
+	Structure['kasen'].Put('1',-0.2,0,0,,,,,);
+	1060+$distMap_HKR_T2;
+	Structure['kasen'].Put('1',-0.2,0,0,,-3.5,,,);
 1170+$distMap_HKR_T2;
 	Track['ground'].Position(0,-14,0,0);
 	Gradient.BeginTransition();
