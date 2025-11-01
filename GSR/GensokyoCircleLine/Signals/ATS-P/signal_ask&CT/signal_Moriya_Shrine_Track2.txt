@@ -98,12 +98,11 @@ BveTs Map 2.00
 
 300+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 //守失上行出发
-	Structure['Sig30_LED'].Put('1',2.1,4.5,0,,180,,,5);
-	Structure['Sig30_LED'].Put('1',2.7,4.5,0,,180,,,5);
-	Structure['Sig_Pole'].Put('1',2.4,-0.6,0,,180,,,5);
-	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,180,,,5);
-	Structure['Sig_Arm_SD'].Put('1',2.4,3.38,0,,180,,,5);
-	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,180,,,5);
+	Structure['Sig30_LED'].Put('1',2.6,4.5,0.2,,180,,,5);
+	Structure['Sig_Pole'].Put('1',2.6,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.6,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.6,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.6,-0.6,0,,180,,,5);
 
 	Structure['Sig30_LED'].Put('2',2.4,4.5,0,,180,,,5);
 	Structure['Sig_Pole'].Put('2',2.4,-0.6,0,,180,,,5);
@@ -179,10 +178,17 @@ BveTs Map 2.00
 
 600+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 //守失上行场内
-	Structure['Sig4yy0_LED'].Put('1',2.1,4.5,0,,180,,,5);
-	Structure['Sig4yy0_LED'].Put('1',2.7,4.5,0,,180,,,5);
-	Structure['Sig4yy0_LED'].Put('1',2.4,5.8,0,,180,,,5);
-	Structure['Sig_Pole'].Put('1',2.4,0.6,0,,180,,,5);
-	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,180,,,5);
-	Structure['Sig_Arm_SD'].Put('1',2.4,3.38,0,,180,,,5);
-	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,180,,,5);
+	Structure['Sig4yy0_LED'].Put('1',2.3,5.8,0,,180,,,5);
+	Structure['Sig4yy0_LED'].Put('1',2.9,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('1',2.6,0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.6,4.5,0,,-135,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.6,3.38,0,,-135,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.6,5.8,0,,135,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.6,4.68,0,,135,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.6,0,0,,180,,,5);
+
+	Structure['Sig4yy0_LED'].Put('1',-2.7,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('1',-2.7,-0.5,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('1',-2.7,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('1',-2.7,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('1',-2.7,0,0,,180,,,5);
