@@ -1,0 +1,188 @@
+BveTs Map 2.00
+
+390+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//闭塞中继
+690+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//人里-西人里 第1闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+1593+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+1863+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里出发
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+2790+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里-命莲寺 第3闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+3380+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//人里车辆中心
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+3940+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里-命莲寺 第2闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+5090+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里-命莲寺 第1闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+6195+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//命莲寺场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+6419+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//命莲寺出发
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+7561+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+7721+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺出发
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+8540+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//闭塞中继
+8840+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺-树海 第3闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+9440+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//闭塞中继
+9940+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺-树海 第2闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+11090+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺-树海 第1闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+12252+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//树海场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+12402+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//树海出发
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+13200+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//树海-草田 第2闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+14000+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//树海-草田 第1闭塞
+	$sig=distance;
+	$sig-30;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+14848+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//草田场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+14973+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//草田出发
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);

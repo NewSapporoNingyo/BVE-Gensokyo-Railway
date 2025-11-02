@@ -1,0 +1,95 @@
+BveTs Map 2.00
+1950+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//东守矢第1场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+2250+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	//中继
+2450+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//东守矢第2场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+2850+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//东守矢出发
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-400;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+11840+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//中继
+12140+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//香霖堂前第1场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+12540+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//中继
+12740+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//香霖堂前第2场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+13090+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//香霖堂前出发
+	$sig=distance;
+	$sig-5;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-450;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+17510+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+17710+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//红魔馆第1场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+18100+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//中继
+18300+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//红魔馆第2场内 (Track 3)
+18310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//红魔馆第2场内
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+18700+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//红魔馆出发(Track 3)
+18780+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//红魔馆出发
+	$sig=distance;
+	$sig-5;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-680;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);

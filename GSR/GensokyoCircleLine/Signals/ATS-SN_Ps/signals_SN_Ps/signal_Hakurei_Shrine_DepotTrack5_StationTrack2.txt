@@ -1,0 +1,28 @@
+BveTs Map 2.00
+
+25;
+	Section.Begin(0,5);
+	Signal['SigI_LEDW'].Put(0,'',-2.5,1.2,0.51,,,,,);
+	Structure['Sigib_on_LED'].Put('',-2.5,0.8,0,0,0,0,0,2);
+	Structure['SigI_Arm'].Put('',-2.5,0.8,0,0,0,0,0,2);
+	Structure['Sig_Pole'].Put('',-2.5,-4.25,0,,,,,);
+	Structure['SigI0W_LED'].Put('2',-2.5,1.2,0.51,0,0,0,0,2);
+	Structure['Sigib_on_LED'].Put('2',-2.5,0.8,0,0,0,0,0,2);
+	Structure['SigI_Arm'].Put('2',-2.5,0.8,0,0,0,0,0,2);
+	Structure['Sig_Pole'].Put('2',-2.5,-4.25,0,,,,,);	
+	Structure['SigI0W_LED'].Put('3',-2.5,1.2,0.51,0,0,0,0,2);
+	Structure['Sigib_on_LED'].Put('3',-2.5,0.8,0,0,0,0,0,2);
+	Structure['SigI_Arm'].Put('3',-2.5,0.8,0,0,0,0,0,2);
+	Structure['Sig_Pole'].Put('3',-2.5,-4.25,0,,,,,);	
+	Structure['SigI0W_LED'].Put('4',-2.5,1.2,0.51,0,0,0,0,2);
+	Structure['Sigib_on_LED'].Put('4',-2.5,0.8,0,0,0,0,0,2);
+	Structure['SigI_Arm'].Put('4',-2.5,0.8,0,0,0,0,0,2);
+	Structure['Sig_Pole'].Put('4',-2.5,-4.25,0,,,,,);	
+995;
+	Section.Begin(0,5);
+	Signal['SigI_LEDW'].Put(0,'',-2,1.4,0.51,,,,,);
+	Structure['Sigib_on_LED'].Put('',-2,1.0,0,0,0,0,0,2);
+	Structure['SigI_Arm'].Put('',-2,1.0,0,0,0,0,0,2);
+	Signal['SigIR3L'].Put(0,'',-2,0.42,0,,,,,);;	
+	Structure['Sig_Pole'].Put('',-2,-4.05,0,,,,,);
+1200;

@@ -1,0 +1,7 @@
+BveTs Map 2.00
+
+25;
+995;
+1200;
+	Beacon.Put(0,1,0);
+	Structure['ATS-S_L'].Put0('',0,1);

@@ -1,19 +1,22 @@
 BveTs Map 2.02
 
-//信号
-include '..\Signals\ATS-P\signal_ask&CT\signal_Hakurei_Shrine_Track2.txt';
-include '..\Signals\ATS-P\signal_ask&CT\signal_common1.txt';
-include '..\Signals\ATS-P\signal_ask&CT\signal_Ningennosato_Track4.txt';
-include '..\Signals\ATS-P\signal_ask&CT\signal_common2.txt';
-include '..\Signals\ATS-P\signal_ask&CT\signal_Moriya_Shrine_Track2.txt';
-include '..\Signals\ATS-Ps\signal_newline.txt';
-include '..\Signals\ATS-Ps\signal_Hakurei_Shrine_Track2-loop.txt';
+//Signals_信号
+include '..\Signals\ATS-P\signals_P\signal_Hakurei_Shrine_Track2.txt';
+include '..\Signals\ATS-P\signals_P\signal_common1.txt';
+include '..\Signals\ATS-P\signals_P\signal_Ningennosato_Track4.txt';
+include '..\Signals\ATS-P\signals_P\signal_common2.txt';
+include '..\Signals\ATS-P\signals_P\signal_Moriya_Shrine_Track2.txt';
 
-//唤呼标
+//Beacons_地上子
+include '..\Signals\ATS-P\beacon_P\beacons_ask&CT\beacons_Hakurei_Shrine_Track2.txt';
+include '..\Signals\ATS-P\beacon_P\beacons_ask&CT\beacons_common1.txt';
+include '..\Signals\ATS-P\beacon_P\beacons_ask&CT\beacons_Ningennosato_Track4.txt';
+include '..\Signals\ATS-P\beacon_P\beacons_ask&CT\beacons_common2.txt';
+include '..\Signals\ATS-P\beacon_P\beacons_ask&CT\beacons_Moriya_Shrine_Track2.txt';
+
+//KankoSign_喚呼標
 include '..\Signals\kankosign_common1.txt';
 
-//制限
-include '..\Signals\ATS-P\speedlimit_common1_snp&ask&CT.txt';
-include '..\Signals\ATS-P\speedlimit_Moriya_Shrine_Track2_snp&ask&CT.txt';
-include '..\Signals\ATS-Ps\speedlimit_newline1.txt';
-include '..\Signals\ATS-SN\speedlimit_newline1_Notsuki&ask&CT.txt';
+//Speed check_速度照查
+include '..\Signals\ATS-P\beacon_P\speed_check_snp&ask&CT\speedlimit_common1_snp&ask&CT.txt';
+include '..\Signals\ATS-P\beacon_P\speed_check_snp&ask&CT\speedlimit_Moriya_Shrine_Track2_snp&ask&CT.txt';

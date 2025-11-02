@@ -1,0 +1,17 @@
+BveTs Map 2.00
+
+63+$dist1+$distHKR_T2+$dist2;
+	Section.Begin(0,2,3,4);
+	Signal['Type4yy_LED'].Put(0,'1',-1.65,5.0,-0.05,,,,,);
+	Structure['Sig4yy0_LED'].Put('1',-2.25,4.6,-0.05,,,,,);
+	//Structure['CR4'].Put('1',-2,3.1,0.5,,,,,);	
+200+$dist1+$distHKR_T2+$dist2;
+	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
+	Structure['Sig_Arm_SD'].Put('1',-2.11,2.38,-0.38,,-90,,,5);
+380+$dist1+$distHKR_T2+$dist2;
+//人里出发
+	Section.Begin(0,2,4);
+	Signal['Type4yg_LED'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
+	//Structure['S_Ref'].Put('1',-1.72,0,0,,,,,5);
+	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
+	Structure['Sig_Arm_SD'].Put('1',-2.11,2.38,-0.38,,-90,,,5);

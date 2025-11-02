@@ -1,0 +1,20 @@
+BveTs Map 2.00
+
+63+$dist1+$distHKR_T2+$dist2;
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
+200+$dist1+$distHKR_T2+$dist2;
+380+$dist1+$distHKR_T2+$dist2;
+//人里出发
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(1,1,0);
+	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,2,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);

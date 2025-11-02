@@ -1,0 +1,14 @@
+BveTs Map 2.02
+
+205+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
+	#Beacon.Put(19,0,0);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,-5,,,,3,);
+207+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
+	$sig=distance;
+	$sig-350;
+	Beacon.Put(6,0,350045);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,-5,,,,3,);
+500+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
+	#Beacon.Put(16,0,0);
