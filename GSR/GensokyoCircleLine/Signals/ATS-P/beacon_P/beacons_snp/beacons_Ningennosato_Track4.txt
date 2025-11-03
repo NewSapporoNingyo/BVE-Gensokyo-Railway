@@ -1,21 +1,6 @@
 BveTs Map 2.00
 
-21700+$dist1;
-	$sig=distance;
-	$sig-30;
-	Beacon.Put(5,-1,0);
-	Beacon.Put(3,-1,9);
-	Structure['ATS-P_2way1Y'].Put('1',0,0.05,0,,,,3,);
-	$sig-85;
-	Beacon.Put(3,-1,3);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-180;
-	Beacon.Put(3,-1,2);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-600;
-	Beacon.Put(3,-1,1);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-22118+$dist1;
+63+$dist1+$distHKR_T2+$dist2;
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,-1,0);
@@ -36,8 +21,9 @@ BveTs Map 2.00
 	$sig-280;
 	Beacon.Put(3,-1,1);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-22255+$dist1;//Abandoned
-22435+$dist1;//人里出发
+200+$dist1+$distHKR_T2+$dist2;//Abandoned
+380+$dist1+$distHKR_T2+$dist2;
+//人里出发
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,-1,0);
@@ -45,7 +31,7 @@ BveTs Map 2.00
 	Structure['ATS-P_2way1Y'].Put('1',0,0.05,0,,,,3,);
 	$sig-50;
 	Beacon.Put(3,-1,4);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
+	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-85;
 	Beacon.Put(3,-1,3);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);

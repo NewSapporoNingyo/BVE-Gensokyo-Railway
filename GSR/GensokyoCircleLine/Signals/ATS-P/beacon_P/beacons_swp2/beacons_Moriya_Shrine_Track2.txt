@@ -1,6 +1,7 @@
 BveTs Map 2.00
 
-38480+$dist1; //草田-守失 第1闭塞
+0-465+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
+//草田-守失 第1闭塞
 	$sig=distance;
 	$sig-30;
 	Beacon.Put(5,1,0);
@@ -15,7 +16,8 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,1);Beacon.Put(3,2,2);Beacon.Put(3,3,3);Beacon.Put(3,4,4);Beacon.Put(3,5,9);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-39145+$dist1;//守失场内
+200+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
+//守失场内
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
@@ -66,8 +68,10 @@ BveTs Map 2.00
 	//Beacon.Put(14,2,95);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 
-39245+$dist1; //守失上行出发
-39465+$dist1; //守失出发
+300+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
+//守失上行出发
+520+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
+//守失出发
 	$sig=distance+10;
 	$sig;
 	
@@ -114,5 +118,5 @@ BveTs Map 2.00
 	//Beacon.Put(11,2,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 
-39545+$dist1;
+600+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 //守失上行场内
