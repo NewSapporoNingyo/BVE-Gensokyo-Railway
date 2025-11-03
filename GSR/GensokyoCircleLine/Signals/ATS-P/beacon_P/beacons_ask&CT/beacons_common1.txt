@@ -158,7 +158,6 @@ BveTs Map 2.00
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 9044+$dist1+$distHKR_T2;
-
 9050+$dist1+$distHKR_T2; 
 //永远亭场内
 	$sig=distance;
