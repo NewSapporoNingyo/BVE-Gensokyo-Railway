@@ -1,0 +1,11 @@
+BveTs Scenario 2.00:UTF-8
+
+Title = Rapid "Moriya" 101M(Hakurei Shrine-Moriya Shrine)
+Author = SapporoNingyo&Contributors on Github
+Route = ..\..\Scenarios_GSR\map\Config_Map101M-ATSP_swp2.txt
+RouteTitle = Gensokyo Loop Line
+Vehicle = ..\..\..\..\JRW221\Vehicle4.txt
+;↑ Paste the path of your train data to replace the default train ↑
+VehicleTitle = 221 Series(4 car)
+Image = Rollsign\Rapid-moriya.jpg
+Comment = [ATS-P(swp2)] Max speed：110km/h Platform: Hakurei② Ningen④ Moriya②
