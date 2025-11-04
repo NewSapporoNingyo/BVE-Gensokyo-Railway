@@ -1,0 +1,24 @@
+BveTs Map 2.02
+
+#--------------
+1295+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N13 Fuujinnoko StopPosition
+	Station['13'].Put(1,-5,5);
+2790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//14 East Moriya StopPosition
+	Station['14'].Put(0,-5,5);
+8220+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N15 Genbunosawa StopPosition
+	Station['15'].Put(1,-5,5);
+13030+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N16 Korindomae 6car StopPosition
+	Station['16'].Put(-1,-5,5);
+15180+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N17 Mahonomori StopPosition
+	Station['17'].Put(-1,-5,5);
+17310+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N18 Kirinoko StopPosition
+	Station['18'].Put(1,-5,5);
+18620+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N19 Koumakan 6car StopPosition
+	Station['19'].Put(-1,-5,5);
+20720+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N20 Kami-Kirinoko StopPosition
+	Station['20'].Put(1,-5,5);
+21950+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;//N21 Kita-Hakurei StopPosition
+	Station['21'].Put(-1,-5,5);
+#--------------
+380+$loop;//(loop)GO01 HakureiShrine 4/6car StopPosition(Track2)
+	Station['22'].Put(-1,-5,5);

@@ -2,9 +2,9 @@ BveTs Scenario 2.00:UTF-8
 
 Title = Hakurei East Line D721(Hakurei Shrine East - ShinKouma)
 Author = SapporoNingyo&Contributors on Github
-Route = GensokyoCircleLine\map\MapD721.txt
+Route = ..\..\Scenarios_GSR\map\MapD721.txt
 RouteTitle = Gensokyo Hakurei East Line
-Vehicle = ..\..\Tec_200\Vehicle.txt
+Vehicle = ..\..\..\..\Tec_200\Vehicle.txt
 ;↑ Paste the path of your train data to replace the default train ↑
 VehicleTitle = 200 Series or CRH1A
 Image = 

@@ -1,0 +1,31 @@
+BveTs Map 2.02
+
+12245+$dist1+$distHKR_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(6,1);
+#--------------
+350+$dist1+$distHKR_T2+$dist2;    
+    Sound3D['pin_pon'].Put(-3,2);
+#--------------
+7700+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(6,1);
+14960+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(6,1);
+#--------------
+13260+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
+14350+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
+14850+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
+17380+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);
+18010+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+	Sound3D['crossing1'].Put(-2,1);
+	Sound3D['crossing1'].Put(2,1);

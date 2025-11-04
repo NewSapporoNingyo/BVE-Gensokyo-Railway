@@ -1,0 +1,30 @@
+BveTs Map 2.02
+#--------------
+380+$dist1;//GO01 HakureiShrine 4/6car StopPosition(Track2)
+	Station['1'].Put(-1,-5,5);
+#--------------
+3555+$dist1+$distHKR_T2;//GO02 Minami-Hakurei 4car StopPosition
+	Station['2'].Put(-1,-5,5);
+9278+50+$dist1+$distHKR_T2;//GO03 Eientei 6car StopPosition
+	Station['3'].Put(1,-5,5);
+12355+$dist1+$distHKR_T2;//GO04 Chikurin 4car StopPosition
+	Station['4'].Put(-1,-5,5);
+19495+$dist1+$distHKR_T2;//GO05 Minami-Ningennosato 4car StopPosition
+	Station['5'].Put(-1,-5,5);
+#--------------
+350+$dist1+$distHKR_T2+$dist2;//GO06 Ningennosato 4/6car StopPosition(Track4)
+	Station['6'].Put(-1,-5,5);
+#--------------
+1823+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO07 Nishi-Ningennosato StopPosition
+	Station['7'].Put(1,-5,5);
+6379+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO08 Myorenji 4/6car StopPosition
+	Station['8'].Put(1,-5,5);
+7681+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO09 Kita-Myorenji 4car StopPosition
+	Station['9'].Put(-1,-5,5);
+12362+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO10 Youkainojyukai 4car StopPosition
+	Station['10'].Put(-1,-5,5);
+14943+$dist1+$distHKR_T2+$dist2+$distNNS_T4;//GO11 Kusada 4car StopPosition
+	Station['11'].Put(-1,-5,5);
+#--------------
+480+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;//GO12 MoriyaShrine StopPosition
+	Station['12'].Put(1,-5,5);	

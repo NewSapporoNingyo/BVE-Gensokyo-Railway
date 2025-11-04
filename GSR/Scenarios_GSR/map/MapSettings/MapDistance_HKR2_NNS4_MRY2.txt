@@ -1,0 +1,13 @@
+BveTs Map 2.02
+
+#distance data of separated maps
+$dist1=1120;//Hakurei Depot(MapHRDepot.txt)
+$distHKR_T2=1925;//Hakurei Shrine Sta. Track2 (MapHakureiSta_Track2.txt)
+$dist2=20500;//Hakurei Shrine Sta --> Ningennosato Sta.(mapA.txt)
+$distNNS_T4=555;//Ningennosato Sta. Track4(MapNingten_Track4.txt)
+$dist3=16335;//Ningennosato Sta. --> Moriya Shrine Sta.(mapA2.txt)
+$distMRY_T2=1055;//Moriya Shrine Sta.(MapMoriyaSta_Track2.txt)
+$dist4=40000;
+$loop=64420;
+
+	
