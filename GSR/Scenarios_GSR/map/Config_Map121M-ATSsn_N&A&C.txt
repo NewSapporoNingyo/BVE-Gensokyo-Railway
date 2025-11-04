@@ -3,14 +3,14 @@ BveTs Map 2.02
 include 'MapSettings\MapDistance_HKR2_NNS4_MRY2.txt';
 #---General---
 include 'MapSettings\GeneralSettings.txt';
-#RollingNoise Setting (381series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
+#RollingNoise Setting (E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 $runlong=0;
 $run25m=2;
 $runbri=3;
 $runtun=4;
 #---Signals---
 Signal.Load('..\Signals.csv');
-Signal.SpeedLimit(0,25,55,75,120);
-include 'SignalMap\HKR-HKR_ATSsn_NoSC.txt';
+Signal.SpeedLimit(0,25,55,75,95,25);
+include 'SignalMap\HKR-HKR_ATSsn_N&A&C.txt';
 #---Mainmap---
-include 'Map15M.txt';
+include 'Map121M.txt';
