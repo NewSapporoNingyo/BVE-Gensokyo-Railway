@@ -1,0 +1,29 @@
+BveTs Map 2.02
+
+//Signals_信号
+include '..\Signals\ATS-SN_Ps\signals_SN_Ps\signal_Hakurei_Shrine_DepotTrack5_StationTrack2.txt';
+include '..\Signals\ATS-SN_Ps\signals_SN_Ps\signal_Hakurei_Shrine_Track2.txt';
+include '..\Signals\ATS-SN_Ps\signals_SN_Ps\signal_common1.txt';
+include '..\Signals\ATS-SN_Ps\signals_SN_Ps\signal_Ningennosato_Track4.txt';
+include '..\Signals\ATS-SN_Ps\signals_SN_Ps\signal_common2.txt';
+include '..\Signals\ATS-SN_Ps\signals_SN_Ps\signal_Moriya_Shrine_Track2.txt';
+include '..\Signals\ATS-SN_Ps\signals_SN_Ps\signal_newline.txt';
+include '..\Signals\ATS-SN_Ps\signals_SN_Ps\signal_Hakurei_Shrine_Track2-loop.txt';
+
+//Beacons_地上子
+include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_Hakurei_Shrine_DepotTrack5_StationTrack2.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_Hakurei_Shrine_Track2.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_common1.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_Ningennosato_Track4.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_common2.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_Moriya_Shrine_Track2.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_newline.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_Hakurei_Shrine_Track2-loop.txt';
+
+//kankosign_喚呼標
+include '..\Signals\kankosign_common1.txt';
+
+//Speed check_速度照查
+include '..\Signals\ATS-SN_Ps\beacon_SN\speed_check_snp\speedlimit_common1_snp.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\speed_check_snp\speedlimit_Moriya_Shrine_Track2_snp.txt';
+include '..\Signals\ATS-SN_Ps\beacon_SN\speed_check_snp\speedlimit_newline1_snp.txt';

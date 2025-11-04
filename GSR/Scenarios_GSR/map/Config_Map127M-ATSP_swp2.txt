@@ -11,6 +11,6 @@ $runtun=4;
 #---Signals---
 Signal.Load('..\Signals.csv');
 Signal.SpeedLimit(0,25,55,75,95);
-include 'SignalMap\HKR-MRY_ATSP_A&C.txt';
+include 'SignalMap\HKR-MRY_ATSP_swp2.txt';
 #---Mainmap---
 include 'Map127M.txt';

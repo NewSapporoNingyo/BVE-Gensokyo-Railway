@@ -2,10 +2,11 @@ BveTs Scenario 2.00:UTF-8
 
 Title = [Oneman] Local 121M(Depot-Hakurei Shrine-(Clockwise)-Hakurei Shrine)
 Author = SapporoNingyo&Contributors on Github
-Route = ..\..\Scenarios_GSR\map\Config_Map121M-ATSsn_N&A&C.txt
+Route = ..\..\Scenarios_GSR\map\Config_Map121M-ATSP+Ps_Ask.txt
 RouteTitle = Gensokyo Loop Line
-Vehicle = ..\..\..\trains\jre127\Vehicle_1M1T_0.txt
+Vehicle = ..\..\..\..\E129\Nii-A23.txt
+;Vehicle = ..\trains\jre127\Vehicle_1M1T_0.txt
 ;↑ Paste the path of your train data to replace the default train ↑
-VehicleTitle = <Notsuki&ASK&CT> Any trains ≤ 4 cars(80m length)
+VehicleTitle = <Ask>E129(2 car)
 Image = Rollsign\Local-LoopLine-oneman.jpg
-Comment = [ATS-SN(Notsuki&ASK&CT)] Max speed：95km/h Platform: Hakurei② Ningen④ Moriya② Koma①
+Comment = [ATS-P/Ps(Ask)] Max speed：95km/h Platform: Hakurei② Ningen④ Moriya② Koma①

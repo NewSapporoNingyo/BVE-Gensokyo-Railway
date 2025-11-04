@@ -2,10 +2,10 @@ BveTs Scenario 2.00:UTF-8
 
 Title = Local 127M(Hakurei Shrine-Moriya Shrine)
 Author = SapporoNingyo&Contributors on Github
-Route = ..\..\Scenarios_GSR\map\Config_Map127M-ATSP_A&C.txt
+Route = ..\..\Scenarios_GSR\map\Config_Map127M-ATSP_snp.txt
 RouteTitle = Gensokyo Loop Line
-Vehicle = ..\..\..\..\E129\Nii-B11.txt
+Vehicle = ..\..\..\..\211\vehicle_2M1T_3000.txt
 ;↑ Paste the path of your train data to replace the default train ↑
-VehicleTitle = <Ask&CT> E129 (4 car)
+VehicleTitle = <snp> 211（3car）
 Image = Rollsign\Local-moriya.jpg
-Comment = [ATS-P(Ask&CT)] Max speed：95km/h Platform: Hakurei② Ningen④ Moriya②
+Comment = [ATS-P(snp)] Max speed：95km/h Platform: Hakurei② Ningen④ Moriya②
