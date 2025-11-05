@@ -7,5 +7,5 @@ RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\..\..\JRW221\Vehicle4.txt
 ;↑ Paste the path of your train data to replace the default train ↑
 VehicleTitle = <swp2> 221 Series(4 car)
-Image = Rollsign\Rapid-moriya.jpg
+Image = Rollsign\Rapid-moriya-swp2.jpg
 Comment = [ATS-P(swp2)] Max speed：110km/h Platform: Hakurei② Ningen④ Moriya②

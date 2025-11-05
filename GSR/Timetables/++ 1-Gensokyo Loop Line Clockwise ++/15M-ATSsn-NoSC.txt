@@ -6,5 +6,5 @@ Route = ..\..\Scenarios_GSR\map\Config_Map15M-ATSsn_NoSC.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\..\..\..\Rock_On\Train\JR\Formation\hine\D601.txt
 VehicleTitle = <Default SN>↑ Use a tilting express train ↑
-Image = rollsign\L Express sanae-15M.jpg
+Image = rollsign\L Express-15M.jpg
 Comment = [ATS-SN] Max speed：120km/h Platform: Hakurei② Ningen④ Moriya② Koma①
