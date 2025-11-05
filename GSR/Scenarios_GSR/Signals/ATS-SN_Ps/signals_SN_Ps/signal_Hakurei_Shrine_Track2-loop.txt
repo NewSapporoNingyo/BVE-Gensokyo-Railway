@@ -1,5 +1,17 @@
 BveTs Map 2.00
 
+0-650+$loop;
+//博丽神社第1场内
+	Section.Begin(0,2,3,4);
+	
+	Signal['Type4yg'].Put(0,'1',2.5,5.45,0.05,,,,,);
+	Structure['Sig_Arm_SU'].Put('1',2.5,5.45,0,,0,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.5,4.33,0,,0,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.5,0.85,0,,,,,5);
+	Structure['Sig_Pole'].Put('1',2.5,0.5,0,,,,,5);
+	Structure['Sig2TN_LED'].Put('1',2.5,2.2,0,,,,,5);
+	Structure['Sig2T_Arm'].Put('1',2.5,2.2,0,,,,,5);
+
 0-150+$loop;
 //博丽神社第2场内
 	Section.Begin(0,2,3,4);
