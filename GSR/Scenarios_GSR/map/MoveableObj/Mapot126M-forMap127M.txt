@@ -16,7 +16,7 @@ Track['126M'].Position(7,0,0,0);
 Track['126M'].Position(4,0,0,0);
 
 0;
-Train['126M'].Load('..\Structures\bve_115str\115\300_sk\115_3R.txt','126M',-1);
+Train['126M'].Load('..\Structures\2_Str_Trains\bve_115str\115\300_sk\115_3R.txt','126M',-1);
 Train['126M'].Enable('11:32:30');
 1500;
 Train['126M'].Stop(2,120,2,100);

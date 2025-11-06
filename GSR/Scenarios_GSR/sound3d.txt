@@ -1,4 +1,4 @@
 BveTs Sound List 2.00:
 
-crossing1,sound\crossing1.wav
-pin_pon,sound\pin_pon.wav
+crossing1,sound\GeneralStr_sounds\crossing1.wav
+pin_pon,sound\GeneralStr_sounds\pin_pon.wav

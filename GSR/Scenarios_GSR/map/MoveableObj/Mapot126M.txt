@@ -1,7 +1,7 @@
 BveTs Map 2.02
 1490;
-//Train['126M'].Load('..\Structures\211\211_3R.txt','2',-1);
-Train['126M'].Load('..\Structures\bve_115str\115\300_sk\115_3R.txt','2',-1);
+//Train['126M'].Load('..\Structures\2_Str_Trains\211\211_3R.txt','2',-1);
+Train['126M'].Load('..\Structures\2_Str_Trains\bve_115str\115\300_sk\115_3R.txt','2',-1);
 Train['126M'].Enable('10:30:00');
 54500;
 Train['126M'].Stop(2,60,2,70);
