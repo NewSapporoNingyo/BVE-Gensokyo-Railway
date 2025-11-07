@@ -1,0 +1,10 @@
+BveTs Scenario 2.00:UTF-8
+
+Title = GSR L Express "Ayunokaze" 15M(Hakurei-Ningen-Moriya-Komakan-Hakurei)
+Author = SapporoNingyo&Contributors on Github
+Route = ..\..\Scenarios_GSR\map\Config_Map15M-ATSP+SN_A&C.txt
+RouteTitle = Gensokyo Loop Line
+Vehicle = ..\..\..\..\JR-East_E653\Vehicle\Nii\1100_Shirayuki_DC.txt
+VehicleTitle = <Ask&CT> E653 (4 car)
+Image = rollsign\L Express-15M.jpg
+Comment = [ATS-P/SN(Ask&CT)] Max speed：120km/h Platform: Hakurei② Ningen④ Moriya② Koma①
