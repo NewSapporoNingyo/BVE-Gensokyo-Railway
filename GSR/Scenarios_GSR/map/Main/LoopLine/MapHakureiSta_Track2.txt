@@ -555,3 +555,13 @@ $distMap_HKR_T2=$dist1;
 	Repeater['tree24'].End();
 #高架区間end
 # ----------↑Map separate↓----------
+#---Kiloposts---
+300+$distMap_HKR_T2;
+Structure['0km'].Put('3',-1.7,0,-0.3,,,,,);
+800+$distMap_HKR_T2;
+Structure['0.5km'].Put('1',-2.3,0,0,0,0,0,,);
+1300+$distMap_HKR_T2;
+Structure['1km'].Put('1',-2.3,0,0,0,0,0,,);
+1800+$distMap_HKR_T2;
+Structure['1.5km'].Put('1',-2.3,0,0,0,0,0,,);
+#------

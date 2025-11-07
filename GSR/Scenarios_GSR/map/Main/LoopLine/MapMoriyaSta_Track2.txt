@@ -402,3 +402,11 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 	Repeater['bushL33'].End();
 	Repeater['bushL34'].End();
 	Repeater['bushL35'].End();
+# ----------(MapMoriyaSta_Track2)↑Map separate↓(mapB)----------
+
+#---Kiloposts---
+485+$distMap_MRY_T2;
+Structure['39.5km'].Put('3',-2.4,0,-0.1,0,0,0,,);
+985+$distMap_MRY_T2;
+Structure['40km'].Put('1',-2.5,0,0,,,0,,);
+#------

@@ -24,7 +24,6 @@ include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track2.txt';
 include 'Main\LoopLine\mapB.txt';
 include 'Main\LoopLine\2-MapHakureiSta_Track2.txt';
-include 'Other\kiloposts-loopline.txt';
 
 #--------------
 #--------------

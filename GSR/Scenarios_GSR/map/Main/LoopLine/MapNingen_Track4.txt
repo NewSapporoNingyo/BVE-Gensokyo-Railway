@@ -656,3 +656,8 @@ $distMap_NNS_T4=$dist1+$distHKR_T2+$dist2;
 	Repeater['tunwallR601'].End();	
 	Repeater['tunwallR501'].End();
 # ----------(MapNingenosato_Track4)↑Map separate↓(mapA2)----------
+
+#---Kiloposts---
+375+$distMap_NNS_T4;
+Structure['22.5km'].Put('1',-1.99,-0.5,0,0,0,0,,);
+#------
