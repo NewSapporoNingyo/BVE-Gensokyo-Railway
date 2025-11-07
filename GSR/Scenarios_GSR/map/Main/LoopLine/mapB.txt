@@ -228,7 +228,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 1320+$distMapB;
 	//Fuujin bridge
 	rollingNoise.Change($runbri);
-	Irregularity.Change(0.001,0.01,0.0005,50,25,30);
+	Irregularity.Change(0.001,0.003,0.0005,50,25,30);
 	Track['ground'].Position(0,-40,0,0);
 	Gradient.BeginTransition();
 	Repeater['Rail'].End();
