@@ -54,7 +54,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('3',-2.4,3.38,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('3',-2.4,-0.6,0,,,,,5);
 	Structure['Label_1-Shu'].Put('3',-2.4,1.7,-0.2,,,,,);
-
+	Structure['SN'].Put('3',-2.4,2.6,-0.1,,,,,);
 	$sig=distance+10;
 	$sig;
 	Section.Begin(0,2,4);
@@ -65,6 +65,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.48,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Label_2-Shu'].Put('1',-2.4,1.7,-0.2,,,,,);
+	Structure['SN'].Put('1',-2.4,2.6,-0.1,,,,,);
 
 	$sig-25;
 	

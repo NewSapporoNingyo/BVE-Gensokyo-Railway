@@ -36,7 +36,19 @@ BveTs Map 2.00
 
 	Structure['Sig2TN_LED'].Put('1',-2.4,2.2,0,,,,,5);
 	Structure['Sig2T_Arm'].Put('1',-2.4,2.2,0,,,,,5);
+2530+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//东守矢内回出发
+	Structure['Sig30'].Put('1',-2.6,4.5,0.2,,180,,,5);
+	Structure['Sig_Pole'].Put('1',-2.6,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('1',-2.6,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('1',-2.6,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('1',-2.6,-0.6,0,,180,,,5);
 
+	Structure['Sig30'].Put('2',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('2',2.4,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('2',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('2',2.4,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('2',2.4,-0.6,0,,180,,,5);
 2850+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 //东守矢出发
 	Section.Begin(0,2,4);
@@ -55,7 +67,16 @@ BveTs Map 2.00
 	Structure['Sig_Base_Step'].Put('2',2.4,-0.6,0,,,,,5);
 	Structure['Label_2-Shu'].Put('2',2.4,1.7,-0.2,,,,,);
 	Structure['SN'].Put('2',2.4,2.6,-0.1,,,,,);
-
+2930+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//東守矢内回り第2場内_EastMoriya No2 Esig(AntiClockwise)_东守失内回第2场内
+	Structure['Sig4yy0'].Put('1',2.3,5.8,0,,180,,,5);
+	Structure['Sig4yy0'].Put('1',2.9,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('1',2.6,0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.6,4.5,0,,-135,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.6,3.38,0,,-135,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.6,5.8,0,,135,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.6,4.68,0,,135,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.6,0,0,,180,,,5);
 11840+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 //中继
 	Signal['Relay'].Put(1,'1',-2.4,4.5,-0.1,,,,,);
@@ -101,7 +122,13 @@ BveTs Map 2.00
 	//Structure['Label_1-Jo'].Put('1',-2.6,5.5,-0.1,,,,,);
 	Structure['Sig2TN_LED'].Put('1',-2.4,2.2,0,,,,,5);
 	Structure['Sig2T_Arm'].Put('1',-2.4,2.2,0,,,,,5);
-
+12850+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//香霖堂前内回出发
+	Structure['Sig30'].Put('2',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('2',2.4,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('2',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('2',2.4,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('2',2.4,-0.6,0,,180,,,5);
 13090+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 //香霖堂前出发
 	Section.Begin(0,2,4);
@@ -111,7 +138,20 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.48,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['SN'].Put('1',-2.4,2.6,-0.1,,,,,);
-
+13190+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//香霖堂前内回り第2場内_Korindomae No2 Esig(AntiClockwise)_香霖堂前内回第2场内
+	Structure['Sig4yy0'].Put('1',2.6,5.8,0,,180,,,5);
+	Structure['Sig_Pole'].Put('1',2.6,0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.6,5.8,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.6,4.68,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.6,0,0,,180,,,5);
+13790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//香霖堂前内回り第1場内_Korindomae No1 Esig(AntiClockwise)_香霖堂前内回第1场内
+	Structure['Sig4yy0'].Put('1',2.6,5.8,0,,180,,,5);
+	Structure['Sig_Pole'].Put('1',2.6,0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('1',2.6,5.8,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('1',2.6,4.68,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('1',2.6,0,0,,180,,,5);
 17510+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Signal['Relay'].Put(1,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -175,7 +215,19 @@ BveTs Map 2.00
 
 	Structure['Sig2TN_LED'].Put('1',-2.4,2.2,0,,,,,5);
 	Structure['Sig2T_Arm'].Put('1',-2.4,2.2,0,,,,,5);
+18380+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//红魔馆内回出发
+	Structure['Sig30'].Put('2',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('2',2.4,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('2',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('2',2.4,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('2',2.4,-0.6,0,,180,,,5);
 
+	Structure['Sig30'].Put('3',2,4.5,40,,180,,,5);
+	Structure['Sig_Pole'].Put('3',2,-0.6,40,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('3',2,4.5,40,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('3',2,3.38,40,,180,,,5);
+	Structure['Sig_Base_Step'].Put('3',2,-0.6,40,,180,,,5);
 18700+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 //红魔馆出发(Track 3)
 	Structure['Sig30_LED'].Put('3',2,4.5,-0.05,,,,,);
@@ -201,6 +253,16 @@ BveTs Map 2.00
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['SN'].Put('1',-2.4,2.6,-0.1,,,,,);
 	Structure['Label_Soto'].Put('1',-2.1,4.5,-0.1,,,,,);
+18790+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
+//红魔馆上行场内
+	Structure['Sig4yy0'].Put('3',2.3,5.8,0,,180,,,5);
+	Structure['Sig4yy0'].Put('3',2.9,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('3',2.6,0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('3',2.6,4.5,0,,-135,,,5);
+	Structure['Sig_Arm_SD'].Put('3',2.6,3.38,0,,-135,,,5);
+	Structure['Sig_Arm_SU'].Put('3',2.6,5.8,0,,135,,,5);
+	Structure['Sig_Arm_SD'].Put('3',2.6,4.68,0,,135,,,5);
+	Structure['Sig_Base_Step'].Put('3',2.6,0,0,,180,,,5);
 
 #----Kanko Signs 喚呼標 唤呼标------
 1760+$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;

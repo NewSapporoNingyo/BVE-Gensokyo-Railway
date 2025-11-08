@@ -38,7 +38,19 @@ BveTs Map 2.00
 	Structure['SigI_Arm'].Put('2',-2,1.0,0,0,0,0,0,2);
 	Signal['SigIR3L'].Put(0,'2',-2,0.42,0,,,,,);;	
 	Structure['Sig_Pole'].Put('2',-2,-4.05,0,,,,,);
-80+$loop;
+180+$loop;
+//博丽神社上行出发
+	Structure['Sig30'].Put('2',2.4,4.5,0.2,,180,,,5);
+	Structure['Sig_Pole'].Put('2',2.4,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('2',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('2',2.4,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('2',2.4,-0.6,0,,180,,,5);
+
+	Structure['Sig30'].Put('4',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('4',2.4,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('4',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('4',2.4,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('4',2.4,-0.6,0,,180,,,5);
 420+$loop;
 420+$loop;
 	Section.Begin(0,2,3,4);

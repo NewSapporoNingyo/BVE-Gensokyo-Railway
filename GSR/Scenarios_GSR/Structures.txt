@@ -415,7 +415,6 @@ woodapr2,Structures\4_Other\lopoli_houses\x\woodapart\AP01_02.x
 towerA,Structures\4_Other\StructureSet\building\tower\A\11.x
 towerB,Structures\4_Other\StructureSet\building\tower\B\8.x
 towerC,Structures\4_Other\StructureSet\building\tower\C\10.x
-komakanF,Structures\1_GSR\komakanF.x
 #elevator
 ele-front,Structures\1_GSR\elevator\ele-front.x
 ele-side,Structures\1_GSR\elevator\ele-side.x
