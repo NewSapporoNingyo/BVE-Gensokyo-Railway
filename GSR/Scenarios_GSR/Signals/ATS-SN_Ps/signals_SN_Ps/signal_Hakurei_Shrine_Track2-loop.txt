@@ -59,3 +59,10 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('3',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('3',-2.4,3.38,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('3',-2.4,-0.6,0,,,,,5);
+#----Kanko Signs 喚呼標 唤呼标------
+0-850+$loop;
+//博丽神社第1场内
+	Structure['Jonai_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
+0-370+$loop;
+//博丽神社第2场内
+	Structure['Jonai_N'].Put('1',-2.6,3,-0.15,0,0,0,,);

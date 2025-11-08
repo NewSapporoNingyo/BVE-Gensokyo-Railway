@@ -30,3 +30,6 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.48,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
+#----Kanko Signs 喚呼標 唤呼标------
+1260+0+$dist1;
+    Structure['4_N'].Put('1',-2.6,3,-0.15,0,0,0,,);

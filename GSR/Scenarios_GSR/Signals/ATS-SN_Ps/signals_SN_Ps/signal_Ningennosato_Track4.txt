@@ -15,3 +15,8 @@ BveTs Map 2.00
 	//Structure['S_Ref'].Put('1',-1.72,0,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.11,2.38,-0.38,,-90,,,5);
+#----Kanko Signs 喚呼標 唤呼标------
+63+$dist1+$distHKR_T2+$dist2;
+    Structure['Jonai_N'].Put('1',-2.05,2.5,-0.2,0,0,0,,);
+200+$dist1+$distHKR_T2+$dist2;
+    Structure['Shuppatsu_N'].Put('1',-2,1,-0.15,0,0,0,,);

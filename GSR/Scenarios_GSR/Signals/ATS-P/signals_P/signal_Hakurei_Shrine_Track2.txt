@@ -31,3 +31,6 @@ BveTs Map 2.00
 420+$loop;
 	Structure['ATSStoPcheck'].Put('1',-2.4,2.6,-0.11,,,,,);
 	Structure['ATSStoPcheck'].Put('3',-2.4,2.6,-0.11,,,,,);
+#----Kanko Signs 喚呼標 唤呼标------
+1260+0+$dist1;
+    Structure['4_N'].Put('1',-2.6,3,-0.15,0,0,0,,);

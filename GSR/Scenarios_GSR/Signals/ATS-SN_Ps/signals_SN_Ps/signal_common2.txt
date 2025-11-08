@@ -259,3 +259,78 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.48,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Label_Soto-Shu'].Put('1',-2.4,2.7,-0.1,,,,,);
+#----Kanko Signs 喚呼標 唤呼标------
+265+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//闭塞中继
+    Structure['Chukei_N'].Put('1',-2,2.5,0,0,0,0,,);
+565+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//人里-西人里 第1闭塞
+    Structure['1_N'].Put('1',-2,2.5,0,0,0,0,,);
+1435+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里场内
+    Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+1675+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里出发
+    Structure['Shuppatsu_N'].Put('1',2.65,3,-0.05,0,0,0,,);
+    Structure['Shuppatsu_N'].Put('3',-2.65,3,-0.45,0,0,0,,);
+2513+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里-命莲寺 第4闭塞
+    Structure['4_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+3113+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//人里车辆中心
+    Structure['3_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+    Structure['3_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+3670+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里-命莲寺 第2闭塞
+    Structure['2_N'].Put('1',-2.6,3,-0.2,0,0,0,,);
+4880+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//西人里-命莲寺 第1闭塞
+    Structure['1_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+5990+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//命莲寺场内
+    Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+6219+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+ //命莲寺出发
+    Structure['Shuppatsu_N'].Put('1',2.65,4.05,-0.05,0,0,0,,);
+7310+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺场内
+    Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+7607+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+ //北命莲寺出发
+    Structure['Shuppatsu_N'].Put('1',-5.05,4.5,-0.25,0,0,0,,);
+8310+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//闭塞中继
+    Structure['Chukei_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+8710+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺-树海 第3闭塞
+    Structure['3_N'].Put('1',-2.6,3,-0.5,0,0,0,,);
+9230+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//闭塞中继
+    Structure['Chukei_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+9710+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺-树海 第2闭塞
+    Structure['2_N'].Put('1',-2.6,3,-0.5,0,0,0,,);
+10890+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//北命莲寺-树海 第1闭塞
+    Structure['1_N'].Put('1',-2,2.5,0,0,0,0,,);
+11990+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//树海场内
+    Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+12270+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//树海出发
+    Structure['Shuppatsu_N'].Put('1',-5.05,4.5,-0.35,0,0,0,,);
+12950+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//树海-草田 第2闭塞
+    Structure['2_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+13750+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//树海-草田 第1闭塞
+    Structure['1_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+14590+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//草田场内
+    Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
+14870+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//草田出发
+    Structure['Shuppatsu_N'].Put('1',-5.05,4.5,-0.35,0,0,0,,);
+15620+$dist1+$distHKR_T2+$dist2+$distNNS_T4;
+//草田-守失 第1闭塞
+    Structure['1_N'].Put('1',-2.1,2.5,0,0,0,0,,);

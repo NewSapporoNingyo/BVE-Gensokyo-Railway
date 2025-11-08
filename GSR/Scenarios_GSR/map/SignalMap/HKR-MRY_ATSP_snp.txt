@@ -14,9 +14,6 @@ include '..\Signals\ATS-P\beacon_P\beacons_snp\beacons_Ningennosato_Track4.txt';
 include '..\Signals\ATS-P\beacon_P\beacons_snp\beacons_common2.txt';
 include '..\Signals\ATS-P\beacon_P\beacons_snp\beacons_Moriya_Shrine_Track2.txt';
 
-//KankoSign_喚呼標
-include '..\Signals\kankosign_common1.txt';
-
 //Speed check_速度照查
 include '..\Signals\ATS-P\beacon_P\speed_check_snp&ask&CT\speedlimit_common1_snp&ask&CT.txt';
 include '..\Signals\ATS-P\beacon_P\speed_check_snp&ask&CT\speedlimit_Moriya_Shrine_Track2_snp&ask&CT.txt';

@@ -20,9 +20,6 @@ include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_Moriya_Shrine_Track2.txt';
 include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_newline.txt';
 include '..\Signals\ATS-SN_Ps\beacon_SN\beacons_Hakurei_Shrine_Track2-loop.txt';
 
-//kankosign_喚呼標
-include '..\Signals\kankosign_common1.txt';
-
 //Speed check_速度照查
 include '..\Signals\ATS-SN_Ps\beacon_SN\speed_check_Notsuki&ask&CT\speedlimit_common1_Notsuki&ask&CT.txt';
 include '..\Signals\ATS-SN_Ps\beacon_SN\speed_check_Notsuki&ask&CT\speedlimit_Moriya_Shrine_Track2_Notsuki&ask&CT.txt';
