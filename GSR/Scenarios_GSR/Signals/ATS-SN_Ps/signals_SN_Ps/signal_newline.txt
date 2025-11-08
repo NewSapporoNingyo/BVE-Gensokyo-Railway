@@ -200,3 +200,5 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.48,0,,-45,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['SN'].Put('1',-2.4,2.6,-0.1,,,,,);
+	Structure['Label_Soto'].Put('1',-2.1,4.5,-0.1,,,,,);
+	
