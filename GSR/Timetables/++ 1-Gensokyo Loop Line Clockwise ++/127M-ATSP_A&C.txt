@@ -6,6 +6,6 @@ Route = ..\..\Scenarios_GSR\map\Config_Map127M-ATSP_A&C.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\..\..\E129\Nii-B11.txt
 ;↑ Paste the path of your train data to replace the default train ↑
-VehicleTitle = <Ask&CT> E129 (4 car)
+VehicleTitle = <Ask&CT> Any trains ≤ 4 cars(80m length)
 Image = Rollsign\Local-moriya.jpg
 Comment = [ATS-P(Ask&CT)] Max speed：95km/h Platform: Hakurei② Ningen④ Moriya②
