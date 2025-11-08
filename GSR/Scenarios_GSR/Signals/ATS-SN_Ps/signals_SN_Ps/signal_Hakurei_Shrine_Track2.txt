@@ -1,5 +1,17 @@
 BveTs Map 2.00
+180+$dist1;
+//博丽神社上行出发
+	Structure['Sig4yy0'].Put('2',2.4,4.5,0.2,,180,,,5);
+	Structure['Sig_Pole'].Put('2',2.4,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('2',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('2',2.4,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('2',2.4,-0.6,0,,180,,,5);
 
+	Structure['Sig4yy0'].Put('4',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Pole'].Put('4',2.4,-0.6,0,,180,,,5);
+	Structure['Sig_Arm_SU'].Put('4',2.4,4.5,0,,180,,,5);
+	Structure['Sig_Arm_SD'].Put('4',2.4,3.38,0,,180,,,5);
+	Structure['Sig_Base_Step'].Put('4',2.4,-0.6,0,,180,,,5);
 420+$dist1;
 420+$dist1;
 	Section.Begin(0,2,3,4);
@@ -12,7 +24,6 @@ BveTs Map 2.00
 	Structure['stop_EOA'].Put('1',-2.4,1.3,-0.1,,,,,5);
 	Structure['SN'].Put('1',-2.4,2.6,-0.1,,,,,);
 
-
 	Structure['Sig4yg0_LED'].Put('3',-2.4,4.5,-0.05,,,,,);
 	Structure['Label_1-Shu'].Put('3',-2.4,1.7,-0.1,,,,,);
 	Structure['SN'].Put('3',-2.4,2.6,-0.1,,,,,);
@@ -21,7 +32,6 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('3',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('3',-2.4,3.38,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('3',-2.4,-0.6,0,,,,,5);
-
 1570+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.4,-0.06,,,,,);
