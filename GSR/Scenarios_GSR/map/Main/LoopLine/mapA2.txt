@@ -2268,7 +2268,7 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Structure['6'].Put('1',-2.5,-0.25,0,,,,,);
 	Structure['5'].Put('1',-2.3,-0.25,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
-	Track['2'].Position(4,0,0,0);
+	Track['2'].Position(4,0,5000,0);
 
 	Repeater['bushR11'].Begin('2',5,-1.5,2, , , ,3,5,25, 'bush1');
 	Repeater['bushR12'].Begin('2',5,-1.8,7, , , ,3,5,25, 'bush2');
@@ -2322,6 +2322,7 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
 15334+15+$distMapA2;
 	Curve.End();
+	Track['2'].Position(11,0,0,0);
 15350+$distMapA2;
 	Repeater['pole1'].Begin('1',0,0,0,0,0,0,3,39.99,40,'pole');
 	Repeater['pole2'].Begin('2',0,0,0,0,180,0,3,39.99,40,'bridgepole');

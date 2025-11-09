@@ -12,9 +12,14 @@ slabraildark,Structures\3_GeneralStr\Rail\Slab01\SlabS5mdark.x
 slabrailtwo,Structures\3_GeneralStr\Rail\Slab01\Slab2S5m.x
 slabrailtwodark,Structures\3_GeneralStr\Rail\Slab01\Slab2S5m_dark.x
 bridgerail,Structures\3_GeneralStr\Rail\_BridgeRail_5.x
+bridgerailB,Structures\3_GeneralStr\Rail\RailBridge_5.x
 rail1435,Structures\4_Other\StructureSet\rail\D\rail.x
 rail1435H,Structures\4_Other\StructureSet\rail\D\railH.x
 rail1435dark,Structures\4_Other\StructureSet\rail\D\raildark.x
+grdrailL,Structures\3_GeneralStr\Rail\guardr_L.x
+grdrailR,Structures\3_GeneralStr\Rail\guardr_R.x
+grdrailL3,Structures\3_GeneralStr\Rail\guardr_L_3.x
+grdrailR3,Structures\3_GeneralStr\Rail\guardr_R_3.x
 #Tunnel
 Tunnelentry,Structures\3_GeneralStr\Tunnel\huku_c1_ent.x
 Tunnelpotal,Structures\3_GeneralStr\Tunnel\huku_c1_Potal1.x
@@ -61,7 +66,9 @@ bridgewallL,Structures\3_GeneralStr\Wall\Wall_QN_L5m.x
 bridgewallR,Structures\3_GeneralStr\Wall\Wall_QN_R5m.x
 bridgehandleL,Structures\3_GeneralStr\Bridge\red5_bL.x
 bridgehandleR,Structures\3_GeneralStr\Bridge\red5_bR.x
-bridgeban,Structures\3_GeneralStr\Bridge\red5_b_ban.x
+bridgehandleLG25,Structures\3_GeneralStr\Bridge\greenN25_bL.x
+bridgehandleRG25,Structures\3_GeneralStr\Bridge\greenN25_bR.x
+bridgeban,Structures\3_GeneralStr\Rail\BridgeBan_25.x
 bridgerope10m,Structures\3_GeneralStr\Accessory\bridgerope10m.x
 bridgerope20m,Structures\3_GeneralStr\Accessory\bridgerope20m.x
 bridgeframework,Structures\3_GeneralStr\Accessory\bridgeframework.x
