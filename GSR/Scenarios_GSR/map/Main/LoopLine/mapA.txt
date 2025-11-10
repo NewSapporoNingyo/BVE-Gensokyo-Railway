@@ -1445,7 +1445,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Repeater['pole2'].Begin('2',0,0,0, ,180, ,3,,40, 'pole');
 15405+$distMapA;
 	Structure['r500'].Put('1',-2.6,3,0.15,,,,,);
-15492+$distMapA-$Tilt_offset;
+15492+$distMapA-$Tilt_offset;#10
 	Curve.BeginTransition();
 15492+$distMapA;
 	Track['old1'].Position(0,0,0,0);
@@ -1536,7 +1536,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Track['2'].Position(4,0,0,0);
 	Repeater['Rail2'].End();
 	Repeater['Rail2'].Begin0('2',1,4.99,5,'rail');
-15725+$distMapA+$Tilt_offset;
+15725+$distMapA+$Tilt_offset;#10
 	Curve.End();
 #人里橋
 17285-1555+$distMapA;
