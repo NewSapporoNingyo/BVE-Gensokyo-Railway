@@ -415,6 +415,7 @@ halt,Structures\1_GSR\Halt.x
 stopsks12,Structures\1_GSR\stop_sks12.x
 ropeway,Structures\1_GSR\signs\ropeway.x
 exit,Structures\4_Other\saha_Common\subway_test\str\sta\accessory\exit.x
+tiltoff,Structures\1_GSR\Tilt_off.x
 #bulidings
 koudanapr,Structures\4_Other\lopoli_houses\x\kodan_apart\kodan.x
 apr,Structures\4_Other\lopoli_houses\x\apart\AP01_51.x
