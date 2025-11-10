@@ -37,7 +37,9 @@ kouma-t1-loop-local-dep,sound\station\kouma-t1-loop-local-dep.wav
 15m-koma2,sound\station\15m-koma2.wav
 kitahakurei,sound\station\kitahakurei.wav
 cl-nomusic,sound\station\doorclose-nomusic.wav
-
+#Cab
+Pass,sound\shanai\Cab\Pass.wav
+Nextstop,sound\shanai\Cab\Nextstop.wav
 #part101 Local HKR-NNS-MRY
 go01go02-1,sound\shanai\101\hakurei-mhakurei1.wav
 go01go02-2,sound\shanai\101\hakurei-mhakurei2.wav

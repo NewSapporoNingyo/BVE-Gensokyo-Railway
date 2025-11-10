@@ -6,8 +6,10 @@ include 'MapSettings\GeneralSettings.txt';
 #RollingNoise Setting (381series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 $runlong=0;
 $run25m=2;
-$runbri=3;
-$runtun=4;
+$runbri=4;
+$runtun=3;
+#---StationStopReminder---
+//include 'SoundMap\StopReminder_E_15M.txt';
 #---Curve mode:tilting train(R600 +20km/h)---
 include 'MapSettings\CurveSettings_Tilt.txt';
 include 'Main\LoopLine\Tilt\Tilt_MapA.txt';
