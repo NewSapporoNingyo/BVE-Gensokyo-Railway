@@ -1,9 +1,5 @@
 BveTs Map 2.02
 //This file must be included in "Config_Map15M-**** .txt"
-#---Curve mode:tilting train(R600 +20km/h)---
-#include 'Main\CurveSettings_Tilt.txt';//緩和曲線の問題で、使用しません
-#---Curve mode:Normal(+10km/h)---
-include 'MapSettings\CurveSettings_Normal+10.txt';
 #---Stations---
 Station.Load('StaList\Stations15M.txt');
 include 'StaList\StopPositions\StopPos_6car_HKR2_NNS4_MRY2.txt';

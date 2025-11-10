@@ -1,0 +1,149 @@
+Version 1.0
+
+[This]
+Resolution = 1800
+Left = 0
+Top = 0
+Right = 2048
+Bottom = 1700
+DaytimeImage = Panel_D.png
+NighttimeImage = Panel_N.png
+Center = 1024, 1000
+Origin = 1024, 800
+
+[Needle]
+Subject = ats10
+Location = 917, 1450
+DaytimeImage = Speed_d.png
+NighttimeImage = Speed_n.png
+Origin = 64, 512
+Layer = 1
+Radius = 81
+InitialAngle = -122
+LastAngle = 118
+Minimum = 0
+Maximum = 12000
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+[PilotLamp]
+Subject = true
+Location = 852, 1385
+DaytimeImage = SpdOn_d.png
+NighttimeImage = SpdOn_n.png
+Layer = 2
+
+[Needle]
+Subject = bc
+Location = 655, 1451
+DaytimeImage = PrsUp_d.png
+NighttimeImage = PrsUp_n.png
+Origin = 128, 512
+Layer = 2
+Radius = 80
+InitialAngle = -132
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+
+[Needle]
+Subject = mr
+Location = 655, 1451
+DaytimeImage = PrsLow_d.png
+NighttimeImage = PrsLow_n.png
+Origin = 128, 512
+Layer = 1
+Radius = 80
+InitialAngle = -132
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[PilotLamp]
+Subject = true
+Location = 647, 1443
+DaytimeImage = PrsOn_d.png
+NighttimeImage = PrsOn_n.png
+Layer = 3
+
+[DigitalNumber]
+Subject = brake
+Location = 214, 1336
+DaytimeImage = Brake_d.png
+NighttimeImage = Brake_n.png
+Layer = 1
+Interval = 130
+
+[PilotLamp]
+Subject = door
+Location = 1107, 1325
+DaytimeImage = DoorOn_d.png
+NighttimeImage = DoorOn_n.png
+Layer = 1
+
+[PilotLamp]
+Subject = door
+Location = 1402, 1275
+DaytimeImage = DoorOn2_d.png
+NighttimeImage = DoorOn2_n.png
+Layer = 1
+
+[PilotLamp]
+Subject = doorl0
+Location = 1329, 1275
+DaytimeImage = DoorL0_d.png
+NighttimeImage = DoorL0_n.png
+Layer = 1
+
+[PilotLamp]
+Subject = doorr0
+Location = 1358, 1275
+DaytimeImage = DoorR0_d.png
+NighttimeImage = DoorR0_n.png
+Layer = 1
+
+[PilotLamp]
+Subject = doorl1
+Location = 1329, 1298
+DaytimeImage = DoorL1_d.png
+NighttimeImage = DoorL1_n.png
+Layer = 1
+
+[PilotLamp]
+Subject = doorr1
+Location = 1358, 1298
+DaytimeImage = DoorR1_d.png
+NighttimeImage = DoorR1_n.png
+Layer = 1
+
+[PilotLamp]
+Subject = ats0
+Location = 742, 1200
+DaytimeImage = AtsPow_d.png
+NighttimeImage = AtsPow_n.png
+Layer = 1
+
+[PilotLamp]
+Subject = ats1
+Location = 789, 1200
+DaytimeImage = AtsAct_d.png
+NighttimeImage = AtsAct_n.png
+Layer = 1
+
+
+[PilotLamp]
+Subject = ats20
+Location = 1315, 1517
+DaytimeImage = Unit1_d.png
+NighttimeImage = Unit1_n.png
+Layer = 1
+
+[PilotLamp]
+Subject = ats21
+Location = 931, 1200
+DaytimeImage = Eb_d.png
+NighttimeImage = Eb_n.png
+Layer = 1

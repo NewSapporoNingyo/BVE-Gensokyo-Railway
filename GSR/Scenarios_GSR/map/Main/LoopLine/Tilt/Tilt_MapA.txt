@@ -1,0 +1,71 @@
+BveTs Map 2.02
+#1
+0+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.5*$r800_cant);
+    Curve.BeginTransition();
+301+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.5*$r800_cant);
+    Curve.BeginTransition();
+#2
+409-25+$dist1+$distHKR_T2;
+    Curve.Begin(-100000,0-0.5*$r800_cant);
+    Curve.BeginTransition();
+742+25+$dist1+$distHKR_T2;
+    Curve.Begin(-100000,0-0.5*$r800_cant);
+    Curve.BeginTransition();
+#3
+2154+$dist1+$distHKR_T2;
+    Curve.Begin(1850,0.5*$r500_cant);
+    Curve.BeginTransition();
+2588+25+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.5*$r500_cant);
+    Curve.BeginTransition();
+#4
+2862-25+$dist1+$distHKR_T2;
+    Curve.Begin(-100000,0-0.5*$r800_cant);
+    Curve.BeginTransition();
+3182+25+$dist1+$distHKR_T2;
+    Curve.Begin(-100000,0-0.5*$r800_cant);
+    Curve.BeginTransition();
+#5
+6340-25+$dist1+$distHKR_T2;
+    Curve.Begin(-100000,0-0.5*$r800_cant);
+    Curve.BeginTransition();
+6622+25+$dist1+$distHKR_T2;
+    Curve.Begin(-100000,0-0.5*$r800_cant);
+    Curve.BeginTransition();
+#6
+10451-40+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.45*$r1200_cant);
+    Curve.BeginTransition();
+10735+40+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.45*$r1200_cant);
+    Curve.BeginTransition();
+#7
+12410-25+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.5*$r500_cant);
+    Curve.BeginTransition();
+12843+25+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.5*$r500_cant);
+    Curve.BeginTransition();
+#8
+12967+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.45*$r1200_cant);
+    Curve.BeginTransition();
+13218+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.45*$r1200_cant);
+    Curve.BeginTransition();
+#9
+14932-25+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.5*$r600_cant);
+    Curve.BeginTransition();
+15118+25+$dist1+$distHKR_T2;
+    Curve.Begin(100000,0.5*$r600_cant);
+    Curve.BeginTransition();
+#10
+15492+$dist1+$distHKR_T2;
+    Curve.Begin(-100000,0-0.5*$r500_cant);
+    Curve.BeginTransition();
+15725+$dist1+$distHKR_T2;
+    Curve.Begin(-100000,0-0.5*$r500_cant);
+    Curve.BeginTransition();

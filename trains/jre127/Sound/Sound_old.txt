@@ -1,0 +1,83 @@
+Bvets Vehicle Sound 2.0
+[Run]
+0 = BallastLong.wav
+3 = Bridge25m.wav
+2 = Ballast25m.wav
+4 = RunTunnel.wav
+[Flange]
+0 = Flange0.wav
+
+[Motor]
+0 = Motor0.wav
+1 = Motor1.wav
+2 = Motor2.wav
+3 = Motor3.wav
+4 = Motor4.wav
+5 = Motor5.wav
+6 = Motor6.wav
+7 = Motor7.wav
+8 = Motor8.wav
+9 = Motor9.wav
+10 = Motor10.wav
+11 = Motor11.wav
+12 = Motor12.wav
+13 = Motor13.wav
+14 = Motor14.wav
+15 = Motor15.wav
+16 = Motor16.wav
+17 = Motor17.wav
+18 = Motor18.wav
+19 = Motor19.wav
+20 = Motor20.wav
+21 = Motor21.wav
+22 = Motor22.wav
+23 = Motor23.wav
+
+[Joint]
+0 = Point.wav
+
+[Brake]
+BcRelease = Air.wav
+BcReleaseFull = AirZero.wav
+BcReleaseHigh = AirHigh.wav
+
+[Brake Handle]
+
+[Compressor]
+Attack = CpStart.wav
+Loop = CpLoop.wav
+Release = CpEnd.wav
+
+[AirSpring]
+
+[Breaker]
+On = LbOn.wav
+Off = LbOff.wav
+
+[Horn]
+Primary = Klaxon0.wav
+PrimaryRelease = Klaxon0Release.wav
+Secondary = Klaxon1.wav
+
+[Door]
+OpenLeft = DoorOpnL.wav
+OpenRight = DoorOpnR.wav
+CloseLeft = DoorClsL.wav
+CloseRight = DoorClsR.wav
+
+[Ats]
+0 = Ats.wav
+1 = AtsCnt.wav
+10 = Eb.wav
+11 = RunRelayOn.wav
+12 = RunRelayOff.wav
+13 = Buzz.wav
+
+[Buzzer]
+
+[Pilot Lamp]
+On = DoorOn.wav
+Off = DoorOff.wav
+
+[Others]
+Noise = Loop.wav

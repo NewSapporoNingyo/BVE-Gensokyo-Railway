@@ -356,6 +356,8 @@ $distMap_NNS_T4=$dist1+$distHKR_T2+$dist2;
 350+$dist1+$distHKR_T2+$dist2;//GO06 Ningennosato 4/6car StopPosition(Track4)
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
 	Structure['stop6'].Put('1',2,0.15,0.001,,,,,);
+365+$dist1+$distHKR_T2+$dist2;//GO06 Ningennosato 4/6car StopPosition(Track4)
+	Structure['stopL'].Put('1',2,-0.3,0,,,,,);
 360-80+$distMap_NNS_T4;	
 	SpeedLimit.Begin(90);
 370+$distMap_NNS_T4;

@@ -291,6 +291,8 @@ $distMap_HKR_T2=$dist1;
 	Structure['ele-front'].Put('4',-4,1.1,0,,,,,);
 	Structure['ele-side'].Put('4',-2.75,1.1,1.25,,-90,,,);
 	Structure['ele-side'].Put('4',-5.25,1.1,1.25,,90,,,);
+400+$distMap_HKR_T2;//GO01 HakureiShrine Locomotive StopPosition(Track2)
+	Structure['stopL'].Put('1',2,-0.3,0,,,,,);
 400+$distMap_HKR_T2;
 	CabIlluminance.Set(1);
 	Repeater['modernformL1'].End();

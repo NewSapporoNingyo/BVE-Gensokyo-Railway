@@ -9,12 +9,11 @@ $run25m=2;
 $runbri=3;
 $runtun=4;
 #---Curve mode:tilting train(R600 +20km/h)---
-#include 'Main\CurveSettings_Tilt.txt';//緩和曲線の問題で、使用しません
-#---Curve mode:Normal(+10km/h)---
-include 'MapSettings\CurveSettings_Normal+10.txt';
+include 'MapSettings\CurveSettings_Tilt.txt';
+include 'Main\LoopLine\Tilt\Tilt_MapA.txt';
 #---Signals---
 Signal.Load('..\Signals.csv');
 Signal.SpeedLimit(0,25,55,75,120);
-include 'SignalMap\HKR-HKR_ATSsn_NoSC.txt';
+include 'SignalMap\HKR-HKR_ATSP+SN_swp2_NoSC.txt';
 #---Mainmap---
 include 'Map15M.txt';
