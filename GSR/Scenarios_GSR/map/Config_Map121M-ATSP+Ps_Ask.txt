@@ -9,8 +9,9 @@ $run25m=2;
 $runbri=3;
 $runtun=4;
 #---Signals---
+$MaxSpeed=95;
 Signal.Load('..\Signals.csv');
-Signal.SpeedLimit(0,25,55,75,95,25);
+Signal.SpeedLimit(0,25,55,75,$MaxSpeed,25);
 include 'SignalMap\HKR-HKR_ATSP+Ps_Ask.txt';
 #---Mainmap---
 include 'Map121M.txt';

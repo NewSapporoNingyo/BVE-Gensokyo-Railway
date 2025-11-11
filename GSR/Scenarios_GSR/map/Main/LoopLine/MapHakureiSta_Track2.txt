@@ -485,6 +485,8 @@ $distMap_HKR_T2=$dist1;
 	1060+$distMap_HKR_T2;
 	Structure['kasen'].Put('1',-0.2,0,0,,-3.5,,,);
 1170+$distMap_HKR_T2;
+	SpeedLimit.Begin($MaxSpeed-$20permille);//Speed Limit of the ↘18.7‰ Slope below
+	Structure['slope20'].Put('1',-2.7,-1,0,,,,,);
 	Track['ground'].Position(0,-14,0,0);
 	Gradient.BeginTransition();
 	Track['mountainR'].Position(0,-10,0,0);

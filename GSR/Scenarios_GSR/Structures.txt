@@ -415,6 +415,7 @@ halt,Structures\1_GSR\Halt.x
 stopsks12,Structures\1_GSR\stop_sks12.x
 ropeway,Structures\1_GSR\signs\ropeway.x
 exit,Structures\4_Other\saha_Common\subway_test\str\sta\accessory\exit.x
+tilton,Structures\1_GSR\Tilt_on.x
 tiltoff,Structures\1_GSR\Tilt_off.x
 #bulidings
 koudanapr,Structures\4_Other\lopoli_houses\x\kodan_apart\kodan.x
@@ -470,6 +471,11 @@ end,Structures\3_GeneralStr\Default\SpeedLimEnd.x
 L,Structures\3_GeneralStr\Default\SpeedLimL.x
 R,Structures\3_GeneralStr\Default\SpeedLimR.x
 limitpole,Structures\3_GeneralStr\Default\SpeedLimpole.x
+#SlopeLimit
+slope10,Structures\1_GSR\Slope10.x
+slope15,Structures\1_GSR\Slope15.x
+slope20,Structures\1_GSR\Slope20.x
+slopeend,Structures\1_GSR\SlopeEnd.x
 #Curveradius
 r300,Structures\3_GeneralStr\Accessory\Posts\JRK\curve\R300.x
 r350,Structures\3_GeneralStr\Accessory\Posts\JRK\curve\R350.x

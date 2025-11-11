@@ -2,6 +2,8 @@ BveTs Map 2.02
 //This file must be included in "Config_Map127M-**** .txt"
 #---Curve mode:normal(R600 +0km/h)---
 include 'MapSettings\CurveSettings_Normal.txt';
+#---DownSlopeLimit---
+include 'MapSettings\DownSlopeLimits.txt';
 #---Stations---
 Station.Load('StaList\Stations127M.txt');
 include 'StaList\StopPositions\StopPos_4car_HKR2_NNS4_MRY2.txt';

@@ -27,7 +27,7 @@ Mesh {
    0.600000;0.600000;0.600000;;
 
    TextureFilename {
-    "Tilt_off.png";
+    "Tilt_on.png";
    }
   }
  }

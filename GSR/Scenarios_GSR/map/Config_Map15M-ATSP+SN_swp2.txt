@@ -14,8 +14,9 @@ $runtun=3;
 include 'MapSettings\CurveSettings_Tilt.txt';
 include 'Main\LoopLine\Tilt\Tilt_MapA.txt';
 #---Signals---
+$MaxSpeed=120;
 Signal.Load('..\Signals.csv');
-Signal.SpeedLimit(0,25,55,75,120);
+Signal.SpeedLimit(0,25,55,75,$MaxSpeed);
 include 'SignalMap\HKR-HKR_ATSP+SN_swp2_NoSC.txt';
 #---Mainmap---
 include 'Map15M.txt';

@@ -4,6 +4,8 @@ BveTs Map 2.02
 Station.Load('StaList\Stations15M.txt');
 include 'StaList\StopPositions\StopPos_6car_HKR2_NNS4_MRY2.txt';
 include 'StaList\StopPositions\StopPos_6car_MRY2_EMYm_KMK1_HKR2.txt';
+#---DownSlopeLimit---
+include 'MapSettings\DownSlopeLimits.txt';
 #---Sound---
 include 'SoundMap\Mapsound15M.txt';
 include 'SoundMap\3DSounds_LoopLine.txt';

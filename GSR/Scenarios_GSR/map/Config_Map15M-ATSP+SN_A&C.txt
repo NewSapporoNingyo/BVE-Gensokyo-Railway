@@ -15,8 +15,9 @@ include 'SoundMap\StopReminder_E_15M.txt';
 #---Curve mode:Normal(+10km/h)---
 include 'MapSettings\CurveSettings_Normal+10.txt';
 #---Signals---
+$MaxSpeed=120;
 Signal.Load('..\Signals.csv');
-Signal.SpeedLimit(0,25,55,75,120);
+Signal.SpeedLimit(0,25,55,75,$MaxSpeed);
 include 'SignalMap\HKR-HKR_ATSP+SN_A&C_NoSC.txt';
 #---Mainmap---
 include 'Map15M.txt';

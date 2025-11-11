@@ -1,0 +1,5 @@
+BveTs Map 2.02
+#---DownSlopeLimits_下り勾配制限_下坡限速---
+$10permille=5;
+$15permille=10;
+$20permille=15;
