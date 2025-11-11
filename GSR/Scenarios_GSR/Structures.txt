@@ -468,6 +468,8 @@ arrlight,Structures\1_GSR\arrlights\arrlight.x
 0b,Structures\3_GeneralStr\Default\SpeedLim0b.x
 #Limit(other)
 end,Structures\3_GeneralStr\Default\SpeedLimEnd.x
+limback,Structures\3_GeneralStr\Default\SpeedLim.x
+limbackb,Structures\3_GeneralStr\Default\SpeedLimB.x
 L,Structures\3_GeneralStr\Default\SpeedLimL.x
 R,Structures\3_GeneralStr\Default\SpeedLimR.x
 limitpole,Structures\3_GeneralStr\Default\SpeedLimpole.x

@@ -23,5 +23,27 @@ $r1000_cant=0.055;
 #R1200
 $r1200_speed=110;
 $r1200_cant=0.055;
+#Curve speedlimits/cants(tilt locked)
+#R300
+$r300_speed_TL=$r300_speed;
+$r300_cant_TL=$r300_cant;
+#R400
+$r400_speed_TL=$r400_speed;
+$r400_cant_TL=$r400_cant;
+#R500
+$r500_speed_TL=$r500_speed;
+$r500_cant_TL=$r500_cant;
+#R600
+$r600_speed_TL=$r600_speed;
+$r600_cant_TL=$r600_cant;
+#R800
+$r800_speed_TL=$r800_speed;
+$r800_cant_TL=$r800_cant;
+#R1000
+$r1000_speed_TL=$r1000_speed;
+$r1000_cant_TL=$r1000_cant;
+#R1200
+$r1200_speed_TL=$r1200_speed;
+$r1200_cant_TL=$r1200_cant;
 
 	
