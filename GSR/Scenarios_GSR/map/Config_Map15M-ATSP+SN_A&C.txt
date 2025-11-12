@@ -12,6 +12,7 @@ $runtun=4;
 include 'SoundMap\StopReminder_E_15M.txt';
 #---Curve mode:tilting train(R600 +20km/h)---
 #include 'Main\CurveSettings_Tilt.txt';//緩和曲線の問題で、使用しません
+include 'Main\LoopLine\Tilt\Tilt_Limits_MapA.txt';#Speed limit signs for tilting train
 #---Curve mode:Normal(+10km/h)---
 include 'MapSettings\CurveSettings_Normal+10.txt';
 #---Signals---

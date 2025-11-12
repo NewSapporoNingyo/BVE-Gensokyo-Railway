@@ -13,6 +13,7 @@ $runtun=3;
 #---Curve mode:High-performance tilting train(R600 +35km/h)---
 include 'MapSettings\CurveSettings_HpTilt.txt';
 include 'Main\LoopLine\Tilt\Tilt_MapA.txt';
+include 'Main\LoopLine\Tilt\HpTilt_Limits_MapA.txt';#Speed limit signs for tilting train
 #---Signals---
 $MaxSpeed=120;
 Signal.Load('..\Signals.csv');
