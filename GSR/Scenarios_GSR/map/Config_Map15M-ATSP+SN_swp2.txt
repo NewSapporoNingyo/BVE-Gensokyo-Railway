@@ -10,8 +10,8 @@ $runbri=4;
 $runtun=3;
 #---StationStopReminder---
 //include 'SoundMap\StopReminder_E_15M.txt';
-#---Curve mode:tilting train(R600 +20km/h)---
-include 'MapSettings\CurveSettings_Tilt.txt';
+#---Curve mode:High-performance tilting train(R600 +35km/h)---
+include 'MapSettings\CurveSettings_HpTilt.txt';
 include 'Main\LoopLine\Tilt\Tilt_MapA.txt';
 #---Signals---
 $MaxSpeed=120;

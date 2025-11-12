@@ -4,16 +4,16 @@ $Tilt_offset=0;
 #Curve speedlimits/cants
 #R300
 $r300_speed=70;
-$r300_cant=0.1;
+$r300_cant=0.085;
 #R400
 $r400_speed=75;
-$r400_cant=0.09;
+$r400_cant=0.075;
 #R500
 $r500_speed=85;
-$r500_cant=0.08;
+$r500_cant=0.07;
 #R600
 $r600_speed=95;
-$r600_cant=0.08;
+$r600_cant=0.07;
 #R800
 $r800_speed=105;
 $r800_cant=0.065;
