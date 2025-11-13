@@ -7,4 +7,4 @@ RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\..\..\..\Rock_On\Train\JR\Formation\hine\D601.txt
 VehicleTitle = <Default SN>↑ Use a express train ↑
 Image = rollsign\L Express-15M.jpg
-Comment = [ATS-SN] Max speed：120km/h Platform: Hakurei② Ningen④ Moriya② Koma①
+Comment = [ATS-SN] Max speed：120km/h (R600 +10km/h) Platform: Hakurei② Ningen④ Moriya② Koma①
