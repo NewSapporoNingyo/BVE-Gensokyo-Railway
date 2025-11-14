@@ -2165,7 +2165,7 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 14100-25+$distMapA2;
 	Curve.BeginTransition();
 14100+25+$distMapA2;
-	Curve.Begin(1200,0.02);
+	Curve.Begin(1200,$r1200_cant);
 37000-22610+$distMapA2;
 	Repeater['treeR11'].End();
 	Repeater['treeR12'].End();
