@@ -160,7 +160,6 @@ BveTs Map 2.02
     Repeater['bushR35'].End();
 240;
     Repeater['pole1'].Begin('1',0,0,0, ,180, ,3,,40, 'pole');
-    
 270;
     Repeater['pole5'].End();
     Repeater['bushL1'].Begin('1',-3,-1.5,0, , , ,3,5,25, 'bush1');
@@ -189,7 +188,13 @@ BveTs Map 2.02
 	Repeater['bushR24'].Begin('ground',7,-1.4,15, , , ,3,5,25, 'bush4');
 	Repeater['bushR25'].Begin('ground',7,-1.6,20, , , ,3,5,25, 'bush5');
 280;
+    Repeater['pole1'].End();
     JointNoise.Play(0);
+    Structure['fukusenpole5'].Put('1',1,0,0,,0,,,);
+    Structure['KasenhangR'].Put('1',2,0,0,,0,,,);
+    Structure['wirehanger'].Put('1',0,0,0,,0,,,);
+    Structure['KasenhangL'].Put('5',-2,0,0,,0,,,);
+    Structure['wirehanger'].Put('5',0,0,0,,0,,,);
 320;
     Legacy.Curve(0,0);
     Track['2'].Position(0,0,0,0);
@@ -201,6 +206,7 @@ BveTs Map 2.02
     Repeater['Rail3'].End();
     Repeater['Rail4'].End();
     Repeater['Rail5'].End();
+    Repeater['pole1'].Begin('1',0,0,0, ,180, ,3,,40, 'pole');
 350;
     Repeater['dikegrsL'].Begin('1',0,0,0, ,, ,3,,5, 'dikegrassL');
 	Repeater['dikegrsR'].Begin('1',0,0,0, ,, ,3,,5, 'dikegrassR');
