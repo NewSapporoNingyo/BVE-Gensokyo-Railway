@@ -51,7 +51,7 @@ Curve.SetFunction(1);
     Curve.Begin(100000,0.5*$r600_cant);
     Curve.BeginTransition();
 #10
-15492+$dist1+$distHKR_T2;
+15487+$dist1+$distHKR_T2;
     Curve.Begin(-100000,0-0.5*$r500_cant);
     Curve.BeginTransition();
 15725+$dist1+$distHKR_T2;
