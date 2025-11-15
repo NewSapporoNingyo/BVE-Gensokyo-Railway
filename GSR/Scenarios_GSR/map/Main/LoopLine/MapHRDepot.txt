@@ -15,7 +15,7 @@ BveTs Map 2.02
     Repeater['Rail3'].Begin0('3',3,4.99,5,'rail');
     Track['4'].Position(-12,0,0,0);
     Repeater['Rail4'].Begin0('4',3,4.99,5,'rail');
-    Track['5'].Position(-20,0,0,0);
+    Track['5'].Position(-35,0,0,0);
     Repeater['Rail5'].Begin0('5',3,4.99,5,'rail');
     Repeater['kasen1'].Begin0('1',3,39.99,40,'kasen');
 	Repeater['kasen2'].Begin0('2',3,39.99,40,'kasen');
@@ -71,7 +71,7 @@ BveTs Map 2.02
 	Repeater['bushR33'].Begin('1',10,-3.9,12, , , ,3,5,25, 'bushb3');
 	Repeater['bushR34'].Begin('1',10,-3.4,17, , , ,3,5,25, 'bushb4');
 	Repeater['bushR35'].Begin('1',10,-3.6,22, , , ,3,5,25, 'bushb5');
-    Track['northline'].Position(-28,10,0,0);
+    Track['northline'].Position(-43,14,0,0);
     Repeater['pier2'].Begin('northline',,,0,,,,3,,20, 'pier');
     Repeater['concbridgeN'].Begin('northline',0,-0.25,0, , , ,3,5,5, 'concbridge');
     Repeater['bridgewallL2'].Begin('northline',-0.2,-0.5,0, , , ,3,,5, 'bridgewallL');
@@ -84,8 +84,8 @@ BveTs Map 2.02
     Track['2'].Position(-4,0,400,0);
     Track['3'].Position(-8,0,400,0);
     Track['4'].Position(-12,0,400,0);
-    Track['5'].Position(-20,0,600,0);
-    Track['northline'].Position(-28,10,600,0);
+    Track['5'].Position(-35,0,600,0);
+    Track['northline'].Position(-43,14,600,0);
     Structure['E129F'].Put('2',0,0,-10,,,,,);
     Structure['E129F'].Put('3',0,0,-10,,,,,);
     Structure['E129F'].Put('4',0,0,-10,,,,,);
@@ -133,8 +133,8 @@ BveTs Map 2.02
 170;
     Legacy.Curve(600,0);
     Track['mountain'].Position(-90,50,-600,0);
-    Track['5'].Position(-10,0,-600,0);
-    Track['northline'].Position(-18,10,-600,0);
+    Track['5'].Position(-18,0,-600,0);
+    Track['northline'].Position(-26,14,-600,0);
 200;
     Repeater['bushLa1'].End();
     Repeater['bushLa2'].End();
@@ -147,7 +147,7 @@ BveTs Map 2.02
     Repeater['bushRa4'].End();
     Repeater['bushRa5'].End();
 220;
-    Track['5'].Position(-3,0,-600,0);
+    Track['5'].Position(-7.6,0,-600,0);
     Track['mountainR'].Position(60,50,0,0);
     Repeater['bushR31'].End();
     Repeater['bushR32'].End();
@@ -160,9 +160,6 @@ BveTs Map 2.02
     Repeater['pole1'].Begin('1',0,0,0, ,180, ,3,,40, 'pole');
     
 270;
-    Repeater['Rail5'].End();
-    Track['5'].Position(0,-0.01,0,0);
-    Track['northline'].Position(-8,10,0,0);
     Repeater['kasen5'].End();
     Repeater['pole5'].End();
     Repeater['bushL1'].Begin('1',-3,-1.5,0, , , ,3,5,25, 'bush1');
@@ -195,7 +192,8 @@ BveTs Map 2.02
     Track['2'].Position(0,0,0,0);
     Track['3'].Position(0,0,0,0);
     Track['4'].Position(0,0,0,0);
-    Track['5'].Position(0,0,0,0);
+    Track['5'].Position(0,-0.01,0,0);
+    Track['northline'].Position(-6,14,0,0);
     Repeater['Rail3'].End();
     Repeater['Rail4'].End();
     Repeater['Rail5'].End();
@@ -206,7 +204,7 @@ BveTs Map 2.02
     Track['ground'].Position(0,0,0,0);
     Gradient.BeginTransition();
     Structure['GPUL'].Put('1',-2.1,-0.6,1,,0,,,);
-    Track['northline'].Position(-6,11,0,0);
+    Track['northline'].Position(-6,14,0,0);
 470;
     Repeater['dikegrsL'].End();
     Repeater['dikegrsR'].End();
@@ -223,7 +221,8 @@ BveTs Map 2.02
     Repeater['bushR2'].End();
     Repeater['bushR3'].End();
     Repeater['bushR4'].End();
-    Track['ground'].Position(0,-3,0,0);
+    Track['ground'].Position(0,-1.5,0,0);
+    Track['northline'].Position(-6,12.5,0,0);
     Repeater['Rail1'].End();
     Repeater['slabRail'].Begin0('1',3,4.99,5,'slabrail');
     Repeater['pier1'].Begin('1',0, 0, 0, , , ,3,,20, 'pier');
@@ -233,7 +232,8 @@ BveTs Map 2.02
 	rollingNoise.Change($runlong);
 790;
     Gradient.BeginTransition();
-    Track['ground'].Position(0,-12,0,0);
+    Track['northline'].Position(-6,1.5,0,0);
+    Track['ground'].Position(0,-12.5,0,0);
     Repeater['bushL11'].End();
     Repeater['bushL12'].End();
     Repeater['bushL13'].End();

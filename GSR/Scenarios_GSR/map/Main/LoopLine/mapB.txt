@@ -3031,7 +3031,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 	Curve.BeginTransition();
 17525+$distMapB;
 	Curve.End();
-17535+$distMapB;	
+17535+$distMapB;
 	Curve.BeginTransition();
 17535+25+$distMapB;
 	SpeedLimit.Begin($r400_speed);
