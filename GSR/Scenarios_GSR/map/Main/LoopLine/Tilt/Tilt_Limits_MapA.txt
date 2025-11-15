@@ -2,7 +2,7 @@ BveTs Map 2.02
 0;
 
 #3
-2204+$dist1+$distHKR_T2;
+2179+$dist1+$distHKR_T2;
 	Structure['9b'].Put('1',-2.5,-0.85,0,,,,,);
 	Structure['5b'].Put('1',-2.3,-0.85,0,,,,,);
 	Structure['limbackb'].Put('1',-2.4,-0.85,-0.05,,,,,);
