@@ -1,6 +1,13 @@
 BveTs Map 2.02
-#CurveTransition Offset（自然振子式、振子なしの場合：0，制御式の場合：50~100）
-$Tilt_offset=0;
+#CurveTransition Offset
+# (The distance before entering the curve where the tilting device starts operating.
+# natural-tilting or non-tilting trains: 0.
+# controlled tilting trains: a provisional value (half of the transition-curve length).)
+#（摆式装置在曲线之前启动的距离。自然摆式或无摆的情况：0，主动摆式的情况使用暂定值（缓和曲线长的一半））
+#（振り子装置起動の曲線手前距離。自然振子式、振子なしの場合：0，制御式の場合は暂定値（緩和曲線長の半分））
+$Tilt_offsetL=0;//R300~R500
+$Tilt_offsetM=0;//R600
+$Tilt_offsetH=0;//R800+
 #Curve speedlimits/cants
 #R300
 $r300_speed=70;

@@ -153,10 +153,10 @@ $distMapA=$dist1+$distHKR_T2;
 	Structure['kasen'].Put('1',-0.2,0,0,,-3.5,,,);
 	1005+245+$distMapA;
 	Repeater['sectionin'].End();
-1107+$distMapA;
+1102+$distMapA;
 	Curve.BeginTransition();
-1147+$distMapA;
-	Curve.Begin(1850,0.02);
+1152+$distMapA;
+	Curve.Begin(1850,0.03);
 	Repeater['grassland1'].End();
 1175+$distMapA;
 	Repeater['treeR2'].End();
@@ -432,7 +432,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Structure['r500'].Put('1',-2.6,3,0.15,,,,,);
 2005+$distMapA;
 	//Structure['tilton'].Put('1',-2.6,1.4,-0.2,,,,,);
-2149+$distMapA-$Tilt_offset;#3
+2149+$distMapA-$Tilt_offsetL;#3
 	Curve.BeginTransition();
 2179+$distMapA;
 	SpeedLimit.Begin($r500_speed);
@@ -452,7 +452,7 @@ $distMapA=$dist1+$distHKR_T2;
 2588-30+$distMapA;
 	Curve.BeginTransition();
 2588+$distMapA;
-2588+30+$distMapA+$Tilt_offset;#3
+2588+30+$distMapA+$Tilt_offsetL;#3
 	Curve.End();
 	SpeedLimit.End();
 	Structure['end'].Put('1',-2.4,-0.25,0,,,,,);
@@ -472,7 +472,7 @@ $distMapA=$dist1+$distHKR_T2;
 2845+$distMapA;
 	Repeater['pole1'].Begin0('1',3,39.99,40,'bridgepole');
 	Repeater['pole2'].Begin('2',0,0,0,,180,,3,,40,'pole');
-2862-40+$distMapA-$Tilt_offset;#4
+2862-40+$distMapA-$Tilt_offsetH;#4
 	Curve.BeginTransition();
 2862+$distMapA;
 	SpeedLimit.Begin($r800_speed);
@@ -493,7 +493,7 @@ $distMapA=$dist1+$distHKR_T2;
 	SpeedLimit.End();
 	Structure['end'].Put('1',-2.4,-0.25,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
-3182+40+$distMapA+$Tilt_offset;#4
+3182+40+$distMapA+$Tilt_offsetH;#4
 	Curve.End();
 3205+$distMapA;
 	Repeater['pole1'].Begin0('1',3,39.99,40,'pole','bridgepole');
@@ -707,14 +707,14 @@ $distMapA=$dist1+$distHKR_T2;
 3605+$distMapA;
 	Repeater['pole1'].Begin0('1',3,39.99,40,'pole','bridgepole');
 	Repeater['pole2'].Begin('2',0,0,0, ,180, ,3,,40,'bridgepole','pole');
-3634+$distMapA;
+3629+$distMapA;
 	Curve.BeginTransition();
 	Fog.Interpolate(0.007,0.8,0.8,0.8);
-3674+$distMapA;
-	Curve.Begin(-1500,-0.02);
-4407+$distMapA;
+3679+$distMapA;
+	Curve.Begin(-1500,-0.05);
+4402+$distMapA;
 	Curve.BeginTransition();
-4447+$distMapA;
+4452+$distMapA;
 	Curve.End();
 4845+$distMapA;
 	Repeater['treeR1'].End();
@@ -802,13 +802,13 @@ $distMapA=$dist1+$distHKR_T2;
 	Repeater['bushLx4'].Begin('2',-80,-1.4,17, , , ,3,5,25, 'bushb4');
 	Repeater['bushLx5'].Begin('2',-90,-1.6,22, , , ,3,5,25, 'bushb5');
 	Fog.Interpolate(0.002,0.8,0.8,0.8);
-4944+$distMapA;
+4939+$distMapA;
 	Curve.BeginTransition();
-4984+$distMapA;
-	Curve.Begin(-1700,-0.02);
-5417+$distMapA;
+4989+$distMapA;
+	Curve.Begin(-1700,-0.05);
+5412+$distMapA;
 	Curve.BeginTransition();
-5457+$distMapA;
+5462+$distMapA;
 	Curve.End();
 5765+$distMapA;
 	//AirSec 
@@ -827,7 +827,7 @@ $distMapA=$dist1+$distHKR_T2;
 6325+$distMapA;
 	Repeater['pole1'].Begin0('1',3,39.99,40,'bridgepole');
 	Repeater['pole2'].Begin('2',0,0,0,,180,,3,,40,'pole');
-6340-40+$distMapA-$Tilt_offset;#5
+6340-40+$distMapA-$Tilt_offsetH;#5
 	Curve.BeginTransition();
 6340+$distMapA;
 	SpeedLimit.Begin($r800_speed);
@@ -848,7 +848,7 @@ $distMapA=$dist1+$distHKR_T2;
 	SpeedLimit.End();
 	Structure['end'].Put('1',-2.4,-0.25,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
-6622+40+$distMapA+$Tilt_offset;#5
+6622+40+$distMapA+$Tilt_offsetH;#5
 	Curve.End();
 6645+$distMapA;
 	Repeater['pole1'].Begin0('1',3,39.99,40,'pole','bridgepole');
@@ -857,7 +857,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Curve.BeginTransition();
 6904+$distMapA;
 	Fog.Interpolate(0.002,0.8,0.8,0.8);
-	Curve.Begin(-2000,-0.01);
+	Curve.Begin(-2000,-0.04);
 7195+$distMapA;
 	Curve.BeginTransition();
 7235+$distMapA;
@@ -1224,7 +1224,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Repeater['pole1'].Begin0('1',3,39.99,40,'pole','bridgepole');
 	Repeater['pole2'].Begin('2',0,0,0,,180,,3,,40,'bridgepole','pole');
 	//Structure['tilton'].Put('1',-2.6,1.4,-0.2,,,,,);
-10451-40+$distMapA-1.6*$Tilt_offset;#6
+10451-40+$distMapA-$Tilt_offsetH;#6
 	Curve.BeginTransition();
 10451+$distMapA;	
 	//Structure['1'].Put('1',-2.6,-0.25,0,,,,,);
@@ -1242,7 +1242,7 @@ $distMapA=$dist1+$distHKR_T2;
 	SpeedLimit.End();
 	Structure['end'].Put('1',-2.4,-0.25,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
-10735+40+$distMapA+1.6*$Tilt_offset;#6
+10735+40+$distMapA+$Tilt_offsetH;#6
 	Curve.End();
 10965+$distMapA;
 	//AirSec 
@@ -1395,9 +1395,9 @@ $distMapA=$dist1+$distHKR_T2;
 	Repeater['pole2'].Begin('2',0,0,0, ,180, ,3,,40, 'bridgepole');
 12125+$distMapA;
 	Structure['r500'].Put('1',-2.6,3,0.15,,,,,);
-12410-25+$distMapA;
+12410-30+$distMapA;
 	Fog.Interpolate(0.029,0.7,0.7,0.7);
-12410-25+$distMapA-$Tilt_offset;#7
+12410-30+$distMapA-$Tilt_offsetL;#7
 	Curve.BeginTransition();
 12410+$distMapA;
 	SpeedLimit.Begin($r500_speed);
@@ -1409,15 +1409,15 @@ $distMapA=$dist1+$distHKR_T2;
 	Structure['limback'].Put('1',-2.4,0.15,-0.05,,,,,);
 	Structure['limitpole'].Put('1',-2.4,0.8,-0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,-0,,,,,);
-12410+25+$distMapA;
+12410+30+$distMapA;
 	Curve.Begin(509,$r500_cant);
-12843-25+$distMapA;
+12843-30+$distMapA;
 	Curve.BeginTransition();
 12843+$distMapA;
 	SpeedLimit.End();
 	Structure['end'].Put('1',-2.4,-0.25,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
-12843+25+$distMapA+$Tilt_offset;#7
+12843+30+$distMapA+$Tilt_offsetL;#7
 	Curve.End();
 12845+$distMapA;
 	//Kasen change
@@ -1429,9 +1429,9 @@ $distMapA=$dist1+$distHKR_T2;
 12885+$distMapA;	
 	Repeater['pole1'].Begin0('1',3,39.99,40,'bridgepole','pole');
 	Repeater['pole2'].Begin('2',0,0,0, ,180, ,3,,40,'pole','bridgepole');
-12967+$distMapA-0.9*$Tilt_offset;#8
+12962+$distMapA-0.9*$Tilt_offsetH;#8
 	Curve.BeginTransition();
-13007+$distMapA;
+13012+$distMapA;
 	Fog.Interpolate(0.05,0.7,0.7,0.7);
 	Curve.Begin(1200,$r1200_cant*0.9);
 	Track['2'].Position(4,0,700,0);
@@ -1451,14 +1451,14 @@ $distMapA=$dist1+$distHKR_T2;
 	Repeater['bambooR4'].Begin('1',9,-8,0, , , ,3,,15, 'bamboo1');
 	Repeater['bambooR5'].Begin('1',8,-7,5, , , ,3,,15, 'bamboo2');
 	Repeater['bambooR6'].Begin('1',9,-8.5,10, , , ,3,,15, 'bamboo3');
-13178+$distMapA;
+13173+$distMapA;
 	Curve.BeginTransition();
 13218+$distMapA;
 	Track['2'].Position(40,0,0,0);
 	Repeater['Rail2'].End();
 	Repeater['kasen2'].End();
 	Repeater['pole2'].End();
-13218+$distMapA+$Tilt_offset;#8
+13223+$distMapA+$Tilt_offsetH;#8
 	Curve.End();
 14645+$distMapA;
 	Structure['r600'].Put('1',-2.6,3,0.15,,,,,);
@@ -1471,7 +1471,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Structure['kasen'].Put('1',-0.2,0,0,,-3.5,,,);
 14885+$distMapA;
 	Repeater['pole1'].Begin0('1',3,39.99,40,'pole');
-14932-25+$distMapA-$Tilt_offset;#9
+14932-35+$distMapA-$Tilt_offsetM;#9
 	Curve.BeginTransition();
 14932+$distMapA;
 	SpeedLimit.Begin($r600_speed);
@@ -1483,15 +1483,15 @@ $distMapA=$dist1+$distHKR_T2;
 	Structure['limback'].Put('1',-2.4,-0.25,-0.05,,,,,);
 	Structure['limitpole'].Put('1',-2.4,0.4,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.8,0,,,,,);
-14932+25+$distMapA;
+14932+35+$distMapA;
 	Curve.Begin(600,$r600_cant);
-15118-25+$distMapA;
+15118-35+$distMapA;
 	Curve.BeginTransition();
 15118+$distMapA;
 	SpeedLimit.End();
 	Structure['end'].Put('1',-2.4,-0.25,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
-15118+25+$distMapA+$Tilt_offset;#9
+15118+35+$distMapA+$Tilt_offsetM;#9
 	Curve.End();
 15165+$distMapA;
 	Repeater['pole1'].Begin0('1',3,39.99,40,'bridgepole','pole');
@@ -1504,7 +1504,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Repeater['pole2'].Begin('2',0,0,0, ,180, ,3,,40, 'pole');
 15405+$distMapA;
 	Structure['r500'].Put('1',-2.6,3,0.15,,,,,);
-15487+$distMapA-$Tilt_offset;#10
+15477+$distMapA-$Tilt_offsetL;#10
 	Curve.BeginTransition();
 15492+$distMapA;
 	Track['old1'].Position(0,0,0,0);
@@ -1560,7 +1560,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Repeater['river'].Begin('ground',0,-5,0, , , , 3,,5, 'river');
 17260-1555+$distMapA;
 	//Repeater['pole2'].End();
-15675+$distMapA;
+15665+$distMapA;
 	Curve.BeginTransition();
 17260-1555+$distMapA;
 	Track['2'].Position(4.1,0,1000,0);
@@ -1599,7 +1599,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Track['2'].Position(4,0,0,0);
 	Repeater['Rail2'].End();
 	Repeater['Rail2'].Begin0('2',1,4.99,5,'rail');
-15725+$distMapA+$Tilt_offset;#10
+15725+$distMapA+$Tilt_offsetL;#10
 	Curve.End();
 #人里橋
 17285-1555+$distMapA;
