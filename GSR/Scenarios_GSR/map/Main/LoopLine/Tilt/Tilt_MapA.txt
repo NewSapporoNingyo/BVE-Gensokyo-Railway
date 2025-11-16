@@ -3,57 +3,57 @@ BveTs Map 2.02
 Curve.SetFunction(1);
 #3
 2149+$dist1+$distHKR_T2;
-    Curve.Begin(1850,0.03+0.33*($r500_cant-0.03));
+    Curve.Begin(1850,0.03+0.2*($r500_cant-0.03));
     Curve.BeginTransition();
 2588+30+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.33*$r500_cant);
+    Curve.Begin(100000,0.2*$r500_cant);
     Curve.BeginTransition();
 #4
 2862-40+$dist1+$distHKR_T2;
-    Curve.Begin(-100000,0-0.33*$r800_cant);
+    Curve.Begin(-100000,0-0.2*$r800_cant);
     Curve.BeginTransition();
 3182+40+$dist1+$distHKR_T2;
-    Curve.Begin(-100000,0-0.33*$r800_cant);
+    Curve.Begin(-100000,0-0.2*$r800_cant);
     Curve.BeginTransition();
 #5
 6340-40+$dist1+$distHKR_T2;
-    Curve.Begin(-100000,0-0.33*$r800_cant);
+    Curve.Begin(-100000,0-0.2*$r800_cant);
     Curve.BeginTransition();
 6622+40+$dist1+$distHKR_T2;
-    Curve.Begin(-100000,0-0.33*$r800_cant);
+    Curve.Begin(-100000,0-0.2*$r800_cant);
     Curve.BeginTransition();
 #6
 10451-40+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.33*$r1200_cant);
+    Curve.Begin(100000,0.2*$r1200_cant);
     Curve.BeginTransition();
 10735+40+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.33*$r1200_cant);
+    Curve.Begin(100000,0.2*$r1200_cant);
     Curve.BeginTransition();
 #7
 12410-30+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.33*$r500_cant);
+    Curve.Begin(100000,0.2*$r500_cant);
     Curve.BeginTransition();
 12843+30+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.33*$r500_cant);
+    Curve.Begin(100000,0.2*$r500_cant);
     Curve.BeginTransition();
 #8
 12962+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.3*$r1200_cant);
+    Curve.Begin(100000,0.18*$r1200_cant);
     Curve.BeginTransition();
 13223+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.3*$r1200_cant);
+    Curve.Begin(100000,0.18*$r1200_cant);
     Curve.BeginTransition();
 #9
 14932-35+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.33*$r600_cant);
+    Curve.Begin(100000,0.2*$r600_cant);
     Curve.BeginTransition();
 15118+35+$dist1+$distHKR_T2;
-    Curve.Begin(100000,0.33*$r600_cant);
+    Curve.Begin(100000,0.2*$r600_cant);
     Curve.BeginTransition();
 #10
 15477+$dist1+$distHKR_T2;
-    Curve.Begin(-100000,0-0.33*$r500_cant);
+    Curve.Begin(-100000,0-0.2*$r500_cant);
     Curve.BeginTransition();
 15725+$dist1+$distHKR_T2;
-    Curve.Begin(-100000,0-0.33*$r500_cant);
+    Curve.Begin(-100000,0-0.2*$r500_cant);
     Curve.BeginTransition();
