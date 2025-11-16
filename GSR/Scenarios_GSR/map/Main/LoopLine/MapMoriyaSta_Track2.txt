@@ -339,6 +339,8 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 	SpeedLimit.Begin($r300_speed_TL);
 	Structure['6'].Put('1',-2.5,-0.25,0,,,,,);
 	Structure['5'].Put('1',-2.3,-0.25,0,,,,,);
+	Structure['7'].Put('1',-2.5,-0.7,0,,,,,);
+	Structure['0'].Put('1',-2.3,-0.7,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
 640+25+$distMap_MRY_T2;
 	Curve.Begin(-300,0-$r300_cant_TL);
