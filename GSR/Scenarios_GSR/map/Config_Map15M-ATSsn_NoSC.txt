@@ -19,5 +19,9 @@ $MaxSpeed=120;
 Signal.Load('..\Signals.csv');
 Signal.SpeedLimit(0,25,55,75,$MaxSpeed);
 include 'SignalMap\HKR-HKR_ATSsn_NoSC.txt';
+#---Stations---
+Station.Load('StaList\Stations15M-T.txt');
+include 'StaList\StopPositions\StopPos_6car_HKR2_NNS4_MRY2.txt';
+include 'StaList\StopPositions\StopPos_6car_MRY2_EMYm_KMK1_HKR2.txt';
 #---Mainmap---
 include 'Map15M.txt';
