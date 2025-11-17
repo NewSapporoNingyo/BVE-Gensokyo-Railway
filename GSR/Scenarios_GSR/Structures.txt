@@ -147,6 +147,7 @@ wallL,Structures\4_Other\StructureSet\other\wall\wallL.x
 wallR,Structures\4_Other\StructureSet\other\wall\wallR.x
 #overheadlines
 kasen,Structures\3_GeneralStr\Accessory\E_Poles\kasen\kasen40S.x
+kasen20,Structures\3_GeneralStr\Accessory\E_Poles\kasen\kasen20S.x
 bridgepole,Structures\3_GeneralStr\Accessory\E_Poles\Pole\Pole1_stlA.x
 pole,Structures\3_GeneralStr\Accessory\E_Poles\Pole\Pole1_stlB.x
 poleWA,Structures\3_GeneralStr\Accessory\E_Poles\Pole\Pole1_stlA_K.x
