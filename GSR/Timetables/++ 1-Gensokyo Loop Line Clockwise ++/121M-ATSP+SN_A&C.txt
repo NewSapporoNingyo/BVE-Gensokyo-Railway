@@ -9,4 +9,4 @@ Vehicle = ..\..\..\..\E129\Nii-A23.txt
 ;↑ Paste the path of your train data to replace the default train ↑
 VehicleTitle = <Ask&CT> Oneman trains ≤ 3 cars(60m length)
 Image = Rollsign\Local-LoopLine-oneman-P+SN-A&C.jpg
-Comment = [ATS-P/SN(Ask&CT)] Max speed：95km/h Platform: Hakurei② Ningen④ Moriya② Koma①
+Comment = [ATS-P/SN(Ask&CT)] Max speed：95km/h Platform: Hakurei② Ningen④ Moriya② Koma① Train Annoucement: Part102(JP+EN)

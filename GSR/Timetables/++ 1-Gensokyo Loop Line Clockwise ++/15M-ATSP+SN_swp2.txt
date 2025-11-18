@@ -7,4 +7,4 @@ RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\..\..\JRW283\Oce\Train\283\Vehicle-txt\Null\Vehicle-PT3-2M4T.txt
 VehicleTitle = <swp2> ↑ Use a High-performance Tilting express train(experimental) ↑
 Image = rollsign\L Express-15M_P+SN-swp2.jpg
-Comment = [ATS-P/SN(swp2)] Max speed：120km/h (R600 +35km/h) Platform: Hakurei② Ningen④ Moriya② Koma①
+Comment = [ATS-P/SN(swp2)] Max speed：120km/h (R600 +35km/h) Platform: Hakurei② Ningen④ Moriya② Koma① Train Annoucement: Part105(JP+EN+CN+KR)

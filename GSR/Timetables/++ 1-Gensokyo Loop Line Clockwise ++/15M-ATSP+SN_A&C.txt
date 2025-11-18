@@ -7,4 +7,4 @@ RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\..\..\JR-East_E653\Vehicle\Nii\1100_Shirayuki_DC.txt
 VehicleTitle = <Ask&CT> ↑ Use a express train ↑
 Image = rollsign\L Express-15M_P+SN-A&C.jpg
-Comment = [ATS-P/SN(Ask&CT)] Max speed：120km/h (R600 +10km/h) Platform: Hakurei② Ningen④ Moriya② Koma①
+Comment = [ATS-P/SN(Ask&CT)] Max speed：120km/h (R600 +10km/h) Platform: Hakurei② Ningen④ Moriya② Koma① Train Annoucement: Part105(JP+EN+CN+KR)

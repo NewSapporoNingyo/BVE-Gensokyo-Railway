@@ -8,4 +8,4 @@ Vehicle = ..\..\..\..\E129\Nii-B11.txt
 ;↑ Paste the path of your train data to replace the default train ↑
 VehicleTitle = <Ask&CT> Any trains ≤ 4 cars(80m length)
 Image = Rollsign\Rapid-moriya-A&C.jpg
-Comment = [ATS-P(Ask&CT)] Max speed：110km/h Platform: Hakurei② Ningen④ Moriya②
+Comment = [ATS-P(Ask&CT)] Max speed：110km/h Platform: Hakurei② Ningen④ Moriya② Train Annoucement: Part104(JP+EN+CN)
