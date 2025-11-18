@@ -3,7 +3,7 @@
 Select a language:
 [　简体中文　](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_zh_cn.md) 
 [　日本語　](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_jp.md)
-
+[　한국어　](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_kr.md) 
 ## Guides
 [　Player Guide　](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)
 [　Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md)
