@@ -1,10 +1,10 @@
 BveTs Structure List 1.00:UTF-8
 #rail
-rail,Structures\3_GeneralStr\Rail\Ballast01\BallastPC_h_5a.x
-railtwo,Structures\3_GeneralStr\Rail\Ballast01\BallastPC_k_5a.x
-railtwonew,Structures\3_GeneralStr\Rail\Ballast01\BallastPC_k_5a_whi.x
-railthree,Structures\3_GeneralStr\Rail\Ballast01\BallastTR_H_5a.x
-railfour,Structures\3_GeneralStr\Rail\Ballast01\BallastTR_K_5a.x
+rail,Structures\3_GeneralStr\Rail\Ballast01\BallastPC_h_5a.x                   #Rail(Concrete tie,with grass,5m length)_レール（PC枕木、草あり、長さ5ｍ）_轨道（混凝土轨枕，有草，5m长）
+railtwo,Structures\3_GeneralStr\Rail\Ballast01\BallastPC_k_5a.x　　　　　　　　　#Rail(Concrete tie,no grass,5m length)_レール（PC枕木、草なし、長さ5ｍ）_轨道（混凝土轨枕，无草，5m长）
+railtwonew,Structures\3_GeneralStr\Rail\Ballast01\BallastPC_k_5a_whi.x         #↑Grey ver_上記のグレー版_上一行的灰色版本
+railthree,Structures\3_GeneralStr\Rail\Ballast01\BallastTR_H_5a.x              #Rail(wood tie,with grass,5m length)_レール（木製枕木、草あり、、長さ5ｍ）_轨道（木制轨枕，有草，5m长）
+railfour,Structures\3_GeneralStr\Rail\Ballast01\BallastTR_K_5a.x               #Rail(wood tie,no grass,5m length)_レール（木製枕木、草なし、長さ5ｍ）_轨道（木制轨枕，无草，5m长）
 slabrailwhite,Structures\3_GeneralStr\Rail\Ballast11\DBallast_5m.x
 newrail,Structures\3_GeneralStr\Rail\Ballast11\DBallast_5m.x
 slabrail,Structures\3_GeneralStr\Rail\Slab01\SlabS5m.x
