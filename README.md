@@ -1,7 +1,12 @@
 # Gensokyo Railway Bve Trainsim 5 route
-[中文版Readme](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/README_zh_cn.md)<br><br>
-[Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)<br><br>
-[開発ガイド（日本語）](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/devJP.md)（Not up to date）<br>
+# New Readme is in progress (unfinished)
+Select a language:
+[　简体中文　](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_zh_cn.md) 
+[　日本語　](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_jp.md)
+
+## Guides
+[　Player Guide　](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)
+[　Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md)
 ## Introduction
 The Gensokyo Railway is a fictional railway system developed by me and the contributors. It is an imaginary railway system located in Gensokyo of the Touhou Project. The development of this simulated route was based on the real-life railway system in the Shinetsu region of Japan, which is believed by some to be the area where Gensokyo exists.<br>
 If you are not familiar with the Touhou Project, you can also enjoy it as a general fictional railway.
@@ -51,40 +56,40 @@ The distance is measured precisely to 0.001 kilometers.
 
 The following is the distance for the section from Hakurei Shrine to Moriya Shrine, starting from Hakurei Shrine.
 
-| Station | Mileage |
-|--- |---|
-| Hakurei Shrine | 0.0km |
-| Minami-Hakurei | 5.100km |
-| Eientei | 10.823km |
-| Chikurin | 13.900km |
+| Station             | Mileage  |
+| ------------------- | -------- |
+| Hakurei Shrine      | 0.0km    |
+| Minami-Hakurei      | 5.100km  |
+| Eientei             | 10.823km |
+| Chikurin            | 13.900km |
 | Minami-Ningennosato | 21.040km |
-| Ningennosato | 22.395km |
-| Nishi-Ningennosato | 24.433km |
-| Myorenji | 28.989km |
-| Kita-Myorenji | 30.291km |
-| Youkainojyukai | 34.972km |
-| Kusada | 37.553km |
-| Moriya Shrine | 39.425km |
+| Ningennosato        | 22.395km |
+| Nishi-Ningennosato  | 24.433km |
+| Myorenji            | 28.989km |
+| Kita-Myorenji       | 30.291km |
+| Youkainojyukai      | 34.972km |
+| Kusada              | 37.553km |
+| Moriya Shrine       | 39.425km |
 
 View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md) for more detailed information.
 ### Timetable
 #### Loop Line
 
-|駅名      |普通 121M|普通 123M|快速もりや 101M|
-|---       |---      |---     |---           |
-|博麗神社  |    0721  |0820    |1018          |
-|南博麗    | 	0726  |0825    |↓             |
-|永遠亭    | 	0732  |0831    |1026          |
-|竹林      | 	0735  |0835    |↓             |
-|南人間の里| 	0742  |0841    |↓             |
-|人間の里  | 	0744  |0846    |1036          |
-|西人間の里| 	=	  |0849    |1039          |
-|命蓮寺    | 		  |0854    |1044          |
-|北命蓮寺   | 		  |0856    |↓             |
-|妖怪の樹海| 		  |0901    |↓             |
-|草田     | 		  |0904    |↓             |
-|守矢神社 | 		  |0907    |1052          |
-|         | 	     |        |=             |
+| 駅名       | 普通 121M | 普通 123M | 快速もりや 101M |
+| ---------- | --------- | --------- | --------------- |
+| 博麗神社   | 0721      | 0820      | 1018            |
+| 南博麗     | 0726      | 0825      | ↓               |
+| 永遠亭     | 0732      | 0831      | 1026            |
+| 竹林       | 0735      | 0835      | ↓               |
+| 南人間の里 | 0742      | 0841      | ↓               |
+| 人間の里   | 0744      | 0846      | 1036            |
+| 西人間の里 | =         | 0849      | 1039            |
+| 命蓮寺     |           | 0854      | 1044            |
+| 北命蓮寺   |           | 0856      | ↓               |
+| 妖怪の樹海 |           | 0901      | ↓               |
+| 草田       |           | 0904      | ↓               |
+| 守矢神社   |           | 0907      | 1052            |
+|            |           |           | =               |
 
 ## Train information
 The following are recommended trains that can be adjusted as needed, using train data supported by Bve5.<br>

@@ -1,0 +1,1 @@
+[開発ガイド](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/devJP.md)（Not up to date）<br>
