@@ -32,7 +32,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.4,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.5,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
-2345+$dist1+$distHKR_T2;
+2344+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.4,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
