@@ -5,8 +5,8 @@ Select a language:
 　[日本語](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_jp.md)
 　[한국어](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_kr.md) 
 ## Guides
-[　Player Guide　](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)
-[　Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md)
+　[Player Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)
+　[Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md)
 ## Introduction
 The Gensokyo Railway is a fictional railway system developed by me and the contributors. It is an imaginary railway system located in Gensokyo of the Touhou Project. The development of this simulated route was based on the real-life railway system in the Shinetsu region of Japan, which is believed by some to be the area where Gensokyo exists.<br>
 If you are not familiar with the Touhou Project, you can also enjoy it as a general fictional railway.
@@ -22,16 +22,6 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - [ ] 2025-?-?:Release v3.0(Loop line complete)
 
 View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md) for more detailed information.
-
-## Installation Guide
-1. Make sure you are in the Windows operating system.
-2. Install Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
-3. Download the releases and remember the local path of it, you will use it later.(The repo is currently only for development.It may cannot be run normally in BVE)
-4. Get the vehicle data from the train creator's website. Remember the local path of it, you will use it later.
-5. Make sure the file paths in the text files in "GSR" folder(101M.txt etc.)are correct. Then you can open the route in Bve trainsim and enjoy it.<br>
-
-Notice:
-1. If the routes don't display on the interface of "select route" in BVE 5.8, please check the paths in the text files such as 103M.txt and so on. If the problem still exists, report it in "Issues".    
 
 ## Route Information
 The current route includes one-way operation between the Hakurei Shrine and the Moriya Shrine on Gensokyo Loop Line, with a maximum speed of 110 km/h(rapid train)or 95 km/h(local train). The route includes 12 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato,Ningennosato,West Ningennosato,Myorenji,North Myorenji,Youkai no Jyukai,Kusada,and Moriya Shrine.Currently, the route contains local and rapid service.
