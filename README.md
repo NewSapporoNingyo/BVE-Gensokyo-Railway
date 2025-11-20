@@ -8,15 +8,15 @@ Select a language:
 　[Player Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)
 　[Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md)
 ## Introduction
-The Gensokyo Railway is a fictional railway system developed by me and the contributors. It is an imaginary railway system located in Gensokyo of the Touhou Project. The development of this simulated route was based on the real-life railway system in the Shinetsu region of Japan, which is believed by some to be the area where Gensokyo exists.<br>
+The Gensokyo Railway is a fictional railway system developed by me(Sapporo Ningyo) and the contributors using Bve Trainsim. It's an imaginary railway system located in Gensokyo of the Touhou Project. The development of this simulated route was based on the real-life railway system in the Shinetsu region of Japan, which is believed by some to be the area where Gensokyo exists.In later versions,elements from railways around the world will also be added.<br>
 If you are not familiar with the Touhou Project, you can also enjoy it as a general fictional railway.
-Currently, the simulated line operates in one direction from the Hakurei Shrine to the Moriya Shrine on the Loop Line, but it will be extended in the future and eventually become a loop line.Other routes will also be added.
+Currently, the simulated line operates in one direction(clockwise) from the Hakurei Shrine to the Hakurei Shrine on the Loop Line.In the future,additional lines besides the Loop Line will also be added.
 ## Updates
 - 2023-6-9:set up repository
 - [x] **2023-8-10:Release v1.0(Loop line from HKR-NNS)**
 - [x] **2023-12-1:Release v2.0(Loop line from NNS-MRY)**
 - [X] **2024-3-16:Release v2.0.1(Loop line from NNS-MRY)**
-- 2024-3-31:Develop paused
+- 2024-3-31:Development paused
 - [x] **2024-11-17:Release v2.0.2(Loop line from NNS-MRY)**
 - 2025-6-9:Resume development
 - [ ] 2025-?-?:Release v3.0(Loop line complete)
@@ -24,14 +24,16 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md) for more detailed information.
 
 ## Route Information
-The current route includes one-way operation between the Hakurei Shrine and the Moriya Shrine on Gensokyo Loop Line, with a maximum speed of 110 km/h(rapid train)or 95 km/h(local train). The route includes 12 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato,Ningennosato,West Ningennosato,Myorenji,North Myorenji,Youkai no Jyukai,Kusada,and Moriya Shrine.Currently, the route contains local and rapid service.
+For details, see the [Player Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)and[Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md).<br>
 
-If you use this simulated train route as a derivative work in the Touhou Project, **please note that many of the details are the author's own interpretation and may differ from others' imaginations or the official work.** The geographic information of Gensokyo in the route comes from the following website:<br>
-(If you have any objections to the elements appearing in the route, you are welcome to download it locally and modify it according to your own ideas. Please do not harass or attack the original author because of this.)<br>
+The current route includes clockwise one-way operation on the Gensokyo Loop Line from Hakurei Shrine to Hakurei Shrine.The route contains Local,Rapid,and Limited Express services. Maximum speeds are 120 km/h (Limited Express), 110 km/h (Rapid), and 95 km/h (Local). The entire line has 22 stations.
+
+If you use this simulated train route as a derivative work in the Touhou Project, **please note that many of the details are the author's own interpretation and may differ from others' imaginations or the official work.**
+(If you have any objections to the elements appearing in the route,you are welcome to download it locally and modify it according to your own ideas. Please do not harass or attack the original author because of this.)<br>
+Any imperfections in the route may be fixed in future updates.If you find issues,contact the author or report them in the “Issues” section above.<br>
 <br>
 
-[幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
-[Backup of this page at web archive](https://web.archive.org/web/20230901101451/https://yotogiluminary.wixsite.com/website/post/000014)<br>
+
 ### Route Map
 <p align="center">
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/CircleLine_Map_Planned.png" alt="routemap";>
@@ -39,88 +41,48 @@ If you use this simulated train route as a derivative work in the Touhou Project
 <br>
 (Thanks for @AshBill who created the new routemap)
 
-### Mileage
-The mileage data is the author's own setting, unrelated to the original work of Touhou Project, and may not correspond to the imaginations of others regarding the size of Gensokyo. 
-
-The distance is measured precisely to 0.001 kilometers. 
-
-The following is the distance for the section from Hakurei Shrine to Moriya Shrine, starting from Hakurei Shrine.
-
-| Station             | Mileage  |
-| ------------------- | -------- |
-| Hakurei Shrine      | 0.0km    |
-| Minami-Hakurei      | 5.100km  |
-| Eientei             | 10.823km |
-| Chikurin            | 13.900km |
-| Minami-Ningennosato | 21.040km |
-| Ningennosato        | 22.395km |
-| Nishi-Ningennosato  | 24.433km |
-| Myorenji            | 28.989km |
-| Kita-Myorenji       | 30.291km |
-| Youkainojyukai      | 34.972km |
-| Kusada              | 37.553km |
-| Moriya Shrine       | 39.425km |
-
-View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md) for more detailed information.
-### Timetable
-#### Loop Line
-
-| 駅名       | 普通 121M | 普通 123M | 快速もりや 101M |
-| ---------- | --------- | --------- | --------------- |
-| 博麗神社   | 0721      | 0820      | 1018            |
-| 南博麗     | 0726      | 0825      | ↓               |
-| 永遠亭     | 0732      | 0831      | 1026            |
-| 竹林       | 0735      | 0835      | ↓               |
-| 南人間の里 | 0742      | 0841      | ↓               |
-| 人間の里   | 0744      | 0846      | 1036            |
-| 西人間の里 | =         | 0849      | 1039            |
-| 命蓮寺     |           | 0854      | 1044            |
-| 北命蓮寺   |           | 0856      | ↓               |
-| 妖怪の樹海 |           | 0901      | ↓               |
-| 草田       |           | 0904      | ↓               |
-| 守矢神社   |           | 0907      | 1052            |
-|            |           |           | =               |
-
-## Train information
-The following are recommended trains that can be adjusted as needed, using train data supported by Bve5.<br>
-Note: In future versions, trains other than the E127 series will gradually no longer be recommended trains. Additionally, scenarios corresponding to different signaling systems will be provided, players can use suitable trains on their own.
-### JR East E127 Series
-E127 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since May 8, 1995. Currently, this simulated route uses a 2-car formation of this train.<br>
-This vehicle data is licensed under [CC BY-NC 2.1 JP DEED license](https://creativecommons.org/licenses/by-nc/2.1/jp/deed.en) and embedded in the route data with some modifications.<br>
-### JR East E129 Series
-E129 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since December 6, 2014. Currently, this simulated route uses a 4-car formation of this train.<br>
-[Link of the vehicle data](https://mc1323bve.blogspot.com/2020/03/jr-e129.html)<br>
-Operating with the B11 hensei is recommended<br>
-The creator of this vehicle has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
-### JNR Class EF81 Locomotive
-The Class EF81 is a multi-voltage AC/DC electric locomotive type operated on passenger and freight services in Japan since 1968.<br>
-[Link of the vehicle data](http://waisroom.sakura.ne.jp/)<br>
-Operating with the "81_vehicle4" hensei is recommended<br>
-## Operating method
-Please visit the train creator's website
 ## Contact us
 [discord server](https://discord.gg/na6JWGH7Ax)<br>
-## License
-MIT License<br>
-The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
-The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
-The copyright owner of the Class EF81 vehicle data is "わゐ".<br>
-<br>
-Source of structures or creator of them:<br>
-かんたんのゆめ汎用ストラクチャセット<br>
-仙ナセ<br>
-Tetsu_Otter<br>
-Nakano_Kazusa<br>
-NT/fiv<br>
-FCS_TM<br>
-タピオカ丸<br>
-内房線制作チーム<br>
-Takamizawa<br>
-Yukkuri_Bve<br>
-雑庫Site<br>
-うたたね<br>
-P車解結可6連<br>
-サハ209<br>
-<br>
-some station music are from this page:<br>
-https://commons.nicovideo.jp/users/upload/157209?page=2
+
+## License & Copyright
+### MIT License
+[Full License Text](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/LICENSE)<br>
+
+Summary of the license:
+1. You may modify and redistribute the route data (no need to contact the author).
+2. All copies must contain the full license text and credit the original author.
+3. The author offers no guarantees regarding secondary use. Users assume all responsibilities unrelated to the author.
+
+This license applies only to original content within the project. For borrowed materials, follow the respective creators' licenses.<br>
+Except for the author and contributors, this project has no connection with any real-world individuals or organizations. Please do not contact any unrelated persons or groups regarding matters related to this project.<br>
+All content in this project is unrelated to political or religious propaganda. Please refrain from overinterpreting any elements.
+### The geographic information of Gensokyo in the route comes from the following website:
+[幻想郷・最新版地理考察(In Japanese)](https://yotogiluminary.wixsite.com/website/post/000014)<br>
+[Backup of this page at web archive](https://web.archive.org/web/20230901101451/https://yotogiluminary.wixsite.com/website/post/000014)<br>
+### Built-in default train (E127 series EMU)
+E127 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since May 8, 1995. Currently,GSR uses a train data of E127 Series as the default train.<br>
+This vehicle data is licensed under [CC BY-NC 2.1 JP DEED](https://creativecommons.org/licenses/by-nc/2.1/jp/deed.en) license and embedded in the route data with some modifications.<br>
+The copyright owner of the E127 series vehicle data is "BVE Workshop".
+### Borrowed materials and creator of them(In Japanese)<br>
+
+| 素材名                                                                                | 作者（引用元）                                                                      |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| かんたんのゆめ汎用ストラクチャセット(GeneralStr)、lopoli_houses                       | NT/fiv                                                                              |
+| 列車接近警報器、ホーム照明器具、フェンス                                              | 仙ナセ                                                                              |
+| 簡易車止め、ホームエンドフェンス、キロポスト、レピーター                              | Tetsu_Otter                                                                         |
+| 信号喚呼位置標、進路関連機器、色灯式信号、信号柱、信号その他                          | FCS_TM                                                                              |
+| JRE_common                                                                            | タピオカ丸                                                                          |
+| 信号ラベル                                                                            | 内房線制作チーム                                                                    |
+| JR東日本風駅名標ストラクチャ                                                          | Yukkuri_Bve                                                                         |
+| 入替標識                                                                              | 雑庫Site                                                                            |
+| 雑用ストラクチャセット                                                                | うたたね                                                                            |
+| サハ209式地下駅、サンパチジメン、他列車用のストラクチャ（115系、211系、381系、485系） | saha209                                                                             |
+| JR四国121系（E127系に改造）                                                           | P車解結可6連                                                                        |
+| E131系房総色BVEストラクチャセット（E129系に改造）                                     | Nakano_Kazusa                                                                       |
+| 他列車用のストラクチャ（25系、200系，485系）                                          | InitG                                                                               |
+| BVE5・6用 護輪軌条ストラクチャ（未使用）                                              | TomyRailway                                                                         |
+| ホームドア（未使用）                                                                  | Takimizawa                                                                          |
+| 一部の発車メロディー                                                                  | 大野健太郎 [(nicocommons)](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 魔法の森-霧の湖駅間　紅魔館のイラスト                                                 | ストくん [(pixiv)](https://www.pixiv.net/artworks/132050382)                        |
+
+Station and train announcements: Google Translate,text-to-speech in Windows system
