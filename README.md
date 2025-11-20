@@ -36,7 +36,7 @@ Any imperfections in the route may be fixed in future updates.If you find issues
 
 ### Route Map
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/CircleLine_Map_Planned.png" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 <br>
 (Thanks for @AshBill who created the new routemap)

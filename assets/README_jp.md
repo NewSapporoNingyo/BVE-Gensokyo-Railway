@@ -38,12 +38,10 @@
 
 シナリオ内のすべての問題は、今後のアップデートで修正される可能性があります。バグを発見した場合は、作者に連絡するか「Issues」欄へ報告してください。
 
----
-
 ### 路線図
 
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/CircleLine_Map_Planned.png" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 
 （路線図を作成した @AshBill さんに感謝します）
