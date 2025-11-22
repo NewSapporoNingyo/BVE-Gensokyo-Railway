@@ -1,0 +1,29 @@
+BveTs Map 2.02
+0;
+    Train['rumia'].Load('..\Structures\1_GSR\people\rumia.txt','ru',1);
+    Train['rumia'].Enable('10:10:08');
+    Train['cirno'].Load('..\Structures\1_GSR\people\cirno.txt','ci',1);
+    Train['cirno'].Enable('10:49:20');
+6600;
+    Track['ru'].Position(-10,8,0,0);
+    Train['rumia'].Stop(2,0,30,130);
+6700;
+    Track['ru'].Position(-1,8,0,0);
+7100;
+    Track['ru'].Position(3,9,0,0);
+7600;
+    Track['ru'].Position(9,10,0,0);
+8100;
+    Track['ru'].Position(20,-1,0,0);
+    Train['rumia'].Stop(10,10,2,45);
+36460;
+	Structure['aya-1'].Put('2',3.8,1.08,0,,0,,,);
+40890;
+    Structure['reimu-1'].Put('1',-3.7,1.08,0,,0,,,);
+54500;
+    Track['ci'].Position(-60,8.5,0,0);
+    Train['cirno'].Stop(2,1,20,20);
+54600;
+    Track['ci'].Position(60,9.5,0,0);
+    Train['cirno'].Stop(20,10,2,45);
+

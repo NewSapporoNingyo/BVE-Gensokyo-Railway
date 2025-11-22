@@ -13,9 +13,10 @@ include 'StaList\StopPositions\StopPos_4car_HKR2_NNS4_MRY2.txt';
 include 'SoundMap\Mapsound101M.txt';
 include 'SoundMap\3DSounds_LoopLine.txt';
 #---MoveableObjects---
-include 'MoveableObj\rumia101M.txt';
 include 'MoveableObj\Mapot14M.txt';
 include 'MoveableObj\Mapot124M.txt';
+#---Peoples---
+include 'Other\Peoples-101M.txt';
 #---MainMaps---
 //include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';

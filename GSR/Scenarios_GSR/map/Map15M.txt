@@ -11,6 +11,8 @@ include 'MoveableObj\Mapot124M-forMap15M.txt';
 //include 'Mapot104M.txt';
 include 'MoveableObj\Mapot16M.txt';
 include 'MoveableObj\Mapot126M.txt';
+#---Peoples---
+include 'Other\Peoples-15M.txt';
 #---MainMaps---
 include 'Main\LoopLine\MapHRDepot.txt';
 include 'Main\LoopLine\MapHakureiSta_Track2.txt';

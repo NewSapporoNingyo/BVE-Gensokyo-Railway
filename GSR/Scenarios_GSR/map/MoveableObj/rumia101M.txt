@@ -1,16 +1,4 @@
 BveTs Map 2.02
 
-0;
-Train['rumia'].Load('..\Structures\1_GSR\people\rumia.txt','ru',1);
-Train['rumia'].Enable('9:38:55');
-3490;
-    Track['ru'].Position(6,9,0,0);
-    Train['rumia'].Stop(2,10,10,110);
-4990;
-    Track['ru'].Position(-2,9,0,0);
-5990;
-    Track['ru'].Position(-9,10,0,0);
-7490;
-    Track['ru'].Position(-20,8,0,0);
-    Train['rumia'].Stop(10,10,2,45);
+
 

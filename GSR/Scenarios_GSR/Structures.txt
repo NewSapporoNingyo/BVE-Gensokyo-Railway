@@ -400,6 +400,7 @@ tapecut,Structures\1_GSR\firstday\tapecut.x
 rumia-1,Structures\1_GSR\people\rumia-1.x
 cirno-1,Structures\1_GSR\people\cirno-1.x
 aya-1,Structures\1_GSR\people\aya-1.x
+reimu-1,Structures\1_GSR\people\reimu-1.x
 #other
 carstop,Structures\4_Other\Tetsu_Otter\carstop\carstop_easy.x
 crost,Structures\4_Other\structure_Cro_st\Cro_st.x
