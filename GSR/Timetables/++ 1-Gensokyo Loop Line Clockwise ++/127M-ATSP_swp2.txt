@@ -8,4 +8,4 @@ Vehicle = ..\..\..\..\JRW221\Vehicle4.txt
 ;↑ Paste the path of your train data to replace the default train ↑
 VehicleTitle = <swp2> Any trains ≤ 4 cars(80m length)
 Image = Rollsign\Local-moriya-swp2.jpg
-Comment = [ATS-P(swp2)] Max speed：95km/h Platform: Hakurei② Ningen④ Moriya② Train Annoucement: Part101(JP+EN+CN)
+Comment = [ATS-P(swp2)] Max speed：95km/h Stop Sign:Orange<Nonumber> Platform: Hakurei② Ningen④ Moriya② Train Annoucement: Part101(JP+EN+CN)

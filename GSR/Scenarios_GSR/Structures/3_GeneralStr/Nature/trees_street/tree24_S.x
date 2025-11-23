@@ -121,7 +121,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "tree24_S.png";
+    "tree24_S.dds";
    }
   }
  }

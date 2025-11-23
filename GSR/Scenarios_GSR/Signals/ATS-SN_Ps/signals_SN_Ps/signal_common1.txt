@@ -276,7 +276,7 @@ BveTs Map 2.00
 //竹林出发
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
+	Structure['SigBox'].Put('1',-2.8,0,3,,,,,5);
 	Structure['Label_Soto-Shu'].Put('1',-2.4,2.7,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);

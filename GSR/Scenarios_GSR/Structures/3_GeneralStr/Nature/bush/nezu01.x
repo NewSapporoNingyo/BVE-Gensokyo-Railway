@@ -121,7 +121,7 @@ Mesh {
    0.500000;0.500000;0.500000;;
 
    TextureFilename {
-    "nezu01.png";
+    "nezu01.dds";
    }
   }
  }

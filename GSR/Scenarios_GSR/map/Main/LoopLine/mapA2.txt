@@ -2,6 +2,7 @@ BveTs Map 2.02
 $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 # ----------(MapNingenosato_Track3/4)↑Map separate↓(mapA2)----------
 0+$distMapA2;
+	DrawDistance.Change(600);
 	Repeater['tunnelwall'].Begin('1',2,-0.25,1.6, , , ,3,5,5, 'Tunnellp');
 	Curve.BeginTransition();
 	Fog.Interpolate(0.007,0,0,0);	
@@ -25,6 +26,7 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 910+$distMapA2;
 	Fog.Interpolate(0.007,0,0,0);
 970+$distMapA2;
+	DrawDistance.Change(800);
 	Fog.Interpolate(0.004,1,1,1);
 1013-25+$distMapA2;
 	Curve.BeginTransition();
@@ -102,6 +104,8 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 24140-22610+$distMapA2;
 	Repeater['apr1R'].Begin('ground',25,-1,,,0, ,3,0,40, 'apr');
 	Repeater['woodapr1R'].Begin('ground',25,-1,20,,180, ,3,0,40, 'woodapr2');
+1523+$distMapA2;
+	DrawDistance.Change(0);
 24155-22610+$distMapA2;
 	Legacy.Curve(6000,0);
 	Track['2'].Position(7,0,-3000,0);

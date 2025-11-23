@@ -27,7 +27,7 @@ Mesh {
    0.600000;0.600000;0.600000;;
 
    TextureFilename {
-    "grass2.png";
+    "grass2.dds";
    }
   }
  }
