@@ -2154,7 +2154,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Curve.BeginTransition();
 18540+40+$distMapA;
 	Fog.Interpolate(0.01,0,0,0);
-	Curve.Begin(1000,0.068);
+	Curve.Begin(1200,0.045);
 18881-40+$distMapA;
 	Curve.BeginTransition();
 18881+40+$distMapA;
