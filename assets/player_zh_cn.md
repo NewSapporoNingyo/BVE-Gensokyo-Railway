@@ -104,6 +104,10 @@
 守矢神社站之后的信息已经移动到了[dev.md](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)<br>
 
 ### 可驾驶的班次
+#### 15M
+#### 101M
+#### 121M
+#### 127M
 #### 时刻表
 
 | 駅名       | L特急“Ayunokaze” 15M | 快速“守矢” 101M | 普通 121M | 普通 127M |
