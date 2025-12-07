@@ -17,7 +17,7 @@
 ### 1.手动导入
 1. 下载项目代码仓库首页右侧“Releases”中的最新版线路包到本地，将压缩包下载到本地后解压。<br>（注意：目前代码仓库内的文件仅用于开发，可能无法在BVE中正常运行。同时发行版的线路内也不包含完整的素材库和各种资源文件。如果你有安装开发版线路的需要，请参考开发者指南）<br>
 
-2. 在”GSR\Timetables“目录下，可以找到几个名称前后带加号“++”的文件夹（目前仅有名为1-Gensokyo Loop Line Clockwise的一个文件夹），里面有很多文件名类似“121M-ATSP+SN_A&C”的txt文件（这里的文件名代表的意思将会在稍后讲解），这些文件就是BVE里的列车任务（Scenario）文件。
+2. 在”GSR\Timetables“目录下，可以找到几个名称前后带加号“++”的文件夹（目前仅有名为1-Gensokyo Loop Line Clockwise的一个文件夹），里面有很多文件名类似“121M-ATSP+SN_A&C”的txt文件，这些文件就是BVE里的列车任务（Scenario）文件。（这里的文件名代表的意思将会在稍后讲解）
 3. 在BVE的”线路选择“（シナリオの選択）界面打开“GSR\Timetables\\++ 1-Gensokyo Loop Line Clockwise ++“目录，即可看到当前版本中，环状线的全部列车任务。<br>
 ### 2.自动导入并长期获取更新（计划中）
 ## 导入列车数据
@@ -30,27 +30,45 @@
 | 101M     | 101M-ATSsn_N&A&C.txt |
 | 121M     | 121M-ATSsn_N&A&C.txt |
 | 127M     | 127M-ATSsn_N&A&C.txt |
+
 在没有使用的任务文件中，你可以在”Vehicle =“一栏的最开头添加分号";"（在任务文件中表示注释），这样它们将不会显示在BVE的线路选择界面中。
 ### 选择合适的列车
 除线路内置的E127系之外，GSR线路提供了多个对应不同信号插件的任务，玩家可以自行寻找合适的列车。列车可以根据GSR线路的设定与个人喜好选择。<br>
 #### 线路设定
 目前GSR环状线全线的轨距为1067mm，线路最高速度120km/h，电气化方式使用DC1.5Kv的架空接触网。对应的信号系统有ATS-P（博丽神社-人间之里-守矢神社间）和ATS-SN（全线）以及ATS-Ps（只有121M任务使用）。
 #### 信号插件
-在BVE中，即使是相同的信号系统（ATS-P,ATS-SN等）也可能使用不同的信号插件进行模拟。
+在BVE中，即使是相同的信号系统（ATS-P,ATS-SN等）也可能使用不同的信号插件进行模拟。下面是GSR线路对应的几种信号插件：
 
+| 插件名称              | 在GSR项目中使用的简称 |
+| --------------------- | --------------------- |
+| 汎用ATS插件           | Notsuki               |
+| ask&CT的ATS-P插件     | ask&CT(A&C)           |
+| Rock_On的snp.dll插件  | snp                   |
+| Rock_On的swp2.dll插件 | swp2                  |
+
+简称“N&A&C”表示“Notsuki&ask&CT”，在这个任务中既可以使用对应Notsuki插件的列车，也可以使用对应ask&CT插件的列车。<br>
+简称“NoSC”表示“无速度照查”，在这个任务中可以使用任意对应ATS-S的列车。<br>
+确认列车使用的信号插件的方法，将会在下文讲解。<br>
 #### 经过测试的列车数据
 如果你想避免在列车安装时遇到一些未知的问题，下面的表格内是一些在线路进行测试的时候曾经使用过的列车，已被验证可以在GSR线路内稳定运行。（有关各个列车的详细介绍，可以在网上自行搜寻）
-| ↓列车番号/对应信号插件→ | ATSP/Ps（Ask&CT）                                             | ATSP/Sn（Ask&CT）                                             | snp         | swp2        |
-| ---------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ----------- | ----------- |
-| 15M                    | -                                                             | E653系                                                        | -           | 283系/381系 |
-| 101M                   | -                                                             | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | 211系       | 221系       |
-| 121M                   | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | 211系/115系 | 221系       |
-| 127M                   | -                                                             | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | 211系/115系 | 221系       |
+| ↓列车番号/对应信号插件→ | ATSP/Ps（Ask）                                                | ATSP/Sn（Ask&CT）                                             | snp                                                    | swp2                                                                 |
+| ----------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------------------------------------- |
+| 15M                     | -                                                             | [E653系](https://miso-yk.wixsite.com/ci19/e653)               | -                                                      | [283系](https://a43.jimdofree.com/bve-trainsim/283%E7%B3%BB/)/381系¹ |
+| 101M                    | -                                                             | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | [211系](https://sigf.sakura.ne.jp/bve_211.html)        | [221系](https://mudamc22078.blog.fc2.com/blog-entry-296.html)        |
+| 121M                    | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | [211系](https://sigf.sakura.ne.jp/bve_211.html)/115系² | [221系](https://mudamc22078.blog.fc2.com/blog-entry-296.html)        |
+| 127M                    | -                                                             | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | [211系](https://sigf.sakura.ne.jp/bve_211.html)/115系² | [221系](https://mudamc22078.blog.fc2.com/blog-entry-296.html)        |
 <br>
 
-[EF81](http://waisroom.sakura.ne.jp/)<br>
+¹：JRTrainpack内的"Rock_On\Train\JR\Formation\hine\D601.txt"<br>
+²：JRTrainpack内的"Rock_On\Train\JR\Formation\tota\M33_3.txt"<br>
+
+除此之外，GSR的线路中曾经使用过[EF81](http://waisroom.sakura.ne.jp/)型电力机车，在未来可能会再次用到，在此保留链接。<br>
 
 ### 将列车数据导入BVE
+#### 下载列车数据
+#### 如何确定列车使用的信号插件
+#### 列车插件的导入
+#### 修改任务文件中的列车路径
 
 注意：
 1. 在BVE5.8中，若出现了线路没有显示在BVE的路线选择界面的问题，请检查“121M-ATSP+SN_A&C.txt”等文本文件内列车和线路的文件路径（Route = xxx 和 Vehicle = xxx）是否正确。如问题仍然出现，请到上方"issue"里报告问题或联系作者。
