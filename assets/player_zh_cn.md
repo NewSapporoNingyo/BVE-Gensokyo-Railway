@@ -95,7 +95,7 @@ ATS-Ps/SN（全线）
 ### 里程
 里程数据是作者自己的设定，与东方原作无关，并且可能与其他人对幻想乡大小的想象不符。<br>
 精确到0.01千米。<br>
-详见[dev.md](dev_zh_cn.md#HakureiShrine->Ningennosato->HakureiShrine)<br>
+详见[dev.md](dev_zh_cn.md#hakureishrine-ningennosato-hakureishrine)<br>
 
 ### 可驾驶的班次
 #### 15M
