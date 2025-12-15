@@ -73,6 +73,7 @@
 ##### JRTrainPack
 JRTrainPack是一个包含大量列车数据及插件的整合资源包，玩家可以选择其中的列车在GSR线路上运行，这个资源包[可在此网站下载](https://mikangogo.github.io/posts/jrtrainpack/)
 #### 如何确定列车使用的信号插件
+
 #### 列车插件的导入
 #### 修改任务文件中的列车路径
 
