@@ -1,7 +1,5 @@
 # Bve Trainsim 5 幻想郷鉄道 シナリオ
 
-# 新しい Readme は作成中（未完成）
-
 ## ガイド
 
 　[プレイヤーガイド](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player_jp.md)

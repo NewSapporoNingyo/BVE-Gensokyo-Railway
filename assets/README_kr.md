@@ -1,7 +1,5 @@
 # Bve Trainsim 5 환상향 철도 시나리오
 이 문서는 자동 번역 도구로 번역된 것이므로 이해하기 어려운 부분이 있다면 영어 버전을 참고해 주세요. 양해 부탁드립니다.
-# 새로운 Readme 작성 중(미완성)
-
 ## 가이드(In English)
 
 　[플레이어 가이드](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)

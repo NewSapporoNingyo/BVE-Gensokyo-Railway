@@ -1,5 +1,5 @@
 # 幻想乡铁道 Bve Trainsim 5线路
-# 新的Readme正在编写中（未完成）
+
 ## 指南
 　[安装及游玩指南](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player_zh_cn.md)
 　[开发者指南](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev_zh_cn.md)
