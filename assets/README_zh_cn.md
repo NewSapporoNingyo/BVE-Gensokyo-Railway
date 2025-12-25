@@ -32,7 +32,7 @@
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 <br>
-(感谢@AshBill绘制线路图)<br>
+
 
 ## 联系我们
 QQ：3330684297（另有QQ群聊，可联系作者本人加入）<br>

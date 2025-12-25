@@ -39,7 +39,7 @@ Any imperfections in the route may be fixed in future updates.If you find issues
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 <br>
-(Thanks for @AshBill who created the new routemap)
+
 
 ## Contact us
 [discord server](https://discord.gg/na6JWGH7Ax)<br>

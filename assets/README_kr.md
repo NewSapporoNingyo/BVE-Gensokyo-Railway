@@ -41,7 +41,7 @@
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 
-（노선도를 제작해 주신 @AshBill 님께 감사드립니다）
+
 
 ## 연락처
 
