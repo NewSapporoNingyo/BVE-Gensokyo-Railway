@@ -294,7 +294,7 @@ Approximate travel time:
 ### **101M — Rapid “Moriya”**
 
 * Maximum speed: **110 km/h**
-* Operates only between **Hakurei Shrine – Ningen no Sato – Moriya Shrine**
+* Operates only between **Hakurei Shrine – NingennoSato – Moriya Shrine**
 * Total travel time: **~35 minutes**
 
 ---
