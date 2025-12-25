@@ -1,4 +1,7 @@
 # Developer Guide
+# New Developer Guide is currently being written (in progress)
+Note: Before attempting anything in this guide, ensure you are sufficiently familiar with the various components related to BVE.
+---
 Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
 update 2025-4-28<br>
 ## Setup develop environment
