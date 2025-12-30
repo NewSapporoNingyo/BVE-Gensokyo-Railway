@@ -68,7 +68,8 @@ Mail: sapporoningyo@gmail.com<br>
 
 ### 프로젝트 내에서 참고한 환상향 지리 정보 출처
 
-（링크 생략: 동일）
+[幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
+[Web Archive バックアップ](https://web.archive.org/web/20230901101451/https://yotogiluminary.wixsite.com/website/post/000014)
 
 ### 기본 차량 데이터(E127계)
 
