@@ -52,7 +52,7 @@ update 2025-4-28<br>
 ### Routes
 #### RouteMap
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_System_Map.png" alt="routemap";>
+    <img src="maps/Gensokyo_System_Map.png" alt="routemap";>
 </p>
 <br>
 (Thanks for @AshBill who created the new routemap)
@@ -84,25 +84,25 @@ update 2025-4-28<br>
 ### Route Design
 #### Loop Line・Koto Line・HakureiMoriya Line  
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Loop-Koto-HMLine.png" alt="routemap";>
+    <img src="haisennryakuzu/route_design_Loop-Koto-HMLine.png" alt="routemap";>
 </p>
 <br>
 
 #### Kyuto Main Line  
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_KyutoMainLIne.png" alt="routemap";>
+    <img src="haisennryakuzu/route_design_KyutoMainLIne.png" alt="routemap";>
 </p>
 <br>
 
 #### Youkaizan Line・Mist Lake Line・Hakurei East Line・Standard Gauge Experimental Line of Mt.Youkai
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_NHB-Yakumotei.jpg" alt="routemap";>
+    <img src="haisennryakuzu/route_design_NHB-Yakumotei.jpg" alt="routemap";>
 </p>
 <br>
 
 #### Yuumei-kekkai Line・Meikai Line
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Yakumotei-Saigyoayakashi.png" alt="routemap";>
+    <img src="haisennryakuzu/route_design_Yakumotei-Saigyoayakashi.png" alt="routemap";>
 </p>
 <br>
 

@@ -1,12 +1,12 @@
 # Gensokyo Railway Bve Trainsim 5 route
 
 Select a language:
-　[简体中文](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_zh_cn.md) 
-　[日本語](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_jp.md)
-　[한국어](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/README_kr.md) 
+　[简体中文](assets/README_zh_cn.md) 
+　[日本語](assets/README_jp.md)
+　[한국어](assets/README_kr.md) 
 ## Guides
-　[Player Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)
-　[Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md)
+　[Player Guide](assets/player.md)
+　[Developer Guide](assets/dev.md)
 ## Introduction
 The Gensokyo Railway is a fictional railway system developed by me(Sapporo Ningyo) and the contributors using Bve Trainsim. It's an imaginary railway system located in Gensokyo of the Touhou Project. The development of this simulated route was based on the real-life railway system in the Shinetsu region of Japan, which is believed by some to be the area where Gensokyo exists.In later versions,elements from railways around the world will also be added.<br>
 If you are not familiar with the Touhou Project, you can also enjoy it as a general fictional railway.
@@ -19,12 +19,12 @@ Currently, the simulated line operates in one direction(clockwise) from the Haku
 - 2024-3-31:Development paused
 - [x] **2024-11-17:Release v2.0.2(Loop line from NNS-MRY)**
 - 2025-6-9:Resume development
-- [ ] 2025-?-?:Release v3.0(Loop line complete)
+- [x] **2025-12-31:Release v3.0(Loop line complete)**
 
-View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md) for more detailed information.
+View [Developer Guide](assets/dev.md) for more detailed information.
 
 ## Route Information
-For details, see the [Player Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)and[Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md).<br>
+For details, see the [Player Guide](assets/player.md)and[Developer Guide](assets/dev.md).<br>
 
 The current route includes clockwise one-way operation on the Gensokyo Loop Line from Hakurei Shrine to Hakurei Shrine.The route contains Local,Rapid,and Limited Express services. Maximum speeds are 120 km/h (Limited Express), 110 km/h (Rapid), and 95 km/h (Local). The entire line has 22 stations.
 
@@ -36,17 +36,17 @@ Any imperfections in the route may be fixed in future updates.If you find issues
 
 ### Route Map
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
+    <img src="assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 <br>
 
 
 ## Contact us
 [discord server](https://discord.gg/na6JWGH7Ax)<br>
-
+Mail: sapporoningyo@gmail.com<br>
 ## License & Copyright
 ### MIT License
-[Full License Text](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/LICENSE)<br>
+[Full License Text](https://github.com/NewSapporoNingyo/BVE-Gensokyo-Railway/blob/main/LICENSE)<br>
 
 Summary of the license:
 1. You may modify and redistribute the route data (no need to contact the author).

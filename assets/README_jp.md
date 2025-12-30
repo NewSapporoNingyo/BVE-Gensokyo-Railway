@@ -2,9 +2,9 @@
 
 ## ガイド
 
-　[プレイヤーガイド](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player_jp.md)
-　[開発者ガイド](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev_jp.md)
-
+　[プレイヤーガイド](player_jp.md)
+　[開発者ガイド](dev_jp.md)
+<br>`開発者ガイドはまだ作成中であり、更新されていない情報が含まれている可能性がありますのでご注意ください。`
 ## イントロダクション
 
 幻想郷鉄道（GSR）は、私（Sapporo Ningyo）とコントリビューター（トップページ右側のリスト）がBve Trainsimを使用して、東方Projectの幻想郷を舞台として作った架空の鉄道システムです。シナリオ開発の最初は、現実の信越地方の鉄道を参考しました（この地域を幻想郷が存在する場所だと考える人がほどんといます）。今後のバージョンでは、世界各地の鉄道要素のいくつかも追加される予定です。<br>
@@ -21,13 +21,13 @@
 * 2024-3-31：開発一時停止
 * [x] **2024-11-17：v2.0.2 公開（人里–守矢 間）**
 * 2025-6-9：開発再開
-* [ ] 2025-?-?：v3.0 公開予定（環状線完成）
+* [x] **2025-12-31：v3.0 公開（環状線完成）**
 
-詳しくは [開発者ガイド](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev_jp.md) をご覧ください。
+詳しくは [開発者ガイド](dev_jp.md) をご覧ください。
 
 ## 路線情報
 
-詳しくは [プレイヤーガイド](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player_jp.md) と [開発者ガイド](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev_jp.md) をご覧ください。
+詳しくは [プレイヤーガイド](player_jp.md) と [開発者ガイド](dev_jp.md) をご覧ください。
 
 現在のシナリオは、幻想郷環状線外回りの博麗神社〜博麗神社間で片方向運転できます。列車種別は普通・快速・特急があり、最高速度は特急120 km/h、快速110 km/h、普通95km/h 、全線は22駅があります。
 
@@ -39,20 +39,20 @@
 ### 路線図
 
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
+    <img src="maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 
 
 
 ## 連絡先
 
-[discord サーバー](https://discord.gg/na6JWGH7Ax)
-
+[discord サーバー](https://discord.gg/na6JWGH7Ax)<br>
+メール: sapporoningyo@gmail.com<br>
 ## ライセンス・著作権
 
 ### MIT ライセンス
 
-[ライセンス全文はこちら](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/LICENSE)
+[ライセンス全文はこちら](https://github.com/NewSapporoNingyo/BVE-Gensokyo-Railway/blob/main/LICENSE)
 
 ライセンス概要：
 

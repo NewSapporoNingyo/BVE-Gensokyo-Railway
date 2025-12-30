@@ -25,7 +25,7 @@ update 2024-5-11<br>
 ### 路線情報
 #### 路線図
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_System_Map.png" alt="routemap";>
+    <img src="maps/Gensokyo_System_Map.png" alt="routemap";>
 </p>
 <br>
 @AshBill 様に作成いただきました<br>ありがとうございました
@@ -65,13 +65,13 @@ update 2024-5-11<br>
 ### 配線図
 #### 博麗神社->人間の里
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/N01_N06.jpg" alt="routemap";>
+    <img src="haisennryakuzu/N01_N06.jpg" alt="routemap";>
 </p>
 <br>
 
 #### 人間の里->守矢神社
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/GO06_GO12.png" alt="routemap";>
+    <img src="haisennryakuzu/GO06_GO12.png" alt="routemap";>
 </p>
 <br>
 

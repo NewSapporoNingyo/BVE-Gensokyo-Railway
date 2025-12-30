@@ -23,7 +23,7 @@
 
 ### **Installing BVE Trainsim**
 
-Detailed installation instructions for **BVE Trainsim** can be found by simply searching on web, so they will not be repeated here.
+Detailed installation instructions for [BVE Trainsim](https://bvets.net/jp/download/) can be found by simply searching on web, so they will not be repeated here.
 However, please pay attention to the following points:
 
 1. BVE is designed **only for Windows**.
@@ -143,19 +143,19 @@ To avoid unexpected issues during installation, the following trains were used d
 ¹ JRTrainPack: `Rock_On\Train\JR\Formation\hine\D601.txt`<br>
 ² JRTrainPack: `Rock_On\Train\JR\Formation\tota\M33_3.txt`
 
-In addition, the **EF81 electric locomotive** has previously been used on the GSR route and may be used again in the future.
+In addition, the [EF81 electric locomotive](http://waisroom.sakura.ne.jp/) has previously been used on the GSR route and may be used again in the future.
 Reference link is preserved for that purpose.
 
-## **Importing Train Data into BVE**
+## **Importing Vehicle Data into BVE**
 
-### **Download Train Data**
-Train data is usually available for download on the author’s website.
+### **Download Vehicle Data**
+Vehicle data is usually available for download on the author’s website.
 Download methods vary by author and are not covered in detail here.
 Downloaded train data is typically distributed as a compressed archive and must be extracted before use.
 
 #### **JRTrainPack**
 
-JRTrainPack is a comprehensive collection that includes a large number of trains and plugins.
+[JRTrainPack](https://mikangogo.github.io/posts/jrtrainpack/) is a comprehensive collection that includes a large number of trains and plugins.
 Players may freely select trains from this pack to operate on the GSR route.
 It can be downloaded from the official website.
 
@@ -192,13 +192,13 @@ Some train data requires manual plugin installation. Two common methods are outl
 
 2. **Using GeneralAtsPlugin**
 
-   You may see paths such as:
+   In `detailmodules.txt`, you may see paths such as:
 
    ```
    ../../../GeneralAtsPlugin\Rock_On\***.dll
    ```
 
-   Place the plugin in the corresponding directory so it can be loaded by BVE.
+   Place the plugin folder in the corresponding directory so it can be loaded by BVE.
 
 > **Note:**
 > If you have multiple trains using the same plugin, you may store the plugin in a shared directory and modify `detailmodules.txt` so that all trains reference the same plugin.
@@ -262,7 +262,7 @@ Mileage values are original settings created by the author and are unrelated to 
 They may differ from other interpretations of Gensokyo’s scale.
 
 Distances are shown to **0.01 km precision**.
-For details, see `dev.md`.
+For details, see [Developer Guide](dev.md).
 
 ---
 
@@ -286,7 +286,7 @@ Approximate travel time:
 > The behavior may differ from real-world tilting mechanisms.
 > Tilting is effective only between:
 >
-> * Hakurei Shrine – Minami Ningen no Sato
+> * Hakurei Shrine – Minami-Ningennosato
 > * Myorenji – Moriya Shrine
 
 ---
@@ -348,7 +348,7 @@ The timetable for **15M** is based on standard limited express rolling stock (no
 Legend:
 
 * **↓**: Pass
-* **=**: Terminate at this station
+* **=**: Terminate at previous station
 
 ---
 

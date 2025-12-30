@@ -21,8 +21,8 @@
 ### 1.手动导入
 1. 下载项目代码仓库首页右侧“Releases”中的最新版线路包到本地，将压缩包下载到本地后解压。<br>（注意：目前代码仓库内的文件仅用于开发，可能无法在BVE中正常运行。同时发行版的线路内也不包含完整的素材库和各种资源文件。如果你有安装开发版线路的需要，请参考开发者指南）<br>
 
-2. 在”GSR\Timetables“目录下，可以找到几个名称前后带加号“++”的文件夹（目前仅有名为1-Gensokyo Loop Line Clockwise的一个文件夹），里面有很多文件名类似“121M-ATSP+SN_A&C”的txt文件，这些文件就是BVE里的列车任务（Scenario）文件。（这里的文件名代表的意思将会在稍后讲解）
-3. 在BVE的”线路选择“（シナリオの選択）界面打开“GSR\Timetables\\++ 1-Gensokyo Loop Line Clockwise ++“目录，即可看到当前版本中环状线的全部列车任务。<br>
+2. 在”`GSR\Timetables`“目录下，可以找到几个名称前后带加号“++”的文件夹（目前仅有名为1-Gensokyo Loop Line Clockwise的一个文件夹），里面有很多文件名类似“`121M-ATSP+SN_A&C`”的txt文件，这些文件就是BVE里的列车任务（Scenario）文件。（这里的文件名代表的意思将会在稍后讲解）
+3. 在BVE的”线路选择“（シナリオの選択）界面打开“`GSR\Timetables\++ 1-Gensokyo Loop Line Clockwise ++`“目录，即可看到当前版本中环状线的全部列车任务。<br>
 ### 2.自动导入并长期获取更新（计划中）
 ## 导入列车数据
 在“导入GSR线路包”这个步骤完成之后，所有列车任务都会显示在BVE中，部分任务已经可以正常运行。不过此时所有任务使用的列车都是线路包中的默认列车（E127系），为了获得更好的驾驶体验，需要自行安装更多其它作者制作的列车数据。
@@ -35,7 +35,7 @@
 | 121M     | 121M-ATSsn_N&A&C.txt |
 | 127M     | 127M-ATSsn_N&A&C.txt |
 
-在没有使用的任务文件中，你可以在”Vehicle =“一栏的最开头添加分号";"（在任务文件中表示注释），这样它们将不会显示在BVE的线路选择界面中。
+在没有使用的任务文件中，你可以在”`Vehicle =`“一栏的最开头添加分号"`;`"（在任务文件中表示注释），这样它们将不会显示在BVE的线路选择界面中。
 ### 选择合适的列车
 除线路内置的E127系之外，GSR线路提供了多个对应不同信号插件的任务，玩家可以自行寻找合适的列车。列车可以根据GSR线路的设定与个人喜好选择。<br>
 #### 线路设定
@@ -63,8 +63,8 @@
 | 127M                    | -                                                             | [E129系](https://mc1323bve.blogspot.com/2020/03/jr-e129.html) | [211系](https://sigf.sakura.ne.jp/bve_211.html)/115系² | [221系](https://mudamc22078.blog.fc2.com/blog-entry-296.html)        |
 <br>
 
-¹：JRTrainpack内的"Rock_On\Train\JR\Formation\hine\D601.txt"<br>
-²：JRTrainpack内的"Rock_On\Train\JR\Formation\tota\M33_3.txt"<br>
+¹：JRTrainpack内的"`Rock_On\Train\JR\Formation\hine\D601.txt`"<br>
+²：JRTrainpack内的"`Rock_On\Train\JR\Formation\tota\M33_3.txt`"<br>
 
 除此之外，GSR的线路中曾经使用过[EF81](http://waisroom.sakura.ne.jp/)型电力机车，在未来可能会再次用到，在此保留链接。<br>
 
@@ -79,17 +79,17 @@ JRTrainPack是一个包含大量列车数据及插件的整合资源包，玩家
 #### 列车插件的导入
 部分列车数据需要自行导入插件，这里介绍BVE中常见的两种列车插件的导入方式。
 1. JRTrainPack中插件的导入<br>
-在列车文件中的detailmodules.txt中，可以看到类似“../../../../Rock_On\Train\JR\Plugin\\***.dll”的文件路径（其中../表示从当前目录向上退一级），将JRTrainPack放在上述文件路径所描述的目录下，插件即可在BVE中随列车一起运行。
+在列车文件中的detailmodules.txt中，可以看到类似“`../../../../Rock_On\Train\JR\Plugin\***.dll`”的文件路径（其中../表示从当前目录向上退一级），将JRTrainPack放在上述文件路径所描述的目录下，插件即可在BVE中随列车一起运行。
 2. GeneralAtsPlugin插件的导入<br>
-在列车文件中的detailmodules.txt中，可以看到类似“../../../GeneralAtsPlugin\Rock_On\\***.dll”的文件路径，将JRTrainPack放在上述文件路径所描述的目录下，插件即可在BVE中随列车一起运行。<br>
+在列车文件中的detailmodules.txt中，可以看到类似“`../../../GeneralAtsPlugin\Rock_On\***.dll`”的文件路径，将JRTrainPack放在上述文件路径所描述的目录下，插件即可在BVE中随列车一起运行。<br>
 <br>注：如果你有多个使用相同插件的列车数据，也可以将插件放在自己指定的目录下，并修改detailmodules.txt中的文件路径让所有列车数据对应同一个插件。
 
 #### 修改任务文件中的列车路径
 1. 在列车数据中，可以找到文件名类似“Vehicle.txt”的文本文件，记住你想要使用的列车文件的路径，在下一步会用到。
-2. 打开“GSR\Timetables\\++ 1-Gensokyo Loop Line Clockwise ++“目录，编辑这个文件夹内你想要更换列车的任务文件，在”Vehicle =“一栏加上第1步中的列车文件路径，即可在BVE中游玩GSR线路。
+2. 打开“`GSR\Timetables\++ 1-Gensokyo Loop Line Clockwise ++`“目录，编辑这个文件夹内你想要更换列车的任务文件，在”`Vehicle =`“一栏加上第1步中的列车文件路径，即可在BVE中游玩GSR线路。
 
 注意：
-1. 在BVE5.8中，若出现了线路没有显示在BVE的路线选择界面的问题，请检查“121M-ATSP+SN_A&C.txt”等文本文件内列车和线路的文件路径（Route = xxx 和 Vehicle = xxx）是否正确。（这是BVE5.8之后的版本的一个特性，如果任务文件中指定的线路和列车路径有任意一项无法被识别，这个任务会在线路选择界面被隐藏）如问题仍然出现，请到上方"issue"里报告问题或联系作者。
+1. 在BVE5.8中，若出现了线路没有显示在BVE的路线选择界面的问题，请检查“121M-ATSP+SN_A&C.txt”等文本文件内列车和线路的文件路径（`Route = xxx` 和 `Vehicle = xxx`）是否正确。（这是BVE5.8之后的版本的一个特性，如果任务文件中指定的线路和列车路径有任意一项无法被识别，这个任务会在线路选择界面被隐藏）如问题仍然出现，请到上方"issue"里报告问题或联系作者。
 # 游玩
 ## 线路信息
 ### 线路图（真实走向）

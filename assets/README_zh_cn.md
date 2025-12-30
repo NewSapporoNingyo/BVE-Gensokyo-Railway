@@ -1,8 +1,10 @@
 # 幻想乡铁道 Bve Trainsim 5线路
 
 ## 指南
-　[安装及游玩指南](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player_zh_cn.md)
-　[开发者指南](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev_zh_cn.md)
+　[安装及游玩指南](player_zh_cn.md)
+　[开发者指南](dev_zh_cn.md)
+<br>`请注意，开发者指南仍在编写中，其中可能包含未更新的信息。`
+
 ## 简介
 幻想乡铁道（简称GSR），是由我（札幌人形）和Github上的贡献者（见页面右侧）使用铁路模拟软件Bve Trainsim开发的一条虚构线路。是假想的位于东方project中幻想乡的铁路系统。
 这个模拟线路最初以现实中日本信越地方的铁路系统为参考进行开发（此地区被一些人认为是幻想乡存在的区域），不过在后续的版本中，也会加入一些来自世界各地的铁路的要素。<br>
@@ -16,11 +18,11 @@
 - 2024-3-31:开发暂停
 - [x] **2024-11-17:发布v2.0.2正式版(环状线人里-守矢)**
 - 2025-6-9:恢复开发
-- [ ] 2025-?-?:发布v3.0正式版(环状线全线完成)
+- [x] **2025-12-31:发布v3.0正式版(环状线全线完成)**
 
-详细请阅读[开发者指南](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev_zh_cn.md)<br>
+详细请阅读[开发者指南](dev_zh_cn.md)<br>
 ## 线路信息
-详细请阅读[安装及游玩指南](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player_zh_cn.md)和[开发者指南](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev_zh_cn.md)<br><br>
+详细请阅读[安装及游玩指南](player_zh_cn.md)和[开发者指南](dev_zh_cn.md)<br><br>
 目前线路数据包含了幻想乡环状线外回（顺时针）方向在博丽神社-博丽神社之间的单向运转。目前线路上运行的列车种别有普通、快速和特急列车，最高速度120千米/小时（特急列车）110千米/小时（快速列车）或95千米/小时（普通列车）。全线共有22个车站。<br>
 如果你将这条模拟线路作为东方project的衍生创作，**请注意线路中有大量信息均为作者本人的设定，可能与其他人的想象或原作有出入。**<br>
 （如果你对线路中出现的要素有异议，欢迎将线路下载到本地并按照自己的想法修改它，请不要因此骚扰、攻击原作者）<br>
@@ -29,16 +31,17 @@
 
 ### 线路图
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
+    <img src="maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 <br>
 
 
 ## 联系我们
 QQ：3330684297（另有QQ群聊，可联系作者本人加入）<br>
+邮箱: sapporoningyo@gmail.com<br>
 ## 许可协议与版权信息
 ### MIT License
-[许可协议原文](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/LICENSE)<br>
+[许可协议原文](https://github.com/NewSapporoNingyo/BVE-Gensokyo-Railway/blob/main/LICENSE)<br>
 <br>
 许可协议概要：<br>
 1.允许线路数据的改造和二次分发（无需联系作者）<br>

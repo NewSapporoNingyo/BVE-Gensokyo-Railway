@@ -2,9 +2,9 @@
 이 문서는 자동 번역 도구로 번역된 것이므로 이해하기 어려운 부분이 있다면 영어 버전을 참고해 주세요. 양해 부탁드립니다.
 ## 가이드(In English)
 
-　[플레이어 가이드](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)
-　[개발자 가이드](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md)
-
+　[플레이어 가이드](player.md)
+　[개발자 가이드](dev.md)
+<br>`dev.md는 아직 작성 중이며, 업데이트되지 않은 정보가 포함되어 있을 수 있으니 주의하시기 바랍니다.`
 ## 인트로덕션
 
 환상향 철도(GSR)는 저(Sapporo Ningyo)와 기여자들(메인 페이지 오른쪽의 리스트)이 Bve Trainsim을 사용하여, 동방Project의 환상향을 무대로 제작한 가상의 철도 시스템입니다. 시나리오 개발 초기에는 현실의 신에츠 지방 철도를 참고하여 제작을 시작했습니다(이 지역을 환상향이 존재하는 장소라고 생각하는 사람이 대부분입니다). 앞으로의 버전에서는 세계 각지의 철도 요소 일부도 추가될 예정입니다.
@@ -21,13 +21,13 @@
 * 2024-3-31：개발 일시 중단
 * [x] **2024-11-17：v2.0.2 공개 (인간의 마을–모리야 구간)**
 * 2025-6-9：개발 재개
-* [ ] 2025-?-?：v3.0 공개 예정(환상선 완성)
+* [x] **2025-12-31：v3.0 공개 (환상선 완성)**
 
-자세한 내용은 [개발자 가이드](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)를 참고해주세요.
+자세한 내용은 [개발자 가이드](dev.md)를 참고해주세요.
 
 ## 노선 정보
 
-자세한 내용은 [플레이어 가이드](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/player.md)와 [개발자 가이드](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/dev.md)를 참고해주세요.
+자세한 내용은 [플레이어 가이드](player.md)와 [개발자 가이드](dev.md)를 참고해주세요.
 
 현재 시나리오는 환상향 환상선 외선의 하쿠레이신사~하쿠레이신사 구간을 단방향 운행할 수 있습니다. 열차 종류는 보통·쾌속·특급이 있으며, 최고 속도는 특급 120 km/h, 쾌속 110 km/h, 보통 95 km/h이며, 전 구간에 22개의 역이 있습니다.
 
@@ -38,20 +38,21 @@
 
 ### 노선도
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_RailMap_Current.png" alt="routemap";>
+    <img src="maps/Gensokyo_RailMap_Current.png" alt="routemap";>
 </p>
 
 
 
 ## 연락처
 
-[discord 서버](https://discord.gg/na6JWGH7Ax)
+[discord 서버](https://discord.gg/na6JWGH7Ax)<br>
+Mail: sapporoningyo@gmail.com<br>
 
 ## 라이선스·저작권
 
 ### MIT 라이선스
 
-[라이선스 전문 보기](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/LICENSE)
+[라이선스 전문 보기](https://github.com/NewSapporoNingyo/BVE-Gensokyo-Railway/blob/main/LICENSE)
 
 라이선스 요약：
 

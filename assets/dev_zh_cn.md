@@ -125,7 +125,7 @@ ATS-Ps/SN（全线）
 ## 未来线路规划
 ### 全线线网图
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_System_Map.png" alt="routemap";>
+    <img src="maps/Gensokyo_System_Map.png" alt="routemap";>
 </p>
 <br>
 (Thanks for @AshBill who created the new routemap)
