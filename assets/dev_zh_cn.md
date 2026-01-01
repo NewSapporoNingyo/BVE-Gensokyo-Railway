@@ -101,27 +101,27 @@ ATS-Ps/SN（全线）
 | #         | 日文站名     | 英文站名            | 里程   | 有人/无人站 | 站台长度（20m车厢数量） | 最高速度（普通/特急） | 線路数 | 站台形式     | 车站构造  |
 | --------- | ------------ | ------------------- | ------ | ----------- | ----------------------- | --------------------- | ------ | ------------ | --------- |
 | GO 01     | 博麗神社     | Hakurei Shrine      | 0      | 有          | 9                       | 110(120)              | 複線   | 島式2面4線   | 高架      |
-| GO 02     | 南博麗       | Minami-Hakurei      | 5.10  | 无          | 7                       |                       |        | 相対式2面2線 | 地面      |
-| GO 03     | 永遠亭       | Eientei             | 10.82 | 无          | 6                       |                       |        | 島式1面2線   | 地面      |
-| GO 04     | 竹林         | Chikurin            | 13.90 | 无          | 5                       |                       |        | 相対式2面2線 | 地面      |
-| GO 05     | 南人間の里   | Minami-Ningennosato | 21.04 | 有          | 7                       |                       |        | 相対式2面2線 | 地下      |
-| GO 06     | 人間の里     | Ningennosato        | 22.40 | 有          | 7                       |                       |        | 島式4面8線   | 地下      |
+| GO 02     | 南博麗       | Minami-Hakurei      | 5.10   | 无          | 7                       |                       |        | 相対式2面2線 | 地面      |
+| GO 03     | 永遠亭       | Eientei             | 10.82  | 无          | 6                       |                       |        | 島式1面2線   | 地面      |
+| GO 04     | 竹林         | Chikurin            | 13.90  | 无          | 5                       |                       |        | 相対式2面2線 | 地面      |
+| GO 05     | 南人間の里   | Minami-Ningennosato | 21.04  | 有          | 7                       |                       |        | 相対式2面2線 | 地下      |
+| GO 06     | 人間の里     | Ningennosato        | 22.40  | 有          | 7                       |                       |        | 島式4面8線   | 地下      |
 | GO 07     | 西人間の里   | Nishi-Ningennosato  | 24.430 | 有          | 6                       |                       |        | 1島2相対+4線 | 高架      |
-| GO 08     | 命蓮寺       | Myorenji            | 28.99 | 有          | 8                       |                       |        | 2階2面2線    | 高架⁺地面 |
-| GO 09     | 北命蓮寺     | Kita-Myorenji       | 30.29 | 无          | 5                       |                       |        | 相対式2面2線 | 地面      |
-| GO 10     | 妖怪の樹海   | Youkainojyukai      | 34.97 | 无          | 5                       |                       |        | 相対式2面2線 | 地面      |
-| GO 11     | 草田         | Kusada              | 37.55 | 无          | 4                       |                       |        | 相対式2面2線 | 地面      |
-| GO 12     | 守矢神社     | Moriya Shrine       | 39.43 | 有          | 8                       |                       | 単線   | 2島+3線      | 地面      |
-| N 13      | 風神の湖     | Fuujinnoko          | 41.29   | 无          | 3                       |                       |        | 1面1線       | 地面      |
-| 14        | 東守矢（信） | East Moriya(sig)    | 42.78       | -           |                         |                       |        | 0面2線       | 地面      |
-| N 15      | 玄武の沢     | Genbunosawa         | 48.21   | 无          | 4                       |                       |        | 1面1線       | 地面      |
-| N 16      | 香霖堂前     | Korindomae          | 53.09   | 有          | 10                      |                       |        | 相対式2面2線 | 地面      |
-| N 17      | 魔法の森     | Mahonomori          | 55.17   | 无          | 4                       |                       |        | 1面1線       | 地面      |
-| N 18      | 霧の湖       | Kirinoko            | 57.30   | 无          | 3                       |                       |        | 1面1線       | 地面      |
-| N 19      | 紅魔館       | Komakan             | 58.56   | 有          | 12                      |                       |        | 相対式2面3線 | 地面      |
-| N 20      | 上霧の湖     | Kami-Kirinoko       | 60.71   | 无          | 4                       |                       |        | 1面1線       | 地面      |
-| N 21      | 北博麗       | Kita-Hakurei        | 61.94   | 无          | 4                       |                       |        | 1面1線       | 高架      |
-| GO 01(22) | 博麗神社     | Hakurei Shrine      | 63.33   | 有          | 9                       |                       |        | 島式2面4線   | 高架      |
+| GO 08     | 命蓮寺       | Myorenji            | 28.99  | 有          | 8                       |                       |        | 2階2面2線    | 高架⁺地面 |
+| GO 09     | 北命蓮寺     | Kita-Myorenji       | 30.29  | 无          | 5                       |                       |        | 相対式2面2線 | 地面      |
+| GO 10     | 妖怪の樹海   | Youkainojyukai      | 34.97  | 无          | 5                       |                       |        | 相対式2面2線 | 地面      |
+| GO 11     | 草田         | Kusada              | 37.55  | 无          | 4                       |                       |        | 相対式2面2線 | 地面      |
+| GO 12     | 守矢神社     | Moriya Shrine       | 39.43  | 有          | 8                       |                       | 単線   | 2島+3線      | 地面      |
+| N 13      | 風神の湖     | Fuujinnoko          | 41.29  | 无          | 3                       |                       |        | 1面1線       | 地面      |
+| 14        | 東守矢（信） | East Moriya(sig)    | 42.78  | -           |                         |                       |        | 0面2線       | 地面      |
+| N 15      | 玄武の沢     | Genbunosawa         | 48.21  | 无          | 4                       |                       |        | 1面1線       | 地面      |
+| N 16      | 香霖堂前     | Korindomae          | 53.09  | 有          | 10                      |                       |        | 相対式2面2線 | 地面      |
+| N 17      | 魔法の森     | Mahonomori          | 55.17  | 无          | 4                       |                       |        | 1面1線       | 地面      |
+| N 18      | 霧の湖       | Kirinoko            | 57.30  | 无          | 3                       |                       |        | 1面1線       | 地面      |
+| N 19      | 紅魔館       | Komakan             | 58.56  | 有          | 12                      |                       |        | 相対式2面3線 | 地面      |
+| N 20      | 上霧の湖     | Kami-Kirinoko       | 60.71  | 无          | 4                       |                       |        | 1面1線       | 地面      |
+| N 21      | 北博麗       | Kita-Hakurei        | 61.94  | 无          | 4                       |                       |        | 1面1線       | 高架      |
+| GO 01(22) | 博麗神社     | Hakurei Shrine      | 63.33  | 有          | 9                       |                       |        | 島式2面4線   | 高架      |
 ## 未来线路规划
 ### 全线线网图
 <p align="center">
@@ -438,7 +438,36 @@ S：近郊列車（通勤型電車使用）<br>
 | D列車                    | ○（3）          | ○（2）  | ○（1）       |                       |                |
 | S列車                    | ○（1）          | ○（3）  | ○（4）       |                       | ○（2）         |
 | 臨時列車                 | ○               |         |              |                       |                |
-
+### 使用的车站音乐
+| 站名       | 使用场合               | 原曲名                            | 出处                                                                   |
+| ---------- | ---------------------- | --------------------------------- | ---------------------------------------------------------------------- |
+| 博丽神社   | 广播开始前             | 芥川龍之介の河童～Candid Friend   | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 博丽神社   | 普通发车           | 少女綺想曲 ～ Dream Battle        | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 博丽神社   | 快速发车           | 少女綺想曲                        | 项目贡献者                                                             |
+| 博丽神社   | 特急发车           | あゆのかぜ（Long ver）            | 项目作者                                                               |
+| 南博丽     | 所有列车发车           | 神々が恋した幻想郷                | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 永远亭     | 所有列车发车           | シンデレラケージ ～ Kagome-Kagome | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 竹林       | 所有列车发车           | 月まで届け、不死の煙              | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 南人间之里 | 所有列车发车           | 魔女達の舞踏会                    | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 人间之里   | 广播开始前（外回列车） | 遠野幻想物語                      | 项目作者                                                               |
+| 人间之里   | 广播开始前（内回列车） | 神社から見える月                  | 项目作者                                                               |
+| 人间之里   | 普通发车           | 永遠の巫女                        | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 人间之里   | 快速发车           | 曲名不明                          | 项目贡献者                                                             |
+| 人间之里   | 特急发车           | あゆのかぜ（Short ver）           | 项目作者                                                               |
+| 西人间之里 | 所有列车发车           | 緋想天                            | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 命莲寺     | 所有列车发车           | 万年置き傘にご注意を              | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 北命莲寺   | 所有列车发车           | 幽霊客船の時空を越えた旅          | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 妖怪之树海 | 所有列车发车           | 運命のダークサイド                | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 草田       | 所有列车发车           | 少女が見た日本の原風景            | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 守矢神社   | 特急发车           | あゆのかぜ（Short ver）           | 项目作者                                                               |
+| 守矢神社   | 普通发车           | ネイティブフェイス                | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 香霖堂前   | 所有列车发车           | 恋色マスタースパーク              | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 魔法之森   | 所有列车发车           | the Grimoire of Alice             | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 雾之湖     | 所有列车发车           | おてんば恋娘                      | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 红魔馆     | 特急发车           | あゆのかぜ（Short ver）           | 项目作者                                                               |
+| 红魔馆     | 普通发车           | 明治十七年の上海アリス            | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 上雾之湖   | 所有列车发车           | おてんば恋娘                      | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+| 北博丽     | 所有列车发车           | 仰空                              | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
 ## 项目更新履历
 - 2023-6-9:set up repository
 - 2023-6-20:Release v0.2 preview and start promoting on video websites
@@ -464,7 +493,7 @@ S：近郊列車（通勤型電車使用）<br>
 - 2024-3-31:Develop paused
 - [x] **2024-11-17:Release v2.0.2(Loop line from NNS-MRY)**
 - 2025-6-9:Resume development
-- [ ] 2025-?-?:Release v3.0(Loop line complete)
+- [X] **2025-12-31:Release v3.0(Loop line complete)**
 - [ ] ?-?-?:Release v4.0(Koto line)
 - [ ] ?-?-?:Release v5.0(YoukainoYama line)
 - [ ] ?-?-?:Release v6.0(Yuumeikekkai line)
