@@ -468,6 +468,8 @@ S：近郊列車（通勤型電車使用）<br>
 | 红魔馆     | 普通发车           | 明治十七年の上海アリス            | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
 | 上雾之湖   | 所有列车发车           | おてんば恋娘                      | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
 | 北博丽     | 所有列车发车           | 仰空                              | [nicocommons](https://commons.nicovideo.jp/users/upload/157209?page=2) |
+
+`注：风神之湖、玄武之泽站无发车音乐`
 ## 项目更新履历
 - 2023-6-9:set up repository
 - 2023-6-20:Release v0.2 preview and start promoting on video websites
