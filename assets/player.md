@@ -268,9 +268,9 @@ For details, see [Developer Guide](dev.md).
 
 ## **Drivable Services**
 
-### **15M — Limited Express “Ayunokaze”**
+### **15M — L Limited Express “Ayunokaze”**
 
-The Limited Express *Ayunokaze* is named after a music track from *Touhou Suimusou*.
+The L Limited Express *Ayunokaze* is named after a music track from *Touhou Suimusou*.
 The train departs from **Hakurei Shrine**, completes a full clockwise loop, and returns to the same station.
 
 * Maximum speed: **120 km/h**
