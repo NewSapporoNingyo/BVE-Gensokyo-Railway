@@ -1,0 +1,11 @@
+BveTs Scenario 2.00:UTF-8
+
+Title = Hakurei East Line RE7(Hakurei Shrine East - ShinKouma)
+Author = SapporoNingyo&Contributors on Github
+Route = ..\..\Scenarios_GSR\map\MapD721.txt
+RouteTitle = Gensokyo Hakurei East Line
+Vehicle = ..\..\..\..\BVE-ICE2\zug\Vehicle_txt\Vehicle_TestZug-1.txt
+;↑ Paste the path of your train data to replace the default train ↑
+VehicleTitle = PZB Test
+Image = 
+Comment = [experimental] Max speed：120km/h Platform: HakureiEast① ShinKouma②
