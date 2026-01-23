@@ -9,6 +9,7 @@ BveTs Map 2.00
 //人里-西人里 第1闭塞
 	Section.Begin(0,2,4);
 	Signal['Type4yg_LED'].Put(0,'2',1.72,3.5,-0.05,,,,,);
+	Structure['LabelBS1_L'].Put('2',1.72,3.55,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('2',2.11,3.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('2',2.11,2.38,-0.38,,-90,,,5);
 1593+$dist1+$distHKR_T2+$dist2+$distNNS_T4;

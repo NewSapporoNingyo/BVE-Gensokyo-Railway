@@ -3,20 +3,24 @@ BveTs Map 2.00
 63+$dist1+$distHKR_T2+$dist2;
 	Section.Begin(0,2,3,4);
 	Signal['Type4yy_LED'].Put(0,'1',-1.65,5.0,-0.05,,,,,);
+	Structure['Label_4-Jo'].Put('1',-1.65,3.2,-0.1,,,,,);
 	Structure['Sig4yy0_LED'].Put('1',-2.25,4.6,-0.05,,,,,);
+	Structure['SigR30_LED'].Put('1',-2.25,2.9,-0.05,,,,,);
 	//Structure['CR4'].Put('1',-2,3.1,0.5,,,,,);	
 200+$dist1+$distHKR_T2+$dist2;
 	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.11,2.38,-0.38,,-90,,,5);
-380+$dist1+$distHKR_T2+$dist2;
+400+$dist1+$distHKR_T2+$dist2;
 //人里出发
 	Section.Begin(0,2,4);
 	Signal['Type4yg_LED'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
+	Structure['Label_4-Shu'].Put('1',-1.72,1.7,-0.1,,,,,);
+	Structure['ATSPcheck'].Put('1',-1.72,1.5,-0.05,,,,,);
 	//Structure['S_Ref'].Put('1',-1.72,0,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.11,2.38,-0.38,,-90,,,5);
 #----Kanko Signs 喚呼標 唤呼标------
 63+$dist1+$distHKR_T2+$dist2;
-    Structure['Jonai_N'].Put('1',-2.05,2.5,-0.2,0,0,0,,);
+    Structure['Jonai_N'].Put('1',-2.05,2.3,-0.2,0,0,0,,);
 200+$dist1+$distHKR_T2+$dist2;
     Structure['Shuppatsu_N'].Put('1',-2,1,-0.15,0,0,0,,);

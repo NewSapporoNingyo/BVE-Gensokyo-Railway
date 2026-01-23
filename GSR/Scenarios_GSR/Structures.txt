@@ -1040,9 +1040,11 @@ Label_Soto-Shu,     Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\L
 Label_1-Jo,         Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_1-Jo.x,#,      1場
 Label_2-Jo,         Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_2-Jo.x,#,      2場
 Label_3-Jo,         Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_3-Jo.x,#,      3場
+Label_4-Jo,         Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_4-Jo.x,#,      4場
 Label_1-Shu,        Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_1-Shu.x,#,     1出
 Label_2-Shu,        Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_2-Shu.x,#,     2出
 Label_3-Shu,        Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_3-Shu.x,#,     3出
+Label_4-Shu,        Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_4-Shu.x,#,     4出
 Label_Soto,         Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Soto.x,#,      環外
 Label_center,       Structures\4_Other\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_center.x,#,    車両センター
 

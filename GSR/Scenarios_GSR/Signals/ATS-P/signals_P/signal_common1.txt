@@ -383,35 +383,35 @@ BveTs Map 2.00
 17695+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.1,2.5,-0.05,,,,,);
-	Structure['LabelBS2_L'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['LabelBS2_L'].Put('1',-2.1,2.6,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.49,2.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.49,1.48,-0.38,,-90,,,5);
 	
 18445+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.1,2.5,-0.05,,,,,);
-	Structure['LabelBS1_L'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['LabelBS1_L'].Put('1',-2.1,2.6,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.49,2.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.49,1.48,-0.38,,-90,,,5);
 	
 19245+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.1,2.5,-0.05,,,,,);
-	Structure['LabelBS2_L'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Label_Soto-Jo'].Put('1',-2.1,2.6,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.49,2.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.49,1.48,-0.38,,-90,,,5);
 	
 19520+$dist1+$distHKR_T2;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
-	Structure['LabelBS2_L'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Label_Soto-Shu'].Put('1',-1.72,1.7,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.11,2.48,-0.38,,-90,,,5);
 	
 20145+$dist1+$distHKR_T2;
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2,2.5,-0.05,,,,,);
-	Structure['LabelBS2_L'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['LabelBS1_L'].Put('1',-2,2.6,-0.1,,,,,);
 	//Signal['SigYnC_LED'].Put(1,'1',-2,3.1,-0.05,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.39,2.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.39,1.38,-0.38,,-90,,,5);
