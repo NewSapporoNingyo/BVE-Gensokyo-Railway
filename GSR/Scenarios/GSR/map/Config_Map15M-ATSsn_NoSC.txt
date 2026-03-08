@@ -1,0 +1,27 @@
+BveTs Map 2.02
+#distance data of separated maps
+include 'MapSettings\MapDistance_HKR2_NNS4_MRY2.txt';
+#---General---
+include 'MapSettings\GeneralSettings.txt';
+#RollingNoise Setting (381series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
+$runlong=0;
+$run25m=2;
+$runbri=3;
+$runtun=4;
+#---Curve mode:tilting train(R600 +20km/h)---
+#include 'Main\CurveSettings_Tilt.txt';//緩和曲線の問題で、使用しません
+include 'Main\LoopLine\Tilt\Tilt_Limits_MapA.txt';#Speed limit signs for tilting train
+include 'Main\LoopLine\Tilt\Tilt_Limits_MapA2.txt';
+#---Curve mode:Normal(+10km/h)---
+include 'MapSettings\CurveSettings_Normal+10.txt';
+#---Signals---
+$MaxSpeed=120;
+Signal.Load('..\Signals.csv');
+Signal.SpeedLimit(0,25,55,75,$MaxSpeed);
+include 'SignalMap\HKR-HKR_ATSsn_NoSC.txt';
+#---Stations---
+Station.Load('StaList\Stations15M-T.txt');
+include 'StaList\StopPositions\StopPos_6car_HKR2_NNS4_MRY2.txt';
+include 'StaList\StopPositions\StopPos_6car_MRY2_EMYm_KMK1_HKR2.txt';
+#---Mainmap---
+include 'Map15M.txt';
