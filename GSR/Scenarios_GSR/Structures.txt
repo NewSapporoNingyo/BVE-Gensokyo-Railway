@@ -62,6 +62,7 @@ glasswallR,Structures\3_GeneralStr\ACCC\Station\glass6R.x
 concbridge,Structures\3_GeneralStr\Bridge\concL_5m.x
 concbridgeN,Structures\3_GeneralStr\Bridge\concN_5m.x
 pier,Structures\3_GeneralStr\Wall\Pier.x
+pier2,Structures\3_GeneralStr\Wall\WallUnder_QN_25m_hukusen.x
 bridgewallL,Structures\3_GeneralStr\Wall\Wall_QN_L5m.x
 bridgewallR,Structures\3_GeneralStr\Wall\Wall_QN_R5m.x
 bridgehandleL,Structures\3_GeneralStr\Bridge\red5_bL.x
