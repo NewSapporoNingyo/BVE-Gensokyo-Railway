@@ -145,6 +145,12 @@ dikewall,Structures\3_GeneralStr\Wall\seto_k\WallL5_5m.x
 dikewallRR,Structures\3_GeneralStr\Wall\seto_k\WallR5_5m.x
 wallL,Structures\4_Other\StructureSet\other\wall\wallL.x
 wallR,Structures\4_Other\StructureSet\other\wall\wallR.x
+Crdike1La,Structures\3_GeneralStr\Dike\CrDike1La.x
+Crdike2La,Structures\3_GeneralStr\Dike\CrDike2La.x
+Crdike2La-ngrs,Structures\3_GeneralStr\Dike\CrDike2La-nograss.x
+Crdike1Ra,Structures\3_GeneralStr\Dike\CrDike1Ra.x
+Crdike2Ra,Structures\3_GeneralStr\Dike\CrDike2Ra.x
+Crdike2Ra-ngrs,Structures\3_GeneralStr\Dike\CrDike2Ra-nograss.x
 #overheadlines
 kasen,Structures\3_GeneralStr\Accessory\E_Poles\kasen\kasen40S.x
 kasen20,Structures\3_GeneralStr\Accessory\E_Poles\kasen\kasen20S.x
