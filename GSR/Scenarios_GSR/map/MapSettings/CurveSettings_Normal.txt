@@ -8,6 +8,7 @@ BveTs Map 2.02
 $Tilt_offsetL=0;//R300~R500
 $Tilt_offsetM=0;//R600
 $Tilt_offsetH=0;//R800+
+$Tilt_index=1;
 #Curve speedlimits/cants
 #R300
 $r300_speed=65;
