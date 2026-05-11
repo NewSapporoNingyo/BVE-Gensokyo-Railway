@@ -1,4 +1,4 @@
-# 开发者指南
+﻿# 开发者指南
 正在编写中（未完成）<br>
 注意：在尝试这篇指南中的任何内容之前，请确保你足够熟悉与BVE相关的各种组件。
 ## ☆当前版本线路中，有计划制作但未实装的要素
@@ -15,23 +15,23 @@
 <br><br>这里介绍的各个工具的使用方法将会在下文中讲解。
 
 ### 安装开发版线路 
-1. Create a fork of this repository. This will generate a repository with the same content under your account.
-2. Clone the repository. You can do this with Git or Github Desktop. And you will find the repository in your local machine.
-3. Develop on your local machine.
-4. After you complete something, push the commits to your forked repository.
+1. 对本仓库创建fork（复刻），这将在你的账户下生成一个与本仓库内容相同的仓库。
+2. 将仓库克隆到本地。你可以使用Git或GitHub Desktop完成这一操作。克隆后，你可以在本地计算机上找到该仓库。
+3. 在本地计算机上进行开发。
+4. 完成修改后，将提交推送到你fork的仓库中。
 ## 将自己的更改贡献到GSR项目（可选）
-这是完全自愿的，我们并不强制要求所有人都需要向原作者提交自己对线路的更改。
+这是完全自愿的，并不强制要求所有人都需要向原作者提交自己对线路的更改。
 
-1. Merge your commits to the main repository with pull requests.
-2. Now you are a contributor of this project. Your username will appear on the right side of the repository page.
+1. 通过Pull Request（拉取请求）将你的提交合并到主仓库中。
+2. 这样你就成为了本项目的贡献者，你的用户名将显示在仓库页面的右侧。
 
 ## GSR项目的文件结构+各文件功能解说
 ## GSR项目代码解说
 #### 弯道设计
-When the design speed of the route is lower than the speed limits in this table, please design the curves based on the route’s design speed.(You can calculate by yourself or use the following website:[曲線カント＆緩和曲線長計算](https://keisan.site/exec/user/1709523167))<br>
+当线路的设计速度低于本表中的限速时，请根据线路的设计速度设计弯道。（可自行计算或使用以下网站：[曲線カント＆緩和曲線長計算](https://keisan.site/exec/user/1709523167)）<br>
 <br>轨距1067mm:(最高速度120km/h)<br>
 
-| radius(m) | cant(m) | transition(m) | Speed limit(km/h) |
+| 半径(m) | 超高(m) | 缓和曲线长(m) | 最高速度(km/h) |
 | --------- | ------- | ------------- | ----------------- |
 | 200       | 0.065   | 40            | 45                |
 | 250       | 0.085   | 50            | 55                |
@@ -45,9 +45,9 @@ When the design speed of the route is lower than the speed limits in this table,
 | 1600      | 0.075   | 90            | 120               |
 | 2000      | 0.060   | 70            | 120               |
 
-Gauge 1067mm:(high performance tilting train,maxspeed 130km/h)<br>
+轨距 1067mm（高性能摆式列车，最高速度130km/h）<br>
 
-| radius(m) | cant(m)       | transition(m) | Speed limit(km/h) |
+| 半径(m) | 超高(m) | 缓和曲线长(m) | 最高速度(km/h) |
 | --------- | ------------- | ------------- | ----------------- |
 | 200       | 0.065(+0)     | 40            | 45(+0)            |
 | 250       | 0.085(+0)     | 50            | 55(+0)            |
@@ -61,9 +61,9 @@ Gauge 1067mm:(high performance tilting train,maxspeed 130km/h)<br>
 | 1600      | 0.075         | 90            | 130               |
 | 2000      | 0.060         | 70            | 130               |
 
-Gauge 1435mm:(maxspeed 240km/h)<br>
+轨距 1435mm（最高速度240km/h）<br>
 
-| radius(m) | cant(m) | transition(m) | Speed limit(km/h) |
+| 半径(m) | 超高(m) | 缓和曲线长(m) | 最高速度(km/h) |
 | --------- | ------- | ------------- | ----------------- |
 | 400       | 0.060   | 60            | 50                |
 | 500       | 0.070   | 70            | 60                |
@@ -91,13 +91,13 @@ ATS-P（南环线 博丽神社-守矢神社）
 ATS-Ps/SN（全线）
 ```
 
-幻想乡铁道最主要的线路，并且是唯一的环状线路。连接了幻想乡中的大部分主要地点。<br>
+这是幻想乡铁道最主要的线路，并且是唯一的环状线路。连接了幻想乡中的大部分主要地点。<br>
 线路从博丽神社出发，向南穿过迷途竹林后北折，进入人间之里。这一段较为平坦，一共3座桥梁，无穿山隧道，博丽神社附近为高架，在南人间之里附近进入地下。<br>
 到达人间之里站后，从人间之里向西出发，在西人间之里站前由地下进入高架，过西人里站后转为地面走行。经过命莲寺后，北折穿过妖怪树海后到达山脚的守矢神社站。这一区间有桥梁2座，穿山隧道3座，<br>
 在守失神社站东折，沿玄武之泽北岸行进后进入魔法之森，并沿雾之湖南岸延伸，到达红魔馆后向南转向，回到博丽神社站。<br>
 ### 车站列表
 环状线:<br>
-#### HakureiShrine->Ningennosato->HakureiShrine
+#### 博丽神社→人间之里→博丽神社
 | #         | 日文站名     | 英文站名            | 里程   | 有人/无人站 | 站台长度（20m车厢数量） | 最高速度（普通/特急） | 線路数 | 站台形式     | 车站构造  |
 | --------- | ------------ | ------------------- | ------ | ----------- | ----------------------- | --------------------- | ------ | ------------ | --------- |
 | GO 01     | 博麗神社     | Hakurei Shrine      | 0      | 有          | 9                       | 110(120)              | 複線   | 島式2面4線   | 高架      |
@@ -128,7 +128,6 @@ ATS-Ps/SN（全线）
     <img src="maps/Gensokyo_System_Map.png" alt="routemap";>
 </p>
 <br>
-(Thanks for @AshBill who created the new routemap)
 
 ### 线路概要
 #### Hakurei Moriya Line（博麗守矢ライン）
@@ -157,7 +156,7 @@ ATS-Ps/SN（全线）
 从新红魔站连接博丽神社东站的标准轨线路，可以走行新干线电车和海外车辆。博丽神社东站被设计成了方便机辆式列车到发的结构。线路偏向中国铁路风格，不过仍然兼容其它列车。
 #### Mist Lake Line/Nebelseebahn（霧の湖線）
 从人间之里地下的新站人里中央出发，经过雾之湖沿岸到达新红魔站与妖怪山标准轨实验线汇合，可以走行新干线电车和海外车辆。线路偏向欧洲铁路风格（以德铁为主），不过仍然兼容其它列车。
-#### SFS Nebelsee - Youkaiberg（妖怪山高速線）
+#### SFS Nebelsee - Youkaiberg（霧の湖・妖怪山高速線）
 ```技术数据
 轨距：1435mm
 最高速度：165km/h（新红魔-新无缘冢信号场），250km/h（新无缘冢信号场-山前下田），200Km/h（山前下田-南八云），120Km/h（南八云-八云邸）
@@ -173,35 +172,35 @@ ATS-Ps/SN（全线）
 信号系统：ATS-SN（全线）
 ```
 从守矢神社站与环状线分开，向北经过风神之湖边后进入幻想风穴。先在天然洞穴内走行，在黑谷~下人里间进入人工开挖的隧道，沿螺旋隧道向地下进发。出隧道后到达旧都所在的巨大地下洞窟的上壁，经过一段“悬空式”线路后沿洞窟侧壁，以N字形长下坡线路缓慢接近旧都地面。在接近旧都地表时经由人工开凿的隧道到达深道信号场，在天然洞穴内走行一段距离后到达水桥站，通过桥梁进入旧都内。在旧都依次沿街道、河谷走行，最后到达终点地灵殿站。
-### Route Design
-#### Loop Line・Koto Line・HakureiMoriya Line  
+### 线路设计
+#### 环状线・湖东线・博丽守矢线  
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Loop-Koto-HMLine.png" alt="routemap";>
+    <img src="haisennryakuzu/route_design_Loop-Koto-HMLine.png" alt="routemap";>
 </p>
 <br>
 
-#### Kyuto Main Line  
+#### 旧都本线
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_KyutoMainLIne.png" alt="routemap";>
+    <img src="haisennryakuzu/route_design_KyutoMainLIne.png" alt="routemap";>
 </p>
 <br>
 
-#### Youkaizan Line・Mist Lake Line・Hakurei East Line・Standard Gauge Experimental Line of Mt.Youkai
+#### 妖怪山线・雾之湖线・博丽东线・妖怪山标准轨实验线
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_NHB-Yakumotei.jpg" alt="routemap";>
+    <img src="haisennryakuzu/route_design_NHB-Yakumotei.jpg" alt="routemap";>
 </p>
 <br>
 
-#### Yuumei-kekkai Line・Meikai Line
+#### 幽明结界线・冥界线
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Yakumotei-Saigyoayakashi.png" alt="routemap";>
+    <img src="haisennryakuzu/route_design_Yakumotei-Saigyoayakashi.png" alt="routemap";>
 </p>
 <br>
 
-### Stations(In Japanese)
+### 车站列表
 
-Hakurei Moriya Line:<br>
-#### HakureiShrine->Ningennosato
+博丽守矢线：<br>
+#### 博丽神社→人间之里
 | #     | 日文站名       | 英文站名            | 里程 | 有人/无人站 | 站台长度（20m车厢数） | 最高速度 | 線路数 | 站台结构     | 车站构造 |
 | ----- | -------------- | ------------------- | ---- | ----------- | --------------------- | -------- | ------ | ------------ | -------- |
 | GO 01 | 博麗神社       | Hakurei Shrine      | 0    | 有          |                       | 145      | 単線   | 島式2面4線   | 高架     |
@@ -209,8 +208,8 @@ Hakurei Moriya Line:<br>
 | H 03  | きりさめ新都心 | Kirisame-Shintoshin |      | 有          |                       | 90       | 複線   | 島式1面2線   | 地下     |
 | GO 06 | 人間の里       | Ningennosato        |      | 有          |                       |          |        | 島式4面8線   | 地下     |
 
-Kyuto Main Line:<br>
-#### Eientei->Chireiden
+旧都本线：<br>
+#### 守矢神社→地灵殿
 | #          | 駅名         | 優等列車停車駅 | キロ | 普通‐運行時間 | 深さ（幻想風穴駅=0m） | 最高速度 | 線路数 | ホーム              | 駅構造               |
 | ---------- | ------------ | -------------- | ---- | ------------- | --------------------- | -------- | ------ | ------------------- | -------------------- |
 | GO 12      | 守矢神社     | ○              |      |               |                       | 105      | 単線   | 2島+3線             | 地面                 |
@@ -232,11 +231,11 @@ Kyuto Main Line:<br>
 | CK 01      | 上古明地     | ↓              |      |               | -3001                 |          |        | 相対式2面2線        | 地面(洞窟内)         |
 | CK 00      | 地霊殿       | ○              |      |               | -3017                 |          |        | 島式2面4線          | 地面(洞窟内)         |
 
-Koto・YoukaiYama・Yuumeikekkai・Meikai Line:<br>
-#### Komakan->Saigyoayakashi
+湖东・妖怪山・幽明结界・冥界线：<br>
+#### 红魔馆→西行妖
 紅魔館--⚡DC 1500v<->⚡AC 20kv--ヴワル<br>
 注意：因为缺乏地理信息，一部分站名为自行创作<br>
-Note: Due to the lack of geography information, some station names were originally created.<br>
+
 ##### 湖東線
 | #    | 駅名     | 優等列車停車駅 | キロ | 普通‐運行時間 | 快速‐運行時間 | 最高速度 | 線路数 | ホーム       | 駅構造 |
 | ---- | -------- | -------------- | ---- | ------------- | ------------- | -------- | ------ | ------------ | ------ |
@@ -250,7 +249,7 @@ Note: Due to the lack of geography information, some station names were original
 | ---- | -------------- | -------------- | ---- | ------------- | ------------- | -------- | ------ | ------------ | ---------- |
 | M 23 | 无缘冢         | ○              |      |               |               |          |        | 島式2面4線   | 地面       |
 | Y 24 | 山前大川       | ↓              |      |               |               |          |        | 1面1線       | 地面       |
-| 25   | 新无缘冢（信） | ↓              |      |               |               | 135      | 複線   | 0面3線       | 地面       |
+| 25   | 新无缘冢（信） | ↓              |      |               |               | 160      | 複線   | 0面3線       | 地面       |
 | Y 26 | 八坂           | ↓              |      |               |               |          |        | 相対式2面2線 | 地面       |
 | Y 27 | 河城           | ○              |      |               |               |          |        | 島式2面4線   | 地面       |
 | Y 28 | 北河城         | ↓              |      |               |               |          |        | 島式1面2線   | 地面       |
@@ -313,15 +312,15 @@ Note: Due to the lack of geography information, some station names were original
 | S 76 | 白玉楼     | ○              |      |               |               |          |        | 相対式2面2線 | 地面   |
 | S 77 | 西行妖     | ○              |      |               |               |          |        | 1面1線       | 地面   |
 
-Hakurei East Line・SFS MistLake-Mt.Youkai<br>
-#### Hakurei Shrine East->Shin-Koma
+博丽东线・雾之湖-妖怪山高速线（SFS）<br>
+#### 博丽神社东→新红魔
 ##### 博麗東線
 | #   | 駅名       | 優等列車停車駅 | キロ | 普通‐運行時間 | 快速‐運行時間 | 最高速度 | 線路数 | ホーム     | 駅構造 |
 | --- | ---------- | -------------- | ---- | ------------- | ------------- | -------- | ------ | ---------- | ------ |
 |     | 博麗神社東 | ○              |      |               |               | 120      | 複線   | 特別式     | 地面   |
 |     | 新紅魔     | ○              |      |               |               | 165      | 複線   | 島式2面4線 | 高架   |
-#### Ningennosato Main Station->Yakumotei
-##### 霧の湖・妖怪山高速線(SFS MistLake-Mt.Youkai)
+#### 人里中央→八云邸
+##### 雾之湖・妖怪山高速线（SFS MistLake-Mt.Youkai）
 | #    | 駅名               | 優等列車停車駅 | キロ | 普通‐運行時間 | 快速‐運行時間 | 最高速度 | 線路数 | ホーム            | 駅構造    |
 | ---- | ------------------ | -------------- | ---- | ------------- | ------------- | -------- | ------ | ----------------- | --------- |
 |      | 人里中央           | ○              |      |               |               | 90       | 複線   | 特別式            | 地下      |
@@ -334,8 +333,8 @@ Hakurei East Line・SFS MistLake-Mt.Youkai<br>
 | Y 32 | 文                 | ○              |      |               |               |          |        | 島式2面2線+通過線 | 地面      |
 | Y 36 | もみじ山           | ↓              |      |               |               |          |        | 1面1線+通過線     | 地面      |
 | Y 40 | 八雲邸             | ○              |      |               |               |          | 単線   | 3面4線            | 地面      |
-### Train Schedules
-#### Loop Line
+### 列车时刻表
+#### 环状线
 | 駅名       | 普通 103M | 普通 101M | L特急さなえ 15M | 普通 105M | 快速もりや 107M | 臨時急行 9001 |
 | ---------- | --------- | --------- | --------------- | --------- | --------------- | ------------- |
 | 博麗神社   | 0851      | 0721      | 0930            | 0940      | 1002            | 1050          |
@@ -361,42 +360,42 @@ Hakurei East Line・SFS MistLake-Mt.Youkai<br>
 | 北博麗     |           |           | ↓               |           |                 |               |
 | 博麗神社   |           |           |                 |           |                 |               |
 ## 列车
-Trains other than the E127 series will gradually no longer be recommended trains. Additionally, scenarios corresponding to different signaling systems will be provided, players can use suitable trains on their own.
-### Express trains(Planned)
-#### L Limited Express "Sanae"/ L特急 さなえ
-Rolling stock:JNR 381 Series(6 car)<br>
-Operating speed:120km/h(Signal 125km/h)<br>
-Stops:Ningennosato---Myorenji---Moriya Shrine---Korindomae---Koumakan---Hakurei Shrine---Eientei---Ningennosato(Loop)<br>
-#### Moonlight Koma/ムーンライト紅魔
-Rolling stock:JNR 381 Series(6 car)<br>
-Max operating speed:120km/h(Signal 125km/h)<br>
-Stops:Koumakan---Hakurei Shrine---Ningennosato---Moriya Shrine---Korindomae---Koumakan<br>
-#### Limited Express "Ayakashi"/ 特急 あやかし
-Rolling stock:JNR 485 Series(4 car)<br>
-Max operating speed:140km/h(Signal 145km/h)<br>
-Stops:Ningennosato---Moriya Shrine---Koumakan---Muenzuka---Kawashiro---Aya---Yakumotei---Meikaiguchi---Yuumei---Hakugyokurou--->Saigyoayakashi<<br>
-#### Sleeper Limited Express "Inaba"/ 寝台特急 因幡
-Rolling stock:JNR 24 series sleeping cars+EF81 electric locomotive(10 car)<br>
-Max operating speed:110km/h<br>
-Stops:Eientei---Ningennosato---Moriya Shrine---Koumakan---Muenzuka---Kawashiro---Aya---Yakumotei---Meikaiguchi---Yuumei---Hakugyokurou--->Saigyoayakashi<<br>
-#### Express "Kirisame"/ 急行 きりさめ
-Rolling stock:681 Series(9 car)<br>
-Max operating speed:160km/h<br>
-Stops:Hakurei Shrine---Ningennosato---Myorenji---Moriya Shrine(via Hakurei-Moriya Line)<br>
-#### High-Speed Express "Murasaki"/ 高速特急 むらさき
-Rolling stock:200 Series Shinkansen/CRH1A<br>
-Max operating speed:240km/h<br>
-Stops:Hakurei Shrine East---ShinKouma---Kawashiro---Aya---Yakumotei<<br>
-#### YSE(Yokaizan Super Express)
-Rolling stock:200 Series Shinkansen/Baureihe 402(ICE2)<br>
-Max operating speed:240km/h<br>
-Stops:Ningennosato Hbf---Koumakan---ShinKouma---Kawashiro---Aya---Momiji Hill---Yakumotei<br>
-#### Limited Express "Utsuho"/ 特急 うつほ
-Rolling stock:681 Series(9 car)<br>
-Max operating speed:120km/h<br>
-Stops:Ningennosato---Moriya Shrine---Gensokazana---Mizubashi---Kyuto---Chireiden<br>
+除E127系列外，其余列车将逐渐不再作为推荐列车。此外，将提供对应不同信号系统的场景，玩家可自行选用合适的列车。
+### 优等列车（计划中）
+#### L特急 さなえ
+使用车辆：国铁381系（6辆编组）<br>
+运行速度：120km/h（信号限制125km/h）<br>
+停靠站：人间之里---命莲寺---守矢神社---香霖堂前---红魔馆---博丽神社---永远亭---人间之里（环状线内）<br>
+#### ムーンライト紅魔
+使用车辆：国铁381系（6辆编组）<br>
+最高运行速度：120km/h（信号限制125km/h）<br>
+停靠站：红魔馆---博丽神社---人间之里---守矢神社---香霖堂前---红魔馆<br>
+#### 特急 あやかし
+使用车辆：国铁485系（4辆编组）<br>
+最高运行速度：140km/h（信号限制145km/h）<br>
+停靠站：人间之里---守矢神社---红魔馆---无缘冢---河城---文---八云邸---冥界口---幽明---白玉楼---西行妖<br>
+#### 寝台特急 因幡
+使用车辆：国铁24系卧铺客车+EF81型电力机车（10辆编组）<br>
+最高运行速度：110km/h<br>
+停靠站：永远亭---人间之里---守矢神社---红魔馆---无缘冢---河城---文---八云邸---冥界口---幽明---白玉楼---西行妖<br>
+#### 急行 きりさめ
+使用车辆：681系（9辆编组）<br>
+最高运行速度：160km/h<br>
+停靠站：博丽神社---人间之里---命莲寺---守矢神社（经由博丽守矢线）<br>
+#### 高速特急 むらさき
+使用车辆：200系新干线/CRH1A<br>
+最高运行速度：240km/h<br>
+停靠站：博丽神社东---新红魔---河城---文---八云邸<br>
+#### YSE（妖怪山超级特急）
+使用车辆：200系新干线/Baureihe 402（ICE2）<br>
+最高运行速度：250km/h<br>
+停靠站：人里中央---红魔馆---新红魔---河城---文---红叶山---八云邸<br>
+#### 特急 うつほ
+使用车辆：681系（9辆编组）<br>
+最高运行速度：120km/h<br>
+停靠站：人间之里---守矢神社---幻想风穴---水桥---旧都---地灵殿<br>
 
-### Rules of train number/列車番号の付番方法/车次编号方法
+### 车次编号方法
 #### 直通運転なしの場合：
 100 ~ 199：環状線<br>
 200 ~ 299：湖東線<br>
@@ -429,8 +428,8 @@ YSE：Yokaizan Super Express（新幹線電車またはドイツ鉄道の高速�
 D：高速電車（新幹線電車または中国鉄道の高速電車使用）<br>
 S：近郊列車（通勤型電車使用）<br>
 
-### Train announcement languages/車内放送の言語/车内广播语言
-(Numbers indicate the order of languages in the train announcement)
+### 车内广播语言
+（数字表示车内广播中各种语言的播放顺序）
 
 | 列車種別                 | 日本語/Japanese | English | 中文/Chinese | 조선어・한국어/Korean | Deutsch/German |
 | ------------------------ | --------------- | ------- | ------------ | --------------------- | -------------- |
@@ -477,33 +476,33 @@ S：近郊列車（通勤型電車使用）<br>
 
 `注：风神之湖、玄武之泽站无发车音乐`
 ## 项目更新履历
-- 2023-6-9:set up repository
-- 2023-6-20:Release v0.2 preview and start promoting on video websites
-- 2023-6-30:Release v0.3 preview
-- 2023-7-20:Release v0.4 preview
-- 2023-7-23:Release v0.5 preview, Basic strutures (HKR-NNS) completed.
-- 2023-7-28:Release v0.6 preview
-- 2023-7-30:Release v0.7 preview
-- 2023-8-4:Release v0.8 preview
-- 2023-8-5:Release v0.9 preview
-- [x] **2023-8-10:Release v1.0(Loop line from HKR-NNS)**
-- 2023-9-13:Release v1.1 preview
-- 2023-10-10:Release v1.2 preview
-- 2023-10-26:Release v1.3 preview
-- 2023-11-1:Release v1.4 preview
-- 2023-11-3:Release v1.5 preview
-- 2023-11-8:Release v1.6 preview
-- 2023-11-10:Release v1.7 preview
-- 2023-11-22:Release v1.8 preview
-- 2023-11-27:Release v1.9 preview
-- [x] **2023-12-1:Release v2.0(Loop line from NNS-MRY)**
-- [X] **2024-3-16:Release v2.0.1(Loop line from NNS-MRY)**
-- 2024-3-31:Develop paused
-- [x] **2024-11-17:Release v2.0.2(Loop line from NNS-MRY)**
-- 2025-6-9:Resume development
-- [X] **2025-12-31:Release v3.0(Loop line complete)**
-- [ ] ?-?-?:Release v4.0(Koto line)
-- [ ] ?-?-?:Release v5.0(YoukainoYama line)
-- [ ] ?-?-?:Release v6.0(Yuumeikekkai line)
-- [ ] ?-?-?:Release v7.0(Meikai line)
-- [ ] ?-?-?:Release v8.0(Hakurei Moriya line)
+- 2023-6-9：创建仓库
+- 2023-6-20：发布v0.2预览版，开始在视频网站上进行宣传
+- 2023-6-30：发布v0.3预览版
+- 2023-7-20：发布v0.4预览版
+- 2023-7-23：发布v0.5预览版，基本结构（博丽神社-人间之里）完成。
+- 2023-7-28：发布v0.6预览版
+- 2023-7-30：发布v0.7预览版
+- 2023-8-4：发布v0.8预览版
+- 2023-8-5：发布v0.9预览版
+- [x] **2023-8-10：发布v1.0（环状线 博丽神社-人间之里）**
+- 2023-9-13：发布v1.1预览版
+- 2023-10-10：发布v1.2预览版
+- 2023-10-26：发布v1.3预览版
+- 2023-11-1：发布v1.4预览版
+- 2023-11-3：发布v1.5预览版
+- 2023-11-8：发布v1.6预览版
+- 2023-11-10：发布v1.7预览版
+- 2023-11-22：发布v1.8预览版
+- 2023-11-27：发布v1.9预览版
+- [x] **2023-12-1：发布v2.0（环状线 人间之里-命莲寺）**
+- [X] **2024-3-16：发布v2.0.1（环状线 人间之里-命莲寺）**
+- 2024-3-31：开发暂停
+- [x] **2024-11-17：发布v2.0.2（环状线 人间之里-命莲寺）**
+- 2025-6-9：恢复开发
+- [X] **2025-12-31：发布v3.0（环状线全线贯通）**
+- [ ] ?-?-?：发布v4.0（湖东线）
+- [ ] ?-?-?：发布v5.0（妖怪山线）
+- [ ] ?-?-?：发布v6.0（幽明结界线）
+- [ ] ?-?-?：发布v7.0（冥界线）
+- [ ] ?-?-?：发布v8.0（博丽守矢线）
