@@ -135,6 +135,22 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 	Repeater['treeL1'].Begin('1',-15,5,0, ,, ,3,45,45, 'treeb1');
 	Repeater['treeL2'].Begin('1',-16,4,15, ,, ,3,45,45, 'treeb2');
 	Repeater['treeL3'].Begin('1',-14,6,30, ,, ,3,45,45, 'treeb3');
+
+    Repeater['bushC1'].Begin('3',3,-1.5,0, , , ,3,5,25, 'bush1');
+	Repeater['bushC2'].Begin('3',3,-1.8,5, , , ,3,5,25, 'bush2');
+	Repeater['bushC3'].Begin('3',3,-1.9,10, , , ,3,5,25, 'bush3');
+	Repeater['bushC4'].Begin('3',3,-1.4,15, , , ,3,5,25, 'bush4');
+	Repeater['bushC5'].Begin('3',3,-1.6,20, , , ,3,5,25, 'bush5');
+	Repeater['bushC11'].Begin('3',5,-1.5,2, , , ,3,5,25, 'bush1');
+	Repeater['bushC12'].Begin('3',5,-1.8,7, , , ,3,5,25, 'bush2');
+	Repeater['bushC13'].Begin('3',5,-1.9,12, , , ,3,5,25, 'bush3');
+	Repeater['bushC14'].Begin('3',5,-1.4,17, , , ,3,5,25, 'bush4');
+	Repeater['bushC15'].Begin('3',5,-1.6,22, , , ,3,5,25, 'bush5');
+	Repeater['bushC21'].Begin('3',7,-1.5,0, , , ,3,5,25, 'bush1');
+	Repeater['bushC22'].Begin('3',7,-1.8,5, , , ,3,5,25, 'bush2');
+	Repeater['bushC23'].Begin('3',7,-1.9,10, , , ,3,5,25, 'bush3');
+	Repeater['bushC24'].Begin('3',7,-1.4,15, , , ,3,5,25, 'bush4');
+	Repeater['bushC25'].Begin('3',7,-1.6,20, , , ,3,5,25, 'bush5');
 215+$distMap_MRY_T2;	
 	Repeater['pole1'].End();
 	Repeater['pole2'].End();
@@ -495,7 +511,7 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 	Track['kt-u'].Position(24,-8.5,0,0);
 	Structure['Tunnelpotal-tansen'].Put('kt-u',0,1.2,0,,,,,);
 1055+$distMap_MRY_T2;
-	Structure['Tunnelpotal-tansen'].Put('1',0,1.2,0,,,,,);
+	Structure['Tunnelpotal-tansen'].Put('3',0,1.2,0,,,,,);
 	Structure['f_black'].Put('kt-u',0,5,-2,,0,,,);
 	Structure['mounttunL01'].Put('1',0,0,0,,,,,);
 	Structure['mount'].Put('1',0,67,69,0,53,0,3,);
@@ -567,7 +583,7 @@ $distMap_MRY_T2=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3;
 
 #---Kiloposts---
 485+$distMap_MRY_T2;
-Structure['39.5km'].Put('3',-2.4,0,-0.1,0,0,0,,);
+Structure['39.5km'].Put('1',-2.4,0,-0.1,0,0,0,,);
 985+$distMap_MRY_T2;
-Structure['40km'].Put('1',-2.5,0,0,,,0,,);
+Structure['40km'].Put('3',-2.5,0,0,,,0,,);
 #------
