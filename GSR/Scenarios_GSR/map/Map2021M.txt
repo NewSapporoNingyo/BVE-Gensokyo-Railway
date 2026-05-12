@@ -2,7 +2,7 @@ BveTs Map 2.02
 //This file must be included in "Config_Map2021M-**** .txt"
 #---Curve mode:normal(R600 +0km/h)---
 include 'MapSettings\CurveSettings_Normal.txt';
-include 'Main\LoopLine\Tilt\Tilt_Limits_MapA.txt';#Speed limit signs for tilting train
+//include 'Main\LoopLine\Tilt\Tilt_Limits_MapA.txt';#Speed limit signs for tilting train
 include 'Main\LoopLine\Tilt\Tilt_Limits_MapA2.txt';
 #---DownSlopeLimit---
 include 'MapSettings\DownSlopeLimits.txt';
@@ -12,13 +12,10 @@ include 'StaList\StopPositions\StopPos_4car_NNS4_MRY2.txt';
 #---Sound---
 //include 'SoundMap\Mapsound127M.txt';
 #---MoveableObjects---
-include 'MoveableObj\rumia127M.txt';
+//include 'MoveableObj\rumia127M.txt';
 include 'MoveableObj\Mapot126M-forMap127M.txt';
 include 'MoveableObj\Mapot18M.txt';
 #---MainMaps---
-//include 'Main\LoopLine\MapHRDepot.txt';
-//include 'Main\LoopLine\MapHakureiSta_Track2.txt';
-//include 'Main\LoopLine\mapA.txt';
 include 'Main\LoopLine\MapNingen_Track4.txt';
 include 'Main\LoopLine\mapA2.txt';
 include 'Main\LoopLine\MapMoriyaSta_Track1_KMLine.txt';
