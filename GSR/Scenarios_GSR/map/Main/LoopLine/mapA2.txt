@@ -348,7 +348,7 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 24523-22610+$distMapA2;
 	Structure['kasenhangL'].Put('3',-1.9,0,0,0,0,0,3,);
 	Structure['kasenhangR'].Put('1',1.9,0,0,0,0,0,3,);
-	Structure['fukusenpole5'].Put('3',0.7,0,0,0,0,0,3,);
+	Structure['fukusenpole5'].Put('3',0.7,0,0,0,-2,0,3,);
 	Structure['kasenhangL'].Put('2',-1.9,0,0,0,0,0,3,);
 	Structure['kasenhangR'].Put('4',1.9,0,0,0,0,0,3,);
 	Structure['fukusenpole5'].Put('4',-0.7,0,0,0,0,0,3,);
