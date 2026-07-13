@@ -2,6 +2,7 @@ BveTs Map 2.02
 $distMap_NNS_T4=$dist1+$distHKR_T2+$dist2;
 # ----------(mapA)↑Map separate↓(MapNingenosato_Track4)----------
 0+$distMap_NNS_T4;
+	Track['1'].Position(0,0,0,0);
 	#Roof at teimae
 	Repeater['roofdark'].Begin('1',2,6.5,0,-90,,,3,5,5, 'roofdark');
 #Ningenosato Station:
