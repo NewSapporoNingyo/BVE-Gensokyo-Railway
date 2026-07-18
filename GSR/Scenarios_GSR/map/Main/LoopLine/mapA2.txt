@@ -84,7 +84,7 @@ $distMapA2=$dist1+$distHKR_T2+$dist2+$distNNS_T4;
 	Structure['woodapr2'].Put('ground',18,-3,0,,180,,,);
 24055-22610+$distMapA2;
 	Gradient.Begin(20);
-	Structure['GPUD'].Put('1',-2.3,-0.6,0,,0,,,);
+	Structure['GPUD'].Put('1',-2.3,0.4,0,,0,,,);
 24070-22610+$distMapA2;	
 	Repeater['woodho1L'].Begin('ground',-19,0,,,80, ,3,0,45, 'woodho1');
 	Repeater['woodho2L'].Begin('ground',-18,-3.5,15,,30, ,3,0,45, 'woodho1');
