@@ -355,6 +355,7 @@ Chikurin,Structures\4_Other\ekimeihyo\Chikurin.x
 eientei,Structures\4_Other\ekimeihyo\eientei.x
 Mhakurei,Structures\4_Other\ekimeihyo\Mhakurei.x
 hakurei,Structures\4_Other\ekimeihyo\hakurei.x
+hakureidepot,Structures\4_Other\ekimeihyo\hakurei-depot.x
 #platform signs
 led,Structures\4_Other\departure_signs\SE-2.x
 hakurei1,Structures\4_Other\departure_signs\hakurei1.x
