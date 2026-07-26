@@ -164,7 +164,7 @@ $distMapB=$dist1+$distHKR_T2+$dist2+$distNNS_T4+$dist3+$distMRY_T2;
 1100+$distMapB;
 	Track['mountain'].Position(-30,10,0,0);
 	Gradient.BeginTransition();
-	Structure['GPUD'].Put('1',-2.5,0,0,,0,,,);
+	Structure['GPUD'].Put('1',-2.5,0.2,-0.25,,0,,,);
 1150+$distMapB;
 	Gradient.Begin(15);
 1225+$distMapB;
