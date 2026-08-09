@@ -1569,7 +1569,7 @@ $distMapA=$dist1+$distHKR_T2;
 	Repeater['Railold'].Begin0('old1',3,4.99,5,'rail');
 17160-1555+$distMapA;
 	//Repeater['pole1'].Begin('1',0.2,0,0, ,0, ,3,,40, 'pole');
-	Track['old1'].Position(7,0,0,0);
+	Track['old1'].Position(6,0,-800,0);
 17170-1555+$distMapA;
 	Repeater['bambooR4'].End();
 	Repeater['bambooR5'].End();
