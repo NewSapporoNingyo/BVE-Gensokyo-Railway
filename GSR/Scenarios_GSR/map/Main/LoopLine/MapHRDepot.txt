@@ -80,6 +80,7 @@ BveTs Map 2.02
     Repeater['bridgewallR2'].Begin('northline',0.2,-0.5,0, , , ,3,,5, 'bridgewallR');
     Repeater['polenl'].Begin0('northline',3,39.99,40,'pole');
     rollingNoise.Change($run25m);
+    Repeater['rail_northline'].Begin0('northline',3,5,5,'slabrail');
 20;
     Legacy.Curve(-600,0);
     Track['mountain'].Position(-90,50,600,0);
@@ -283,6 +284,7 @@ BveTs Map 2.02
     Repeater['concbridge2'].Begin('3',0,-0.25,0, , , ,3,5,5, 'concbridge');
     Structure['kasen'].Put('3',0,0,,,0,,,3);
     //Structure['pole'].Put('3',0,0,0.2,,0,,,);
+    Repeater['rail_northline'].End();
 900;
     Repeater['pier2'].End();
     Repeater['pier21'].End();
