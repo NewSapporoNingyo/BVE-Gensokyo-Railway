@@ -23,5 +23,5 @@ include '..\Signals\ATS-SN_Ps\beacon_Ps\beacons_Hakurei_Shrine_Track2-loop.txt';
 //Speed check_速度照查
 include '..\Signals\ATS-P\beacon_P\speed_check_snp&ask&CT\speedlimit_common1_snp&ask&CT.txt';
 include '..\Signals\ATS-P\beacon_P\speed_check_snp&ask&CT\speedlimit_Moriya_Shrine_Track2_snp&ask&CT.txt';
-include '..\Signals\ATS-SN_Ps\beacon_Ps\speedlimit_newline1.txt';
+include '..\Signals\ATS-SN_Ps\beacon_Ps\speed_check\speedlimit_newline1.txt';
 include '..\Signals\ATS-SN_Ps\beacon_SN\speed_check_Notsuki&ask&CT\speedlimit_newline1_Notsuki&ask&CT.txt';
