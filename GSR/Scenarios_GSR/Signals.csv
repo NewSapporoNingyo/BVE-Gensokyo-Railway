@@ -3,31 +3,31 @@ BveTs Signal Aspects List 2.00
 #信号
 #入换信号
 # 白タイプ
-SigIW,             SigI0W,,,                                           SigI4,,,
+SigIW,             SigI0W,,,                                           SigI4
 
 # 赤タイプ
-SigIR,             SigI0R,,,                                           SigI4,,,
+SigIR,             SigI0R,,,                                           SigI4
 
 #入換信号機識別標識
-Sigib,          Sigib_off,,,                                        Sigib_on,,,
+Sigib,          Sigib_off,,,                                        Sigib_on
 
 #入换信号机(LED式)
 # 白タイプ
-SigI_LEDW,     SigI0W_LED,,,                                       SigI4_LED,,,
+SigI_LEDW,     SigI0W_LED,,,                                       SigI4_LED
 
 # 赤タイプ
-SigI_LEDR,     SigI0R_LED,,,                                       SigI4_LED,,,
+SigI_LEDR,     SigI0R_LED,,,                                       SigI4_LED
 
 #入換信号機識別標識(LED式)
-Sigib_LED,  Sigib_off_LED,,,                                    Sigib_on_LED,,,
+Sigib_LED,  Sigib_off_LED,,,                                    Sigib_on_LED
 
 #信号
 #2灯式(GR型)
 Type2gr,           Sig20,,,,                                           Sig24
        ,         Flare20,,,,                                         Flare24
 #2灯式(YR型)
-Type2yr,           Sig20,,                   Sig22,,
-       ,         Flare20,,                 Flare22,,
+Type2yr,           Sig20,,                   Sig22
+       ,         Flare20,,                 Flare22
 #2灯式(従属信号)
 Type2E,                 ,,                  Sig2E2,,                  Sig2E4
       ,                 ,,                Flare2E2,,                 Flare24
@@ -41,8 +41,8 @@ Type3bn,        Sig30_BN,,                Sig32_BN,,                Sig34_BN
 Type3gr,         Sig3Yx0,,,,                                         Sig3Yx4
        ,         Flare30,,,,                                         Flare34
 #3灯式(YR型)
-Type3yr,         Sig3Gx0,,                 Sig3Gx2,,
-       ,         Flare30,,                 Flare22,,
+Type3yr,         Sig3Gx0,,                 Sig3Gx2
+       ,         Flare30,,                 Flare22
 #4灯式(警戒)
 Type4yy,         Sig4yy0,     Sig4yy1,     Sig4yy2,,                 Sig4yy4
        ,       Flare4yy0,   Flare4yy1,   Flare4yy2,,               Flare4yy4
@@ -64,8 +64,8 @@ Type2t_LED,   Sig2T0_LED,,,,                                      Sig2T4_LED
 Type2gr_LED, Sig2GR0_LED,,,,                                     Sig2GR4_LED
            ,     Flare20,,,,                                         Flare24
 #2灯式(YR型)
-Type2yr_LED, Sig2YR0_LED,,             Sig2YR2_LED,,
-           ,     Flare20,,                 Flare22,,
+Type2yr_LED, Sig2YR0_LED,,             Sig2YR2_LED
+           ,     Flare20,,                 Flare22
 #2灯式(従属信号)
 Type2E_LED,             ,,              Sig2E2_LED,,              Sig2E4_LED
           ,             ,,                Flare2E2,,                 Flare24
@@ -76,8 +76,8 @@ Type3_LED,     Sig30_LED,,               Sig32_LED,,               Sig34_LED
 Type3gr_LED, Sig3Yx0_LED,,,,                                     Sig3Yx4_LED
            ,     Flare30,,,,                                         Flare34
 #3灯式(YR型)
-Type3yr_LED, Sig3Gx0_LED,,             Sig3Gx2_LED,,
-           ,     Flare30,,                 Flare22,,
+Type3yr_LED, Sig3Gx0_LED,,             Sig3Gx2_LED
+           ,     Flare30,,                 Flare22
 #4灯式(警戒)
 Type4yy_LED, Sig4yy0_LED, Sig4yy1_LED, Sig4yy2_LED,,             Sig4yy4_LED
            ,   Flare4yy0,   Flare4yy1,   Flare4yy2,,               Flare4yy4
@@ -133,16 +133,16 @@ SigR3C_LED,   SigR30_LED,  SigR3C_LED,  SigR3C_LED,  SigR3C_LED,  SigR3C_LED
 SigR3R_LED,   SigR30_LED,  SigR3R_LED,  SigR3R_LED,  SigR3R_LED,  SigR3R_LED
 
 #入換3進路用(X)
-SigIR3X,         SigIR30,,,                                          SigIR3X,,,
+SigIR3X,         SigIR30,,,                                          SigIR3X
 
 #入換3進路用(L)
-SigIR3L,         SigIR30,,,                                          SigIR3L,,,
+SigIR3L,         SigIR30,,,                                          SigIR3L
 
 #入換3進路用(C)
-SigIR3C,         SigIR30,,,                                          SigIR3C,,,
+SigIR3C,         SigIR30,,,                                          SigIR3C
 
 #入換3進路用(R)
-SigIR3R,         SigIR30,,,                                          SigIR3R,,,
+SigIR3R,         SigIR30,,,                                          SigIR3R
 
 #信号
 ##進路表示機
@@ -167,5 +167,5 @@ SigYnR_LED,      SigYn0_LED,  SigYnR_LED,  SigYnR_LED,  SigYnR_LED,  SigYnR_LED
 
 
 
-track,Track_N,,,,,Track_2,
+track,Track_N,,,,,Track_2
 #,Track_N,,,,,Track_2,
