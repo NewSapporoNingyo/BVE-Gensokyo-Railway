@@ -11,13 +11,13 @@ BveTs Map 2.02
 	Repeater['grassland1'].Begin('ground',0,0,0, , , ,1,,49, 'grassland');
     Repeater['Rail1'].Begin0('1',3,4.99,5,'rail');
     Track['2'].Position(-4,0,0,0);
-    Repeater['Rail2'].Begin0('2',3,4.99,5,'rail');
+    Repeater['Rail2'].Begin0('2',3,24.99,25,'rail_25m');
     Track['3'].Position(-8,0,0,0);
-    Repeater['Rail3'].Begin0('3',3,4.99,5,'rail');
+    Repeater['Rail3'].Begin0('3',3,24.99,25,'rail_25m');
     Track['4'].Position(-12,0,0,0);
-    Repeater['Rail4'].Begin0('4',3,4.99,5,'rail');
+    Repeater['Rail4'].Begin0('4',3,24.99,25,'rail_25m');
     Track['5'].Position(-35,0,0,0);
-    Repeater['Rail5'].Begin0('5',3,4.99,5,'rail');
+    Repeater['Rail5'].Begin0('5',3,24.99,25,'rail_25m');
     Repeater['kasen1'].Begin0('1',3,39.99,40,'kasen');
 	Repeater['kasen2'].Begin0('2',3,39.99,40,'kasen');
     Repeater['kasen3'].Begin0('3',3,39.99,40,'kasen');
@@ -95,8 +95,12 @@ BveTs Map 2.02
 40;
     Structure['fukusenpole5'].Put('4',1.2,0,0,,,,,);
     Structure['fukusenpole5'].Put('2',2.8,0,0,,,,,);
+50;
+    Repeater['Rail2'].Begin0('2',3,4.99,5,'rail');
 70;
     Track['2'].Position(-2,0,-400,0);
+75;
+    Repeater['Rail3'].Begin0('3',3,4.99,5,'rail');
 80;
     Repeater['kasenhang2'].End();
     Track['3'].Position(-5,0,600,0);
@@ -113,6 +117,7 @@ BveTs Map 2.02
      Repeater['kasen2'].End();
      Repeater['kasenhang2'].End();
      Repeater['Rail2'].End();
+     Repeater['Rail4'].Begin0('4',3,4.99,5,'rail');
 110;
     JointNoise.Play(0);
 120;     
