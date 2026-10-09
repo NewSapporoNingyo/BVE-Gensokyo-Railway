@@ -53,7 +53,9 @@ modernformgroundR,Structures\3_GeneralStr\ACCC\Station\FormCR.x
 formL,Structures\3_GeneralStr\Form\Form_Conc_5mL.x
 formR,Structures\3_GeneralStr\Form\Form_Conc_5mR.x
 formgroundL,Structures\3_GeneralStr\Form\Form_Conc_5m3mCL.x
+formgroundL25M,Structures\3_GeneralStr\Form\Form_Conc_25mCL.x
 formgroundR,Structures\3_GeneralStr\Form\Form_Conc_5m3mCR.x
+formgroundR25M,Structures\3_GeneralStr\Form\Form_Conc_25mCR.x
 formendfence,Structures\4_Other\Tetsu_Otter\form_end_fence\Form_end_fence.x
 #formwall
 fenceL,Structures\3_GeneralStr\ACCC\Station\Fence6L.x
