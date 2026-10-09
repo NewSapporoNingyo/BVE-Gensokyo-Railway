@@ -49,7 +49,9 @@ no3sawahama,Structures\1_GSR\tunnelname\no3sawahama.x
 modernformL,Structures\3_GeneralStr\ACCC\Station\Form51L.x
 modernformR,Structures\3_GeneralStr\ACCC\Station\Form51R.x
 modernformgroundL,Structures\3_GeneralStr\ACCC\Station\FormCL.x
+modernformgroundL25M,Structures\3_GeneralStr\ACCC\Station\FormCL25.x
 modernformgroundR,Structures\3_GeneralStr\ACCC\Station\FormCR.x
+modernformgroundR25M,Structures\3_GeneralStr\ACCC\Station\FormCR25.x
 formL,Structures\3_GeneralStr\Form\Form_Conc_5mL.x
 formR,Structures\3_GeneralStr\Form\Form_Conc_5mR.x
 formgroundL,Structures\3_GeneralStr\Form\Form_Conc_5m3mCL.x
